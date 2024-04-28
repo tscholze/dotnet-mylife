@@ -2,18 +2,18 @@
 
 namespace MyLife.Core.Models.Coding
 {
-    public record ProjectFamily
-    (
+    public partial class ProjectFamily
+    {
         [JsonProperty("name")]
-        string Name,
+        public string Name { get; set; }
 
         [JsonProperty("description")]
-        string Description,
+        public string Description { get; set; }
 
         [JsonProperty("description")]
-        Project[] Projects,
+        public Project[] Projects { get; set; }
 
         [JsonProperty("image_url")]
-        Uri ImageUrl
-    );
+        public Uri ImageUrl { get; set; }
+    };
 }

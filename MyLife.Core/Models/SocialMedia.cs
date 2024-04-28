@@ -2,14 +2,15 @@
 
 namespace MyLife.Core.Models
 {
-    public record SocialMedia(
+    public partial class SocialMedia
+    {
         [JsonProperty("username")]
-        string Username,
+        public string Username { get; set; }
 
         [JsonProperty("platform")]
-        string Platform,
+        public string Platform { get; set; }
 
         [JsonProperty("profile_url")]
-        Uri Url
-    );
+        public Uri Url { get; set; }
+    }
 }

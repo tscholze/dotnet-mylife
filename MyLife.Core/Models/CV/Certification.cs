@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLife.Core.Models.CurriculumVitae
+namespace MyLife.Core.Models.CV
 {
     public record Certification
     (

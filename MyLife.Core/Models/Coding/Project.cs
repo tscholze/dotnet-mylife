@@ -1,27 +1,22 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyLife.Core.Models.Coding
 {
-    public record Project
-    (
+    public partial class Project
+    {
         [JsonProperty("name")]
-        string Name,
+        public string Name { get; set; }
 
         [JsonProperty("description")]
-        string Descripton,
+        public string Descripton { get; set; }
 
         [JsonProperty("image_url")]
-        Uri ImageUrl,
+        public Uri ImageUrl { get; set; }
 
         [JsonProperty("github_url")]
-        string GithubUrl,
+        public string GithubUrl { get; set; }
 
         [JsonProperty("programming_language")]
-        string ProgrammingLanguage
-    );
+        public string ProgrammingLanguage { get; set; }
+    }
 }

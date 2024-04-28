@@ -1,32 +1,33 @@
 ﻿using MyLife.Core.Models.Coding;
+using MyLife.Core.Models.CV;
 using Newtonsoft.Json;
 
 namespace MyLife.Core.Models
 {
-    public record Life
-    (
+    public partial class Life
+    {
         [JsonProperty("last_updated")]
-        DateTimeOffset LastUpdated,
-
-        [JsonProperty("language")]
-        string Language,
+        public DateTimeOffset LastUpdated { get; set; }
 
         [JsonProperty("version")]
-        string Version,
+        public string Version { get; set; }
+
+        [JsonProperty("language")]
+        public string Language { get; set; }
 
         [JsonProperty("persona")]
-        Persona Persona,
+        public Persona Persona { get; set; }
 
         [JsonProperty("content_creation_profiles")]
-        ContentCreation[] ContentCreation,
+        public ContentCreation[] ContentCreation { get; set; }
 
-        [JsonProperty("project_families")]
-        ProjectFamily[] ProjectFamilies,
+        [JsonProperty("open_source")]
+        public OpenSource OpenSource { get; set; }
 
         [JsonProperty("curriculumvitae")]
-        CurriculumVitae.CurriculumVitae CurriculumVitae,
+        public CurriculumVitae CurriculumVitae { get; set; }
 
         [JsonProperty("socialmedia")]
-        SocialMedia[] Socialmedia
-    );
+        public SocialMedia[] SocialMedia { get; set; }
+    };
 }
