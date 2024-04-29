@@ -1,5 +1,4 @@
-﻿using MyLife.Core.Models.Coding;
-using MyLife.Core.Models.CV;
+﻿using MyLife.Core.Models.CV;
 using Newtonsoft.Json;
 
 namespace MyLife.Core.Models
@@ -24,10 +23,10 @@ namespace MyLife.Core.Models
         [JsonProperty("open_source")]
         public required OpenSource OpenSource { get; set; }
 
-        [JsonProperty("curriculumvitae")]
+        [JsonProperty("curriculum_vitae")]
         public required CurriculumVitae CurriculumVitae { get; set; }
 
-        [JsonProperty("socialmedia")]
+        [JsonProperty("social_media")]
         public required SocialMedia[] SocialMedia { get; set; }
     };
 }

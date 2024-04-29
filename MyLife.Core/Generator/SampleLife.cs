@@ -1,6 +1,7 @@
 ﻿using MyLife.Core.Models;
 using MyLife.Core.Models.Coding;
 using MyLife.Core.Models.CV;
+using MyLife.Core.Models.Shared;
 
 namespace MyLife.Core.Generator
 {
@@ -26,10 +27,23 @@ namespace MyLife.Core.Generator
             {
                 Firstname = "Tobias",
                 Lastname = "Scholze",
-                Nicknames = ["The Stuttering Nerd", "Tobonaut"],
-                LocationPath = ["Germany", "Bavaria", "Augsburg"],
-                Languages = ["German", "Emglish"],
-                YearOfBirth = 1985,
+                Nicknames = [
+                    "The Stuttering Nerd",
+                    "Tobonaut"
+                    ],
+                LocationPath = [
+                    "Germany",
+                    "Bavaria",
+                    "Augsburg"
+                    ],
+                AvatarImageUrls = [
+                    "https://tscholze.github.io/content-tslifekit/files/avatar-1-min.jpeg"
+                    ],
+                Languages = [
+                    "German", 
+                    "English"
+                    ],
+                YearOfBirth = 1988,
                 AcademicTitle = "Bachelor of Science"
             };
         }
@@ -39,12 +53,13 @@ namespace MyLife.Core.Generator
             var anfema = new Employment
             {
                 Company = "anfema GmbH",
-                Role = "Senior Software Engineer for iOS and iPadOS",
+                Role = "Senior Software Engineer for iOS",
                 Tasks = [
                     "Planning, development and maintanance of B2B grade for iOS and iPadOS with focus on HR and industriy 4.0",
                     "Helping customers to understand how apps can transform their work life",
                     "Onboarding of new team members",
-                    "Planning and management of multi-division tasks"],
+                    "Planning and management of multi-division tasks"
+                    ],
                 Joined = "11-2015",
                 Left = null
             };
@@ -294,85 +309,85 @@ namespace MyLife.Core.Generator
             return [
                 new SocialMedia {
                     Username = "Tobias Scholze",
-                    Platform = "linkedin",
+                    Platform = Platform.Linkedin,
                     Url = new("https://linkedin.com/in/tobias-scholze-4301b518")
                 },
                 new SocialMedia {
                     Username = "@tscholze",
-                    Platform = "github",
+                    Platform = Platform.GitHub,
                     Url = new("https://github.com/tscholze")
                 },
                 new SocialMedia {
                     Username = "@tobonaut",
-                    Platform = "twitter",
+                    Platform = Platform.Twitter,
                     Url = new("https://twitter.com/tobonaut")
                 },
                 new SocialMedia {
                     Username = "@tobonaut",
-                    Platform = "Mastodon",
+                    Platform = Platform.Mastodon,
                     Url = new("https://mastodon.social/@tobonaut")
                 }
             ];
         }
-   
-        internal static ContentCreation[] GenerateContentCreation() 
+
+        internal static ContentCreation[] GenerateContentCreation()
         {
             return [
                 new ContentCreation {
                     Name = "Tobias Scholze - The Stuttering Nerd",
                     Description = "From the life of a stuttering nerd with multiple sclerosis",
-                    Platform = "youtube",
-                    Language = "de",
+                    Platform = Platform.Youtube,
+                    Language = Language.German,
                     Url = new ("https://www.youtube.com/user/TobiasScholze")
                 },
                 new ContentCreation {
                     Name = "The Stuttering Nerd",
                     Description = "Education about the topics of stuttering, multiple sclerosis and nerdiness",
-                    Platform = "tiktok",
-                    Language = "de",
+                    Platform = Platform.Tiktok,
+                    Language = Language.German,
                     Url = new("https://www.tiktok.com/@the_stuttering_nerd")
                 },
                 new ContentCreation {
                     Name = "@the_stuttering_nerd",
                     Description = "Things from the everyday life of a nerd who stutters with multiple sclerosis.",
-                    Platform = "instagram",
-                    Language = "de",
+                    Platform = Platform.Instagram,
+                    Language = Language.German,
                     Url = new("https://www.instagram.com/the_stuttering_nerd/")
                 },
                 new ContentCreation {
                     Name = "La-La-Laber doch! Der Stotter Podcast",
                     Description = "In this podcast experiment I would like to pull myself out of my comfort zone and dare to do something that I have always shied away from. I speak - in public and even in front of people who are unfamiliar with the picture",
-                    Platform = "podcast",
-                    Language = "de",
+                    Platform = Platform.Podcast,
+                    Language = Language.German,
                     Url = new("https://tscholze.github.io/podcast-la-la-laber-doch"),
 
                 },
                 new ContentCreation {
                     Name = "Dr. Window",
                     Description = "I write articles about the fun of IT and its tinkering on one of the largest German-language Microsoft sites.",
-                    Platform = "news",
-                    Language = "de",
+                    Platform = Platform.News,
+                    Language = Language.German,
                     Url = new("https://www.drwindows.de/news/author/tobias")
                 },
                 new ContentCreation {
                     Name = "DualScreen Tobbo",
                     Description = "My toughts on playing around with the Microsoft Surface and its SDKs and showing the joy tinkering with this new device category",
-                    Platform = "medium",
-                    Language = "en",
+                    Platform = Platform.Medium,
+                    Language = Language.English,
                     Url = new("https://dualscreentobbo.medium.com")
                 },
                 new ContentCreation {
                     Name = "DevRel Tobbo",
                     Description = "It's my kind of role play in which I pretend I'm a DevRel engineer for various software development topics.",
-                    Platform = "medium",
-                    Language = "de",
+                    Platform = Platform.Medium,
+                    Language = Language.German,
                     Url = new("https://devreltobbo.medium.com")
                 },
                 new ContentCreation {
                     Name = "Personal blog",
                     Description = "My blog stores articles about things I made, I expierenced and all other information I do not want to forget",
-                    Platform = "blog",
-                    Language = "en",
+                    Platform = Platform.Blog,
+                    Language = Language.EnglishAndGerman,
                     Url = new("https://tscholze.github.io/blog/")
                 }
             ];

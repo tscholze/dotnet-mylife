@@ -5,4 +5,4 @@ using MyLife.Core;
 Console.WriteLine("Hello, World!");
 
 var json = Exporter.ExportLife();
-System.Console.WriteLine(json);
+File.WriteAllText("C:\\Users\\TobiasScholze\\Desktop\\life.json", json);

@@ -16,13 +16,16 @@ namespace MyLife.Core.Models
         [JsonProperty("location_path")]
         public required string[] LocationPath { get; set; }
 
-         [JsonProperty("languages")]
+        [JsonProperty("avatar_image_urls")]
+        public required string[] AvatarImageUrls { get; set; }
+
+        [JsonProperty("languages")]
         public required string[] Languages { get; set; }
 
         [JsonProperty("year_of_birth")]
         public required int YearOfBirth { get; set; }
 
         [JsonProperty("academic_title")]
-        public string? AcademicTitle  { get; set; }
+        public string? AcademicTitle { get; set; }
     }
 }

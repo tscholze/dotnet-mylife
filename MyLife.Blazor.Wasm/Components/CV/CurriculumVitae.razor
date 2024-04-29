@@ -1,0 +1,57 @@
+﻿@using MyLife.Core.Models;
+@using MyLife.Core.Models.CV
+@using MyLife.Blazor.Wasm.Extensions
+
+
+<style>
+    .cv-employments-employment-title {
+        margin-bottom: 0px;
+    }
+
+    .cv-employments-employment-tasks {
+        margin-top: 4px;
+        list-style-type: '- ';
+    }
+</style>
+
+<h2>Curricilum Vitae</h2>
+@foreach (var item in Data.RecentEmployments)
+{
+    <div>
+        <h3 class="cv-employments-employment-title">@((MarkupString)GetRawTitleForEmployment(item))</h3>
+
+        <ul class="cv-employments-employment-tasks">
+            @foreach (var task in item.Tasks)
+            {
+                <li>@task</li>
+            }
+        </ul>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public MyLife.Core.Models.CV.CurriculumVitae Data { get; set; }
+
+    private string GetRawTitleForEmployment(Employment employment)
+    {
+        string range;
+        var joined = employment.GetOnlyYearJoined();
+        var left = employment.GetOnlyYearLeft();
+
+        if(left == null)
+        {
+            range = $"{joined} - today";
+        } 
+        else if(left == joined)
+        {
+            range = $"{joined}";
+        }
+        else
+        {
+            range = $"{joined} - {left}";
+        }
+
+        return $"{employment.Role} <small>| {employment.Company} | {range}</small>";
+    }
+}

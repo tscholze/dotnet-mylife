@@ -1,18 +1,21 @@
 ﻿@page "/"
+@using MyLife.Blazor.Wasm.Components
+@using MyLife.Blazor.Wasm.Components.CV
+@using MyLife.Blazor.Wasm.Extensions
 @using MyLife.Core.Generator
 @using MyLife.Core.Models
-@using MyLife.Core.Extensions
 @inject HttpClient Http
 
 <PageTitle>Home</PageTitle>
 
-<header>
+<header style="margin-bottom: 12px;">
     @((MarkupString)headerText)
     <hr />
 </header>
 
 <content>
-    <h1>Haha</h1>
+    <Avatar Persona="@life.Persona" />
+    <CurriculumVitae Data="@life.CurriculumVitae" />
 </content>
 
 <footer>
@@ -56,35 +59,9 @@
     {
         var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
 
-        var icons = new List<string>();
+        var icons = life.SocialMedia.Select(p => p.GetIconLinkElement());
+        footerText += " | " + string.Join("  ", icons);
 
-        foreach (var item in life.SocialMedia)
-        {
-            string platformIcon;
-            switch (item.Platform)
-            {
-                case "twitter":
-                    platformIcon = "fab fa-twitter";
-                    break;
-                case "mastodon":
-                    platformIcon = "fab fa-mastodon";
-                    break;
-                case "github":
-                    platformIcon = "fab fa-github";
-                    break;
-                default:
-                    platformIcon = ""; // Handle other platforms if needed
-                    break;
-            }
-
-            if (!string.IsNullOrEmpty(platformIcon))
-            {
-                var link = $"<a href=\"{item.Url}\" title=\"{item.Platform} @{item.Username}\" target=\"_blank\"><i class=\"{platformIcon}\"></i></a>";
-                icons.Add(link);
-            }
-        }
-
-        footerText += string.Join(" ", icons);
         return footerText;
     }
 

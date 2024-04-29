@@ -1,5 +1,4 @@
-﻿using System.Text.Json;
-using MyLife.Core.Generator;
+﻿using MyLife.Core.Generator;
 using Newtonsoft.Json;
 
 namespace MyLife.Core;

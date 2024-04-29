@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using MyLife.Core.Models.Shared;
+using Newtonsoft.Json;
 
 namespace MyLife.Core.Models
 {
@@ -8,7 +9,7 @@ namespace MyLife.Core.Models
         public required string Username { get; set; }
 
         [JsonProperty("platform")]
-        public required string Platform { get; set; }
+        public required Platform Platform { get; set; }
 
         [JsonProperty("profile_url")]
         public required Uri Url { get; set; }
