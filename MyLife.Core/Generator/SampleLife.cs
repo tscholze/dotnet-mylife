@@ -23,15 +23,15 @@ namespace MyLife.Core.Generator
         internal static Persona GeneratePersona()
         {
             return new Persona
-            (
-                Firstname: "Tobias",
-                Lastname: "Scholze",
-                Nicknames: ["The Stuttering Nerd", "Tobonaut"],
-                LocationPath: ["Germany", "Bavaria", "Augsburg"],
-                Languages: ["German", "Emglish"],
-                YearOfBirth: 1985,
-                AcademicTitle: "Bachelor of Science"
-            );
+            {
+                Firstname = "Tobias",
+                Lastname = "Scholze",
+                Nicknames = ["The Stuttering Nerd", "Tobonaut"],
+                LocationPath = ["Germany", "Bavaria", "Augsburg"],
+                Languages = ["German", "Emglish"],
+                YearOfBirth = 1985,
+                AcademicTitle = "Bachelor of Science"
+            };
         }
 
         internal static CurriculumVitae GenerateCurriculumVitae()
@@ -151,6 +151,8 @@ namespace MyLife.Core.Generator
         {
             return new OpenSource
             {
+                TagLine = "Tobias Scholze, Senior Software Engineer for Enterprise-grade mobile applications, community enthusiast",
+                Motivation = "I want to spark the joy of software engineering in everyone who is intereset in computer sciene. That's my motication to create simple but educational open source projects to provide an entry in this world of fun.",
                 GitHubUsername = "tscholze",
                 GitHubUrl = new("https://github.com/tscholze"),
                 ProjectFamilies = [

@@ -1,7 +1,2 @@
-﻿namespace MyLife.Core
-{
-    public class Class1
-    {
-
-    }
-}
+﻿using MyLife.Core;
+using MyLife.Core.Generator;

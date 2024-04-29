@@ -5,24 +5,24 @@ namespace MyLife.Core.Models.CV
     public partial class CurriculumVitae
     {
         [JsonProperty("current_employment")]
-        public Employment CurrentEmployment { get; set; }
+        public required Employment CurrentEmployment { get; set; }
     
         [JsonProperty("recent_employments")]
-        public Employment[] RecentEmployments { get; set; }
+        public required Employment[] RecentEmployments { get; set; }
 
         [JsonProperty("educations")]
-        public Education[] Educations { get; set; }
+        public required Education[] Educations { get; set; }
 
         [JsonProperty("publications")]
-        public Publication[] Publications { get; set; }
+        public required Publication[] Publications { get; set; }
 
         [JsonProperty("activities")]
-        public string[] Activities { get; set; }
+        public required string[] Activities { get; set; }
 
         [JsonProperty("skillset")]
-        public Skillset Skillset { get; set; }
+        public required Skillset Skillset { get; set; }
 
         [JsonProperty("other_interests")]
-        public string[] OtherInterests { get; set; }
+        public required string[] OtherInterests { get; set; }
     }
 }

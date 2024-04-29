@@ -2,27 +2,27 @@
 
 namespace MyLife.Core.Models
 {
-    public record Persona
-    (
+    public partial class Persona
+    {
         [JsonProperty("firstname")]
-        string Firstname,
+        public required string Firstname { get; set; }
 
         [JsonProperty("lastname")]
-        string Lastname,
+        public required string Lastname { get; set; }
 
         [JsonProperty("nicknames")]
-        string[] Nicknames,
+        public required string[] Nicknames { get; set; }
 
         [JsonProperty("location_path")]
-        string[] LocationPath,
+        public required string[] LocationPath { get; set; }
 
          [JsonProperty("languages")]
-        string[] Languages,
+        public required string[] Languages { get; set; }
 
         [JsonProperty("year_of_birth")]
-        int YearOfBirth,
+        public required int YearOfBirth { get; set; }
 
         [JsonProperty("academic_title")]
-        string? AcademicTitle
-    );
+        public string? AcademicTitle  { get; set; }
+    }
 }

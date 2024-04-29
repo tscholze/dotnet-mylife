@@ -5,12 +5,18 @@ namespace MyLife.Core;
 
 public partial class OpenSource
 {
+    [JsonProperty("tag_line")]
+    public required string TagLine { get; set; }
+
+    [JsonProperty("motivation")]
+    public required string Motivation { get; set; }
+
     [JsonProperty("github_username")]
-    public string GitHubUsername { get; set; }
+    public required string GitHubUsername { get; set; }
 
     [JsonProperty("github_profile_url")]
-    public Uri GitHubUrl { get; set; }
+    public required Uri GitHubUrl { get; set; }
 
     [JsonProperty("project_families")]
-    public ProjectFamily[] ProjectFamilies { get; set; }
+    public required ProjectFamily[] ProjectFamilies { get; set; }
 }

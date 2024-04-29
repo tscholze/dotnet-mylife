@@ -2,15 +2,15 @@
 
 namespace MyLife.Core.Models.CV
 {
-    public record Certification
-    (
+    public partial class Certification
+    {
         [JsonProperty("title")]
-        string Title,
+        public required string Title { get; set; }
 
         [JsonProperty("description")]
-        string Description,
+        public required string Description { get; set; }
 
         [JsonProperty("instituation")]
-        string? Instituation
-    );
+        public required string? Instituation { get; set; }
+    }
 }

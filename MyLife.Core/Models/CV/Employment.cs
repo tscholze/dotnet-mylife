@@ -4,19 +4,19 @@ namespace MyLife.Core.Models.CV
 {
     public partial class Employment {
         [JsonProperty("company")]
-        public string Company { get; set; }
+        public required string Company { get; set; }
 
         [JsonProperty("role")]
-        public string Role { get; set; }
+        public required string Role { get; set; }
 
         [JsonProperty("tasks")]
-        public string[] Tasks { get; set; }
+        public required string[] Tasks { get; set; }
 
         [JsonProperty("joined")]
-        public string Joined { get; set; }
+        public required string Joined { get; set; }
 
         [JsonProperty("left")]
-        public string? Left { get; set; }
+        public required string? Left { get; set; }
     }
 
 }

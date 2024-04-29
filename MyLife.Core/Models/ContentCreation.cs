@@ -4,18 +4,19 @@ namespace MyLife.Core.Models
 {
     public partial class ContentCreation
     {
-        [JsonProperty("name")] 
+        [JsonProperty("name")]
         public required string Name { get; set; }
 
         [JsonProperty("platform")]
-         public required string Platform { get; set; }
+        public required string Platform { get; set; }
 
-         [JsonProperty("description")] 
+        [JsonProperty("description")]
         public required string Description { get; set; }
 
-        [JsonProperty("language")] 
+        [JsonProperty("language")]
         public required string Language { get; set; }
 
-        [JsonProperty("profile_url")] 
+        [JsonProperty("profile_url")]
         public required Uri Url { get; set; }
     }
+}
