@@ -1,0 +1,92 @@
+﻿@page "/"
+@using MyLife.Core.Generator
+@using MyLife.Core.Models
+@using MyLife.Core.Extensions
+@inject HttpClient Http
+
+<PageTitle>Home</PageTitle>
+
+<header>
+    @((MarkupString)headerText)
+    <hr />
+</header>
+
+<content>
+    <h1>Haha</h1>
+</content>
+
+<footer>
+    <hr />
+    @((MarkupString)footerText)
+</footer>
+
+@code {
+    private Life life = SampleGenerators.GenerateLife();
+    private string headerText = string.Empty;
+    private string footerText = string.Empty;
+
+    #region Init
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        headerText = MakeHeaderText();
+        footerText = MakeFooterText();
+    }
+
+    #endregion
+
+    #region UI builder
+
+    private string MakeHeaderText()
+    {
+        var headerText = life.Persona.GetFullname();
+
+        var nickname = life.Persona.Nicknames.First();
+        if (nickname != null)
+        {
+            headerText += " | " + nickname;
+        }
+
+        return headerText;
+    }
+
+    private string MakeFooterText()
+    {
+        var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
+
+        var icons = new List<string>();
+
+        foreach (var item in life.SocialMedia)
+        {
+            string platformIcon;
+            switch (item.Platform)
+            {
+                case "twitter":
+                    platformIcon = "fab fa-twitter";
+                    break;
+                case "mastodon":
+                    platformIcon = "fab fa-mastodon";
+                    break;
+                case "github":
+                    platformIcon = "fab fa-github";
+                    break;
+                default:
+                    platformIcon = ""; // Handle other platforms if needed
+                    break;
+            }
+
+            if (!string.IsNullOrEmpty(platformIcon))
+            {
+                var link = $"<a href=\"{item.Url}\" title=\"{item.Platform} @{item.Username}\" target=\"_blank\"><i class=\"{platformIcon}\"></i></a>";
+                icons.Add(link);
+            }
+        }
+
+        footerText += string.Join(" ", icons);
+        return footerText;
+    }
+
+    #endregion
+}
