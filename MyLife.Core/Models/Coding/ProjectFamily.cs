@@ -10,7 +10,7 @@ namespace MyLife.Core.Models.Coding
         [JsonProperty("description")]
         public required string Description { get; set; }
 
-        [JsonProperty("description")]
+        [JsonProperty("projects")]
         public required Project[] Projects { get; set; }
 
         [JsonProperty("image_url")]
