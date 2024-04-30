@@ -1,5 +1,4 @@
-﻿using MyLife.Core.Generator;
-using MyLife.Core.Models;
+﻿using MyLife.Core.Models;
 using Newtonsoft.Json;
 
 namespace MyLife.Core;
@@ -9,6 +8,11 @@ namespace MyLife.Core;
 /// </summary>
 public static class Exporter
 {
+    /// <summary>
+    /// Export a life to a JSON string.
+    /// </summary>
+    /// <param name="life">Life to convert</param>
+    /// <returns>Resulting JSON string</returns>
     public static string ExportLife(Life life) {
         return JsonConvert.SerializeObject(life);
     }
