@@ -29,10 +29,9 @@ Console.WriteLine($"""
 
 Create json for life of '{life.Persona.GetFullname()}'? y/n
 """.Trim());
-
 Console.Write("> ");
 
-if(Console.ReadLine() == "y")
+if (Console.ReadLine() == "y")
 {
     Console.WriteLine("\n\nSave life.json to Desktop? (y/n) ");
     Console.Write("> ");

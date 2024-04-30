@@ -4,19 +4,37 @@ using MyLife.Core.Models.Shared;
 
 namespace MyLife.Blazor.Wasm.Extensions
 {
+    /// <summary>
+    /// Summary of model to ui extension.
+    /// </summary>
     public static class ModelToUiExtensions
     {
+        /// <summary>
+        /// Gets the year of joining.
+        /// </summary>
+        /// <param name="employment">Data source</param>
+        /// <returns>Year of joining</returns>
         public static string GetOnlyYearJoined(this Employment employment)
         {
             return employment.Joined.Split('-')[1];
         }
 
+        /// <summary>
+        /// Gets the year of leaving.
+        /// </summary>
+        /// <param name="employment">Data source</param>
+        /// <returns>Year of leaving or null</returns>
         public static string? GetOnlyYearLeft(this Employment employment)
         {
             if (employment.Left == null) return null;
             return employment.Left.Split('-')[1];
         }
 
+        /// <summary>
+        /// Gets a HTML element with the icon of the social media platform.
+        /// </summary>
+        /// <param name="profile">Data source</param>
+        /// <returns>Html element</returns>
         public static string GetIconLinkElement(this SocialMedia profile)
         {
             string icon;

@@ -5,8 +5,17 @@ using MyLife.Core.Models.Shared;
 
 namespace MyLife.Core.Generator
 {
+    /// <summary>
+    /// Provides methods to generate sample life objects.
+    /// </summary>
     public static class SampleGenerators
     {
+        #region Public generators
+
+        /// <summary>
+        /// Generates a sample life object.
+        /// </summary>
+        /// <returns>Sample life object</returns>
         public static Life GenerateLife()
         {
             return new Life
@@ -21,7 +30,11 @@ namespace MyLife.Core.Generator
                 ContentCreation = GenerateContentCreation(),
             };
         }
-        internal static Persona GeneratePersona()
+
+        #endregion
+
+        #region Private generators
+        private static Persona GeneratePersona()
         {
             return new Persona
             {
@@ -417,5 +430,7 @@ namespace MyLife.Core.Generator
                 }
             ];
         }
+
+        #endregion
     }
 }

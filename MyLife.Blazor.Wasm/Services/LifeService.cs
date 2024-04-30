@@ -3,6 +3,9 @@ using MyLife.Core.Models;
 
 namespace MyLife.Blazor.Wasm.Services
 {
+    /// <summary>
+    /// A service implementation covering all aspects of a person's life.
+    /// </summary>
     public class LifeService : ILifeService
     {
         #region Private member
