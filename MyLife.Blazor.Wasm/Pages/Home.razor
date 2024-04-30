@@ -1,48 +1,35 @@
 ﻿@page "/"
-@using MyLife.Blazor.Wasm.Components
-@using MyLife.Blazor.Wasm.Components.CV
 @using MyLife.Blazor.Wasm.Extensions
+@using MyLife.Blazor.Wasm.Services
+@using MyLife.Core.Extensions
 @using MyLife.Core.Generator
 @using MyLife.Core.Models
-@inject HttpClient Http
+@inject LifeService lifeService
 
 <PageTitle>Home</PageTitle>
 
-<header style="margin-bottom: 12px;">
-    @((MarkupString)headerText)
-    <hr />
-</header>
-
-<content>
-    <Avatar Persona="@life.Persona" />
-    <CurriculumVitae Data="@life.CurriculumVitae" />
-</content>
-
-<footer>
-    <hr />
-    @((MarkupString)footerText)
-</footer>
+@if (life != null)
+{
+    <CurriculumVitaePage Data="@life.CurriculumVitae" />
+}
 
 @code {
-    private Life life = SampleGenerators.GenerateLife();
-    private string headerText = string.Empty;
-    private string footerText = string.Empty;
+    private Life? life = null;
 
     #region Init
 
     protected override void OnInitialized()
     {
-        base.OnInitialized();
+        life = lifeService.GetLife();
 
-        headerText = MakeHeaderText();
-        footerText = MakeFooterText();
+        base.OnInitialized();
     }
 
     #endregion
 
     #region UI builder
 
-    private string MakeHeaderText()
+    private string MakeHeaderText(Life life)
     {
         var headerText = life.Persona.GetFullname();
 
@@ -55,7 +42,7 @@
         return headerText;
     }
 
-    private string MakeFooterText()
+    private string MakeFooterText(Life life)
     {
         var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
 

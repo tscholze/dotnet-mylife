@@ -1,3 +1,74 @@
 ﻿@inherits LayoutComponentBase
+@using MyLife.Blazor.Wasm.Components
+@using MyLife.Blazor.Wasm.Components.Navigation
+@using MyLife.Blazor.Wasm.Extensions
+@using MyLife.Blazor.Wasm.Services
+@using MyLife.Core.Extensions
+@using MyLife.Core.Generator
+@using MyLife.Core.Models
+@inject LifeService lifeService
 
-@Body
+@if (life != null)
+{
+    <header style="margin-bottom: 12px;">
+        @((MarkupString)MakeHeaderText(life))
+        <hr />
+    </header>
+
+    <content>
+        <Avatar Persona="@life.Persona" />
+        <TopNavigationBar />
+        @Body
+    </content>
+
+    <footer>
+        <hr />
+        @((MarkupString)MakeFooterText(life))
+    </footer>
+}
+
+@code {
+    #region Private member
+
+    private Life? life = null;
+
+    #endregion
+
+    #region Init
+
+    protected override void OnInitialized()
+    {
+        life = lifeService.GetLife();
+
+        base.OnInitialized();
+    }
+
+    #endregion
+
+    #region UI builder
+
+    private string MakeHeaderText(Life life)
+    {
+        var headerText = life.Persona.GetFullname();
+
+        var nickname = life.Persona.Nicknames.First();
+        if (nickname != null)
+        {
+            headerText += " | " + nickname;
+        }
+
+        return headerText;
+    }
+
+    private string MakeFooterText(Life life)
+    {
+        var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
+
+        var icons = life.SocialMedia.Select(p => p.GetIconLinkElement());
+        footerText += " | " + string.Join("  ", icons);
+
+        return footerText;
+    }
+
+    #endregion
+}

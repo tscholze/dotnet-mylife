@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife", "MyLife\MyLife.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Core", "MyLife.Core\MyLife.Core.csproj", "{857D4912-9B11-49EB-BA62-A0F3A92E2131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLife.Blazor.Wasm", "MyLife.Blazor.Wasm\MyLife.Blazor.Wasm.csproj", "{6E1AEE47-2CF5-48EA-852B-BD44E09FD2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Blazor.Wasm", "MyLife.Blazor.Wasm\MyLife.Blazor.Wasm.csproj", "{6E1AEE47-2CF5-48EA-852B-BD44E09FD2E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

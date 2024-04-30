@@ -1,0 +1,29 @@
+﻿@page "/cv"
+@using MyLife.Blazor.Wasm.Services
+@using MyLife.Blazor.Wasm.Components.CV
+@using MyLife.Core.Models
+@inject LifeService lifeService
+
+@if (life != null)
+{
+    <CurriculumVitae Data="@life.CurriculumVitae" />
+}
+
+@code {
+    #region Private member
+
+    private Life? life = null;
+
+    #endregion
+
+    #region Init
+
+    protected override void OnInitialized()
+    {
+        life = lifeService.GetLife();
+
+        base.OnInitialized();
+    }
+
+    #endregion
+}
