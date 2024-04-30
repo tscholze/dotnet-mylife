@@ -213,20 +213,20 @@ namespace MyLife.Core.Generator
                     {
                         Name = "Kpi - Kotlin/Native <3 Raspberry Pi",
                         Description = "Using Kotlin/Native with C-Bindings on a Raspberry Pi to work with some Pimoroni boards",
-                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-kpi-logo.png"),
+                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-kpi-logo.png?raw=true"),
                         Projects = [
                             new Project {
                                 Name = "KPi.Enviro",
                                 Descripton = "Reading values from a BMP280 and TC3472 sensor in addition to controlling some LEDs",
                                 GithubUrl = new("https://github.com//tscholze/kotlin-kpi-native-enviro"),
-                                ImageUrl = new("https://github.com/tscholze/kotlin-kpi-native-enviro/blob/main/__docs/socialmedia.png"),
+                                ImageUrl = new("https://github.com/tscholze/kotlin-kpi-native-enviro/blob/main/__docs/socialmedia.png?raw=true"),
                                 ProgrammingLanguage = "kotlin"
                             },
                             new Project {
                                 Name = "KPi.Blinkt",
                                 Descripton = "Web- and curl-interface to let a Pimoroni Blinkt HAT shine, morse and do other things",
                                 GithubUrl = new("https://github.com//tscholze/kotlin-kpi-native-enviro"),
-                                ImageUrl = new("https://raw.githubusercontent.com/tscholze/kotlin-kpi-native-blinkt/main/_docs/socialmedia.png"),
+                                ImageUrl = new("https://raw.githubusercontent.com/tscholze/kotlin-kpi-native-blinkt/main/_docs/socialmedia.png?raw=true"),
                                 ProgrammingLanguage = "kotlin"
                             }
                         ]
@@ -235,13 +235,13 @@ namespace MyLife.Core.Generator
                     {
                         Name =  "HomeBear - Windows 10 + Pi + Pimoroni = <3",
                         Description = "Windows 10 IoT Core meets C# and .NET, Raspberry Pi, meets Pimoroni HATs",
-                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-hb-logo.png"),
+                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-hb-logo.png?raw=true"),
                         Projects = [
                             new Project {
                                 Name = "HomeBear.Tilt",
                                 Descripton = "Using a robot tilting arm to have a camera that detects your faces? This UWP provides such PoC functionality. All running on a Raspberry Pi.",
                                 GithubUrl = new("https://github.com/tscholze/dotnet-iot-homebear-tilt"),
-                                ImageUrl = new("https://github.com/tscholze/dotnet-iot-homebear-tilt/raw/master/docs/on-device-screenshot.jpg"),
+                                ImageUrl = new("https://github.com/tscholze/dotnet-iot-homebear-tilt/raw/master/docs/on-device-screenshot.jpg?raw=true"),
                                 ProgrammingLanguage = "csharp"
                             },
                             new Project {
@@ -264,13 +264,13 @@ namespace MyLife.Core.Generator
                     {
                         Name =  "Surface Duo shenanigans",
                         Description = "Two separate screens on a single device? Yes, the Duo was a great device",
-                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-duo-logo.png"),
+                        ImageUrl = new("https://tscholze.github.io/blog/files/pf-duo-logo.png?raw=true"),
                         Projects = [
                             new Project {
                                 Name = "Road To Surface Duo",
                                 Descripton = "In anticipation of the release of the Microsoft Surface Duo, I wrote for Dr. Windows wrote a multi-part series of articles that should make you want to develop for the device",
                                 GithubUrl = new ("https://github.com/tscholze/xamarin-road-to-surface-duo"),
-                                ImageUrl = new("https://github.com/tscholze/xamarin-road-to-surface-duo/raw/master/docs/ui-app-duo.jpg"),
+                                ImageUrl = new("https://github.com/tscholze/xamarin-road-to-surface-duo/raw/master/docs/ui-app-duo.jpg?raw=true"),
                                 ProgrammingLanguage = "csharp"
                             },
                             new Project {
@@ -291,7 +291,7 @@ namespace MyLife.Core.Generator
                                 Name = "DuoBahn",
                                 Descripton = "An app that shows you all kind of information around German Autobahn information and webcams. Cancelled due to shut down webcams because of Ukrainian war",
                                 GithubUrl = new("https://github.com/tscholze/kotlin-surfaceduo-duobahn"),
-                                ImageUrl = new("https://www.drwindows.de/news/wp-content/uploads/2022/08/duo_bahn_app.png"),
+                                ImageUrl = new("https://www.drwindows.de/news/wp-content/uploads/2022/08/duo_bahn_app.png?raw=true"),
                                 ProgrammingLanguage = "csharp"
                             }
                         ]
@@ -299,19 +299,19 @@ namespace MyLife.Core.Generator
                     new ProjectFamily {
                         Name = "Android Things Tinkerings",
                         Description = "Google Android Things on a Raspberry Pi was a very fun time and I tinkered some apps that uses Pimoroni Hardware",
-                        ImageUrl = new("https://github.com/tscholze/blog/blob/main/docs/files/pf-at-logo"),
+                        ImageUrl = new("https://github.com/tscholze/blog/blob/main/docs/files/pf-at-logo.png?raw=true"),
                         Projects = [
                             new Project {
                                 Name = "ToboT",
                                 Descripton = "Control a Pimoroni STS Pi vehicle via a web interface and your voice. Everything is based on an Android Things app that runs on a Raspberry Pi",
-                                ImageUrl = new("https://tscholze.github.io/blog/assets/java-android-tobot-5.png"),
+                                ImageUrl = new("https://tscholze.github.io/blog/assets/java-android-tobot-5.png?raw=true"),
                                 GithubUrl = new("https://github.com/tscholze/java-android-things-tobot"),
                                 ProgrammingLanguage = "java"
                             },
                             new Project {
                                 Name = "Things Pager",
                                 Descripton = "Show your Firebase messages on a 8-segment display using a Raspberry Pi",
-                                ImageUrl = new("https://github.com/tscholze/java-android-things-firebase-pager/raw/master/docs/scheme.png"),
+                                ImageUrl = new("https://github.com/tscholze/java-android-things-firebase-pager/raw/master/docs/scheme.png?raw=true"),
                                 GithubUrl = new("https://github.com/tscholze/java-android-things-firebase-pager"),
                                 ProgrammingLanguage = "java"
                             }
@@ -320,7 +320,7 @@ namespace MyLife.Core.Generator
                     new ProjectFamily {
                         Name = "Python wrangling",
                         Description = "Sometimes I need to use the snake to catch some fun",
-                        ImageUrl = new("https://github.com/tscholze/blog/blob/main/docs/files/pf-python-raspberry-logo.png"),
+                        ImageUrl = new("https://github.com/tscholze/blog/blob/main/docs/files/pf-python-raspberry-logo.png?raw=true"),
                         Projects = [
                             new Project {
                                 Name = "Enviro HAT to Excel Online logger",
@@ -333,7 +333,7 @@ namespace MyLife.Core.Generator
                                 Name = "Enviro HAT to Google Drive Sheets logger",
                                 Descripton = "Uses the Pimoroni Enviro HAT to log specific values to a Google Drive Sheets document",
                                 GithubUrl = new ("https://github.com/tscholze/python-enviro-gdocs-logger"),
-                                ImageUrl = new("https://raw.githubusercontent.com/tscholze/python-enviro-gdocs-logger/master/docs/dashboard.png"),
+                                ImageUrl = new("https://raw.githubusercontent.com/tscholze/python-enviro-gdocs-logger/master/docs/dashboard.png?raw=true"),
                                 ProgrammingLanguage = "python"
                             }
                         ]

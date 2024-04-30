@@ -1,0 +1,84 @@
+﻿@using MyLife.Core.Models.Coding
+
+<style>
+    .project-family {
+        margin-bottom: 24px;
+    }
+
+        .project-family hr {
+            margin-top: 24px;
+        }
+
+            .project-family hr:last-child {
+                visibility: hidden
+            }
+
+        .project-family p {
+            margin: 0;
+        }
+
+        .project-family h4 {
+            margin: 0;
+        }
+
+    .project-family-header {
+        display: grid;
+        grid-template-columns: 100px auto;
+        margin-bottom: 12px;
+    }
+
+        .project-family-header img {
+            margin-right: 8px;
+        }
+
+    .project-family-projects {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+        grid-template-rows: auto;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-left: 24px;
+    }
+
+    .project-family-project {
+        border-radius: 10px;
+    }
+
+        .project-family-project:hover {
+            border: 4px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .project-family-project img {
+        }
+
+</style>
+
+<div class="project-family">
+    <div class="project-family-header">
+        <img src="@Family.ImageUrl" alt="@Family.Name" />
+        <div style="float: none">
+            <h4>@Family.Name</h4>
+            <p>@Family.Description</p>
+        </div>
+    </div>
+
+    <div class="project-family-projects">
+
+        @foreach (var project in Family.Projects)
+        {
+            <div class="project-family-project">
+                <a href="@project.GithubUrl" title="View on Github" alt="View @project.Name on GitHub" target="_blank">
+                    <img src="@project.ImageUrl" alt="@project.Name" />
+                </a>
+            </div>
+        }
+    </div>
+
+    <hr />
+</div>
+
+@code {
+    [Parameter]
+    public required ProjectFamily Family { get; set; }
+}

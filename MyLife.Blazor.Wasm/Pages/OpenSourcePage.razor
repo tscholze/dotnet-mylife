@@ -1,0 +1,45 @@
+﻿@page "/opensource"
+@using MyLife.Blazor.Wasm.Services
+@using MyLife.Blazor.Wasm.Components.OpenSource
+@using MyLife.Core
+@using MyLife.Core.Models
+@inject LifeService lifeService
+
+<div class="opensource">
+    <h2>Open source activities</h2>
+
+    @if (Data != null)
+    {
+        <h3>My motivation</h3>
+        <p>@Data.Motivation</p>
+
+        <h3>Some projects</h3>
+        @foreach (var family in Data.ProjectFamilies)
+        {
+            <ProjectFamilySection Family="family" />
+        }
+    }
+</div>
+
+@code {
+    #region Private member
+
+    private OpenSource? Data = null;
+
+    #endregion
+
+    #region Init
+
+    protected override void OnInitialized()
+    {
+        Data = lifeService.GetLife().OpenSource;
+
+        base.OnInitialized();
+    }
+
+    #endregion
+
+    #region UI builder
+
+    #endregion
+}
