@@ -1,0 +1,22 @@
+﻿@using MyLife.Core.Models
+
+<div class="cv-section-list">
+    <div>
+        <h4 class="cv-section-title">@((MarkupString)RawTitle)</h4>
+
+        <ul class="cv-section-item">
+            @foreach (var item in RawItems)
+            {
+                <li>@((MarkupString)item)</li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string RawTitle { get; set; } = "";
+
+    [Parameter]
+    public string[] RawItems { get; set; } = [];
+}

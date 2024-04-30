@@ -1,8 +1,8 @@
 ﻿@page "/"
+@using MyLife.Blazor.Wasm.Components.Introduction
 @using MyLife.Blazor.Wasm.Extensions
 @using MyLife.Blazor.Wasm.Services
 @using MyLife.Core.Extensions
-@using MyLife.Core.Generator
 @using MyLife.Core.Models
 @inject LifeService lifeService
 
@@ -10,7 +10,7 @@
 
 @if (life != null)
 {
-    <CurriculumVitaePage Data="@life.CurriculumVitae" />
+    <Introduction Persona="@life.Persona" />
 }
 
 @code {

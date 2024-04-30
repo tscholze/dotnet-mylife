@@ -2,32 +2,38 @@
 @using MyLife.Core.Models.CV
 @using MyLife.Blazor.Wasm.Extensions
 
-
 <style>
-    .cv-employments-employment-title {
+    .cv-section-title {
+        font-size: 1.1rem;
         margin-bottom: 0px;
     }
 
-    .cv-employments-employment-tasks {
+    .cv-section-item {
         margin-top: 4px;
         list-style-type: '- ';
     }
 </style>
 
 <h2>Curricilum Vitae</h2>
+
+<h3>Experiences</h3>
 @foreach (var item in Data.RecentEmployments)
 {
-    <div>
-        <h3 class="cv-employments-employment-title">@((MarkupString)GetRawTitleForEmployment(item))</h3>
-
-        <ul class="cv-employments-employment-tasks">
-            @foreach (var task in item.Tasks)
-            {
-                <li>@task</li>
-            }
-        </ul>
-    </div>
+    <CVSubSection RawTitle="@GetRawTitleForEmployment(item)" RawItems="@item.Tasks" />
 }
+
+<h3>Education</h3>
+@foreach (var item in Data.Educations)
+{
+    <CVSubSection RawTitle="@GetRawTitleForEducation(item)" RawItems="@item.Content" />
+}
+
+<h3>Skills</h3>
+<CVSubSection RawTitle="Software development" RawItems="@GetDevelopmentItems(Data.Skillset)" />
+<CVSubSection RawTitle="Design process" RawItems="@GetDesignItems(Data.Skillset)" />
+<CVSubSection RawTitle="Soft skills" RawItems="Data.Skillset.SoftSkills" />
+<CVSubSection RawTitle="Sparetime activities" RawItems="Data.Activities" />
+<CVSubSection RawTitle="Other interests" RawItems="Data.OtherInterests" />
 
 @code {
     [Parameter]
@@ -39,11 +45,11 @@
         var joined = employment.GetOnlyYearJoined();
         var left = employment.GetOnlyYearLeft();
 
-        if(left == null)
+        if (left == null)
         {
             range = $"{joined} - today";
-        } 
-        else if(left == joined)
+        }
+        else if (left == joined)
         {
             range = $"{joined}";
         }
@@ -53,5 +59,26 @@
         }
 
         return $"{employment.Role} <small>| {employment.Company} | {range}</small>";
+    }
+
+    public string GetRawTitleForEducation(Education education)
+    {
+        return $"{education.Graduation} | {education.Instituation} | {education.YearOfGraduation}";
+    }
+
+    public string[] GetDevelopmentItems(Skillset skillset)
+    {
+        return [
+            $"<strong>Environments:</strong>  {string.Join(", ", skillset.DevelopmentEnvironments)}",
+        $"<strong>Languages:</strong>  {string.Join(", ", skillset.ProgrammingLanguages)}",
+    ];
+    }
+
+    public string[] GetDesignItems(Skillset skillset)
+    {
+        return [
+            $"<strong>Environments:</strong>  {string.Join(", ", skillset.DesignEnvironments)}",
+    $"<strong>Guidelines:</strong>  {string.Join(", ", skillset.DesignGuidelines)}",
+    ];
     }
 }

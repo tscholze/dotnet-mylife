@@ -7,8 +7,8 @@ namespace MyLife.Core.Models.CV
         [JsonProperty("institution")]
         public required string Instituation { get; set; }
 
-        [JsonProperty("description")]
-        public required string Description { get; set; }
+        [JsonProperty("content")]
+        public required string[] Content { get; set; }
 
         [JsonProperty("graduation")]
         public required string Graduation { get; set; }

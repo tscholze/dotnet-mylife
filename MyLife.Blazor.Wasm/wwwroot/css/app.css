@@ -19,6 +19,14 @@ img {
     margin-right: auto;
 }
 
+h3:before {
+    content: '~';
+}
+
+h3:after {
+    content: '~';
+}
+
 .loading-progress {
     position: relative;
     display: block;

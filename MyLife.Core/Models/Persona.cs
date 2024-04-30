@@ -25,6 +25,9 @@ namespace MyLife.Core.Models
         [JsonProperty("year_of_birth")]
         public required int YearOfBirth { get; set; }
 
+        [JsonProperty("introduction_paragraphs")]
+        public required string[] IntroductionParagraphs { get; set; }
+
         [JsonProperty("academic_title")]
         public string? AcademicTitle { get; set; }
     }

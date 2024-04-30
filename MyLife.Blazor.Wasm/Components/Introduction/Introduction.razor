@@ -1,0 +1,19 @@
+﻿@using MyLife.Core.Models
+
+<style>
+    .introduction-container p {
+        text-align: justify;
+    }
+</style>
+
+<div class="introduction-container">
+    @foreach (var paragraph in Persona.IntroductionParagraphs)
+    {
+        <p>@paragraph</p>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Persona Persona { get; set; }
+}

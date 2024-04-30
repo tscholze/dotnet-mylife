@@ -44,6 +44,12 @@ namespace MyLife.Core.Generator
                     "English"
                     ],
                 YearOfBirth = 1988,
+                IntroductionParagraphs = [
+                    "Nice to have you here!",
+                    "I am Tobias from beautiful Bavaria and I am a software engineer, nerd and hobby content creator with heart and soul to inspire people for programming as well as to educate about stuttering and multiple sclerosis.",
+                    "On my site you will find a small overview of everything I do in terms of open source development, my articles for Dr. Windows and on Medium, videos and all other experiments I fabricate in my spare time like podcasting.",
+                    "Have fun!",
+                    ],
                 AcademicTitle = "Bachelor of Science"
             };
         }
@@ -96,16 +102,31 @@ namespace MyLife.Core.Generator
                     new Education
                     {
                         Instituation = "University of Applied Sciene Augsburg",
-                        Description =  "Course of study: Computer Science",
+                        Content =  [
+                            "Specialization in computer science with a focus on applied software development",
+                            "Practical project work, including in cooperation with the Fraunhofer Institute to prevent cross-contamination in food logistics",
+                            "International project to reduce energy consumption in private households using a software solution that is compatible with many standards"
+                            ],
                         Graduation = "Bachelor of Science",
                         YearOfGraduation = 2013
                     },
                     new Education
                     {
                         Instituation = "Städtische Berufoberschule Augsburg",
-                        Description = "Subject: Mathematic, Physics",
+                        Content = [
+                            "Second-chance education specializing in mathematics and physics"
+                            ],
                         Graduation = "High school diplom",
                         YearOfGraduation = 2009
+                    },
+                    new Education {
+                        Instituation = "BFS Rudolf Diesel Augsburg",
+                        Content = [
+                            "Vocational training as a technical assistant for computer science",
+                            "Training in software development as well as networking and electronics"
+                            ],
+                        Graduation = "State-certified TACS (IHK)",
+                        YearOfGraduation = 2008
                     }
                 ],
                 Publications = [
@@ -139,6 +160,10 @@ namespace MyLife.Core.Generator
                         "Figma",
                         "Sketch",
                         "Zepelin"
+                    ],
+                    DesignGuidelines = [
+                        "Apple Human Interface Guide",
+                        "Android Material Design Principals"
                     ],
                     SoftSkills = [
                         "Take ownership of your work",

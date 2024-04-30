@@ -13,10 +13,13 @@ namespace MyLife.Core.Models.CV
          [JsonProperty("development_environments")]
          public required string[] DevelopmentEnvironments { get; set; }
          
-         [JsonProperty("designt_environments")]
+         [JsonProperty("design_environments")]
          public required string[] DesignEnvironments { get; set; }
-        
-         [JsonProperty("soft_skills")]
+
+        [JsonProperty("design_guidelines")]
+        public required string[] DesignGuidelines { get; set; }
+
+        [JsonProperty("soft_skills")]
          public required string[] SoftSkills { get; set; }
     }
 }
