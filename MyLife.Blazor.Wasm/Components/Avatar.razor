@@ -22,18 +22,20 @@
     }
 </style>
 
-<div>
-    <img title="@Persona.GetFullname()"
-         class="avatar-image"
-         alt="Avatar image of @Persona.GetFullname()"
-         src="@Persona.AvatarImageUrls[0]" />
+@if(Persona != null)
+{
+    <div>
+        <img title="@Persona.GetFullname()"
+             class="avatar-image"
+             alt="Avatar image of @Persona.GetFullname()"
+             src="@Persona.AvatarImageUrls[0]" />
 
-    <h1 class="avatar-title">@Persona.GetFullname()</h1>
-    <p class="avatar-subtitle">@string.Join(" | ", Persona.Nicknames)</p>
-</div>
-
+        <h1 class="avatar-title">@Persona.GetFullname()</h1>
+        <p class="avatar-subtitle">@string.Join(" | ", Persona.Nicknames)</p>
+    </div>
+}
 
 @code {
     [Parameter]
-    public Persona Persona { get; set; }
+    public Persona? Persona { get; set; }
 }
