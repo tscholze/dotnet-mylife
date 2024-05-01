@@ -1,13 +1,19 @@
 # MyLife.NET
 > Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provi´de an overview of your digital life.
 
+## Build status
+| Project | Action |
+|---------|--------|
+|`MyLife` |[![.NET](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-mylife.yml/badge.svg)](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-mylife.yml)|
+|`MyLife.Core`|[![.NET](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-life-core.yml/badge.svg)](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-life-core.yml)|
+|`MyLife.Blazor.Wasm`|-|
 ## Solution Structure
 The solution contains a variaty of projects that are all based on the core context of the app. Creating, exporting and using your life to a vast amount of output possibilities.
 
 | Project | Description |
 |----------|----------|
-| `MyLife`    | Console application to create a JSON file    |
-| `MyLife.Core`    | Provides core functionality as well as the models describing the JSON    |
+|`MyLife`    | Console application to create a JSON file    |
+|`MyLife.Core`    | Provides core functionality as well as the models describing the JSON    |
 | `MyLife.Blazor.Wasm`    | **WIP** Blazor Wasm site that renders a website according t Core's data   |
 | `MyLife.Maui` | **Planned** project to render Core's data as a mobile app |
 | `MyLife.Blazor.Static` | **Planned** project to render Core's data as fully static website |
