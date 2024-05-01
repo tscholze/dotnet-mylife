@@ -1,3 +1,5 @@
+![MyLife.NET Social Media image](__docs/socialmedia.png)
+
 # MyLife.NET
 > Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provi´de an overview of your digital life.
 
