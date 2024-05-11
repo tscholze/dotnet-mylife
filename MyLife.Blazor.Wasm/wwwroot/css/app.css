@@ -27,6 +27,33 @@ h3:after {
     content: '~';
 }
 
+/* 
+    Thumbnail Grid Component
+*/
+
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-left: 24px;
+}
+
+.thumbnail-grid-item {
+    border-radius: 10px;
+}
+
+    .thumbnail-grid-item:hover {
+        border: 4px solid #ccc;
+        border-radius: 10px;
+    }
+
+    .thumbnail-grid-item img {
+    }
+
+/** Blazor */
+
 .loading-progress {
     position: relative;
     display: block;

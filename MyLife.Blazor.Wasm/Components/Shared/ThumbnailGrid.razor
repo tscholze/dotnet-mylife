@@ -1,0 +1,50 @@
+﻿<div class="thumbnail-grid">
+
+    @foreach (var item in Items)
+    {
+        <div class="thumbnail-grid-item">
+            <a href="@item.TargetUrl" title="Visit @item.Name" alt="Visit @item.Name" target="_blank">
+                <img src="@item.ImageUrl" alt="@item.Name" />
+            </a>
+        </div>
+    }
+</div>
+
+
+@code {
+    /// <summary>
+    /// Items to render as a grid.
+    /// </summary>
+    [Parameter]
+    public required IEnumerable<GridItem> Items { get; set; }
+
+    #region Data class
+
+    /// <summary>
+    /// Defines the information set of a grid item.
+    /// </summary>
+    public class GridItem
+    {
+        /// <summary>
+        /// Optional name / title of the item.
+        /// </summary>
+        public string? Name { get; set; }
+
+        /// <summary>
+        /// Optional short description of the item.
+        /// </summary>
+        public string? Description { get; set; }
+
+        /// <summary>
+        /// Target link of the item.
+        /// </summary>
+        public required string TargetUrl { get; set; }
+
+        /// <summary>
+        /// Cover image url of the item.
+        /// </summary>
+        public required string ImageUrl { get; set; }
+    }
+
+    #endregion
+}

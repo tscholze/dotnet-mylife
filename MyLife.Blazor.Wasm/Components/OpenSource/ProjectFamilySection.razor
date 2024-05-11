@@ -1,4 +1,7 @@
-﻿@using MyLife.Core.Models.OpenSource
+﻿@using MyLife.Blazor.Wasm.Components.Shared
+@using MyLife.Blazor.Wasm.Extensions
+@using MyLife.Blazor.Wasm.Utils.Extensions
+@using MyLife.Core.Models.OpenSource
 
 <style>
     .project-family {
@@ -25,6 +28,7 @@
         display: grid;
         grid-template-columns: 100px auto;
         margin-bottom: 12px;
+        align-items: center;
     }
 
         .project-family-header img {
@@ -63,17 +67,7 @@
         </div>
     </div>
 
-    <div class="project-family-projects">
-
-        @foreach (var project in Family.Projects)
-        {
-            <div class="project-family-project">
-                <a href="@project.GithubUrl" title="View on Github" alt="View @project.Name on GitHub" target="_blank">
-                    <img src="@project.ImageUrl" alt="@project.Name" />
-                </a>
-            </div>
-        }
-    </div>
+    <ThumbnailGrid Items="@Family.Projects.Select(p => p.ToThumbnail())" />
 
     <hr />
 </div>
