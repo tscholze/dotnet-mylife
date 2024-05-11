@@ -1,0 +1,28 @@
+﻿@page "/contentcreation"
+@using MyLife.Blazor.Wasm.Components.OpenSource
+@using MyLife.Core
+@using MyLife.Core.Models
+@using MyLife.Core.Services
+@inject LifeService lifeService
+
+<h3>ContentCreationPage</h3>
+
+
+@code {
+    #region Private member
+
+    private Life? life = null;
+
+    #endregion
+
+    #region Init
+
+    protected override void OnInitialized()
+    {
+        life = lifeService.GetLife();
+
+        base.OnInitialized();
+    }
+
+    #endregion
+}

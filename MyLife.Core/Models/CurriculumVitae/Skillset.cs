@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLife.Core.Models.CV
+namespace MyLife.Core.Models.CurriculumVitae
 {
     /// <summary>
     /// Represents a skillset of a person.

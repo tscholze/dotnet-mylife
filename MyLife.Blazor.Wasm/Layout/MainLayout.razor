@@ -64,7 +64,7 @@
     {
         var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
 
-        var icons = life.SocialMedia.Select(p => p.GetIconLinkElement());
+        var icons = life.SocialMedia.Accounts.Select(p => p.GetIconLinkElement());
         footerText += " | " + string.Join("  ", icons);
 
         return footerText;

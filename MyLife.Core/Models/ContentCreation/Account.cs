@@ -1,12 +1,12 @@
 ﻿using MyLife.Core.Models.Shared;
 using Newtonsoft.Json;
 
-namespace MyLife.Core.Models
+namespace MyLife.Core.Models.ContentCreation
 {
     /// <summary>
-    /// Represents a content creation profile.
+    /// Represents a content creation account.
     /// </summary>
-    public partial class ContentCreation
+    public partial class Account
     {
         /// <summary>
         /// Name of the content creation profile.
@@ -15,7 +15,7 @@ namespace MyLife.Core.Models
         public required string Name { get; set; }
 
         /// <summary>
-        /// The platform of the content creation profile.
+        /// The platform of the content creation account.
         /// </summary>
         [JsonProperty("platform")]
         public required Platform Platform { get; set; }

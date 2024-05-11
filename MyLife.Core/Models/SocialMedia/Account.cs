@@ -1,12 +1,12 @@
 ﻿using MyLife.Core.Models.Shared;
 using Newtonsoft.Json;
 
-namespace MyLife.Core.Models
+namespace MyLife.Core.Models.SocialMedia
 {
     /// <summary>
     /// Represents a social media account.
     /// </summary>
-    public partial class SocialMedia
+    public partial class Account
     {
         /// <summary>
         /// Username of the account.

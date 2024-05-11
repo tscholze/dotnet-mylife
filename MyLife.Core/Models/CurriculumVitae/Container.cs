@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLife.Core.Models.CV
+namespace MyLife.Core.Models.CurriculumVitae
 {
     /// <summary>
     /// Curriculum vitae of a person.
     /// </summary>
-    public partial class CurriculumVitae
+    public partial class Container
     {
         /// <summary>
         /// Current employment of the person.

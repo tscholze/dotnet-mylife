@@ -1,5 +1,4 @@
-﻿using MyLife.Core.Models;
-using MyLife.Core.Models.CV;
+﻿using MyLife.Core.Models.CurriculumVitae;
 using MyLife.Core.Models.Shared;
 
 namespace MyLife.Blazor.Wasm.Extensions
@@ -33,13 +32,13 @@ namespace MyLife.Blazor.Wasm.Extensions
         /// <summary>
         /// Gets a HTML element with the icon of the social media platform.
         /// </summary>
-        /// <param name="profile">Data source</param>
+        /// <param name="account">Data source</param>
         /// <returns>Html element</returns>
-        public static string GetIconLinkElement(this SocialMedia profile)
+        public static string GetIconLinkElement(this Core.Models.SocialMedia.Account account)
         {
             string icon;
 
-            switch (profile.Platform)
+            switch (account.Platform)
             {
                 case Platform.Twitter:
                     icon = "fa-twitter";
@@ -56,12 +55,30 @@ namespace MyLife.Blazor.Wasm.Extensions
                 case Platform.Linkedin:
                     icon = "fa-linkedin";
                     break;
+                case Platform.Instagram:
+                    icon = "fa-instagran";
+                    break;
+                case Platform.Tiktok:
+                    icon = "fa-tiktok";
+                    break;
+                case Platform.Blog:
+                    icon = "fa-rss";
+                    break;
+                case Platform.News:
+                    icon = "fa-news";
+                    break;
+                case Platform.Medium:
+                    icon = "fa-medium";
+                    break;
+                case Platform.Podcast:
+                    icon = "fa-podcast";
+                    break;
                 default:
                     icon = "fa-question";
                     break;
             }
 
-            return $"<a href=\"{profile.Url}\" title=\"{profile.Platform} @{profile.Username}\" target=\"_blank\"><i class=\"fab {icon}\"></i></a>";
+            return $"<a href=\"{account.Url}\" title=\"{account.Platform} @{account.Username}\" target=\"_blank\"><i class=\"fab {icon}\"></i></a>";
         }
     }
 }

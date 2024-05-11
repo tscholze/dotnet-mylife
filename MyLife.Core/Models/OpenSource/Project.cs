@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLife.Core.Models.Coding
+namespace MyLife.Core.Models.OpenSource
 {
     /// <summary>
     /// Represents a software engineering project.

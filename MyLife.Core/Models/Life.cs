@@ -1,5 +1,4 @@
-﻿using MyLife.Core.Models.CV;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace MyLife.Core.Models
 {
@@ -30,30 +29,30 @@ namespace MyLife.Core.Models
         /// Generic personal information.
         /// </summary>
         [JsonProperty("persona")]
-        public required Persona Persona { get; set; }
+        public required Persona.Container Persona { get; set; }
 
         /// <summary>
         /// List of content creation profiles.
         /// </summary>
-        [JsonProperty("content_creation_profiles")]
-        public required ContentCreation[] ContentCreation { get; set; }
+        [JsonProperty("content_creation")]
+        public required ContentCreation.Container ContentCreation { get; set; }
 
         /// <summary>
         /// Information covering open source work of the person.
         /// </summary>
         [JsonProperty("open_source")]
-        public required OpenSource OpenSource { get; set; }
+        public required OpenSource.Container OpenSource { get; set; }
 
         /// <summary>
         /// Information covering the person's curriculum vitae.
         /// </summary>
         [JsonProperty("curriculum_vitae")]
-        public required CurriculumVitae CurriculumVitae { get; set; }
+        public required CurriculumVitae.Container CurriculumVitae { get; set; }
 
         /// <summary>
         /// List of social media accounts.
         /// </summary>
         [JsonProperty("social_media")]
-        public required SocialMedia[] SocialMedia { get; set; }
+        public required SocialMedia.Container SocialMedia { get; set; }
     };
 }

@@ -1,12 +1,11 @@
-﻿using MyLife.Core.Models.Coding;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace MyLife.Core;
+namespace MyLife.Core.Models.OpenSource;
 
 /// <summary>
 /// Represents a person's open source activities.
 /// </summary>
-public partial class OpenSource
+public partial class Container
 {
     /// <summary>
     /// The tag (punch) line of the person's open source activities.

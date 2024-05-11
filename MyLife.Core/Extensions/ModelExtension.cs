@@ -1,4 +1,4 @@
-﻿using MyLife.Core.Models;
+﻿using MyLife.Core.Models.Persona;
 
 namespace MyLife.Core.Extensions
 {
@@ -12,7 +12,7 @@ namespace MyLife.Core.Extensions
         /// </summary>
         /// <param name="persona"></param>
         /// <returns>Full name</returns>
-        public static string GetFullname(this Persona persona)
+        public static string GetFullname(this Container persona)
         {
             return $"{persona.Firstname} {persona.Lastname}";
         }

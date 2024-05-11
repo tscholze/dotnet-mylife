@@ -1,6 +1,6 @@
 ﻿@using MyLife.Core.Models;
-@using MyLife.Core.Models.CV
 @using MyLife.Blazor.Wasm.Extensions
+@using MyLife.Core.Models.CurriculumVitae
 
 <style>
     .cv-section-title {
@@ -37,7 +37,7 @@
 
 @code {
     [Parameter]
-    public MyLife.Core.Models.CV.CurriculumVitae Data { get; set; }
+    public required MyLife.Core.Models.CurriculumVitae.Container Data { get; set; }
 
     private string GetRawTitleForEmployment(Employment employment)
     {

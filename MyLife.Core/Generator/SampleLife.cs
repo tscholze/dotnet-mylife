@@ -1,7 +1,7 @@
 ﻿using MyLife.Core.Models;
-using MyLife.Core.Models.Coding;
-using MyLife.Core.Models.CV;
+using MyLife.Core.Models.OpenSource;
 using MyLife.Core.Models.Shared;
+using MyLife.Core.Models.CurriculumVitae;
 
 namespace MyLife.Core.Generator
 {
@@ -34,9 +34,9 @@ namespace MyLife.Core.Generator
         #endregion
 
         #region Private generators
-        private static Persona GeneratePersona()
+        private static Models.Persona.Container GeneratePersona()
         {
-            return new Persona
+            return new Models.Persona.Container
             {
                 Firstname = "Tobias",
                 Lastname = "Scholze",
@@ -53,7 +53,7 @@ namespace MyLife.Core.Generator
                     "https://tscholze.github.io/content-tslifekit/files/avatar-1-min.jpeg"
                     ],
                 Languages = [
-                    "German", 
+                    "German",
                     "English"
                     ],
                 YearOfBirth = 1988,
@@ -67,7 +67,7 @@ namespace MyLife.Core.Generator
             };
         }
 
-        internal static CurriculumVitae GenerateCurriculumVitae()
+        private static Models.CurriculumVitae.Container GenerateCurriculumVitae()
         {
             var anfema = new Employment
             {
@@ -83,7 +83,7 @@ namespace MyLife.Core.Generator
                 Left = null
             };
 
-            return new CurriculumVitae
+            return new Models.CurriculumVitae.Container
             {
                 CurrentEmployment = anfema,
                 RecentEmployments = [
@@ -200,9 +200,9 @@ namespace MyLife.Core.Generator
             };
         }
 
-        internal static OpenSource GenerateOpenSource()
+        private static Models.OpenSource.Container GenerateOpenSource()
         {
-            return new OpenSource
+            return new Models.OpenSource.Container
             {
                 TagLine = "Tobias Scholze, Senior Software Engineer for Enterprise-grade mobile applications, community enthusiast",
                 Motivation = "I want to spark the joy of software engineering in everyone who is intereset in computer sciene. That's my motication to create simple but educational open source projects to provide an entry in this world of fun.",
@@ -342,57 +342,65 @@ namespace MyLife.Core.Generator
             };
         }
 
-        internal static SocialMedia[] GenerateSocialMedia()
+        private static Models.SocialMedia.Container GenerateSocialMedia()
         {
-            return [
-                new SocialMedia {
+            Models.SocialMedia.Account[] accounts = [
+                new Models.SocialMedia.Account {
                     Username = "Tobias Scholze",
                     Platform = Platform.Linkedin,
                     Url = new("https://linkedin.com/in/tobias-scholze-4301b518")
                 },
-                new SocialMedia {
+                new Models.SocialMedia.Account {
                     Username = "@tscholze",
                     Platform = Platform.GitHub,
                     Url = new("https://github.com/tscholze")
                 },
-                new SocialMedia {
+                new Models.SocialMedia.Account {
                     Username = "@tobonaut",
                     Platform = Platform.Twitter,
                     Url = new("https://twitter.com/tobonaut")
                 },
-                new SocialMedia {
+                new Models.SocialMedia.Account {
                     Username = "@tobonaut",
                     Platform = Platform.Mastodon,
                     Url = new("https://mastodon.social/@tobonaut")
                 }
             ];
+
+            return new Models.SocialMedia.Container
+            {
+                MotivationParagraphs = [
+                    "If you want to connect with me, please choose one of my public social media accounts. Feel free to follow!"
+                    ],
+                Accounts = accounts
+            };
         }
 
-        internal static ContentCreation[] GenerateContentCreation()
+        private static Models.ContentCreation.Container GenerateContentCreation()
         {
-            return [
-                new ContentCreation {
+            Models.ContentCreation.Account[] accounts = [
+                new  Models.ContentCreation.Account {
                     Name = "Tobias Scholze - The Stuttering Nerd",
                     Description = "From the life of a stuttering nerd with multiple sclerosis",
                     Platform = Platform.Youtube,
                     Language = Language.German,
                     Url = new ("https://www.youtube.com/user/TobiasScholze")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "The Stuttering Nerd",
                     Description = "Education about the topics of stuttering, multiple sclerosis and nerdiness",
                     Platform = Platform.Tiktok,
                     Language = Language.German,
                     Url = new("https://www.tiktok.com/@the_stuttering_nerd")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "@the_stuttering_nerd",
                     Description = "Things from the everyday life of a nerd who stutters with multiple sclerosis.",
                     Platform = Platform.Instagram,
                     Language = Language.German,
                     Url = new("https://www.instagram.com/the_stuttering_nerd/")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "La-La-Laber doch! Der Stotter Podcast",
                     Description = "In this podcast experiment I would like to pull myself out of my comfort zone and dare to do something that I have always shied away from. I speak - in public and even in front of people who are unfamiliar with the picture",
                     Platform = Platform.Podcast,
@@ -400,28 +408,28 @@ namespace MyLife.Core.Generator
                     Url = new("https://tscholze.github.io/podcast-la-la-laber-doch"),
 
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "Dr. Window",
                     Description = "I write articles about the fun of IT and its tinkering on one of the largest German-language Microsoft sites.",
                     Platform = Platform.News,
                     Language = Language.German,
                     Url = new("https://www.drwindows.de/news/author/tobias")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "DualScreen Tobbo",
                     Description = "My toughts on playing around with the Microsoft Surface and its SDKs and showing the joy tinkering with this new device category",
                     Platform = Platform.Medium,
                     Language = Language.English,
                     Url = new("https://dualscreentobbo.medium.com")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "DevRel Tobbo",
                     Description = "It's my kind of role play in which I pretend I'm a DevRel engineer for various software development topics.",
                     Platform = Platform.Medium,
                     Language = Language.German,
                     Url = new("https://devreltobbo.medium.com")
                 },
-                new ContentCreation {
+                new  Models.ContentCreation.Account {
                     Name = "Personal blog",
                     Description = "My blog stores articles about things I made, I expierenced and all other information I do not want to forget",
                     Platform = Platform.Blog,
@@ -429,6 +437,17 @@ namespace MyLife.Core.Generator
                     Url = new("https://tscholze.github.io/blog/")
                 }
             ];
+
+            return new Models.ContentCreation.Container
+            {
+                MotivationParagraphs = [
+                    "I want to spark the joy of software engineering in everyone who is intereset in computer sciene.",
+                    "I want to inspire people to program and to educate about stuttering and multiple sclerosis.",
+                    "I want to show that everyone can create content and that it is not difficult to start and is a joyful sparetime activity."
+                ],
+                Accounts = accounts
+            };
+
         }
 
         #endregion

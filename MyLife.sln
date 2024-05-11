@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Core", "MyLife.Core\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Blazor.Wasm", "MyLife.Blazor.Wasm\MyLife.Blazor.Wasm.csproj", "{6E1AEE47-2CF5-48EA-852B-BD44E09FD2E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLife.Maui", "MyLife.Maui\MyLife.Maui.csproj", "{FCC2F486-D964-4214-A38B-EEE301A99F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Maui", "MyLife.Maui\MyLife.Maui.csproj", "{FCC2F486-D964-4214-A38B-EEE301A99F93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

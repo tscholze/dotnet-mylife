@@ -1,4 +1,4 @@
-﻿@using MyLife.Core.Models
+﻿@using MyLife.Core.Models;
 
 <style>
     .introduction-container p {
@@ -6,14 +6,18 @@
     }
 </style>
 
-<div class="introduction-container">
-    @foreach (var paragraph in Persona.IntroductionParagraphs)
-    {
-        <p>@paragraph</p>
-    }
-</div>
+@if (Persona != null)
+{
+    <div class="introduction-container">
+        @foreach (var paragraph in Persona.IntroductionParagraphs)
+        {
+            <p>@paragraph</p>
+        }
+    </div>
+}
+
 
 @code {
     [Parameter]
-    public Persona Persona { get; set; }
+    public Core.Models.Persona.Container? Persona { get; set; } = null;
 }

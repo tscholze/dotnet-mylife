@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
 
-namespace MyLife.Core.Models
+namespace MyLife.Core.Models.Persona
 {
     /// <summary>
     /// Represents generic personal information.
     /// </summary>
-    public partial class Persona
+    public partial class Container
     {
         /// <summary>
         /// First name of the person.

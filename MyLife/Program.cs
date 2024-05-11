@@ -11,7 +11,7 @@ var life = new Life
 {
     Persona = ...,
     ContentCreation = ...,
-    CurriculumVitae = ...
+    Container = ...
 }
 */
 
