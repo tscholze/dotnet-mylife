@@ -3,61 +3,6 @@
 @using MyLife.Blazor.Wasm.Utils.Extensions
 @using MyLife.Core.Models.OpenSource
 
-<style>
-    .project-family {
-        margin-bottom: 24px;
-    }
-
-        .project-family hr {
-            margin-top: 24px;
-        }
-
-            .project-family hr:last-child {
-                visibility: hidden
-            }
-
-        .project-family p {
-            margin: 0;
-        }
-
-        .project-family h4 {
-            margin: 0;
-        }
-
-    .project-family-header {
-        display: grid;
-        grid-template-columns: 100px auto;
-        margin-bottom: 12px;
-        align-items: center;
-    }
-
-        .project-family-header img {
-            margin-right: 8px;
-        }
-
-    .project-family-projects {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-        grid-template-rows: auto;
-        column-gap: 20px;
-        row-gap: 10px;
-        margin-left: 24px;
-    }
-
-    .project-family-project {
-        border-radius: 10px;
-    }
-
-        .project-family-project:hover {
-            border: 4px solid #ccc;
-            border-radius: 10px;
-        }
-
-        .project-family-project img {
-        }
-
-</style>
-
 <div class="project-family">
     <div class="project-family-header">
         <img src="@Family.ImageUrl" alt="@Family.Name" />

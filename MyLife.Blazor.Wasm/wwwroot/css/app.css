@@ -27,6 +27,40 @@ h3:after {
     content: '~';
 }
 
+/*
+    OpenSource Project Family Component
+*/
+.project-family {
+    margin-bottom: 24px;
+}
+
+    .project-family hr {
+        margin-top: 24px;
+    }
+
+        .project-family hr:last-child {
+            visibility: hidden
+        }
+
+    .project-family p {
+        margin: 0;
+    }
+
+    .project-family h4 {
+        margin: 0;
+    }
+
+.project-family-header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+    .project-family-header img {
+        margin-right: 8px;
+    }
+
 /* 
     Thumbnail Grid Component
 */
