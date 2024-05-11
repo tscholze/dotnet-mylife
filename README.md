@@ -53,6 +53,10 @@ By having our own life as a JSON file, we can:
 
 Having our own life as a JSON file empowers us to take ownership of our personal data and gain a deeper understanding of ourselves. So why not start organizing your life in a structured and meaningful way with MyLife.NET?
 
+## Publications
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #1 – Wieso, weshalb, warum?](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-1-wieso-weshalb-warum)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #2 – Der Kern des Ganzen](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-2-der-kern-des-ganzen)
+
 ## Branch management
 1. `production` is only updated via merges from `main`. No pushes or merges other branches allowed
 2. `main` gets its update from feature branches. Direct pushes are allowed but not promoted
