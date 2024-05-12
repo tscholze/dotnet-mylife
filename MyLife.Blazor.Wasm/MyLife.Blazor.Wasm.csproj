@@ -15,4 +15,8 @@
     <ProjectReference Include="..\MyLife.Core\MyLife.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\data\" />
+  </ItemGroup>
+
 </Project>

@@ -54,8 +54,6 @@
         var data = lifeService.GetLife().ContentCreation;
         motivation = string.Join(' ', data.MotivationParagraphs);
 
-        var foo = 
-
        var mediumAccounts = data.Accounts.Where(a => a.Platform == Platform.Medium).Select(a => GetUsernameFromMediumUrl(a.Url));
        mediumFeeds = await mediumService.GetFeedsByUsernames(mediumAccounts);
 
