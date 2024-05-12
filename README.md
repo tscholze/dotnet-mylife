@@ -39,19 +39,15 @@ The project is still alpha and work in progress.
 
 In today's digital age, managing our personal information efficiently has become more important than ever. One interesting approach is to represent our life as a JSON file. This allows us to organize and store various aspects of our life in a structured format, making it easier to manage and analyze.
 
-By having our own life as a JSON file, we can:
+Having a default but defined datset structure, you can add consumer as you go. This is one part of the project. Having a place to experiment with new .NET technologies with a defined usecase to work with.
 
-1. **Centralize Information**: Instead of scattering our personal data across different platforms and applications, we can store everything in one place. This makes it convenient to access and update our information whenever needed.
+## Errors I made
+This is an educational project. Errors are made. I maybe misunderstood or misused some technologies. This is all fine because we are all learners and tinkeres. It would be a shame not to share it!
 
-2. **Customize and Extend**: With a JSON file, we have the flexibility to define our own data structure and add custom fields as per our requirements. We can include details about our personal goals, achievements, relationships, and much more.
+### Blazor WASM cannot connect to foreign servers
+Due to web-wide security policies the Blazor WASM project / website cannot connect to foreign servers besides of it self. This is no problem in reading JSON files from itself but it is an issue of you want to read for example a YouTube Channel RSS feed.
 
-3. **Track Progress**: By regularly updating our JSON file, we can track our progress over time. We can record milestones, accomplishments, and lessons learned, providing a valuable record of our personal growth and development.
-
-4. **Analyze and Visualize**: With the structured nature of JSON, we can easily analyze and visualize our data. We can use data visualization tools or write custom scripts to gain insights into our habits, patterns, and trends, helping us make informed decisions and improvements.
-
-5. **Privacy and Security**: By keeping our personal information in a local JSON file, we have more control over our data privacy and security. We can choose where to store the file and implement appropriate security measures to protect our information.
-
-Having our own life as a JSON file empowers us to take ownership of our personal data and gain a deeper understanding of ourselves. So why not start organizing your life in a structured and meaningful way with MyLife.NET?
+If you try this, You will see that the `httpClient.GetAsync()` call never finishes and the error log in the browser shows something like `CORS violation`. To fix this, all the content the site needs must be provides by its own server.
 
 ## Publications
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #1 – Wieso, weshalb, warum?](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-1-wieso-weshalb-warum)
