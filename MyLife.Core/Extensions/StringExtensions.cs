@@ -7,6 +7,8 @@ namespace MyLife.Core.Extensions
     /// </summary>
     public static partial class StringExtensions
     {
+        #region Public extensions 
+
         /// <summary>
         /// Truncates itself to a maximum length.
         /// It will cut-off at the last word that fits in
@@ -17,8 +19,6 @@ namespace MyLife.Core.Extensions
         /// <returns>Truncated value</returns>
         public static string Truncate(this string input, int maxLength = 200)
         {
-            #region Public extensions 
-
             // Return input if it is longer than maxLength.
             if (input.Length <= maxLength)
             {

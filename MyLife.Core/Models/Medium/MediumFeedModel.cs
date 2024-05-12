@@ -6,5 +6,5 @@
     /// <param name="Title">Title of the feed (account)</param>
     /// <param name="LastChanged">Date of last content change</param>
     /// <param name="Articles">Lis tof articles of the feed</param>
-    public record MediumFeedModel(string Title, DateTime LastChanged, List<MediumArticleModel> Articles);
+    public record MediumFeedModel(string Title, DateTime LastChanged, IEnumerable<MediumArticleModel> Articles);
 }

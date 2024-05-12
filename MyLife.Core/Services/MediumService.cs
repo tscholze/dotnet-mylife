@@ -19,7 +19,12 @@ namespace MyLife.Core.Services
 
         #region Public methods 
 
-        public async Task<Dictionary<string, MediumFeedModel>> GetFeeds(string[] usernames)
+        /// <summary>
+        /// Gets feeds by usernames.
+        /// </summary>
+        /// <param name="usernames"></param>
+        /// <returns></returns>
+        public async Task<Dictionary<string, MediumFeedModel>> GetFeedsByUsernames(IEnumerable<string> usernames)
         {
             // If feeds are already cached, return them.
             if (cachedFeeds.Count != 0)
@@ -36,7 +41,7 @@ namespace MyLife.Core.Services
 
         #region Private methods
 
-        private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(string[] usernames)
+        private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
         {
             // Helper property for fetched feeds
             Dictionary<string, MediumFeedModel> fetchedFeeds = [];
@@ -57,7 +62,8 @@ namespace MyLife.Core.Services
 
         private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
         {
-            using var response = await client.GetAsync($"https://{username}.medium.com/feed");
+            var feedUrl = $"https://{username}.medium.com/feed";
+            using var response = await client.GetAsync(feedUrl);
 
             if (!response.IsSuccessStatusCode)
             {
