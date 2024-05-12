@@ -37,7 +37,7 @@ if (Console.ReadLine() == "y")
     Console.Write("> ");
     if (Console.Read() == 'y')
     {
-        string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "life.json";
+        string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar + "life.json";
         File.WriteAllText(path, Exporter.ExportLife(life));
         Console.WriteLine($"\nCreate file at: {path}");
     }
