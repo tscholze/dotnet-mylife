@@ -17,32 +17,42 @@ var life = new Life
 
 // ... or use a sample
 var life = SampleGenerators.GenerateLife();
+var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar;
+var lifeFilename = "life.json";
+var ccPublicationsFilename = "cc-publications.json";
 
 // --
 // -- Please do not change the code below
 // --
 
 Console.WriteLine($"""
-#############
-# life.json #
-#############
+#################
+#    Life.NET   #
+# - Generator - #
+#################
 
-Create json for life of '{life.Persona.GetFullname()}'? y/n
-""".Trim());
+The following files will be generated for '{life.Persona.GetFullname()}'
+at location: '{desktopPath}':
+
+""");
+
+// 1. Ask the user if he wants to create a life file
+Console.WriteLine($"Create '{lifeFilename}'? y/n");
 Console.Write("> ");
-
 if (Console.ReadLine() == "y")
 {
-    Console.WriteLine("\n\nSave life.json to Desktop? (y/n) ");
-    Console.Write("> ");
-    if (Console.Read() == 'y')
-    {
-        string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar + "life.json";
-        File.WriteAllText(path, Exporter.ExportLife(life));
-        Console.WriteLine($"\nCreate file at: {path}");
-    }
+    string path = desktopPath + lifeFilename;
+    File.WriteAllText(path, Exporter.ExportLife(life));
 }
-else
+
+// 2. Ask the user if he wants to create a publications file
+Console.WriteLine($"\nCreate '{ccPublicationsFilename}'? y/n");
+Console.Write("> ");
+if (Console.ReadLine() == "y")
 {
-    Console.WriteLine("\nAborted. Exit\n\n");
+    string path = desktopPath + ccPublicationsFilename;
+    File.WriteAllText(path, await Exporter.ExportPublicationsAsync(life.ContentCreation));
 }
+
+// 3. Print finished message
+Console.WriteLine("\n\nFinished\n\n");
