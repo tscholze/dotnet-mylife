@@ -26,8 +26,9 @@ public static class Exporter
     /// Export the latest publications of content feedable content creation accounts.
     /// </summary>
     /// <param name="contentCreation">Container of accounts that shall be used.</param>
+    /// <param name="verbose">If true, Console.Write will be used to inform the user what happens.</param>
     /// <returns>Resulting JSON string</returns>
-    public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation)
+    public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation, bool verbose = true)
     {
         var mediumService = new MediumService();
         var accountPublications = new List<AccountPuplications>();
@@ -47,7 +48,7 @@ public static class Exporter
                     break;
 
                 default:
-                    Console.WriteLine($"Platform feed loadingnot supported, the following account will be ignored: '{account.Handle}' on '{account.Platform}'");
+                    //   Console.WriteLine($"Platform feed loadingnot supported, the following account will be ignored: '{account.Handle}' on '{account.Platform}'");
                     break;
             }
 
@@ -57,7 +58,19 @@ public static class Exporter
                 Publications = publications
             };
 
+
+
             accountPublications.Add(accountPuplications);
+        }
+
+        if (verbose)
+        {
+            var publicationCount = accountPublications.SelectMany(a => a.Publications).Count();
+
+            Console.WriteLine($"""
+
+            Exported '{accountPublications.Count}' supported accounts with in total {publicationCount} publications.
+            """.Trim());
         }
 
         return JsonConvert.SerializeObject(accountPublications);
