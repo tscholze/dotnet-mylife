@@ -381,6 +381,7 @@ namespace MyLife.Core.Generator
             Models.ContentCreation.Account[] accounts = [
                 new  Models.ContentCreation.Account {
                     Name = "Tobias Scholze - The Stuttering Nerd",
+                    Handle = "UCNNnNmeTLWntdBofrdWbsyQ",
                     Description = "From the life of a stuttering nerd with multiple sclerosis",
                     Platform = Platform.Youtube,
                     Language = Language.German,
@@ -388,13 +389,15 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "The Stuttering Nerd",
+                    Handle = "the_stuttering_nerd",
                     Description = "Education about the topics of stuttering, multiple sclerosis and nerdiness",
                     Platform = Platform.Tiktok,
                     Language = Language.German,
                     Url = new("https://www.tiktok.com/@the_stuttering_nerd")
                 },
                 new  Models.ContentCreation.Account {
-                    Name = "@the_stuttering_nerd",
+                    Name = "The Stuttering Nerd",
+                    Handle = "the_stuttering_nerd",
                     Description = "Things from the everyday life of a nerd who stutters with multiple sclerosis.",
                     Platform = Platform.Instagram,
                     Language = Language.German,
@@ -402,6 +405,7 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "La-La-Laber doch! Der Stotter Podcast",
+                    Handle = "LLD",
                     Description = "In this podcast experiment I would like to pull myself out of my comfort zone and dare to do something that I have always shied away from. I speak - in public and even in front of people who are unfamiliar with the picture",
                     Platform = Platform.Podcast,
                     Language = Language.German,
@@ -410,6 +414,7 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "Dr. Window",
+                    Handle = "tobias",
                     Description = "I write articles about the fun of IT and its tinkering on one of the largest German-language Microsoft sites.",
                     Platform = Platform.News,
                     Language = Language.German,
@@ -417,6 +422,7 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "DualScreen Tobbo",
+                    Handle = "dualscreentobbo",
                     Description = "My toughts on playing around with the Microsoft Surface and its SDKs and showing the joy tinkering with this new device category",
                     Platform = Platform.Medium,
                     Language = Language.English,
@@ -424,6 +430,7 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "DevRel Tobbo",
+                    Handle = "devreltobbo",
                     Description = "It's my kind of role play in which I pretend I'm a DevRel engineer for various software development topics.",
                     Platform = Platform.Medium,
                     Language = Language.German,
@@ -431,6 +438,7 @@ namespace MyLife.Core.Generator
                 },
                 new  Models.ContentCreation.Account {
                     Name = "Personal blog",
+                    Handle = "tscholze",
                     Description = "My blog stores articles about things I made, I expierenced and all other information I do not want to forget",
                     Platform = Platform.Blog,
                     Language = Language.EnglishAndGerman,

@@ -15,6 +15,12 @@ namespace MyLife.Core.Models.ContentCreation
         public required string Name { get; set; }
 
         /// <summary>
+        /// Handle of the content creation account.
+        /// Example: YouTube Channel ID, Twitter handle without @, etc.
+        /// </summary>
+        public required string Handle { get; set; }
+
+        /// <summary>
         /// The platform of the content creation account.
         /// </summary>
         [JsonProperty("platform")]

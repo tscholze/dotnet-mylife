@@ -1,5 +1,6 @@
 ﻿using CodeHollow.FeedReader;
 using MyLife.Core.Extensions;
+using MyLife.Core.Models.ContentCreation;
 using MyLife.Core.Models.Medium;
 
 namespace MyLife.Core.Services
@@ -23,7 +24,7 @@ namespace MyLife.Core.Services
         /// Gets feeds by usernames.
         /// </summary>
         /// <param name="usernames"></param>
-        /// <returns></returns>
+        /// <returns>Dictionary if handle to feed.</returns>
         public async Task<Dictionary<string, MediumFeedModel>> GetFeedsByUsernames(IEnumerable<string> usernames)
         {
             // If feeds are already cached, return them.
@@ -35,6 +36,44 @@ namespace MyLife.Core.Services
             // Else read, cache and return feeds.
             cachedFeeds = await ReadFeedsAsync(usernames);
             return cachedFeeds;
+        }
+
+        /// <summary>
+        /// Reads a feed from a Medium handle (username).
+        /// </summary>
+        /// <param name="handle">Medium account handle</param>
+        /// <returns>Found Medium feed or null</returns>
+        public async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
+        {
+            var feedUrl = $"https://{handle}.medium.com/feed";
+            using var response = await client.GetAsync(feedUrl);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                return null;
+            }
+
+            var content = (await response.Content.ReadAsStringAsync()).Trim();
+            var feed = FeedReader.ReadFromString(content);
+            return Convert(feed);
+        }
+
+        /// <summary>
+        /// Loads publications from a Medium handle.
+        /// </summary>
+        /// <param name="handle">Medium account handle</param>
+        /// <returns>List of found Medium articles or empty list.</returns>
+        public async Task<List<Publication>> LoadPublicationsAsync(string handle)
+        {
+            var feed = await ReadFeedFromHandleAsync(handle);
+            return feed?.Articles.Select(article => new Publication
+            {
+                Title = article.Title,
+                Description = article.Abstract,
+                Url = article.ArticleUri.ToString(),
+                ImageUrl = article.CoverImageUri.ToString()
+            }).ToList() ?? [];
         }
 
         #endregion
