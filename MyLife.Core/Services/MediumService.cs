@@ -9,11 +9,10 @@ namespace MyLife.Core.Services
     /// Represents a medium service to load feeds with
     /// articles.
     /// </summary>
-    public class MediumService()
+    public class MediumService(HttpClient httpClient)
     {
         #region Private members 
 
-        private readonly HttpClient client = new();
         private Dictionary<string, MediumFeedModel> cachedFeeds = [];
 
         #endregion
@@ -46,7 +45,7 @@ namespace MyLife.Core.Services
         public async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
         {
             var feedUrl = $"https://{handle}.medium.com/feed";
-            using var response = await client.GetAsync(feedUrl);
+            using var response = await httpClient.GetAsync(feedUrl);
 
             if (!response.IsSuccessStatusCode)
             {
@@ -102,7 +101,7 @@ namespace MyLife.Core.Services
         private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
         {
             var feedUrl = $"https://{username}.medium.com/feed";
-            using var response = await client.GetAsync(feedUrl);
+            using var response = await httpClient.GetAsync(feedUrl);
 
             if (!response.IsSuccessStatusCode)
             {

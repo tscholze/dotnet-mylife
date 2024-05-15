@@ -30,7 +30,7 @@ public static class Exporter
     /// <returns>Resulting JSON string</returns>
     public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation, bool verbose = true)
     {
-        var mediumService = new MediumService();
+        var mediumService = new MediumService(new HttpClient());
         var accountPublications = new List<AccountPuplications>();
 
         foreach (var account in contentCreation.Accounts)

@@ -1,5 +1,4 @@
-﻿using CodeHollow.FeedReader.Feeds.MediaRSS;
-using MyLife.Core.Models.ContentCreation;
+﻿using MyLife.Core.Models.ContentCreation;
 using System.Xml.Serialization;
 
 namespace MyLife.Core.Services
