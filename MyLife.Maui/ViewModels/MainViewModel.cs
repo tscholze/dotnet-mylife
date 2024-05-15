@@ -16,9 +16,11 @@ namespace MyLife.Maui.ViewModels
         private string introduction;
 
         [RelayCommand]
-        private void FetchData()
+        private async Task FetchData()
         {
-            var life = lifeService.GetLife();
+            var life = await lifeService.GetLife();
+            if (life is null) return;
+
             Firstname = "Hi, I'm " + life.Persona.Firstname;
             AvatarImageUri = new(life.Persona.AvatarImageUrls[0]);
             Introduction = string.Join("\n", life.Persona.IntroductionParagraphs);
