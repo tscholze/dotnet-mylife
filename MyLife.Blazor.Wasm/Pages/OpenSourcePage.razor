@@ -30,11 +30,10 @@
 
     #region Init
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Data = lifeService.GetLife().OpenSource;
-
-        base.OnInitialized();
+        var life = await lifeService.GetLife();
+        Data = life?.OpenSource;
     }
 
     #endregion

@@ -18,11 +18,9 @@
 
     #region Init
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        life = lifeService.GetLife();
-
-        base.OnInitialized();
+        life = await lifeService.GetLife();
     }
 
     #endregion

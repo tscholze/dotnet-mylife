@@ -32,9 +32,10 @@
             </div>
         }
     }
-   else {
-       <p>Currently not available.</p>
-   }
+    else
+    {
+        <p>Currently not available.</p>
+    }
 </div>
 
 
@@ -48,18 +49,20 @@
 
     #region Init
 
-
     protected override async Task OnInitializedAsync()
     {
-        var data = lifeService.GetLife().ContentCreation;
+        var life = await lifeService.GetLife();
+        if (life is null) return;
+        var data = life.ContentCreation;
+
         motivation = string.Join(' ', data.MotivationParagraphs);
 
-       var mediumAccounts = data.Accounts.Where(a => a.Platform == Platform.Medium).Select(a => GetUsernameFromMediumUrl(a.Url));
-       mediumFeeds = await mediumService.GetFeedsByUsernames(mediumAccounts);
+        var mediumAccounts = data.Accounts.Where(a => a.Platform == Platform.Medium).Select(a => GetUsernameFromMediumUrl(a.Url));
+        mediumFeeds = await mediumService.GetFeedsByUsernames(mediumAccounts);
 
         await base.OnInitializedAsync();
     }
-    
+
     private string GetUsernameFromMediumUrl(Uri url)
     {
         return url.Host.ToString().Split('.').First();
