@@ -48,7 +48,7 @@ public static class Exporter
                     break;
 
                 default:
-                    //   Console.WriteLine($"Platform feed loadingnot supported, the following account will be ignored: '{account.Handle}' on '{account.Platform}'");
+                    Console.WriteLine($"Platform feed loading not supported, the following account will be ignored: '{account.Handle}' on '{account.Platform}'");
                     break;
             }
 
