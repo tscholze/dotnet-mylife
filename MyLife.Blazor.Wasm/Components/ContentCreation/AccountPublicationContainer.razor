@@ -1,0 +1,18 @@
+﻿@using MyLife.Blazor.Wasm.Components.Shared
+@using MyLife.Blazor.Wasm.Utils.Extensions
+@using MyLife.Core.Models.ContentCreation
+
+<div class="account-publication-container">
+    <h3>@Item.Account.Name <small>on @Item.Account.Platform</small></h3>
+    <p>@Item.Account.Description</p>
+    <ThumbnailGrid Items="@Item.Publications.ToThumbnails()" />
+    <p>Visit <a target="_blank" href="@Item.Account.Url" title="@Item.Account.Handle" alt="@Item.Account.Handle">@Item.Account.Name on @Item.Account.Platform</a> for more content.</p>
+</div>
+
+@code {
+    /// <summary>
+    /// Account publication item that shall be rendered.
+    /// </summary>
+    [Parameter]
+    public required AccountPuplications Item { get; set; }
+}

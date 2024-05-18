@@ -1,16 +1,18 @@
 ﻿@page "/contentcreation"
+@using MyLife.Blazor.Wasm.Components.ContentCreation
 @using MyLife.Blazor.Wasm.Components.OpenSource
 @using MyLife.Blazor.Wasm.Components.Shared
 @using MyLife.Blazor.Wasm.Utils.Extensions
 @using MyLife.Core
 @using MyLife.Core.Models
+@using MyLife.Core.Models.ContentCreation
 @using MyLife.Core.Models.Medium
 @using MyLife.Core.Models.Shared
 @using MyLife.Core.Services
 @using static MyLife.Blazor.Wasm.Components.Shared.ThumbnailGrid
+@using static MyLife.Core.Models.ContentCreation.AccountPuplications
 @using MyLife.Blazor.Wasm.Extensions
 @inject LifeService lifeService
-@inject MediumService mediumService
 
 <div class="contentcreation">
     <h2>Content creation</h2>
@@ -18,23 +20,26 @@
     <h3>My motivation</h3>
     <p>@motivation</p>
 
-    <h3>Youtube</h3>
-
-    <h3>Medium feeds</h3>
-    @if (mediumFeeds != null)
-    {
-        @foreach (var feed in mediumFeeds)
+    <h3>Some accounts in short</h3>
+    <ul>
+        @foreach (var item in otherFeeds)
         {
-            <div class="medium-account">
-                <h4>@feed.Value.Title</h4>
-                <ThumbnailGrid Items="@feed.Value.Articles.ToThumbnails()" />
-                <hr />
-            </div>
+            <li>
+                <div class="contentcreation-otherfeeds-container">
+                    <p><strong>@item.Account.Name</strong> on @item.Account.Platform <small>| <a target="_blank" href="@item.Account.Url" title="@item.Account.Handle" alt="@item.Account.Handle">Click</a></small><br />@item.Account.Description</p>
+                </div>
+            </li>
         }
-    }
-    else
+    </ul>
+
+    @foreach (var item in youtubeFeeds)
     {
-        <p>Currently not available.</p>
+        <AccountPublicationContainer Item="@item" />
+    }
+
+    @foreach (var item in mediumFeeds)
+    {
+        <AccountPublicationContainer Item="@item" />
     }
 </div>
 
@@ -43,7 +48,9 @@
     #region Private member
 
     private string motivation = string.Empty;
-    private Dictionary<string, MediumFeedModel>? mediumFeeds;
+    private List<AccountPuplications> mediumFeeds = new();
+    private List<AccountPuplications> youtubeFeeds = new();
+    private List<AccountPuplications> otherFeeds = new();
 
     #endregion
 
@@ -52,15 +59,13 @@
     protected override async Task OnInitializedAsync()
     {
         var life = await lifeService.GetLife();
-        if (life is null) return;
-        var data = life.ContentCreation;
+        var accountPublications = await lifeService.GetContentPublications();
+        if (life is null || accountPublications == null || accountPublications?.Count == 0) return;
 
-        motivation = string.Join(' ', data.MotivationParagraphs);
-
-        var mediumAccounts = data.Accounts.Where(a => a.Platform == Platform.Medium).Select(a => GetUsernameFromMediumUrl(a.Url));
-        mediumFeeds = await mediumService.GetFeedsByUsernames(mediumAccounts);
-
-        await base.OnInitializedAsync();
+        motivation = string.Join(' ', life.ContentCreation.MotivationParagraphs);
+        mediumFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Medium).ToList() ?? [];
+        youtubeFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Youtube).ToList() ?? [];
+        otherFeeds = accountPublications?.Except(youtubeFeeds).Except(mediumFeeds).ToList() ?? [];
     }
 
     private string GetUsernameFromMediumUrl(Uri url)

@@ -60,10 +60,20 @@ namespace MyLife.Blazor.Wasm.Utils.Extensions
         /// Converts a list of Medium articles to a thumbnails.
         /// </summary>
         /// <param name="articles">Articles to convert</param>
-        /// <returns>Thumbnail item</returns>
+        /// <returns>Thumbnail items</returns>
         public static IEnumerable<ThumbnailGrid.GridItem> ToThumbnails(this IEnumerable<Core.Models.Medium.MediumArticleModel> articles)
         {
             return articles.Select(article => article.ToThumbnail());    
+        }
+
+        /// <summary>
+        /// Converts a list of open source projects to a thumbnails.
+        /// </summary>
+        /// <param name="publications">List of publications</param>
+        /// <returns>Thumbnail items</returns>
+        public static IEnumerable<ThumbnailGrid.GridItem> ToThumbnails(this IEnumerable<Core.Models.ContentCreation.Publication> publications)
+        {
+            return publications.Select(publication => publication.ToThumbnail());
         }
     }
 }
