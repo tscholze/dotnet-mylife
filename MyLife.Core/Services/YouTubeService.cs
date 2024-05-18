@@ -5,6 +5,8 @@ namespace MyLife.Core.Services
 {
     /// <summary>
     /// A service to load publications from a YouTube channel.
+    /// 
+    /// Do not use it in a WASM-based context.
     /// </summary>
     public class YouTubeService
     {

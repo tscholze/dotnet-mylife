@@ -8,6 +8,8 @@ namespace MyLife.Core.Services
     /// <summary>
     /// Represents a medium service to load feeds with
     /// articles.
+    /// 
+    /// Do not use it in a WASM-based context.
     /// </summary>
     public class MediumService(HttpClient httpClient)
     {
