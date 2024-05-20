@@ -53,6 +53,7 @@ If you try this, You will see that the `httpClient.GetAsync()` call never finish
 ## Publications
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #1 – Wieso, weshalb, warum?](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-1-wieso-weshalb-warum)
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #2 – Der Kern des Ganzen](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-2-der-kern-des-ganzen)
+- [Dr. Windows: Entwicklertagebucg: MyLife.NET #3 - Was'n Blazor WASM?](https://www.drwindows.de/news/entwicklertagebuch-mylife-3-wasn-blazor-wasm) 
 
 ## Branch management
 1. `production` is only updated via merges from `main`. No pushes or merges other branches allowed
