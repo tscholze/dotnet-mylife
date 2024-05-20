@@ -2,6 +2,8 @@
 using MyLife.Core.Extensions;
 using MyLife.Core.Generator;
 
+#region User-changeable code
+
 // --
 // -- Change code
 // --
@@ -17,13 +19,23 @@ var life = new Life
 
 // ... or use a sample
 var life = SampleGenerators.GenerateLife();
-var desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + Path.DirectorySeparatorChar;
-var lifeFilename = "life.json";
-var ccPublicationsFilename = "cc-publications.json";
 
 // --
 // -- Please do not change the code below
 // --
+
+#endregion
+
+#region Constants
+
+const string lifeFilename = "life.json";
+const string ccPublicationsFilename = "cc-publications.json";
+var absoluteDesktopPath = string.Join(Path.DirectorySeparatorChar, [Environment.GetFolderPath(Environment.SpecialFolder.Desktop)]);
+var relativeWwwRootPath = string.Join(Path.DirectorySeparatorChar, ["..", "..", "..", "..", Constants.MyLifeBlazorWasmLocalPath, "wwwroot", "data"]);
+
+#endregion
+
+#region CLI
 
 Console.WriteLine($"""
 #################
@@ -32,7 +44,7 @@ Console.WriteLine($"""
 #################
 
 The following files will be generated for '{life.Persona.GetFullname()}'
-at location: '{desktopPath}':
+at location: '{absoluteDesktopPath}' and / or in `wwwroot` folders:
 
 """);
 
@@ -41,8 +53,19 @@ Console.WriteLine($"Create '{lifeFilename}'? y/n");
 Console.Write("> ");
 if (Console.ReadLine() == "y")
 {
-    string path = desktopPath + lifeFilename;
-    File.WriteAllText(path, Exporter.ExportLife(life));
+    // 1.1. Export life to json
+    var json = Exporter.ExportLife(life);
+    var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, lifeFilename]);
+    File.WriteAllText(path, json);
+
+    // 1.2. Ask the user if he wants to update wwwroot files
+    Console.WriteLine($"\nUpdate 'wwwroot' file?");
+    Console.Write("> ");
+    if (Console.ReadLine() == "y")
+    {
+        var wwwPath = string.Join(Path.DirectorySeparatorChar, [relativeWwwRootPath, lifeFilename]);
+        File.WriteAllText(wwwPath, json);
+    }
 }
 
 // 2. Ask the user if he wants to create a publications file
@@ -50,9 +73,22 @@ Console.WriteLine($"\nCreate '{ccPublicationsFilename}'? y/n");
 Console.Write("> ");
 if (Console.ReadLine() == "y")
 {
-    string path = desktopPath + ccPublicationsFilename;
-    File.WriteAllText(path, await Exporter.ExportPublicationsAsync(life.ContentCreation));
+    // 2.1. Export content creation publications to json
+    var json = await Exporter.ExportPublicationsAsync(life.ContentCreation);
+    var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, ccPublicationsFilename]);
+    File.WriteAllText(path, json);
+
+    // 2.2. Ask the user if he wants to update wwwroot files
+    Console.WriteLine($"\nUpdate 'wwwroot' file?");
+    Console.Write("> ");
+    if (Console.ReadLine() == "y")
+    {
+        var wwwPath = string.Join(Path.DirectorySeparatorChar, [relativeWwwRootPath, ccPublicationsFilename]);
+        File.WriteAllText(wwwPath, json);
+    }
 }
 
 // 3. Print finished message
 Console.WriteLine("\n\nFinished\n\n");
+
+#endregion
