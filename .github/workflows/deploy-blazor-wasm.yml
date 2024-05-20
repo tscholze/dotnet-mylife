@@ -27,7 +27,7 @@ jobs:
       if: success()
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
-        html_path: ${{ env.PUBLISH_DIR }}/index.html
+        html_path: /home/runner/work/dotnet-mylife/dotnet-mylife/MyLife.Blazor.Wasm/bin/Release/net8.0/publish/wwwroot/index.html
         base_href: BASE_URL or REPOSITORY_NAME
         
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
