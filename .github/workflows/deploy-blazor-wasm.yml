@@ -1,46 +1,37 @@
-name: Deploy Blazor WASM to GitHub Page
-env:
-  PUBLISH_DIR: bin/Release/net8.0/publish/wwwroot
+name: Build and deploy Blazor WASM app to github pages
 
-# Controls when the action will run
 on:
   push:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./MyLife.Blazor.Wasm
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Setup dotnet
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.204'
-
-    - name: Publish application
-      run: dotnet publish -c Release
+    branches: ['main']
     
-    # base href url value should be changed so that resources like CSS and scripts can load properly. 
-    - name: Rewrite base href
-      if: success()
-      uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
-      with:
-        html_path: ${{ env.PUBLISH_DIR }}/index.html
-        base_href: BASE_URL or REPOSITORY_NAME
-        
-    # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
-    - name: Add .nojekyll file
-      run: touch ${{ env.PUBLISH_DIR }}/.nojekyll
+env:
+  PUBLISH_DIR: output 
+  WEBAPP_PATH: ./MyLife.Blazor.Wasm/
+  WEBAPP_CSPROJ: MyLife.Blazor.Wasm.csproj
+  
+jobs:
+  deploy-to-github-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+    - uses: actions/checkout@v3 
 
-    - name: Commit to GitHub pages Repo
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v1.5.1
+    - name: Change <base href="" /> in App.razor to match gh repo name
+      run: |
+        REPO_NAME=$(echo "${{ github.repository }}" | awk -F '/' '{print $NF}')
+        sed -i 's/<base href="\/" \/>/<base href="\/'$REPO_NAME'\/" \/>/g' ${{ env.WEBAPP_PATH }}wwwroot/index.html
+   
+    - name: Publish .NET app
+      run: dotnet publish  ${{ env.WEBAPP_PATH }}${{env.WEBAPP_CSPROJ}}  --configuration Release -o ${{ env.WEBAPP_PATH }}${{env.PUBLISH_DIR}}
+    
+    - name: copy index.html to 404.html AND add .nojekyll file (https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
+      run: |
+          cp ${{ env.WEBAPP_PATH }}${{env.PUBLISH_DIR}}/wwwroot/index.html ${{ env.WEBAPP_PATH }}${{env.PUBLISH_DIR}}/wwwroot/404.html  
+          touch ${{ env.WEBAPP_PATH }}${{env.PUBLISH_DIR}}/wwwroot/.nojekyll
+
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        target_branch: gh-pages
-        build_dir: ${{ env.PUBLISH_DIR }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        folder: ${{ env.WEBAPP_PATH }}${{env.PUBLISH_DIR}}/wwwroot
