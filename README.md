@@ -1,14 +1,15 @@
 ![MyLife.NET Social Media image](__docs/socialmedia.png)
 
 # MyLife.NET
-> Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provi´de an overview of your digital life.
+> Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provi´de an overview of your digital life. The deployed `Blazor.Wasm` can be found that the [related GitHub Page of this repository](https://tscholze.github.io/dotnet-mylife/).
 
 ## Build status
 | Project | Action |
 |---------|--------|
 |`MyLife` |[![.NET](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-mylife.yml/badge.svg)](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-mylife.yml)|
 |`MyLife.Core`|[![.NET](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-life-core.yml/badge.svg)](https://github.com/tscholze/dotnet-mylife/actions/workflows/dotnet-life-core.yml)|
-|`MyLife.Blazor.Wasm`|-|
+|`MyLife.Blazor.Wasm`|[![Build and deploy Blazor WASM app to github pages](https://github.com/tscholze/dotnet-mylife/actions/workflows/deploy-blazor-wasm.yml/badge.svg)](https://github.com/tscholze/dotnet-mylife/actions/workflows/deploy-blazor-wasm.yml)|
+
 ## Solution Structure
 The solution contains a variaty of projects that are all based on the core context of the app. Creating, exporting and using your life to a vast amount of output possibilities.
 
