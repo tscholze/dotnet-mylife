@@ -1,33 +1,27 @@
 name: Deploy Blazor WASM to GitHub Page
 env:
-  PUBLISH_DIR: bin/Release/net8.0/publish/wwwroot
+  PUBLISH_DIR: bin/Release/net5.0/publish/wwwroot
 
 # Controls when the action will run
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./MyLife.Blazor.Wasm
-        
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: dotnet workload install wasm-tools
-      
     - name: Publish application
       run: dotnet publish -c Release
     
+    # base href url value should be changed so that resources like CSS and scripts can load properly. 
     - name: Rewrite base href
       if: success()
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
-        html_path: /home/runner/work/dotnet-mylife/dotnet-mylife/MyLife.Blazor.Wasm/bin/Release/net8.0/publish/wwwroot/index.html
+        html_path: ${{ env.PUBLISH_DIR }}/index.html
         base_href: BASE_URL or REPOSITORY_NAME
         
     # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
