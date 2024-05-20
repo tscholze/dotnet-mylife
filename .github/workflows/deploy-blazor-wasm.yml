@@ -1,6 +1,6 @@
 name: Deploy Blazor WASM to GitHub Page
 env:
-  PUBLISH_DIR: bin/Release/net5.0/publish/wwwroot
+  PUBLISH_DIR: bin/Release/net8.0/publish/wwwroot
 
 # Controls when the action will run
 on:
@@ -10,8 +10,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./MyLife.MyLife.Blazor.Wasm
     steps:
     - uses: actions/checkout@v2
+
+    - name: Setup dotnet
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.204'
 
     - name: Publish application
       run: dotnet publish -c Release
