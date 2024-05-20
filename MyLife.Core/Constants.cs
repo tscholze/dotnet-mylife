@@ -6,6 +6,11 @@
     public class Constants
     {
         /// <summary>
+        /// Internal path to the Blazor Wasm project.
+        /// </summary>
+        public const string MyLifeBlazorWasmLocalPath = "MyLife.Blazor.Wasm/";
+
+        /// <summary>
         /// URL path to the life information JSON file.
         /// Default: "data/life.json"
         /// </summary>
