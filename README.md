@@ -36,6 +36,19 @@ The project is still alpha and work in progress.
 
 ![MyLife.Blazor.Wasm website](__docs/mylife-blazor-wasm-overview.png)
 
+## Deployments
+
+### MyLife
+The CLI tool to create the JSON files are runable through Visual Studio or in the Terminal using:
+```shell
+cd path-to-repo
+cd MyLife
+dotnet run
+```
+
+### MyLife.Blazor.Wasm
+As feature of being a static website, the current demo version of this repository is hosted on GitHub Pages at [https://tscholze.github.io/dotnet-mylife/](tscholze.github.io/dotnet-mylife/) or as an Azure Static Web App using the Free Tier [somewhere in the cloud](https://proud-cliff-0b9376b03.5.azurestaticapps.net/).
+
 ## Motivation
 
 In today's digital age, managing our personal information efficiently has become more important than ever. One interesting approach is to represent our life as a JSON file. This allows us to organize and store various aspects of our life in a structured format, making it easier to manage and analyze.
