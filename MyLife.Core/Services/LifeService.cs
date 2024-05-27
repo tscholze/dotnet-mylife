@@ -66,7 +66,7 @@ namespace MyLife.Core.Services
                 return SampleGenerators.GenerateLife();
             }
 
-            var json = await httpClient.GetStringAsync(Constants.LifeJsonPath);
+            var json = await httpClient.GetStringAsync(Constants.LifeJsonApiPath);
             return JsonConvert.DeserializeObject<Life>(json);
         }
 
@@ -77,7 +77,7 @@ namespace MyLife.Core.Services
                 return [];
             }
 
-            var json = await httpClient.GetStringAsync(Constants.ContentCreationPublicationsPath);
+            var json = await httpClient.GetStringAsync(Constants.ContentCreationPublicationsApiPath);
             return JsonConvert.DeserializeObject<List<AccountPuplications>>(json);
         }
 
