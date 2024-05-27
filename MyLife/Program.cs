@@ -26,69 +26,106 @@ var life = SampleGenerators.GenerateLife();
 
 #endregion
 
-#region Constants
-
-const string lifeFilename = "life.json";
-const string ccPublicationsFilename = "cc-publications.json";
-var absoluteDesktopPath = string.Join(Path.DirectorySeparatorChar, [Environment.GetFolderPath(Environment.SpecialFolder.Desktop)]);
-var relativeWwwRootPath = string.Join(Path.DirectorySeparatorChar, ["..", "..", "..", "..", Constants.MyLifeBlazorWasmLocalPath, "wwwroot", "data"]);
-
-#endregion
+// Check if the user or a CI/CD pipeline wants to run in silent mode
+await (args.Contains("silent") ? PerformSilentAsync() : PerformInteractive());
 
 #region CLI
 
-Console.WriteLine($"""
-#################
-#    Life.NET   #
-# - Generator - #
-#################
-
-The following files will be generated for '{life.Persona.GetFullname()}'
-at location: '{absoluteDesktopPath}' and / or in `wwwroot` folders:
-
-""");
-
-// 1. Ask the user if he wants to create a life file
-Console.WriteLine($"Create '{lifeFilename}'? y/n");
-Console.Write("> ");
-if (Console.ReadLine() == "y")
+/// <summary>
+/// Performs export actions interactively.
+/// </summary>
+async Task PerformInteractive()
 {
-    // 1.1. Export life to json
-    var json = Exporter.ExportLife(life);
-    var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, lifeFilename]);
-    File.WriteAllText(path, json);
+    // 1. Define paths
+    var absoluteDesktopPath = string.Join(Path.DirectorySeparatorChar, [Environment.GetFolderPath(Environment.SpecialFolder.Desktop)]);
 
-    // 1.2. Ask the user if he wants to update wwwroot files
-    Console.WriteLine($"\nUpdate 'wwwroot' file?");
+    // 2. Print welcome message
+    Console.WriteLine($"""
+        #################
+        #    Life.NET   #
+        # - Generator - #
+        #################
+
+        The following files will be generated for '{life.Persona.GetFullname()}'
+        at location: '{absoluteDesktopPath}' and / or in `wwwroot` folders:
+
+        """.Trim()
+     );
+
+    // 3. Ask the user if he wants to create a life file
+    Console.WriteLine($"Create '{Constants.LifeJsonFilename}'? y/n");
     Console.Write("> ");
     if (Console.ReadLine() == "y")
     {
-        var wwwPath = string.Join(Path.DirectorySeparatorChar, [relativeWwwRootPath, lifeFilename]);
-        File.WriteAllText(wwwPath, json);
+        // 3.1. Export life to json
+        var json = Exporter.ExportLife(life);
+        var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, Constants.LifeJsonFilename]);
+        File.WriteAllText(path, json);
+
+        // 3.2. Ask the user if he wants to update wwwroot files
+        Console.WriteLine($"\nUpdate 'wwwroot' file?");
+        Console.Write("> ");
+        if (Console.ReadLine() == "y")
+        {
+            File.WriteAllText(GetReleativeWwwDataPath(Constants.LifeJsonFilename), json);
+        }
     }
-}
 
-// 2. Ask the user if he wants to create a publications file
-Console.WriteLine($"\nCreate '{ccPublicationsFilename}'? y/n");
-Console.Write("> ");
-if (Console.ReadLine() == "y")
-{
-    // 2.1. Export content creation publications to json
-    var json = await Exporter.ExportPublicationsAsync(life.ContentCreation);
-    var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, ccPublicationsFilename]);
-    File.WriteAllText(path, json);
-
-    // 2.2. Ask the user if he wants to update wwwroot files
-    Console.WriteLine($"\nUpdate 'wwwroot' file?");
+    // 4. Ask the user if he wants to create a publications file
+    Console.WriteLine($"\nCreate '{Constants.ContentCreationPublicationsFilename}'? y/n");
     Console.Write("> ");
     if (Console.ReadLine() == "y")
     {
-        var wwwPath = string.Join(Path.DirectorySeparatorChar, [relativeWwwRootPath, ccPublicationsFilename]);
-        File.WriteAllText(wwwPath, json);
+        // 4.1. Export content creation publications to json
+        var json = await Exporter.ExportPublicationsAsync(life.ContentCreation);
+        var path = string.Join(Path.DirectorySeparatorChar, [absoluteDesktopPath, Constants.ContentCreationPublicationsFilename]);
+        File.WriteAllText(path, json);
+
+        // 4.2. Ask the user if he wants to update wwwroot files
+        Console.WriteLine($"\nUpdate 'wwwroot' file?");
+        Console.Write("> ");
+        if (Console.ReadLine() == "y")
+        {
+            File.WriteAllText(GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename), json);
+        }
     }
+
+    // 5. Print finished message
+    Console.WriteLine("\n\nFinished\n\n");
+
+    #endregion
 }
 
-// 3. Print finished message
-Console.WriteLine("\n\nFinished\n\n");
+#region Action runner
+
+async Task PerformSilentAsync()
+{
+    // 1. Export life to json
+    File.WriteAllText(
+        GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename),
+        Exporter.ExportLife(life)
+    );
+
+    // 2. Export content creation publications to json
+    File.WriteAllText(
+        GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename),
+        await Exporter.ExportPublicationsAsync(life.ContentCreation)
+   );
+}
+
+#endregion
+
+#region Helpers
+string GetReleativeWwwDataPath(string filename)
+{
+    if (Directory.GetCurrentDirectory().Contains("Debug"))
+    {
+        return string.Join(Path.DirectorySeparatorChar, ["..", "..", "..", "..", Constants.MyLifeBlazorWasmLocalPath, "wwwroot", "data", filename]);
+    }
+    else
+    {
+        return string.Join(Path.DirectorySeparatorChar, ["..", Constants.MyLifeBlazorWasmLocalPath, "wwwroot", "data", filename]);
+    }
+}
 
 #endregion
