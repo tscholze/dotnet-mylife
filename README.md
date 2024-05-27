@@ -24,9 +24,24 @@ The solution contains a variaty of projects that are all based on the core conte
 ## How it looks
 
 ### MyLife
-A simple terminal interface based on just `Console.Write()` and `Console.Read()`.
-
 ![MyLife console JSON expoerter](__docs/mylife-exporter-console-output.png)
+
+A simple terminal interface based on just `Console.Write()` and `Console.Read()`.
+It can be used in an interactive way to update files on user's desktop and / or the related `wwwroot` folder or in a silent mode via CI runs to update just the `wwwroot/` data.
+
+```bash
+cd path-to-code/MyLife/
+# Interactive
+dotnet run
+
+# Silent
+dotnet run silent
+
+# Optional git update
+git add .
+git commit -am "Updated content"
+git push
+```
 
 ### MyLife.Blazor.Wasm
 The website is based on a css-drop-in style with minor custom style class added.
