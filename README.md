@@ -38,7 +38,6 @@ dotnet run
 dotnet run silent
 
 # Optional git update
-git add .
 git commit -am "Updated content"
 git push
 ```
