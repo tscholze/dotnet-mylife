@@ -1,4 +1,5 @@
-﻿using MauiIcons.Material;
+﻿using CommunityToolkit.Maui;
+using MauiIcons.Material;
 using Microsoft.Extensions.Logging;
 using MyLife.Core.Services;
 using MyLife.Maui.ViewModels;
@@ -25,9 +26,16 @@ namespace MyLife.Maui
         {
             // Create the app builder
             var builder = MauiApp.CreateBuilder();
+
+            // Configure the builder
             builder
+                // Add MAUI features
                 .UseMauiApp<App>()
+                // Add MAUI Community Toolkit
+                .UseMauiCommunityToolkit()
+                // Add Material Icons
                 .UseMaterialMauiIcons()
+                // Add fFont Assets
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
