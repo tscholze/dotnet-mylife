@@ -7,8 +7,20 @@ namespace MyLife.Maui
 {
     public static class MauiProgram
     {
+        #region Private members
+
+        //
+        // Change this URL to your own repository
+        //
+        private const string remoteUrl = "https://tscholze.github.io/dotnet-mylife/";
+
+        #endregion
+
+        #region App builder
+
         public static MauiApp CreateMauiApp()
         {
+            // Create the app builder
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
@@ -21,10 +33,16 @@ namespace MyLife.Maui
                     fonts.AddFont("NotoSerif-SemiBold.ttf", "NotoSerifSemibold");
                 });
 
-
+            // Register services
+            var httpClient = new HttpClient { BaseAddress = new Uri(remoteUrl) };
+            builder.Services.AddSingleton(httpClient);
             builder.Services.AddTransient<LifeService>();
             builder.Services.AddTransient<MediumService>();
+
+            // Register view models
             builder.Services.AddSingleton<MainViewModel>();
+
+            // Register pages
             builder.Services.AddSingleton<MainPage>();
 
 #if DEBUG
@@ -33,5 +51,7 @@ namespace MyLife.Maui
 
             return builder.Build();
         }
+
+        #endregion
     }
 }
