@@ -5,6 +5,9 @@ using MyLife.Maui.ViewModels;
 
 namespace MyLife.Maui
 {
+    /// <summary>
+    /// Entry point for the Maui app.
+    /// </summary>
     public static class MauiProgram
     {
         #region Private members
@@ -45,10 +48,12 @@ namespace MyLife.Maui
             // Register pages
             builder.Services.AddSingleton<MainPage>();
 
+            // Add debug only functionality
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
 
+            // Build the builder!
             return builder.Build();
         }
 
