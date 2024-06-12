@@ -50,7 +50,8 @@ namespace MyLife.Core.Generator
                     "Augsburg"
                     ],
                 AvatarImageUrls = [
-                    "https://tscholze.github.io/content-tslifekit/files/avatar-1-min.jpeg"
+                    "https://tscholze.github.io/content-tslifekit/files/avatar-1-min.jpeg",
+                    "https://tscholze.github.io/content-tslifekit/files/avatar-5.png",
                     ],
                 Languages = [
                     "German",
@@ -148,6 +149,14 @@ namespace MyLife.Core.Generator
                         Title = "Das dynamische Mindesthaltbarkeitsdatum - Auf dem Weg zu einer Echtzeitereignisverarbeitung in der Lebensmittellogistik",
                         Publisher = "DSEP",
                         Year = 2013
+                    }
+                ],
+                Certifications = [
+                    new Certification
+                    {
+                        Title = "Certified SAFe® Product Owner / Product Manager",
+                        Instituation = "SAFe Academy",
+                        YearOfCertification = 2024
                     }
                 ],
                 Skillset = new Skillset

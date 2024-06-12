@@ -27,22 +27,28 @@ namespace MyLife.Core.Models.CurriculumVitae
         public required Education[] Educations { get; set; }
 
         /// <summary>
+        /// Certifications of the person.
+        /// </summary>
+        [JsonProperty("certifications")]
+        public required Certification[] Certifications { get; set; }
+
+        /// <summary>
         /// Publications of the person.
         /// </summary>
         [JsonProperty("publications")]
         public required Publication[] Publications { get; set; }
 
         /// <summary>
-        /// Spare time activities of the person.
-        /// </summary>
-        [JsonProperty("activities")]
-        public required string[] Activities { get; set; }
-
-        /// <summary>
         /// Hard and soft skills of the person.
         /// </summary>
         [JsonProperty("skillset")]
         public required Skillset Skillset { get; set; }
+
+        /// <summary>
+        /// Spare time activities of the person.
+        /// </summary>
+        [JsonProperty("activities")]
+        public required string[] Activities { get; set; }
 
         /// <summary>
         /// Other interests of the person.
