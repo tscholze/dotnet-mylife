@@ -14,15 +14,15 @@ namespace MyLife.Core.Models.CurriculumVitae
         public required string Title { get; set; }
 
         /// <summary>
-        /// Description what the certification covers.
-        /// </summary>
-        [JsonProperty("description")]
-        public required string Description { get; set; }
-
-        /// <summary>
         /// Name of the institution that issued the certification.
         /// </summary>
         [JsonProperty("instituation")]
-        public required string? Instituation { get; set; }
+        public required string Instituation { get; set; }
+
+        /// <summary>
+        /// Year of certification took place.
+        /// </summary>
+        [JsonProperty("year_of_certification")]
+        public required int? YearOfCertification { get; set; }
     }
 }
