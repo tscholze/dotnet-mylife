@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:MyLife.Maui.ViewModels"
+             xmlns:models="clr-namespace:MyLife;assembly=MyLife.Core.Models.ContentCreation"
+             xmlns:contentCreation="clr-namespace:MyLife.Core.Models.ContentCreation;assembly=MyLife.Core"
+             x:Class="MyLife.Maui.Pages.WelcomePage"
+             x:DataType="viewModels:WelcomeViewModel"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="16,0,16,16" Spacing="12">
+                <!-- Greeting -->
+                <Grid HorizontalOptions="Fill">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" VerticalOptions="Center">
+                        <Label Text="{Binding Firstname}" Style="{StaticResource Headline}" />
+                        <Label Text="{Binding Subtitle}" Style="{StaticResource Caption}" />
+                    </StackLayout>
+
+                    <!-- Add a rounded image-->
+                    <Border Grid.Column="2"
+                            StrokeShape="RoundRectangle 50,50,50,50"
+                            HorizontalOptions="Center"
+                            Stroke="Transparent"
+                            StrokeThickness="5"
+                            Margin="0,0,0,0">
+                        <Image
+                            Source="{Binding AvatarImageUri}"
+                            WidthRequest="80"
+                            HeightRequest="80"
+                            Aspect="AspectFill"
+                            Margin="0,0,8,0" />
+                    </Border>
+                </Grid>
+
+                <StackLayout>
+                    <Label Text="{Binding IntroductionHeadline}" Style="{StaticResource H3}" />
+                    <!-- Introduction -->
+                    <Border Padding="8" Style="{StaticResource Card1}">
+                        <Label Text="{Binding ShortIntroduction}" LineHeight="1.25" />
+                    </Border>
+                </StackLayout>
+
+                <!--
+                <CollectionView ItemsSource="{Binding ContentCreations}" IsGrouped="True">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="contentCreation:AccountPuplications">
+                            <ViewCell>
+                                <Col
+                            </ViewCell>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                -->
+
+                <ListView ItemsSource="{Binding ContentCreations}" 
+                          BackgroundColor="Transparent"
+                          SeparatorVisibility="None" 
+                          SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="contentCreation:AccountPuplications">
+                            <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <!-- 1. Row title -->
+                                    <RowDefinition Height="Auto" />
+                                    <!-- 2. Horizontal list of publications -->
+                                    <RowDefinition Height="200" />
+                                </Grid.RowDefinitions>
+
+                                <!-- 1. Row title -->
+                                <Label Grid.Row="0" Text="{Binding Account.Name}" />
+                                    
+                                <!-- 2. Horizontal list of publications -->
+                                <CarouselView Grid.Row="1" ItemsSource="{Binding Publications}">
+                                    <CarouselView.ItemTemplate>
+                                        <DataTemplate x:DataType="contentCreation:Publication">
+                                            <Label Text="{Binding Title}"></Label>
+                                        </DataTemplate>
+                                    </CarouselView.ItemTemplate>
+                                </CarouselView>
+                            </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

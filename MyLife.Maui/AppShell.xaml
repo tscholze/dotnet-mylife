@@ -3,13 +3,35 @@
     x:Class="MyLife.Maui.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:MyLife.Maui.Pages"
     xmlns:local="clr-namespace:MyLife.Maui"
     Shell.FlyoutBehavior="Disabled"
     Title="MyLife.Maui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Icon="tab_home.png"
+            Title="Welcome"
+            ContentTemplate="{DataTemplate pages:WelcomePage}"
+            Route="WelcomePage"/>
+
+        <ShellContent
+            Icon="tab_articles.png"
+            Title="Articles"
+            ContentTemplate="{DataTemplate pages:ArticlesPage}"
+            Route="ArticlesPage"/>
+        
+        <ShellContent
+            Icon="tab_articles.png"
+            Title="Videos"
+            ContentTemplate="{DataTemplate pages:VideosPage}"
+            Route="ArticlesPage"/>
+        
+        <ShellContent
+            Icon="tab_articles.png"
+            Title="Open Source"
+            ContentTemplate="{DataTemplate pages:OpenSourcePage}"
+            Route="ArticlesPage"/>
+    </TabBar>
 
 </Shell>
