@@ -49,49 +49,36 @@
                     </Border>
                 </StackLayout>
 
-                <!--
-                <CollectionView ItemsSource="{Binding ContentCreations}" IsGrouped="True">
-                    <CollectionView.ItemTemplate>
+                <VerticalStackLayout BindableLayout.ItemsSource="{Binding ContentCreations}">
+                    <BindableLayout.ItemTemplate>
                         <DataTemplate x:DataType="contentCreation:AccountPuplications">
-                            <ViewCell>
-                                <Col
-                            </ViewCell>
+                            <StackLayout Padding="8" Spacing="8">
+                                <!-- Account name -->
+                                <Label Text="{Binding Account.Name}" />
+                                
+                                <!-- List of publications -->
+                                <ScrollView Orientation="Horizontal">
+                                    <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate x:DataType="contentCreation:Publication">
+                                                <Border Stroke="Purple" StrokeThickness="5" Margin="8" BackgroundColor="#1A1D24">
+                                                    <Border.StrokeShape>
+                                                        <RoundRectangle CornerRadius="12,4,4,12" />
+                                                    </Border.StrokeShape>
+                                                    <StackLayout WidthRequest="250" Spacing="12">
+                                                        <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="112" Aspect="AspectFill" />
+                                                        <Label Text="{Binding Description}" TextColor="#EFF2F9" Style="{StaticResource Caption}" HorizontalTextAlignment="Start" MaxLines="3" LineBreakMode="WordWrap" Margin="12,0,12,12" />
+                                                    </StackLayout>
+                                                </Border>
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </HorizontalStackLayout>
+                                </ScrollView>
+                            </StackLayout>
                         </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-                -->
+                    </BindableLayout.ItemTemplate>
+                </VerticalStackLayout>
 
-                <ListView ItemsSource="{Binding ContentCreations}" 
-                          BackgroundColor="Transparent"
-                          SeparatorVisibility="None" 
-                          SelectionMode="None">
-                    <ListView.ItemTemplate>
-                        <DataTemplate x:DataType="contentCreation:AccountPuplications">
-                            <ViewCell>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <!-- 1. Row title -->
-                                    <RowDefinition Height="Auto" />
-                                    <!-- 2. Horizontal list of publications -->
-                                    <RowDefinition Height="200" />
-                                </Grid.RowDefinitions>
-
-                                <!-- 1. Row title -->
-                                <Label Grid.Row="0" Text="{Binding Account.Name}" />
-                                    
-                                <!-- 2. Horizontal list of publications -->
-                                <CarouselView Grid.Row="1" ItemsSource="{Binding Publications}">
-                                    <CarouselView.ItemTemplate>
-                                        <DataTemplate x:DataType="contentCreation:Publication">
-                                            <Label Text="{Binding Title}"></Label>
-                                        </DataTemplate>
-                                    </CarouselView.ItemTemplate>
-                                </CarouselView>
-                            </Grid>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
 
 
             </StackLayout>
