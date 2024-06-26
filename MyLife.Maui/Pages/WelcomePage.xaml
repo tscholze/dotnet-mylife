@@ -3,7 +3,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MyLife.Maui.ViewModels"
-             xmlns:models="clr-namespace:MyLife;assembly=MyLife.Core.Models.ContentCreation"
              xmlns:contentCreation="clr-namespace:MyLife.Core.Models.ContentCreation;assembly=MyLife.Core"
              x:Class="MyLife.Maui.Pages.WelcomePage"
              x:DataType="viewModels:WelcomeViewModel"
@@ -41,32 +40,40 @@
                     </Border>
                 </Grid>
 
+                <!-- Introduction -->
                 <StackLayout>
                     <Label Text="{Binding IntroductionHeadline}" Style="{StaticResource H3}" />
-                    <!-- Introduction -->
                     <Border Padding="8" Style="{StaticResource Card1}">
                         <Label Text="{Binding ShortIntroduction}" LineHeight="1.25" />
                     </Border>
                 </StackLayout>
 
-                <VerticalStackLayout BindableLayout.ItemsSource="{Binding ContentCreations}">
+                <!-- Content -->
+                <VerticalStackLayout BindableLayout.ItemsSource="{Binding ContentCreations}" Spacing="0">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate x:DataType="contentCreation:AccountPuplications">
                             <StackLayout Padding="8" Spacing="8">
                                 <!-- Account name -->
-                                <Label Text="{Binding Account.Name}" />
-                                
+                                <Label Text="{Binding Account.Name}" Style="{StaticResource H3}" />
+
                                 <!-- List of publications -->
-                                <ScrollView Orientation="Horizontal">
+                                <ScrollView Orientation="Horizontal" Padding="0">
                                     <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}">
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate x:DataType="contentCreation:Publication">
-                                                <Border Stroke="Purple" StrokeThickness="5" Margin="8" BackgroundColor="#1A1D24">
+                                                <Border Stroke="Purple" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24">
                                                     <Border.StrokeShape>
-                                                        <RoundRectangle CornerRadius="12,4,4,12" />
+                                                        <RoundRectangle CornerRadius="12, 6, 6, 12" />
                                                     </Border.StrokeShape>
                                                     <StackLayout WidthRequest="250" Spacing="12">
-                                                        <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="112" Aspect="AspectFill" />
+                                                        <!-- 1. Image -->
+                                                        <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="112" Aspect="AspectFill">
+                                                            <Image.Clip>
+                                                                <RoundRectangleGeometry CornerRadius="6, 3, 3,6"  Rect="0,0,250,112" />
+                                                            </Image.Clip>
+                                                        </Image>
+
+                                                        <!-- Abstract label -->
                                                         <Label Text="{Binding Description}" TextColor="#EFF2F9" Style="{StaticResource Caption}" HorizontalTextAlignment="Start" MaxLines="3" LineBreakMode="WordWrap" Margin="12,0,12,12" />
                                                     </StackLayout>
                                                 </Border>
