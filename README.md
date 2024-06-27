@@ -17,8 +17,9 @@ The solution contains a variaty of projects that are all based on the core conte
 |----------|----------|
 |`MyLife`    | Console application to create a JSON file    |
 |`MyLife.Core`    | Provides core functionality as well as the models describing the JSON    |
-| `MyLife.Blazor.Wasm`    | **WIP** Blazor Wasm site that renders a website according t Core's data   |
-| `MyLife.Maui` | **Planned** project to render Core's data as a mobile app |
+| `MyLife.Blazor.Wasm`    | Blazor Wasm site that renders a website according to Core's data   |
+| `MyLife.Maui` | **WIP** project to render Core's data as a mobile app |
+| `MyLife.Azure.Functions`    | **Experimental** Evaluating how Functions and how MyLife would benefit from it|
 | `MyLife.Blazor.Static` | **Planned** project to render Core's data as fully static website |
 
 ## How it looks
