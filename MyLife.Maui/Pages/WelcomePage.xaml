@@ -4,6 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MyLife.Maui.ViewModels"
              xmlns:contentCreation="clr-namespace:MyLife.Core.Models.ContentCreation;assembly=MyLife.Core"
+             xmlns:controls="clr-namespace:MyLife.Maui.Controls"
              x:Class="MyLife.Maui.Pages.WelcomePage"
              x:DataType="viewModels:WelcomeViewModel"
              Shell.NavBarIsVisible="False">
@@ -49,35 +50,7 @@
                 </StackLayout>
 
                 <!-- Content -->
-                <VerticalStackLayout BindableLayout.ItemsSource="{Binding ContentCreations}" Spacing="0">
-                    <BindableLayout.ItemTemplate>
-                        <DataTemplate x:DataType="contentCreation:AccountPublications">
-                            <StackLayout Padding="8" Spacing="8">
-                                <!-- Account name -->
-                                <Label Text="{Binding Account.Name}" Style="{StaticResource H3}" />
-
-                                <!-- List of publications -->
-                                <ScrollView Orientation="Horizontal" Padding="0">
-                                    <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}">
-                                        <BindableLayout.ItemTemplate>
-                                            <DataTemplate x:DataType="contentCreation:Publication">
-                                                <Border Stroke="Purple" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24">
-                                                    <Border.StrokeShape>
-                                                        <RoundRectangle CornerRadius="24, 6, 6, 24" />
-                                                    </Border.StrokeShape>
-                                                    <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="140" Aspect="AspectFill" />
-                                                </Border>
-                                            </DataTemplate>
-                                        </BindableLayout.ItemTemplate>
-                                    </HorizontalStackLayout>
-                                </ScrollView>
-                            </StackLayout>
-                        </DataTemplate>
-                    </BindableLayout.ItemTemplate>
-                </VerticalStackLayout>
-
-
-
+                <controls:HorizontalPublicationsSection Items="{Binding ContentCreations}" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
