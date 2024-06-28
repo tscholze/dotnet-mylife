@@ -69,4 +69,8 @@
         <ProjectReference Include="..\MyLife.Core\MyLife.Core.csproj"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Utils\Selectors\" />
+    </ItemGroup>
+
 </Project>
