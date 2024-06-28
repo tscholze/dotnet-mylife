@@ -59,7 +59,7 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
         if (life is null) return;
         
         // Filter content creations
-        ContentCreations = (await lifeService.GetContentPublications() ?? []).Where(cc => cc.Account.Platform == Platform.Youtube);
+        ContentCreations = (await lifeService.GetContentPublications() ?? []).Where(cc => cc.Account.Platform is Platform.Youtube or Platform.Medium);
 
         // Populate life
         Firstname = "Hi, I'm " + life.Persona.Firstname;

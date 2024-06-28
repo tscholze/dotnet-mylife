@@ -6,8 +6,7 @@
                      xmlns:controls="clr-namespace:MyLife.Maui.Controls"
                      x:Class="MyLife.Maui.Controls.HorizontalPublicationsSection"
                      x:DataType="controls:HorizontalPublicationsSection"
-                     BindableLayout.ItemsSource="{Binding Items}"
-                     x:Name="Meepsie">
+                     BindableLayout.ItemsSource="{Binding Items, Source={RelativeSource Self}}">
     <BindableLayout.ItemTemplate>
         <DataTemplate x:DataType="contentCreation:AccountPublications">
             <StackLayout Padding="8" Spacing="8">
@@ -19,11 +18,12 @@
                     <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="contentCreation:Publication">
-                                <Border Stroke="Purple" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24">
+                                <Border Stroke="Purple" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24"
+                                        WidthRequest="250" HeightRequest="140">
                                     <Border.StrokeShape>
                                         <RoundRectangle CornerRadius="24, 6, 6, 24" />
                                     </Border.StrokeShape>
-                                    <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="140"
+                                    <Image Source="{Binding ImageUrl}"
                                            Aspect="AspectFill" />
                                 </Border>
                             </DataTemplate>
