@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Blazor.Wasm", "MyLif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLife.Maui", "MyLife.Maui\MyLife.Maui.csproj", "{FCC2F486-D964-4214-A38B-EEE301A99F93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLife.Azure.Functions", "MyLife.Azure.Functions\MyLife.Azure.Functions.csproj", "{12563255-DF6B-473F-A2A6-9CA189B95001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{FCC2F486-D964-4214-A38B-EEE301A99F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC2F486-D964-4214-A38B-EEE301A99F93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FCC2F486-D964-4214-A38B-EEE301A99F93}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{12563255-DF6B-473F-A2A6-9CA189B95001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12563255-DF6B-473F-A2A6-9CA189B95001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12563255-DF6B-473F-A2A6-9CA189B95001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12563255-DF6B-473F-A2A6-9CA189B95001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
