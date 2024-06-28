@@ -51,7 +51,7 @@
                 <!-- Content -->
                 <VerticalStackLayout BindableLayout.ItemsSource="{Binding ContentCreations}" Spacing="0">
                     <BindableLayout.ItemTemplate>
-                        <DataTemplate x:DataType="contentCreation:AccountPuplications">
+                        <DataTemplate x:DataType="contentCreation:AccountPublications">
                             <StackLayout Padding="8" Spacing="8">
                                 <!-- Account name -->
                                 <Label Text="{Binding Account.Name}" Style="{StaticResource H3}" />
@@ -63,19 +63,9 @@
                                             <DataTemplate x:DataType="contentCreation:Publication">
                                                 <Border Stroke="Purple" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24">
                                                     <Border.StrokeShape>
-                                                        <RoundRectangle CornerRadius="12, 6, 6, 12" />
+                                                        <RoundRectangle CornerRadius="24, 6, 6, 24" />
                                                     </Border.StrokeShape>
-                                                    <StackLayout WidthRequest="250" Spacing="12">
-                                                        <!-- 1. Image -->
-                                                        <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="112" Aspect="AspectFill">
-                                                            <Image.Clip>
-                                                                <RoundRectangleGeometry CornerRadius="6, 3, 3,6"  Rect="0,0,250,112" />
-                                                            </Image.Clip>
-                                                        </Image>
-
-                                                        <!-- Abstract label -->
-                                                        <Label Text="{Binding Description}" TextColor="#EFF2F9" Style="{StaticResource Caption}" HorizontalTextAlignment="Start" MaxLines="3" LineBreakMode="WordWrap" Margin="12,0,12,12" />
-                                                    </StackLayout>
+                                                    <Image Source="{Binding ImageUrl}" WidthRequest="250" HeightRequest="140" Aspect="AspectFill" />
                                                 </Border>
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>

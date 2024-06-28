@@ -31,7 +31,7 @@ public static class Exporter
     public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation, bool verbose = true)
     {
         var mediumService = new MediumService(new HttpClient());
-        var accountPublications = new List<AccountPuplications>();
+        var accountPublications = new List<AccountPublications>();
 
         foreach (var account in contentCreation.Accounts)
         {
@@ -52,7 +52,7 @@ public static class Exporter
                     break;
             }
 
-            var accountPuplications = new AccountPuplications
+            var accountPuplications = new AccountPublications
             {
                 Account = account,
                 Publications = publications

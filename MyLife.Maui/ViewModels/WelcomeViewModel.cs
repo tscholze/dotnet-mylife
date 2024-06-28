@@ -42,7 +42,7 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
     private string? shortIntroduction;
 
     [ObservableProperty]
-    private IEnumerable<AccountPuplications>? contentCreations;
+    private IEnumerable<AccountPublications>? contentCreations;
 
     #endregion
 
