@@ -10,10 +10,11 @@
                      BindableLayout.ItemsSource="{Binding Items, Source={RelativeSource Self}}">
     <VerticalStackLayout.Resources>
         <ResourceDictionary>
-            <converters:IndexToBorderColorConverter x:Key="IndexToColorConverter"/>
+            <converters:IndexToBorderColorConverter x:Key="IndexToColorConverter" />
+            <converters:IndexToTearBorderRadiusConverter x:Key="IndexToTearBorderRadiusConverter" />
         </ResourceDictionary>
     </VerticalStackLayout.Resources>
-    
+
     <BindableLayout.ItemTemplate>
         <DataTemplate x:DataType="contentCreation:AccountPublications">
             <StackLayout Padding="8" Spacing="8">
@@ -25,10 +26,13 @@
                     <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}" x:Name="listView">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="contentCreation:Publication">
-                                <Border Stroke="{Binding ., Converter={StaticResource IndexToColorConverter}, ConverterParameter={x:Reference Name=listView}}" StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24"
-                                        WidthRequest="250" HeightRequest="140">
+                                <Border
+                                    Stroke="{Binding ., Converter={StaticResource IndexToColorConverter}, ConverterParameter={x:Reference Name=listView}}"
+                                    StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24"
+                                    WidthRequest="250" HeightRequest="140">
                                     <Border.StrokeShape>
-                                        <RoundRectangle CornerRadius="24, 6, 6, 24" />
+                                        <RoundRectangle
+                                            CornerRadius="{Binding ., Converter={StaticResource IndexToTearBorderRadiusConverter}, ConverterParameter={x:Reference Name=listView}}" />
                                     </Border.StrokeShape>
                                     <Image Source="{Binding ImageUrl}"
                                            Aspect="AspectFill" />

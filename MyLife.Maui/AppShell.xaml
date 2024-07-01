@@ -18,19 +18,19 @@
         <ShellContent
             Icon="tab_articles.png"
             Title="Articles"
-            ContentTemplate="{DataTemplate pages:ArticlesPage}"
+            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
             Route="ArticlesPage"/>
         
         <ShellContent
             Icon="tab_articles.png"
             Title="Videos"
-            ContentTemplate="{DataTemplate pages:VideosPage}"
+            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
             Route="ArticlesPage"/>
         
         <ShellContent
             Icon="tab_articles.png"
             Title="Open Source"
-            ContentTemplate="{DataTemplate pages:OpenSourcePage}"
+            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
             Route="ArticlesPage"/>
     </TabBar>
 

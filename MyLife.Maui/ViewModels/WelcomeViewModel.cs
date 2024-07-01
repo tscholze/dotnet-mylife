@@ -63,7 +63,7 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
 
         // Populate life
         Firstname = "Hi, I'm " + life.Persona.Firstname;
-        Subtitle = string.Join(" / ", life.Persona.Nicknames) + "and Human from Bavaria";
+        Subtitle = string.Join(" / ", life.Persona.Nicknames) + " and Human Being from Bavaria";
         AvatarImageUri = new Uri(life.Persona.AvatarImageUrls[1]);
         IntroductionHeadline = life.Persona.IntroductionParagraphs.First();
         ShortIntroduction = life.Persona.IntroductionParagraphs.Skip(1).First();

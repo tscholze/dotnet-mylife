@@ -25,7 +25,7 @@
     </Style>
 
     <Style TargetType="Border" x:Key="Card1">
-        <Setter Property="Background" Value="#1176089D" />
+        <Setter Property="Background" Value="#2276089D" />
         <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
     </Style>
 
