@@ -31,7 +31,8 @@ public static class Exporter
     public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation, bool verbose = true)
     {
         var mediumService = new MediumService(new HttpClient());
-        var accountPublications = new List<AccountPublications>();
+        var kotlogService = new KotlogService(new HttpClient());
+        var accountPublications = new List<AccountPuplications>();
 
         foreach (var account in contentCreation.Accounts)
         {
@@ -46,13 +47,16 @@ public static class Exporter
                 case Models.Shared.Platform.Medium:
                     publications = await mediumService.LoadPublicationsAsync(account.Handle);
                     break;
+                case Models.Shared.Platform.Kotlog:
+                    publications = await kotlogService.LoadPublicationsAsync(account.Url.ToString());
+                    break;
 
                 default:
                     Console.WriteLine($"Platform feed loading not supported, the following account will be ignored: '{account.Handle}' on '{account.Platform}'");
                     break;
             }
 
-            var accountPuplications = new AccountPublications
+            var accountPuplications = new AccountPuplications
             {
                 Account = account,
                 Publications = publications

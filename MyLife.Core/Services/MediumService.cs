@@ -40,27 +40,6 @@ namespace MyLife.Core.Services
         }
 
         /// <summary>
-        /// Reads a feed from a Medium handle (username).
-        /// </summary>
-        /// <param name="handle">Medium account handle</param>
-        /// <returns>Found Medium feed or null</returns>
-        public async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
-        {
-            var feedUrl = $"https://{handle}.medium.com/feed";
-            using var response = await httpClient.GetAsync(feedUrl);
-
-            if (!response.IsSuccessStatusCode)
-            {
-                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
-                return null;
-            }
-
-            var content = (await response.Content.ReadAsStringAsync()).Trim();
-            var feed = FeedReader.ReadFromString(content);
-            return Convert(feed);
-        }
-
-        /// <summary>
         /// Loads publications from a Medium handle.
         /// </summary>
         /// <param name="handle">Medium account handle</param>
@@ -80,6 +59,22 @@ namespace MyLife.Core.Services
         #endregion
 
         #region Private methods
+        
+        private async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
+        {
+            var feedUrl = $"https://{handle}.medium.com/feed";
+            using var response = await httpClient.GetAsync(feedUrl);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                return null;
+            }
+
+            var content = (await response.Content.ReadAsStringAsync()).Trim();
+            var feed = FeedReader.ReadFromString(content);
+            return Convert(feed);
+        }
 
         private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
         {
@@ -96,7 +91,7 @@ namespace MyLife.Core.Services
                 }
             }
 
-            // Return all succesfully fetched feeds.
+            // Return all successfully fetched feeds.
             return fetchedFeeds;
         }
 

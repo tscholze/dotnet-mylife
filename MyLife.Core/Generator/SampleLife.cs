@@ -449,9 +449,9 @@ namespace MyLife.Core.Generator
                     Name = "Personal blog",
                     Handle = "tscholze",
                     Description = "My blog stores articles about things I made, I expierenced and all other information I do not want to forget",
-                    Platform = Platform.Blog,
+                    Platform = Platform.Kotlog,
                     Language = Language.EnglishAndGerman,
-                    Url = new("https://tscholze.github.io/blog/")
+                    Url = new Uri("https://tscholze.github.io/blog/")
                 }
             ];
 

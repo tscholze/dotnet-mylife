@@ -55,10 +55,16 @@ namespace MyLife.Core.Models.Shared
         GitHub,
 
         /// <summary>
-        /// The platform is a personal website.
+        /// The platform is a WordPress blog.
         /// </summary>
-        [EnumMember(Value = "blog")]
-        Blog,
+        [EnumMember(Value = "wordpress")]
+        WordPress,
+        
+        /// <summary>
+        /// The platform is a Kotlog blog.
+        /// </summary>
+        [EnumMember(Value = "kotlog")]
+        Kotlog,
 
         /// <summary>
         /// The platform is a news website.
