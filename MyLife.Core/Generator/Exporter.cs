@@ -31,6 +31,7 @@ public static class Exporter
     public static async Task<string> ExportPublicationsAsync(Models.ContentCreation.Container contentCreation, bool verbose = true)
     {
         var mediumService = new MediumService(new HttpClient());
+        var kotlogService = new KotlogService(new HttpClient());
         var accountPublications = new List<AccountPuplications>();
 
         foreach (var account in contentCreation.Accounts)
@@ -45,6 +46,9 @@ public static class Exporter
 
                 case Models.Shared.Platform.Medium:
                     publications = await mediumService.LoadPublicationsAsync(account.Handle);
+                    break;
+                case Models.Shared.Platform.Kotlog:
+                    publications = await kotlogService.LoadPublicationsAsync(account.Url.ToString());
                     break;
 
                 default:

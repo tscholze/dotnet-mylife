@@ -61,7 +61,10 @@ namespace MyLife.Blazor.Wasm.Extensions
                 case Platform.Tiktok:
                     icon = "fa-tiktok";
                     break;
-                case Platform.Blog:
+                case Platform.WordPress:
+                    icon = "fa-rss";
+                    break;
+                case Platform.Kotlog:
                     icon = "fa-rss";
                     break;
                 case Platform.News:
