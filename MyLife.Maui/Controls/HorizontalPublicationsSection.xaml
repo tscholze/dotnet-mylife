@@ -12,30 +12,52 @@
         <ResourceDictionary>
             <converters:IndexToBorderColorConverter x:Key="IndexToColorConverter" />
             <converters:IndexToTearBorderRadiusConverter x:Key="IndexToTearBorderRadiusConverter" />
+
+            <Style TargetType="StackLayout">
+                <Setter Property="Padding">8</Setter>
+                <Setter Property="Spacing">8</Setter>
+            </Style>
+
+            <Style TargetType="ScrollView">
+                <Setter Property="Orientation">Horizontal</Setter>
+                <Setter Property="Padding">0</Setter>
+            </Style>
+
+            <Style TargetType="Border">
+                <Setter Property="StrokeThickness">8</Setter>
+                <Setter Property="Margin">8</Setter>
+                <Setter Property="BackgroundColor">#1A1D24</Setter>
+                <Setter Property="WidthRequest">250</Setter>
+                <Setter Property="HeightRequest">140</Setter>
+            </Style>
+
+            <Style TargetType="Image">
+                <Setter Property="Aspect" Value="AspectFill" />
+            </Style>
         </ResourceDictionary>
     </VerticalStackLayout.Resources>
 
     <BindableLayout.ItemTemplate>
         <DataTemplate x:DataType="contentCreation:AccountPublications">
-            <StackLayout Padding="8" Spacing="8">
+            <StackLayout>
                 <!-- Account name -->
                 <Label Text="{Binding Account.Name}" Style="{StaticResource H3}" />
 
                 <!-- List of publications -->
-                <ScrollView Orientation="Horizontal" Padding="0">
+                <ScrollView>
                     <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}" x:Name="listView">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="contentCreation:Publication">
                                 <Border
-                                    Stroke="{Binding ., Converter={StaticResource IndexToColorConverter}, ConverterParameter={x:Reference Name=listView}}"
-                                    StrokeThickness="8" Margin="8" BackgroundColor="#1A1D24"
-                                    WidthRequest="250" HeightRequest="140">
+                                    Stroke="{Binding ., Converter={StaticResource IndexToColorConverter}, ConverterParameter={x:Reference Name=listView}}">
+                                    <!-- Border shape -->
                                     <Border.StrokeShape>
                                         <RoundRectangle
                                             CornerRadius="{Binding ., Converter={StaticResource IndexToTearBorderRadiusConverter}, ConverterParameter={x:Reference Name=listView}}" />
                                     </Border.StrokeShape>
-                                    <Image Source="{Binding ImageUrl}"
-                                           Aspect="AspectFill" />
+
+                                    <!-- Image -->
+                                    <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
                                 </Border>
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
