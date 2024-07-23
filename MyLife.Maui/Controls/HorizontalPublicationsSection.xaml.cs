@@ -12,12 +12,6 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
     public static readonly BindableProperty ItemsProperty = BindableProperty.Create(nameof(Items),
         typeof(IEnumerable<AccountPublications>), typeof(HorizontalPublicationsSection));
     
-    /// <summary>
-    /// Bindable border color property.
-    /// </summary>
-    private static readonly BindableProperty BorderColorProperty = BindableProperty.Create(nameof(BorderColor),
-        typeof(Color), typeof(HorizontalPublicationsSection));
-    
     #endregion
 
     #region Constructor
@@ -38,12 +32,6 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
     {
         get => GetValue(ItemsProperty) as IEnumerable<AccountPublications> ?? [];
         set => SetValue(ItemsProperty, value);
-    }
-
-    public Color BorderColor
-    {
-        get => GetValue(BorderColorProperty) as Color ?? Colors.MediumPurple;
-        init => SetValue(BorderColorProperty, value);
     }
 
     #endregion
