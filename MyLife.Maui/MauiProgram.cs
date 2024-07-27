@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Maui;
+using CommunityToolkit.Maui.Markup;
 using MauiIcons.Material;
 using Microsoft.Extensions.Logging;
 using MyLife.Core.Services;
@@ -34,6 +35,7 @@ namespace MyLife.Maui
                 .UseMauiApp<App>()
                 // Add MAUI Community Toolkit
                 .UseMauiCommunityToolkit()
+                .UseMauiCommunityToolkitMarkup()
                 // Add Material Icons
                 .UseMaterialMauiIcons()
                 // Add fFont Assets

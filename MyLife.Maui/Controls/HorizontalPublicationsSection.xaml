@@ -6,13 +6,9 @@
                      xmlns:controls="clr-namespace:MyLife.Maui.Controls"
                      xmlns:converters="clr-namespace:MyLife.Maui.Utils.Converters"
                      x:Class="MyLife.Maui.Controls.HorizontalPublicationsSection"
-                     x:DataType="controls:HorizontalPublicationsSection"
-                     BindableLayout.ItemsSource="{Binding Items, Source={RelativeSource Self}}">
+                     x:DataType="controls:HorizontalPublicationsSection">
     <VerticalStackLayout.Resources>
         <ResourceDictionary>
-            <converters:IndexToBorderColorConverter x:Key="IndexToColorConverter" />
-            <converters:IndexToTearBorderRadiusConverter x:Key="IndexToTearBorderRadiusConverter" />
-
             <Style TargetType="StackLayout">
                 <Setter Property="Padding">8</Setter>
                 <Setter Property="Spacing">8</Setter>
@@ -38,26 +34,27 @@
     </VerticalStackLayout.Resources>
 
     <BindableLayout.ItemTemplate>
-        <DataTemplate x:DataType="contentCreation:AccountPublications">
+        <DataTemplate x:DataType="controls:HorizontalPublicationsSectionData">
             <StackLayout>
                 <!-- Account name -->
-                <Label Text="{Binding Account.Name}" Style="{StaticResource H3}" />
+                <Label Text="{Binding Title}" 
+                       Style="{StaticResource H3}" />
 
                 <!-- List of publications -->
                 <ScrollView>
-                    <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Publications}" x:Name="listView">
+                    <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Items}">
                         <BindableLayout.ItemTemplate>
-                            <DataTemplate x:DataType="contentCreation:Publication">
-                                <Border
-                                    Stroke="{Binding ., Converter={StaticResource IndexToColorConverter}, ConverterParameter={x:Reference Name=listView}}">
+                            <DataTemplate x:DataType="controls:HorizontalPublicationsSectionItemData">
+                                <Border Stroke="{Binding BorderColor}">
                                     <!-- Border shape -->
                                     <Border.StrokeShape>
-                                        <RoundRectangle
-                                            CornerRadius="{Binding ., Converter={StaticResource IndexToTearBorderRadiusConverter}, ConverterParameter={x:Reference Name=listView}}" />
+                                        <!-- Workaround for https://github.com/dotnet/maui/issues/21747 
+                                        <RoundRectangle CornerRadius="{Binding BorderRadius}" />-->
+                                        <RoundRectangle CornerRadius="24,6,6,24" />
                                     </Border.StrokeShape>
 
                                     <!-- Image -->
-                                    <Image Source="{Binding ImageUrl}" Aspect="AspectFill" />
+                                    <Image Source="{Binding ImageUrl}" />
                                 </Border>
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>

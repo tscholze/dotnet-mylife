@@ -17,32 +17,26 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
     /// <summary>
     /// Firstname of the persona.
     /// </summary>
-    [ObservableProperty]
-    private string? firstname;
+    [ObservableProperty] private string? firstname;
 
-    [ObservableProperty]
-    private string? subtitle;
+    [ObservableProperty] private string? subtitle;
 
     /// <summary>
     /// URI to the avatar image.
     /// </summary>
-    [ObservableProperty]
-    private Uri? avatarImageUri;
+    [ObservableProperty] private Uri? avatarImageUri;
 
     /// <summary>
     /// Headline for introduction.
     /// </summary>
-    [ObservableProperty]
-    private string? introductionHeadline;
+    [ObservableProperty] private string? introductionHeadline;
 
     /// <summary>
     /// Introduction to the app of the persona
     /// </summary>
-    [ObservableProperty]
-    private string? shortIntroduction;
+    [ObservableProperty] private string? shortIntroduction;
 
-    [ObservableProperty]
-    private IEnumerable<AccountPublications>? contentCreations;
+    [ObservableProperty] private IEnumerable<AccountPublications>? contentCreations;
 
     #endregion
 
@@ -57,9 +51,10 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
     {
         var life = await lifeService.GetLife();
         if (life is null) return;
-        
+
         // Filter content creations
-        ContentCreations = (await lifeService.GetContentPublications() ?? []).Where(cc => cc.Account.Platform is Platform.Youtube or Platform.Medium);
+        ContentCreations = (await lifeService.GetContentPublications() ?? []).Where(cc =>
+            cc.Account.Platform is Platform.Youtube or Platform.Medium or Platform.Kotlog);
 
         // Populate life
         Firstname = "Hi, I'm " + life.Persona.Firstname;
@@ -67,11 +62,6 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
         AvatarImageUri = new Uri(life.Persona.AvatarImageUrls[1]);
         IntroductionHeadline = life.Persona.IntroductionParagraphs.First();
         ShortIntroduction = life.Persona.IntroductionParagraphs.Skip(1).First();
-        
-        // Populate content creation
-
-      //  var ccs = ContentCreations?.Select(cc => cc.Account.Name).Select(n => new Label { Text = n }).ToList();
-
     }
 
     #endregion
