@@ -2,9 +2,7 @@
 
 <VerticalStackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                     xmlns:contentCreation="clr-namespace:MyLife.Core.Models.ContentCreation;assembly=MyLife.Core"
                      xmlns:controls="clr-namespace:MyLife.Maui.Controls"
-                     xmlns:converters="clr-namespace:MyLife.Maui.Utils.Converters"
                      x:Class="MyLife.Maui.Controls.HorizontalPublicationsSection"
                      x:DataType="controls:HorizontalPublicationsSection">
     <VerticalStackLayout.Resources>
@@ -22,7 +20,6 @@
             <Style TargetType="Border">
                 <Setter Property="StrokeThickness">8</Setter>
                 <Setter Property="Margin">8</Setter>
-                <Setter Property="BackgroundColor">#1A1D24</Setter>
                 <Setter Property="WidthRequest">250</Setter>
                 <Setter Property="HeightRequest">140</Setter>
             </Style>

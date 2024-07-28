@@ -1,5 +1,6 @@
 using MyLife.Core.Models.ContentCreation;
 using CommunityToolkit.Maui.Markup;
+using Platform = MyLife.Core.Models.Shared.Platform;
 
 namespace MyLife.Maui.Controls;
 
@@ -40,8 +41,45 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
 
     #endregion
 
+    #region Private helper
+
+    /// <summary>
+    /// Calculate the border color of the list item based on the index.
+    /// </summary>
+    /// <param name="accountPublications">Underlying APs</param>
+    /// <param name="index">Current index in list</param>
+    /// <returns>Calculated border color of list item</returns>
+    private static Color CalculateItemBorderColor(AccountPublications accountPublications, int index)
+    {
+        if (accountPublications.Account.Platform == Platform.Kotlog)
+        {
+            return Colors.Transparent;
+        }
+
+        return index % 2 == 0 ? EvenBorderColor : OddBorderColor;
+    }
+
+    /// <summary>
+    /// Calculate the border radius of the list item based on the index.
+    /// </summary>
+    /// <param name="accountPublications">Underlying APs</param>
+    /// <param name="index">Current index in list</param>
+    /// <returns>Calculated border radius of list item</returns>
+    private static CornerRadius CalculateItemBorderRadius(AccountPublications accountPublications, int index)
+    {
+        return index % 2 == 0 ? EvenBorderRadius : OddBorderRadius;
+    }
+
+    #endregion
+
     #region Events
 
+    /// <summary>
+    /// Handles changes for the "Items" property.
+    /// </summary>
+    /// <param name="bindable">Bindable HorizontalPublicationsSection control</param>
+    /// <param name="oldValue">Unused old value</param>
+    /// <param name="newValue">New value</param>
     private static void OnItemsPropertyChanged(BindableObject bindable, object oldValue, object newValue)
     {
         // Ensure type-safety
@@ -59,14 +97,14 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
             foreach (var publication in accountPublication.Publications)
             {
                 // Not working: https://github.com/dotnet/maui/issues/21747 
-                var isEven = index++ % 2 == 0;
                 var item = new HorizontalPublicationsSectionItemData(
-                    publication.ImageUrl,
-                    publication.Url,
-                    isEven ? EvenBorderColor : OddBorderColor,
-                    isEven ? EvenBorderRadius : OddBorderRadius
-                );
+                        publication.ImageUrl,
+                        publication.Url,
+                        CalculateItemBorderColor(accountPublication, index),
+                        CalculateItemBorderRadius(accountPublication, index)
+                    );
 
+                index++;
                 items.Add(item);
             }
 
@@ -89,7 +127,7 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
 
 internal record HorizontalPublicationsSectionData(
     string Title,
-    MyLife.Core.Models.Shared.Platform Platform,
+    Platform Platform,
     IEnumerable<HorizontalPublicationsSectionItemData> Items);
 
 internal record HorizontalPublicationsSectionItemData(
@@ -97,4 +135,4 @@ internal record HorizontalPublicationsSectionItemData(
     string TargetUrl,
     Color BorderColor,
     CornerRadius BorderRadius
-    );
+);
