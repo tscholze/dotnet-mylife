@@ -25,7 +25,7 @@ namespace MyLife.Core.Services
         /// In-memory list of found content publications.
         /// If null, it has not been fetched yet.
         /// </summary>
-        private List<MyLife.Core.Models.ContentCreation.AccountPuplications>? contentPublications = null;
+        private List<MyLife.Core.Models.ContentCreation.AccountPublications>? contentPublications = null;
 
         #endregion
 
@@ -43,7 +43,7 @@ namespace MyLife.Core.Services
             return cachedLife;
         }
 
-        public async Task<List<AccountPuplications>?> GetContentPublications()
+        public async Task<List<AccountPublications>?> GetContentPublications()
         {
             contentPublications ??= await FetchContentPublicationsFromServer();
             return contentPublications;
@@ -70,7 +70,7 @@ namespace MyLife.Core.Services
             return JsonConvert.DeserializeObject<Life>(json);
         }
 
-        private async Task<List<AccountPuplications>?> FetchContentPublicationsFromServer()
+        private async Task<List<AccountPublications>?> FetchContentPublicationsFromServer()
         {
             if (mocked)
             {
@@ -78,7 +78,7 @@ namespace MyLife.Core.Services
             }
 
             var json = await httpClient.GetStringAsync(Constants.ContentCreationPublicationsApiPath);
-            return JsonConvert.DeserializeObject<List<AccountPuplications>>(json);
+            return JsonConvert.DeserializeObject<List<AccountPublications>>(json);
         }
 
         #endregion

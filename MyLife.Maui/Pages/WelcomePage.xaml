@@ -1,14 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
-             xmlns:viewModels="clr-namespace:MyLife.Maui.ViewModels;assembly=MyLife.Maui"
-             x:Class="MyLife.Maui.MainPage"
-             x:DataType="viewModels:MainViewModel">
+             xmlns:viewModels="clr-namespace:MyLife.Maui.ViewModels"
+             xmlns:contentCreation="clr-namespace:MyLife.Core.Models.ContentCreation;assembly=MyLife.Core"
+             xmlns:controls="clr-namespace:MyLife.Maui.Controls"
+             x:Class="MyLife.Maui.Pages.WelcomePage"
+             x:DataType="viewModels:WelcomeViewModel"
+             Shell.NavBarIsVisible="False">
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="8,0,8,8" Spacing="12">
+            <StackLayout Padding="16,0,16,16" Spacing="12">
                 <!-- Greeting -->
                 <Grid HorizontalOptions="Fill">
                     <Grid.ColumnDefinitions>
@@ -19,14 +22,14 @@
 
                     <StackLayout Grid.Column="0" VerticalOptions="Center">
                         <Label Text="{Binding Firstname}" Style="{StaticResource Headline}" />
-                        <Label Text="Senior Software Engineer / Content Creator / Human" Style="{StaticResource Caption}" />
+                        <Label Text="{Binding Subtitle}" Style="{StaticResource Caption}" />
                     </StackLayout>
 
                     <!-- Add a rounded image-->
                     <Border Grid.Column="2"
                             StrokeShape="RoundRectangle 50,50,50,50"
                             HorizontalOptions="Center"
-                            Stroke="Black"
+                            Stroke="Transparent"
                             StrokeThickness="5"
                             Margin="0,0,0,0">
                         <Image
@@ -34,20 +37,20 @@
                             WidthRequest="80"
                             HeightRequest="80"
                             Aspect="AspectFill"
-                            />
+                            Margin="0,0,8,0" />
                     </Border>
                 </Grid>
 
+                <!-- Introduction -->
                 <StackLayout>
-                    <Label Text="Nice to have you here!" Style="{StaticResource H3}" />
-                    <!-- Introducation -->
+                    <Label Text="{Binding IntroductionHeadline}" Style="{StaticResource H3}" />
                     <Border Padding="8" Style="{StaticResource Card1}">
-                        <Label Text="{Binding Introduction}" LineHeight="1.25" />
+                        <Label Text="{Binding ShortIntroduction}" LineHeight="1.25" />
                     </Border>
                 </StackLayout>
 
-
-
+                <!-- Content -->
+                <controls:HorizontalPublicationsSection Items="{Binding ContentCreations}" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

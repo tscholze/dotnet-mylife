@@ -1,7 +1,9 @@
 ﻿using CommunityToolkit.Maui;
+using CommunityToolkit.Maui.Markup;
 using MauiIcons.Material;
 using Microsoft.Extensions.Logging;
 using MyLife.Core.Services;
+using MyLife.Maui.Pages;
 using MyLife.Maui.ViewModels;
 
 namespace MyLife.Maui
@@ -16,7 +18,7 @@ namespace MyLife.Maui
         //
         // Change this URL to your own repository
         //
-        private const string remoteUrl = "https://tscholze.github.io/dotnet-mylife/";
+        private const string RemoteUrl = "https://tscholze.github.io/dotnet-mylife/";
 
         #endregion
 
@@ -33,6 +35,7 @@ namespace MyLife.Maui
                 .UseMauiApp<App>()
                 // Add MAUI Community Toolkit
                 .UseMauiCommunityToolkit()
+                .UseMauiCommunityToolkitMarkup()
                 // Add Material Icons
                 .UseMaterialMauiIcons()
                 // Add fFont Assets
@@ -45,16 +48,15 @@ namespace MyLife.Maui
                 });
 
             // Register services
-            var httpClient = new HttpClient { BaseAddress = new Uri(remoteUrl) };
+            var httpClient = new HttpClient { BaseAddress = new Uri(RemoteUrl) };
             builder.Services.AddSingleton(httpClient);
             builder.Services.AddTransient<LifeService>();
-            builder.Services.AddTransient<MediumService>();
 
             // Register view models
-            builder.Services.AddSingleton<MainViewModel>();
+            builder.Services.AddSingleton<WelcomeViewModel>();
 
             // Register pages
-            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<WelcomePage>();
 
             // Add debug only functionality
 #if DEBUG
