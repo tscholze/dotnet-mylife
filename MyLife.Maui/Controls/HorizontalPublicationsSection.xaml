@@ -45,9 +45,10 @@
                                 <Border Stroke="{Binding BorderColor}">
                                     <!-- Border shape -->
                                     <Border.StrokeShape>
+                                       
+                                        <RoundRectangle CornerRadius="{Binding BorderRadius}" />
                                         <!-- Workaround for https://github.com/dotnet/maui/issues/21747 
-                                        <RoundRectangle CornerRadius="{Binding BorderRadius}" />-->
-                                        <RoundRectangle CornerRadius="24,6,6,24" />
+                                        <RoundRectangle CornerRadius="24,6,6,24" />  -->
                                     </Border.StrokeShape>
 
                                     <!-- Image -->
