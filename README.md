@@ -108,9 +108,10 @@ If you try this, You will see that the `httpClient.GetAsync()` call never finish
 
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #1 – Wieso, weshalb, warum?](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-1-wieso-weshalb-warum)
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #2 – Der Kern des Ganzen](https://www.drwindows.de/news/entwicklertagebuch-mylife-net-2-der-kern-des-ganzen)
-- [Dr. Windows: Entwicklertagebucg: MyLife.NET #3 - Was'n Blazor WASM?](https://www.drwindows.de/news/entwicklertagebuch-mylife-3-wasn-blazor-wasm)
-- [Dr. Windows: Entwicklertagebucg: MyLife.NET #4 - Azure wir kommen](https://www.drwindows.de/news/entwicklertagebuch-mylife-4-azure-wir-kommen)
-- [Dr. Windows: Entwicklertagebucg: MyLife.NET #5 - Noch mehr function-nierendes Azure](https://www.drwindows.de/news/entwicklertagebuch-mylife-5-noch-mehr-function-nierendes-azure)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #3 - Was'n Blazor WASM?](https://www.drwindows.de/news/entwicklertagebuch-mylife-3-wasn-blazor-wasm)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #4 - Azure wir kommen](https://www.drwindows.de/news/entwicklertagebuch-mylife-4-azure-wir-kommen)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #5 - Noch mehr function-nierendes Azure](https://www.drwindows.de/news/entwicklertagebuch-mylife-5-noch-mehr-function-nierendes-azure)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #6 - Das Leben wird mobil dank .NET MAUI](https://www.drwindows.de/news/entwicklertagebuch-mylife-6-das-leben-wird-mobil-dank-net-maui)
 
 ## Branch management
 
