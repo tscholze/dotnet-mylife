@@ -33,11 +33,14 @@ namespace MyLife.Maui
             builder
                 // Add MAUI features
                 .UseMauiApp<App>()
-                // Add MAUI Community Toolkit
+
+                // Add MAUI Community Toolkit helpers
                 .UseMauiCommunityToolkit()
                 .UseMauiCommunityToolkitMarkup()
+
                 // Add Material Icons
                 .UseMaterialMauiIcons()
+
                 // Add fFont Assets
                 .ConfigureFonts(fonts =>
                 {
