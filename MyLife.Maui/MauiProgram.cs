@@ -49,6 +49,15 @@ namespace MyLife.Maui
                     fonts.AddFont("NotoSerif-Regular.ttf", "NotoSerifRegular");
                     fonts.AddFont("NotoSerif-SemiBold.ttf", "NotoSerifSemibold");
                 });
+      
+                // Add experimental features
+#if IOS
+                builder.ConfigureMauiHandlers(handlers =>
+                {
+                    handlers.AddHandler<Microsoft.Maui.Controls.CollectionView, Microsoft.Maui.Controls.Handlers.Items2.CollectionViewHandler2>();
+                    handlers.AddHandler<Microsoft.Maui.Controls.CarouselView, Microsoft.Maui.Controls.Handlers.Items2.CarouselViewHandler2>();
+                });
+#endif
 
             // Register services
             var httpClient = new HttpClient { BaseAddress = new Uri(RemoteUrl) };
