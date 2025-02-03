@@ -15,8 +15,11 @@ jobs:
     permissions:
       contents: write 
     steps:
-    - uses: actions/checkout@v3 
-
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 9.0.x
     - name: Change <base href="" /> in App.razor to match gh repo name
       run: |
         REPO_NAME=$(echo "${{ github.repository }}" | awk -F '/' '{print $NF}')
