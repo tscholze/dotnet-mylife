@@ -112,6 +112,7 @@ If you try this, You will see that the `httpClient.GetAsync()` call never finish
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #4 - Azure wir kommen](https://www.drwindows.de/news/entwicklertagebuch-mylife-4-azure-wir-kommen)
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #5 - Noch mehr function-nierendes Azure](https://www.drwindows.de/news/entwicklertagebuch-mylife-5-noch-mehr-function-nierendes-azure)
 - [Dr. Windows: Entwicklertagebuch: MyLife.NET #6 - Das Leben wird mobil dank .NET MAUI](https://www.drwindows.de/news/entwicklertagebuch-mylife-6-das-leben-wird-mobil-dank-net-maui)
+- [Dr. Windows: Entwicklertagebuch: MyLife.NET #7 - 2025 wird das .NET MAUI Jahr!](https://www.drwindows.de/news/entwicklertagebuch-mylife-7-2025-wird-das-maui-jahr)
 
 ## Branch management
 
