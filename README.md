@@ -70,7 +70,7 @@ dotnet run
 
 ### MyLife.Blazor.Wasm
 
-As feature of being a static website, the current demo version of this repository is hosted on GitHub Pages at [https://tscholze.github.io/dotnet-mylife/](tscholze.github.io/dotnet-mylife/) or as an Azure Static Web App using the Free Tier [somewhere in the cloud](https://proud-cliff-0b9376b03.5.azurestaticapps.net/).
+As feature of being a static website, the current demo version of this repository is hosted on GitHub Pages at [tscholze.github.io/dotnet-mylife/](https://tscholze.github.io/dotnet-mylife/) or as an Azure Static Web App using the Free Tier [somewhere in the cloud](https://proud-cliff-0b9376b03.5.azurestaticapps.net/).
 
 ```shell
 cd path-to-repo
