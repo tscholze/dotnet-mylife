@@ -15,7 +15,7 @@ namespace MyLife.Core.Services
     {
         #region Private members 
 
-        private Dictionary<string, MediumFeedModel> cachedFeeds = [];
+        private Dictionary<string, MediumFeedModel> cachedFeeds = new Dictionary<string, MediumFeedModel>();
 
         #endregion
 
@@ -28,13 +28,11 @@ namespace MyLife.Core.Services
         /// <returns>Dictionary if handle to feed.</returns>
         public async Task<Dictionary<string, MediumFeedModel>> GetFeedsByUsernames(IEnumerable<string> usernames)
         {
-            // If feeds are already cached, return them.
-            if (cachedFeeds.Count != 0)
+            if (cachedFeeds.Any())
             {
                 return cachedFeeds;
             }
 
-            // Else read, cache and return feeds.
             cachedFeeds = await ReadFeedsAsync(usernames);
             return cachedFeeds;
         }
@@ -53,7 +51,7 @@ namespace MyLife.Core.Services
                 Description = article.Abstract,
                 Url = article.ArticleUri.ToString(),
                 ImageUrl = article.CoverImageUri.ToString()
-            }).ToList() ?? [];
+            }).ToList() ?? new();
         }
 
         #endregion
@@ -62,53 +60,55 @@ namespace MyLife.Core.Services
         
         private async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
         {
-            var feedUrl = $"https://{handle}.medium.com/feed";
-            using var response = await httpClient.GetAsync(feedUrl);
-
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                var feedUrl = $"https://{handle}.medium.com/feed";
+                using var response = await httpClient.GetAsync(feedUrl);
+                response.EnsureSuccessStatusCode();
+
+                var content = (await response.Content.ReadAsStringAsync()).Trim();
+                var feed = FeedReader.ReadFromString(content);
+                return Convert(feed);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading feed from handle '{handle}': {ex.Message}");
                 return null;
             }
-
-            var content = (await response.Content.ReadAsStringAsync()).Trim();
-            var feed = FeedReader.ReadFromString(content);
-            return Convert(feed);
         }
 
         private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
         {
-            // Helper property for fetched feeds
-            Dictionary<string, MediumFeedModel> fetchedFeeds = [];
+            var fetchedFeeds = new Dictionary<string, MediumFeedModel>();
 
-            // Iterate over all sources and fetch them
             foreach (var username in usernames)
             {
-                var feed = await ReadFeedFromUsernameAsync(username);
-                if (feed != null)
+                if (await ReadFeedFromUsernameAsync(username) is { } feed)
                 {
                     fetchedFeeds[username] = feed;
                 }
             }
 
-            // Return all successfully fetched feeds.
             return fetchedFeeds;
         }
 
         private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
         {
-            var feedUrl = $"https://{username}.medium.com/feed";
-            using var response = await httpClient.GetAsync(feedUrl);
-
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                var feedUrl = $"https://{username}.medium.com/feed";
+                using var response = await httpClient.GetAsync(feedUrl);
+                response.EnsureSuccessStatusCode();
+
+                var content = (await response.Content.ReadAsStringAsync()).Trim();
+                var feed = FeedReader.ReadFromString(content);
+                return Convert(feed);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading feed from username '{username}': {ex.Message}");
                 return null;
             }
-
-            var content = (await response.Content.ReadAsStringAsync()).Trim();
-            var feed = FeedReader.ReadFromString(content);
-            return Convert(feed);
         }
 
         private static MediumFeedModel Convert(Feed feed)
@@ -133,11 +133,8 @@ namespace MyLife.Core.Services
 
         private static string ExtractAbstractFromContent(string content, int maxLength = 225)
         {
-            return content
-                .Split("<h3>", 1)
-                .First()
-                .RemoveHtmlTags()
-                .Truncate(maxLength);
+            var abstractContent = content.RemoveHtmlTags();
+            return abstractContent.Length <= maxLength ? abstractContent : $"{abstractContent[..maxLength]}...";
         }
 
         private static Uri ExtractCoverImageUriFromContent(string content)

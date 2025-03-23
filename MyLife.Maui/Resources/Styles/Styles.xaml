@@ -29,6 +29,13 @@
         <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
     </Style>
 
+    <Style TargetType="Border" x:Key="RoundedImageBorder">
+        <Setter Property="StrokeShape" Value="RoundRectangle 50,50,50,50" />
+        <Setter Property="Stroke" Value="Transparent" />
+        <Setter Property="StrokeThickness" Value="5" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+    </Style>
+
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>

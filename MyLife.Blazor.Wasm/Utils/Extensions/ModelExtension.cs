@@ -4,7 +4,7 @@ using MyLife.Core.Models.Shared;
 namespace MyLife.Blazor.Wasm.Extensions
 {
     /// <summary>
-    /// Summary of model to ui extension.
+    /// Extension methods for converting model data to UI-friendly formats.
     /// </summary>
     public static class ModelToUiExtensions
     {
@@ -15,6 +15,9 @@ namespace MyLife.Blazor.Wasm.Extensions
         /// <returns>Year of joining</returns>
         public static string GetOnlyYearJoined(this Employment employment)
         {
+            ArgumentNullException.ThrowIfNull(employment);
+            ArgumentException.ThrowIfNullOrEmpty(employment.Joined);
+
             return employment.Joined.Split('-')[1];
         }
 
@@ -25,6 +28,8 @@ namespace MyLife.Blazor.Wasm.Extensions
         /// <returns>Year of leaving or null</returns>
         public static string? GetOnlyYearLeft(this Employment employment)
         {
+            ArgumentNullException.ThrowIfNull(employment);
+            
             if (employment.Left == null) return null;
             return employment.Left.Split('-')[1];
         }
@@ -36,52 +41,34 @@ namespace MyLife.Blazor.Wasm.Extensions
         /// <returns>Html element</returns>
         public static string GetIconLinkElement(this Core.Models.SocialMedia.Account account)
         {
-            string icon;
+            ArgumentNullException.ThrowIfNull(account);
+            ArgumentNullException.ThrowIfNull(account.Url);
+            ArgumentException.ThrowIfNullOrEmpty(account.Username);
 
-            switch (account.Platform)
+            try
             {
-                case Platform.Twitter:
-                    icon = "fa-twitter";
-                    break;
-                case Platform.Mastodon:
-                    icon = "fa-mastodon";
-                    break;
-                case Platform.GitHub:
-                    icon = "fa-github";
-                    break;
-                case Platform.Youtube:
-                    icon = "fa-youtube";
-                    break;
-                case Platform.Linkedin:
-                    icon = "fa-linkedin";
-                    break;
-                case Platform.Instagram:
-                    icon = "fa-instagran";
-                    break;
-                case Platform.Tiktok:
-                    icon = "fa-tiktok";
-                    break;
-                case Platform.WordPress:
-                    icon = "fa-rss";
-                    break;
-                case Platform.Kotlog:
-                    icon = "fa-rss";
-                    break;
-                case Platform.News:
-                    icon = "fa-news";
-                    break;
-                case Platform.Medium:
-                    icon = "fa-medium";
-                    break;
-                case Platform.Podcast:
-                    icon = "fa-podcast";
-                    break;
-                default:
-                    icon = "fa-question";
-                    break;
-            }
+                string icon = account.Platform switch
+                {
+                    Platform.Twitter => "fa-twitter",
+                    Platform.Mastodon => "fa-mastodon",
+                    Platform.GitHub => "fa-github",
+                    Platform.Youtube => "fa-youtube",
+                    Platform.Linkedin => "fa-linkedin",
+                    Platform.Instagram => "fa-instagram",
+                    Platform.Tiktok => "fa-tiktok",
+                    Platform.WordPress or Platform.Kotlog => "fa-rss",
+                    Platform.News => "fa-newspaper",
+                    Platform.Medium => "fa-medium",
+                    Platform.Podcast => "fa-podcast",
+                    _ => "fa-question"
+                };
 
-            return $"<a href=\"{account.Url}\" title=\"{account.Platform} @{account.Username}\" target=\"_blank\"><i class=\"fab {icon}\"></i></a>";
+                return $"""<a href="{account.Url}" title="{account.Platform} @{account.Username}" target="_blank" rel="noopener noreferrer"><i class="fab {icon}"></i></a>""";
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Failed to create icon link for {account.Platform}", ex);
+            }
         }
     }
 }

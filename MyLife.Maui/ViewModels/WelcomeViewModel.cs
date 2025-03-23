@@ -19,6 +19,9 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
     /// </summary>
     [ObservableProperty] private string? firstname;
 
+    /// <summary>
+    /// Tagline of the persona.
+    /// </summary>
     [ObservableProperty] private string? subtitle;
 
     /// <summary>
