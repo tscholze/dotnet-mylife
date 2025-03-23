@@ -39,13 +39,13 @@ namespace MyLife.Core.Services
         /// <returns>Person's life.</returns>
         public async Task<Life?> GetLife()
         {
-            cachedLife ??= await FetchLifeFromServer();
+            cachedLife ??= await FetchDataFromServer(Constants.LifeJsonApiPath, SampleGenerators.GenerateLife);
             return cachedLife;
         }
 
         public async Task<List<AccountPublications>?> GetContentPublications()
         {
-            contentPublications ??= await FetchContentPublicationsFromServer();
+            contentPublications ??= await FetchDataFromServer(Constants.ContentCreationPublicationsApiPath, () => new List<AccountPublications>());
             return contentPublications;
         }
 
@@ -54,31 +54,31 @@ namespace MyLife.Core.Services
         #region Private helpers
 
         /// <summary>
-        /// Fetches the life information from a remote server.
+        /// Fetches data from a remote server.
         /// 
-        /// If the services is mocked, it will return a sample data.
+        /// If the service is mocked, it will return sample data.
         /// </summary>
-        /// <returns>The fetched life information.</returns>
-        private async Task<Life?> FetchLifeFromServer()
+        /// <typeparam name="T">The type of data to fetch.</typeparam>
+        /// <param name="apiPath">The API path to fetch data from.</param>
+        /// <param name="mockedDataGenerator">The function to generate mocked data.</param>
+        /// <returns>The fetched data.</returns>
+        private async Task<T?> FetchDataFromServer<T>(string apiPath, Func<T> mockedDataGenerator)
         {
-            if (mocked)
+            try
             {
-                return SampleGenerators.GenerateLife();
+                if (mocked)
+                {
+                    return mockedDataGenerator();
+                }
+
+                var json = await httpClient.GetStringAsync(apiPath);
+                return JsonConvert.DeserializeObject<T>(json);
             }
-
-            var json = await httpClient.GetStringAsync(Constants.LifeJsonApiPath);
-            return JsonConvert.DeserializeObject<Life>(json);
-        }
-
-        private async Task<List<AccountPublications>?> FetchContentPublicationsFromServer()
-        {
-            if (mocked)
+            catch (Exception ex)
             {
-                return [];
+                Console.WriteLine($"Error fetching data from server: {ex.Message}");
+                return default;
             }
-
-            var json = await httpClient.GetStringAsync(Constants.ContentCreationPublicationsApiPath);
-            return JsonConvert.DeserializeObject<List<AccountPublications>>(json);
         }
 
         #endregion

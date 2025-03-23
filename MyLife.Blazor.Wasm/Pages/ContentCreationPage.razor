@@ -17,35 +17,35 @@
 <div class="contentcreation">
     <h2>Content creation</h2>
 
-    <h3>My motivation</h3>
-    <p>@motivation</p>
-
-    <h3>Some accounts in short</h3>
-    <ul>
-        @foreach (var item in otherFeeds)
-        {
-            <li>
-                <div class="contentcreation-otherfeeds-container">
-                    <p><strong>@item.Account.Name</strong> on @item.Account.Platform <small>| <a target="_blank" href="@item.Account.Url" title="@item.Account.Handle" alt="@item.Account.Handle">Click</a></small><br />@item.Account.Description</p>
-                </div>
-            </li>
-        }
-    </ul>
-
-    @foreach (var item in youtubeFeeds)
+    @if (string.IsNullOrEmpty(motivation))
     {
-        <AccountPublicationContainer Item="@item" />
+        <div class="loading">Loading content...</div>
     }
-
-    @foreach (var item in mediumFeeds)
+    else
     {
-        <AccountPublicationContainer Item="@item" />
+        <h3>My motivation</h3>
+        <p>@motivation</p>
+
+        @if (otherFeeds.Any())
+        {
+            <h3>Some accounts in short</h3>
+            <ul>
+                @foreach (var item in otherFeeds)
+                {
+                    <li>
+                        <AccountListItem Item="@item" />
+                    </li>
+                }
+            </ul>
+        }
+
+        <PublicationSection Publications="@youtubeFeeds" />
+        <PublicationSection Publications="@mediumFeeds" />
     }
 </div>
 
-
 @code {
-    #region Private member
+    #region Private members
 
     private string motivation = string.Empty;
     private List<AccountPublications> mediumFeeds = new();
@@ -54,18 +54,32 @@
 
     #endregion
 
-    #region Init
+    #region Initialization
 
     protected override async Task OnInitializedAsync()
     {
+        try
+        {
+            await LoadData();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading content: {ex.Message}");
+            motivation = "Failed to load content. Please try again later.";
+        }
+    }
+
+    private async Task LoadData()
+    {
         var life = await lifeService.GetLife();
         var accountPublications = await lifeService.GetContentPublications();
-        if (life is null || accountPublications == null || accountPublications?.Count == 0) return;
 
-        motivation = string.Join(' ', life.ContentCreation.MotivationParagraphs);
-        mediumFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Medium).ToList() ?? [];
-        youtubeFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Youtube).ToList() ?? [];
-        otherFeeds = accountPublications?.Except(youtubeFeeds).Except(mediumFeeds).ToList() ?? [];
+        if (life?.ContentCreation == null || accountPublications == null) return;
+
+        motivation = string.Join(' ', life.ContentCreation.MotivationParagraphs ?? Array.Empty<string>());
+        mediumFeeds = accountPublications.Where(a => a?.Account?.Platform == Platform.Medium).ToList();
+        youtubeFeeds = accountPublications.Where(a => a?.Account?.Platform == Platform.Youtube).ToList();
+        otherFeeds = accountPublications.Except(youtubeFeeds).Except(mediumFeeds).ToList();
     }
 
     private string GetUsernameFromMediumUrl(Uri url)
@@ -77,8 +91,13 @@
 
     public class MediumAccount
     {
+        [System.Text.Json.Serialization.JsonPropertyName("name")]
         public required string Name { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("url")]
         public required string Url { get; set; }
+
+        [System.Text.Json.Serialization.JsonPropertyName("thumbnails")]
         public required GridItem[] Thumbnails { get; set; }
     }
 }

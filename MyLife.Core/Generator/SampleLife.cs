@@ -40,30 +40,22 @@ namespace MyLife.Core.Generator
             {
                 Firstname = "Tobias",
                 Lastname = "Scholze",
-                Nicknames = [
-                    "The Stuttering Nerd",
-                    "Tobonaut"
-                    ],
-                LocationPath = [
-                    "Germany",
-                    "Bavaria",
-                    "Augsburg"
-                    ],
-                AvatarImageUrls = [
+                Nicknames = new[] { "The Stuttering Nerd", "Tobonaut" },
+                LocationPath = new[] { "Germany", "Bavaria", "Augsburg" },
+                AvatarImageUrls = new[] 
+                {
                     "https://tscholze.github.io/content-tslifekit/files/avatar-1-min.jpeg",
-                    "https://tscholze.github.io/content-tslifekit/files/avatar-5.png",
-                    ],
-                Languages = [
-                    "German",
-                    "English"
-                    ],
+                    "https://tscholze.github.io/content-tslifekit/files/avatar-5.png"
+                },
+                Languages = new[] { "German", "English" },
                 YearOfBirth = 1988,
-                IntroductionParagraphs = [
+                IntroductionParagraphs = new[]
+                {
                     "Nice to have you here!",
                     "I am Tobias from beautiful Bavaria and I am a software engineer, nerd and hobby content creator with heart and soul to inspire people for programming as well as to educate about stuttering and multiple sclerosis.",
                     "On my site you will find a small overview of everything I do in terms of open source development, my articles for Dr. Windows and on Medium, videos and all other experiments I fabricate in my spare time like podcasting.",
-                    "Have fun!",
-                    ],
+                    "Have fun!"
+                },
                 AcademicTitle = "Bachelor of Science"
             };
         }

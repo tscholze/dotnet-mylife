@@ -27,11 +27,7 @@
 
                     <!-- Add a rounded image-->
                     <Border Grid.Column="2"
-                            StrokeShape="RoundRectangle 50,50,50,50"
-                            HorizontalOptions="Center"
-                            Stroke="Transparent"
-                            StrokeThickness="5"
-                            Margin="0,0,0,0">
+                            Style="{StaticResource RoundedImageBorder}">
                         <Image
                             Source="{Binding AvatarImageUri}"
                             WidthRequest="80"

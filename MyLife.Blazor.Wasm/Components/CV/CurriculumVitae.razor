@@ -17,7 +17,7 @@
 <h2>Curricilum Vitae</h2>
 
 <h3>Experiences</h3>
-@foreach (var item in Data.RecentEmployments)
+@foreach (var item in GetFilteredEmployments())
 {
     <CVSubSection RawTitle="@GetRawTitleForEmployment(item)" RawItems="@item.Tasks" />
 }
@@ -36,11 +36,55 @@
 <CVSubSection RawTitle="Other interests" RawItems="Data.OtherInterests" />
 
 @code {
+    /// <summary>
+    /// The maximum number of employment entries to show
+    /// </summary>
     [Parameter]
+    public int MaxEmployments { get; set; } = 5;
+
+    /// <summary>
+    /// Event callback when an error occurs
+    /// </summary>
+    [Parameter]
+    public EventCallback<Exception> OnError { get; set; }
+
+    [Parameter]
+    [EditorRequired]
     public required MyLife.Core.Models.CurriculumVitae.Container Data { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (Data == null)
+        {
+            throw new ArgumentNullException(nameof(Data), "CV data cannot be null");
+        }
+
+        if (!Data.RecentEmployments.Any())
+        {
+            Console.WriteLine("Warning: No employment history available");
+        }
+    }
+
+    private async Task HandleError(Exception ex)
+    {
+        try
+        {
+            await OnError.InvokeAsync(ex);
+        }
+        catch
+        {
+            // Fallback error handling
+            Console.WriteLine($"Error in CV component: {ex.Message}");
+        }
+    }
+
+    private IEnumerable<Employment> GetFilteredEmployments() =>
+        Data.RecentEmployments.Take(MaxEmployments);
 
     private string GetRawTitleForEmployment(Employment employment)
     {
+        ArgumentNullException.ThrowIfNull(employment);
+
         string range;
         var joined = employment.GetOnlyYearJoined();
         var left = employment.GetOnlyYearLeft();
@@ -63,22 +107,34 @@
 
     public string GetRawTitleForEducation(Education education)
     {
+        ArgumentNullException.ThrowIfNull(education, nameof(education));
+        ArgumentException.ThrowIfNullOrEmpty(education.Graduation);
+        ArgumentException.ThrowIfNullOrEmpty(education.Instituation);
+        
         return $"{education.Graduation} | {education.Instituation} | {education.YearOfGraduation}";
     }
 
     public string[] GetDevelopmentItems(Skillset skillset)
     {
+        ArgumentNullException.ThrowIfNull(skillset, nameof(skillset));
+        ArgumentNullException.ThrowIfNull(skillset.DevelopmentEnvironments);
+        ArgumentNullException.ThrowIfNull(skillset.ProgrammingLanguages);
+
         return [
-            $"<strong>Environments:</strong>  {string.Join(", ", skillset.DevelopmentEnvironments)}",
-        $"<strong>Languages:</strong>  {string.Join(", ", skillset.ProgrammingLanguages)}",
-    ];
+            $"<strong>Environments:</strong> {String.Join(", ", skillset.DevelopmentEnvironments)}",
+            $"<strong>Languages:</strong> {String.Join(", ", skillset.ProgrammingLanguages)}"
+        ];
     }
 
     public string[] GetDesignItems(Skillset skillset)
     {
+        ArgumentNullException.ThrowIfNull(skillset, nameof(skillset));
+        ArgumentNullException.ThrowIfNull(skillset.DesignEnvironments);
+        ArgumentNullException.ThrowIfNull(skillset.DesignGuidelines);
+
         return [
-            $"<strong>Environments:</strong>  {string.Join(", ", skillset.DesignEnvironments)}",
-    $"<strong>Guidelines:</strong>  {string.Join(", ", skillset.DesignGuidelines)}",
-    ];
+            $"<strong>Environments:</strong> {String.Join(", ", skillset.DesignEnvironments)}",
+            $"<strong>Guidelines:</strong> {String.Join(", ", skillset.DesignGuidelines)}"
+        ];
     }
 }

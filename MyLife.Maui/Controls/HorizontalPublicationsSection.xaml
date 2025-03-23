@@ -5,54 +5,54 @@
                      xmlns:controls="clr-namespace:MyLife.Maui.Controls"
                      x:Class="MyLife.Maui.Controls.HorizontalPublicationsSection"
                      x:DataType="controls:HorizontalPublicationsSection">
+
+    <!-- Resource Dictionary for Styles -->
     <VerticalStackLayout.Resources>
         <ResourceDictionary>
-            <Style TargetType="StackLayout">
-                <Setter Property="Padding">8</Setter>
-                <Setter Property="Spacing">8</Setter>
+            <Style x:Key="StackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Padding" Value="8" />
+                <Setter Property="Spacing" Value="8" />
             </Style>
 
-            <Style TargetType="ScrollView">
-                <Setter Property="Orientation">Horizontal</Setter>
-                <Setter Property="Padding">0</Setter>
+            <Style x:Key="ScrollViewStyle" TargetType="ScrollView">
+                <Setter Property="Orientation" Value="Horizontal" />
+                <Setter Property="Padding" Value="0" />
             </Style>
 
-            <Style TargetType="Border">
-                <Setter Property="StrokeThickness">8</Setter>
-                <Setter Property="Margin">8</Setter>
-                <Setter Property="WidthRequest">250</Setter>
-                <Setter Property="HeightRequest">140</Setter>
+            <Style x:Key="BorderStyle" TargetType="Border">
+                <Setter Property="StrokeThickness" Value="8" />
+                <Setter Property="Margin" Value="8" />
+                <Setter Property="WidthRequest" Value="250" />
+                <Setter Property="HeightRequest" Value="140" />
             </Style>
 
-            <Style TargetType="Image">
+            <Style x:Key="ImageStyle" TargetType="Image">
                 <Setter Property="Aspect" Value="AspectFill" />
             </Style>
         </ResourceDictionary>
     </VerticalStackLayout.Resources>
 
+    <!-- Bindable Layout for Items -->
     <BindableLayout.ItemTemplate>
         <DataTemplate x:DataType="controls:HorizontalPublicationsSectionData">
-            <StackLayout>
-                <!-- Account name -->
+            <StackLayout Style="{StaticResource StackLayoutStyle}">
+                <!-- Section Title -->
                 <Label Text="{Binding Title}" 
                        Style="{StaticResource H3}" />
 
-                <!-- List of publications -->
-                <ScrollView>
+                <!-- Horizontal Scrollable List of Items -->
+                <ScrollView Style="{StaticResource ScrollViewStyle}">
                     <HorizontalStackLayout BindableLayout.ItemsSource="{Binding Items}">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="controls:HorizontalPublicationsSectionItemData">
-                                <Border Stroke="{Binding BorderColor}">
-                                    <!-- Border shape -->
+                                <Border Style="{StaticResource BorderStyle}" Stroke="{Binding BorderColor}">
+                                    <!-- Border Shape -->
                                     <Border.StrokeShape>
-                                       
                                         <RoundRectangle CornerRadius="{Binding BorderRadius}" />
-                                        <!-- Workaround for https://github.com/dotnet/maui/issues/21747 
-                                        <RoundRectangle CornerRadius="24,6,6,24" />  -->
                                     </Border.StrokeShape>
 
                                     <!-- Image -->
-                                    <Image Source="{Binding ImageUrl}" />
+                                    <Image Style="{StaticResource ImageStyle}" Source="{Binding ImageUrl}" />
                                 </Border>
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
