@@ -59,7 +59,7 @@ namespace MyLife.Core.Generator
                     ],
                 YearOfBirth = 1988,
                 IntroductionParagraphs = [
-                    "Nice to have you here!",
+                    "<strong>Nice to have you here!</strong>",
                     "I am Tobias from beautiful Bavaria and I am a software engineer, nerd and hobby content creator with heart and soul to inspire people for programming as well as to educate about stuttering and multiple sclerosis.",
                     "On my site you will find a small overview of everything I do in terms of open source development, my articles for Dr. Windows and on Medium, videos and all other experiments I fabricate in my spare time like podcasting.",
                     "Have fun!",
@@ -70,25 +70,38 @@ namespace MyLife.Core.Generator
 
         private static Models.CurriculumVitae.Container GenerateCurriculumVitae()
         {
-            var anfema = new Employment
+            var pixida = new Employment
             {
-                Company = "anfema GmbH",
+                Company = "Pixida Gmbh - BU anfema",
                 Role = "Senior Software Engineer for iOS",
                 Tasks = [
-                    "Planning, development and maintanance of B2B grade for iOS and iPadOS with focus on HR and industriy 4.0",
-                    "Helping customers to understand how apps can transform their work life",
-                    "Onboarding of new team members",
-                    "Planning and management of multi-division tasks"
+                    "Transfer from anfema GmbH to a business unit of Pixida GmbH",
+                    "Cotinuation of former responsibilities",
+                    "SAP BTP native iOS app development for motorsport racing clients",
+                    "Build an internal developer group to share knowledge and best practices"
                     ],
-                Joined = "11-2015",
+                Joined = "05-2024",
                 Left = null
             };
 
             return new Models.CurriculumVitae.Container
             {
-                CurrentEmployment = anfema,
+                CurrentEmployment = pixida,
                 RecentEmployments = [
-                    anfema,
+                    pixida,
+                    new Employment
+                    {
+                        Company = "anfema GmbH",
+                        Role = "Senior Software Engineer for iOS",
+                        Tasks = [
+                            "Planning, development and maintanance of B2B grade for iOS and iPadOS with focus on HR and industriy 4.0",
+                            "Helping customers to understand how apps can transform their work life",
+                            "Onboarding of new team members",
+                            "Planning and management of multi-division tasks"
+                            ],
+                        Joined = "11-2015",
+                        Left = "05-2024"
+                    },
                     new Employment
                     {
                         Company = "NCR Deutschland GmbH",
@@ -218,6 +231,36 @@ namespace MyLife.Core.Generator
                 GitHubUsername = "tscholze",
                 GitHubUrl = new("https://github.com/tscholze"),
                 ProjectFamilies = [
+                    new ProjectFamily {
+                        Name = "MyLife.NET",
+                        Description = "Multi-project .NET solution that provides a life generator for a staticpersonal website, app or other digital representation",
+                        ImageUrl = new("https://github.com/tscholze/dotnet-mylife/raw/main/__docs/socialmedia.png?raw=true"),
+                        Projects = [
+                            new Project {
+                                Name = "MyLife.Core",
+                                Descripton = "Core library that provides the data model and the generator for the life object",
+                                GithubUrl = new("https://github.com//tscholze/kotlin-kpi-native-enviro"),
+                                ImageUrl = new("https://github.com/tscholze/dotnet-mylife/blob/main/__docs/mylife-exporter-console-output.png?raw=true"),
+                                ProgrammingLanguage = "csharp"
+                            },
+                            
+                            new Project {
+                                Name = "MyLife.Blazor.Wasm",
+                                Descripton = "Web assembly project that renders the life object as a static website",
+                                GithubUrl = new("https://github.com/tscholze/dotnet-mylife/tree/main/MyLife.Blazor.Wasm"),
+                                ImageUrl = new("https://github.com/tscholze/dotnet-mylife/blob/main/__docs/mylife-blazor-wasm-overview.png?raw=true"),
+                                ProgrammingLanguage = "csharp"
+                            },
+
+                            new Project {
+                                Name = "MyLife.MAUI",
+                                Descripton = "MAUI application to render the generated JSON as a mobile app for iOS and Android",
+                                GithubUrl = new("https://github.com/tscholze/dotnet-mylife/tree/main/MyLife.Maui"),
+                                ImageUrl = new("https://github.com/tscholze/kotlin-kpi-native-enviro/blob/main/__docs/mylife-maui-ios.png?raw=true"),
+                                ProgrammingLanguage = "csharp"
+                            }
+                        ]
+                    },
                     new ProjectFamily
                     {
                         Name = "Kpi - Kotlin/Native <3 Raspberry Pi",
