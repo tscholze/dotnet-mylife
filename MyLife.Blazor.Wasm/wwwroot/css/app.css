@@ -31,14 +31,15 @@ h3:after {
     OpenSource Project Family Component
 */
 .project-family {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
     .project-family hr {
-        margin-top: 24px;
+        margin-top: 32px;
+        color: #ccc;
     }
 
-        .project-family hr:last-child {
+        .project-family:last-child hr {
             visibility: hidden
         }
 
@@ -58,7 +59,7 @@ h3:after {
 }
 
     .project-family-header img {
-        margin-right: 8px;
+        margin-right: 16px;
     }
 
 /* 
