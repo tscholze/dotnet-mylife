@@ -41,7 +41,7 @@
                 <StackLayout>
                     <Label Text="{Binding IntroductionHeadline}" Style="{StaticResource H3}" />
                     <Border Padding="8" Style="{StaticResource Card1}">
-                        <Label Text="{Binding ShortIntroduction}" LineHeight="1.25" />
+                        <Label Text="{Binding ShortIntroduction}" />
                     </Border>
                 </StackLayout>
 

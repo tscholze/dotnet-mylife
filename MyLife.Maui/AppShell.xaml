@@ -14,24 +14,12 @@
             Title="Welcome"
             ContentTemplate="{DataTemplate pages:WelcomePage}"
             Route="WelcomePage"/>
-
-        <ShellContent
-            Icon="tab_articles.png"
-            Title="Articles"
-            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
-            Route="ArticlesPage"/>
-        
-        <ShellContent
-            Icon="tab_articles.png"
-            Title="Videos"
-            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
-            Route="ArticlesPage"/>
         
         <ShellContent
             Icon="tab_articles.png"
             Title="Open Source"
-            ContentTemplate="{DataTemplate pages:NotImplementedPage}"
-            Route="ArticlesPage"/>
+            ContentTemplate="{DataTemplate pages:OpenSourcePage}"
+            Route="WelcomePage"/>
     </TabBar>
 
 </Shell>
