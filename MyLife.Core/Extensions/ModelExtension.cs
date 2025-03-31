@@ -76,7 +76,8 @@
         /// <param name="platform">Platform to filter by</param>
         /// <returns>Accounts by platform</returns>
         public static IEnumerable<Models.ContentCreation.Account> GetAccountsByPlatform(
-            this IEnumerable<Models.ContentCreation.Account> accounts, Models.Shared.Platform platform)
+            this IEnumerable<Models.ContentCreation.Account> accounts, Models.Shared.Platform platform
+            )
         {
             return accounts.Where(a => a.Platform == platform);
         }

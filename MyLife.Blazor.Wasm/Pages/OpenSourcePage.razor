@@ -24,12 +24,19 @@
 @code {
     #region Private member
 
+    /// <summary>
+    /// Contains the open source activities data for display on the page.
+    /// </summary>
     private Core.Models.OpenSource.Container? Data;
 
     #endregion
 
     #region Init
 
+    /// <summary>
+    /// Initializes the page by loading open source data from the life service.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
     {
         var life = await lifeService.GetLife();
