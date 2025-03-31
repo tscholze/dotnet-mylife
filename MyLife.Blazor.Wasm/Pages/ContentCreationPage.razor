@@ -17,99 +17,57 @@
 <div class="contentcreation">
     <h2>Content creation</h2>
 
-    @if (string.IsNullOrEmpty(motivation))
-    {
-        <div class="loading">Loading content...</div>
-    }
-    else
-    {
-        <h3>My motivation</h3>
-        <p>@motivation</p>
+    <h3>My motivation</h3>
+    <p>@motivation</p>
 
-        @if (otherFeeds.Any())
+    <h3>Some accounts in short</h3>
+    <ul>
+        @foreach (var item in otherFeeds)
         {
-            <h3>Some accounts in short</h3>
-            <ul>
-                @foreach (var item in otherFeeds)
-                {
-                    <li>
-                        <AccountListItem Item="@item" />
-                    </li>
-                }
-            </ul>
+            <li>
+                <div class="contentcreation-otherfeeds-container">
+                    <p><strong>@item.Account.Name</strong> on @item.Account.Platform <small>| <a target="_blank" href="@item.Account.Url" title="@item.Account.Handle" alt="@item.Account.Handle">Click</a></small><br />@item.Account.Description</p>
+                </div>
+            </li>
         }
+    </ul>
 
-        <PublicationSection Publications="@youtubeFeeds" />
-        <PublicationSection Publications="@mediumFeeds" />
+    @foreach (var item in youtubeFeeds)
+    {
+        <AccountPublicationContainer Item="@item" />
+    }
+
+    @foreach (var item in mediumFeeds)
+    {
+        <AccountPublicationContainer Item="@item" />
     }
 </div>
 
+
 @code {
-    #region Private members
+    #region Private member
 
-    /// <summary>
-    /// Gets or sets the motivation text displayed on the page.
-    /// </summary>
     private string motivation = string.Empty;
-
-    /// <summary>
-    /// Gets or sets the list of Medium feed publications.
-    /// </summary>
     private List<AccountPublications> mediumFeeds = new();
-
-    /// <summary>
-    /// Gets or sets the list of YouTube feed publications.
-    /// </summary>
     private List<AccountPublications> youtubeFeeds = new();
-
-    /// <summary>
-    /// Gets or sets the list of other feed publications.
-    /// </summary>
     private List<AccountPublications> otherFeeds = new();
 
     #endregion
 
-    #region Initialization
+    #region Init
 
-    /// <summary>
-    /// Loads and initializes the content creation data.
-    /// </summary>
-    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
-    {
-        try
-        {
-            await LoadData();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error loading content: {ex.Message}");
-            motivation = "Failed to load content. Please try again later.";
-        }
-    }
-
-    /// <summary>
-    /// Loads life and content publication data from the service.
-    /// </summary>
-    /// <returns>A task representing the asynchronous operation.</returns>
-    private async Task LoadData()
     {
         var life = await lifeService.GetLife();
         var accountPublications = await lifeService.GetContentPublications();
+        if (life is null || accountPublications == null || accountPublications?.Count == 0) return;
 
-        if (life?.ContentCreation == null || accountPublications == null) return;
-
-        motivation = string.Join(' ', life.ContentCreation.MotivationParagraphs ?? Array.Empty<string>());
-        mediumFeeds = accountPublications.Where(a => a?.Account?.Platform == Platform.Medium).ToList();
-        youtubeFeeds = accountPublications.Where(a => a?.Account?.Platform == Platform.Youtube).ToList();
-        otherFeeds = accountPublications.Except(youtubeFeeds).Except(mediumFeeds).ToList();
+        motivation = string.Join(' ', life.ContentCreation.MotivationParagraphs);
+        mediumFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Medium).ToList() ?? [];
+        youtubeFeeds = accountPublications?.Where(a => a.Account.Platform == Platform.Youtube).ToList() ?? [];
+        otherFeeds = accountPublications?.Except(youtubeFeeds).Except(mediumFeeds).ToList() ?? [];
     }
 
-    /// <summary>
-    /// Extracts the username from a Medium URL.
-    /// </summary>
-    /// <param name="url">The Medium profile URL.</param>
-    /// <returns>The extracted username.</returns>
     private string GetUsernameFromMediumUrl(Uri url)
     {
         return url.Host.ToString().Split('.').First();
@@ -117,27 +75,10 @@
 
     #endregion
 
-    /// <summary>
-    /// Represents a Medium account with associated thumbnails.
-    /// </summary>
     public class MediumAccount
     {
-        /// <summary>
-        /// Gets or sets the name of the Medium account.
-        /// </summary>
-        [System.Text.Json.Serialization.JsonPropertyName("name")]
         public required string Name { get; set; }
-
-        /// <summary>
-        /// Gets or sets the URL of the Medium account.
-        /// </summary>
-        [System.Text.Json.Serialization.JsonPropertyName("url")]
         public required string Url { get; set; }
-
-        /// <summary>
-        /// Gets or sets the array of thumbnail items associated with this account.
-        /// </summary>
-        [System.Text.Json.Serialization.JsonPropertyName("thumbnails")]
         public required GridItem[] Thumbnails { get; set; }
     }
 }
