@@ -43,6 +43,11 @@ namespace MyLife.Core.Services
             return cachedLife;
         }
 
+        /// <summary>
+        /// Gets the content publications for all accounts.
+        /// Could be cached or fetched from a remote server.
+        /// </summary>
+        /// <returns>List of account publications or null if not available.</returns>
         public async Task<List<AccountPublications>?> GetContentPublications()
         {
             contentPublications ??= await FetchDataFromServer(Constants.ContentCreationPublicationsApiPath, () => new List<AccountPublications>());

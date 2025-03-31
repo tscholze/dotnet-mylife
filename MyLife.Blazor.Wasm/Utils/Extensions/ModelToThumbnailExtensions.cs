@@ -67,6 +67,16 @@ namespace MyLife.Blazor.Wasm.Utils.Extensions
         }
 
         /// <summary>
+        /// Converts a list of open source projects to thumbnails.
+        /// </summary>
+        /// <param name="projects">List of projects to convert.</param>
+        /// <returns>Collection of thumbnail items.</returns>
+        public static IEnumerable<ThumbnailGrid.GridItem> ToThumbnails(this IEnumerable<Core.Models.OpenSource.Project> projects)
+        {
+            return projects.Select(project => project.ToThumbnail());
+        }
+
+        /// <summary>
         /// Converts a list of open source projects to a thumbnails.
         /// </summary>
         /// <param name="publications">List of publications</param>

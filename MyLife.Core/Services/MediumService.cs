@@ -15,6 +15,9 @@ namespace MyLife.Core.Services
     {
         #region Private members 
 
+        /// <summary>
+        /// In-memory cache of Medium feeds keyed by username.
+        /// </summary>
         private Dictionary<string, MediumFeedModel> cachedFeeds = new Dictionary<string, MediumFeedModel>();
 
         #endregion
@@ -58,6 +61,11 @@ namespace MyLife.Core.Services
 
         #region Private methods
         
+        /// <summary>
+        /// Reads a Medium feed for a specific handle.
+        /// </summary>
+        /// <param name="handle">The Medium account handle</param>
+        /// <returns>A Medium feed model or null if the feed cannot be read</returns>
         private async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
         {
             try
@@ -77,6 +85,11 @@ namespace MyLife.Core.Services
             }
         }
 
+        /// <summary>
+        /// Reads Medium feeds for multiple usernames.
+        /// </summary>
+        /// <param name="usernames">Collection of Medium usernames</param>
+        /// <returns>Dictionary mapping usernames to their feeds</returns>
         private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
         {
             var fetchedFeeds = new Dictionary<string, MediumFeedModel>();
@@ -92,6 +105,11 @@ namespace MyLife.Core.Services
             return fetchedFeeds;
         }
 
+        /// <summary>
+        /// Reads a Medium feed for a specific username.
+        /// </summary>
+        /// <param name="username">The Medium username</param>
+        /// <returns>A Medium feed model or null if the feed cannot be read</returns>
         private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
         {
             try
@@ -111,6 +129,11 @@ namespace MyLife.Core.Services
             }
         }
 
+        /// <summary>
+        /// Converts a CodeHollow Feed to a MediumFeedModel.
+        /// </summary>
+        /// <param name="feed">The feed to convert</param>
+        /// <returns>A MediumFeedModel</returns>
         private static MediumFeedModel Convert(Feed feed)
         {
             return new MediumFeedModel(
@@ -120,6 +143,11 @@ namespace MyLife.Core.Services
             );
         }
 
+        /// <summary>
+        /// Converts a FeedItem to a MediumArticleModel.
+        /// </summary>
+        /// <param name="item">The feed item to convert</param>
+        /// <returns>A MediumArticleModel</returns>
         private static MediumArticleModel Convert(FeedItem item)
         {
             return new MediumArticleModel(
@@ -131,12 +159,23 @@ namespace MyLife.Core.Services
             );
         }
 
+        /// <summary>
+        /// Extracts and formats an abstract from HTML content.
+        /// </summary>
+        /// <param name="content">The HTML content</param>
+        /// <param name="maxLength">Maximum length of the abstract</param>
+        /// <returns>The formatted abstract</returns>
         private static string ExtractAbstractFromContent(string content, int maxLength = 225)
         {
             var abstractContent = content.RemoveHtmlTags();
             return abstractContent.Length <= maxLength ? abstractContent : $"{abstractContent[..maxLength]}...";
         }
 
+        /// <summary>
+        /// Extracts the cover image URL from HTML content.
+        /// </summary>
+        /// <param name="content">The HTML content</param>
+        /// <returns>URI of the first image found in the content</returns>
         private static Uri ExtractCoverImageUriFromContent(string content)
         {
             var url = content.ExtractFirstImageUrlFromHtml() ?? "";

@@ -47,15 +47,34 @@
 @code {
     #region Private members
 
+    /// <summary>
+    /// Gets or sets the motivation text displayed on the page.
+    /// </summary>
     private string motivation = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the list of Medium feed publications.
+    /// </summary>
     private List<AccountPublications> mediumFeeds = new();
+
+    /// <summary>
+    /// Gets or sets the list of YouTube feed publications.
+    /// </summary>
     private List<AccountPublications> youtubeFeeds = new();
+
+    /// <summary>
+    /// Gets or sets the list of other feed publications.
+    /// </summary>
     private List<AccountPublications> otherFeeds = new();
 
     #endregion
 
     #region Initialization
 
+    /// <summary>
+    /// Loads and initializes the content creation data.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
     {
         try
@@ -69,6 +88,10 @@
         }
     }
 
+    /// <summary>
+    /// Loads life and content publication data from the service.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     private async Task LoadData()
     {
         var life = await lifeService.GetLife();
@@ -82,6 +105,11 @@
         otherFeeds = accountPublications.Except(youtubeFeeds).Except(mediumFeeds).ToList();
     }
 
+    /// <summary>
+    /// Extracts the username from a Medium URL.
+    /// </summary>
+    /// <param name="url">The Medium profile URL.</param>
+    /// <returns>The extracted username.</returns>
     private string GetUsernameFromMediumUrl(Uri url)
     {
         return url.Host.ToString().Split('.').First();
@@ -89,14 +117,26 @@
 
     #endregion
 
+    /// <summary>
+    /// Represents a Medium account with associated thumbnails.
+    /// </summary>
     public class MediumAccount
     {
+        /// <summary>
+        /// Gets or sets the name of the Medium account.
+        /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("name")]
         public required string Name { get; set; }
 
+        /// <summary>
+        /// Gets or sets the URL of the Medium account.
+        /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("url")]
         public required string Url { get; set; }
 
+        /// <summary>
+        /// Gets or sets the array of thumbnail items associated with this account.
+        /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("thumbnails")]
         public required GridItem[] Thumbnails { get; set; }
     }

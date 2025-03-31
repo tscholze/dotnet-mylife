@@ -34,9 +34,20 @@ else
 }
 
 @code {
+    /// <summary>
+    /// Gets or sets the life data containing all personal information.
+    /// </summary>
     private Life? life;
+
+    /// <summary>
+    /// Gets or sets the page title displayed in the browser tab.
+    /// </summary>
     private string pageTitle = "Loading...";
 
+    /// <summary>
+    /// Initializes the component by loading life data.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
     {
         try
@@ -54,6 +65,10 @@ else
         }
     }
 
+    /// <summary>
+    /// Creates the header text from the life data.
+    /// </summary>
+    /// <returns>Formatted header text string containing fullname and nickname.</returns>
     private string MakeHeaderText()
     {
         if (life == null) return string.Empty;
@@ -64,6 +79,10 @@ else
         return nickname != null ? $"{headerText} | {nickname}" : headerText;
     }
 
+    /// <summary>
+    /// Creates the footer text with social media icons.
+    /// </summary>
+    /// <returns>Formatted footer text string with social media links.</returns>
     private string MakeFooterText()
     {
         if (life == null) return string.Empty;

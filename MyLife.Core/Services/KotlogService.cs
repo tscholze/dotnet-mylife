@@ -10,6 +10,9 @@ public class KotlogService(HttpClient httpClient)
 {
     #region Private members 
 
+    /// <summary>
+    /// In-memory cache of Kotlog feeds keyed by blog URL
+    /// </summary>
     private Dictionary<string, KotlogFeedModel> cachedFeeds = [];
 
     #endregion

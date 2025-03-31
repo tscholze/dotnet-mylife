@@ -11,9 +11,24 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
 {
     #region Constants
 
+    /// <summary>
+    /// Border color for even-indexed items.
+    /// </summary>
     private static readonly Color EvenBorderColor = Colors.MediumPurple;
+
+    /// <summary>
+    /// Border color for odd-indexed items.
+    /// </summary>
     private static readonly Color OddBorderColor = Colors.MediumAquamarine;
+
+    /// <summary>
+    /// Border radius for even-indexed items.
+    /// </summary>
     private static readonly CornerRadius EvenBorderRadius = new(24, 6, 6, 24);
+
+    /// <summary>
+    /// Border radius for odd-indexed items.
+    /// </summary>
     private static readonly CornerRadius OddBorderRadius = new(6, 24, 24, 6);
 
     #endregion
@@ -125,11 +140,24 @@ public partial class HorizontalPublicationsSection : VerticalStackLayout
     #endregion
 }
 
+/// <summary>
+/// Data object representing a section in the horizontal publications view.
+/// </summary>
+/// <param name="Title">The title of the section.</param>
+/// <param name="Platform">The platform type of the section.</param>
+/// <param name="Items">Collection of publication items.</param>
 internal record HorizontalPublicationsSectionData(
     string Title,
     Platform Platform,
     IEnumerable<HorizontalPublicationsSectionItemData> Items);
 
+/// <summary>
+/// Data object representing an individual publication item.
+/// </summary>
+/// <param name="ImageUrl">The URL of the publication's image.</param>
+/// <param name="TargetUrl">The target URL when the item is selected.</param>
+/// <param name="BorderColor">The color of the item's border.</param>
+/// <param name="BorderRadius">The border radius of the item.</param>
 internal record HorizontalPublicationsSectionItemData(
     string ImageUrl,
     string TargetUrl,

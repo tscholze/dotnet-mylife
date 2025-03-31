@@ -39,6 +39,9 @@ public partial class WelcomeViewModel(LifeService lifeService) : ObservableObjec
     /// </summary>
     [ObservableProperty] private string? shortIntroduction;
 
+    /// <summary>
+    /// Observable collection of all content publication accounts with their publications.
+    /// </summary>
     [ObservableProperty] private IEnumerable<AccountPublications>? contentCreations;
 
     #endregion
