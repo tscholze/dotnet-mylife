@@ -6,6 +6,7 @@
              xmlns:mi="http://www.aathifmahir.com/dotnet/2022/maui/icons"
              x:Class="MyLife.Maui.Pages.OpenSourcePage"
              x:DataType="vm:OpenSourceViewModel"
+             Shell.NavBarIsVisible="False"
              Title="Open Source">
 
     <ScrollView>
@@ -49,7 +50,7 @@
                         <Border Margin="8,4"
                                 Style="{StaticResource Card1}">
                             <VerticalStackLayout Padding="12"
-                                                Spacing="4">
+                                                 Spacing="4">
                                 <Label Text="{Binding Name}"
                                        FontAttributes="Bold"/>
                                 <Label Text="{Binding Description}"
