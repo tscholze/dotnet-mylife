@@ -17,7 +17,7 @@ namespace MyLife.Blazor.Wasm.Utils.Extensions
             return new ThumbnailGrid.GridItem
             {
                 Name = project.Name,
-                Description = project.Descripton,
+                Description = project.Description,
                 ImageUrl = project.ImageUrl.ToString(),
                 TargetUrl = project.GithubUrl.ToString()
             };

@@ -1,3 +1,5 @@
+using MauiIcons.Core;
+using MauiIcons.Material;
 using MyLife.Maui.ViewModels;
 
 namespace MyLife.Maui.Pages;
@@ -18,6 +20,5 @@ public partial class OpenSourcePage : ContentPage
         
         // Trigger initial data load
         viewModel.FetchDataCommand.Execute(null);
-        
     }
 }

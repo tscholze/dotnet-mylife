@@ -11,16 +11,14 @@
     <ScrollView>
         <VerticalStackLayout Spacing="16"
                              Padding="16">
-
+            <!-- Header Section -->
             <VerticalStackLayout Spacing="8">
                 <HorizontalStackLayout HorizontalOptions="Fill"
-                                       VerticalOptions="Center">
+                                       Spacing="8">
                     <Label Text="{Binding GithubName}"
-                           Style="{StaticResource Headline}"/>
-                    <ImageButton mi:MauiIcon.Value="{mi:Material Icon=AccessAlarm}"
-                                 WidthRequest="24"
-                                 HeightRequest="24"
-                                 Command="{Binding OpenGitHubCommand}"/>
+                           Style="{StaticResource Headline}"
+                           HorizontalOptions="StartAndExpand"
+                           VerticalOptions="Center"/>
                 </HorizontalStackLayout>
 
                 <Border Padding="8"
@@ -29,32 +27,35 @@
                 </Border>
             </VerticalStackLayout>
 
+            <!-- Projects List -->
             <CollectionView ItemsSource="{Binding ProjectFamilies}"
                             SelectionMode="Single"
                             Margin="0,16,0,0"
                             IsGrouped="True">
                 <CollectionView.GroupHeaderTemplate>
                     <DataTemplate x:DataType="model:ProjectFamily">
-                        <VerticalStackLayout>
+                        <VerticalStackLayout Margin="0,16,0,8">
                             <Label Text="{Binding Name}"
                                    FontSize="Medium"
                                    FontAttributes="Bold"/>
                             <Label Text="{Binding Description}"
-                                   TextColor="Blue"
-                                   FontSize="Small"/>
+                                   Style="{StaticResource Caption}"/>
                         </VerticalStackLayout>
                     </DataTemplate>
                 </CollectionView.GroupHeaderTemplate>
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Project">
-                        <VerticalStackLayout>
-                            <Label Text="{Binding Name}"
-                                   FontAttributes="Bold"/>
-                            <Label Text="{Binding Descripton}"
-                                   TextColor="Gray"
-                                   FontSize="Small"/>
-                        </VerticalStackLayout>
+                        <Border Margin="8,4"
+                                Style="{StaticResource Card1}">
+                            <VerticalStackLayout Padding="12"
+                                                Spacing="4">
+                                <Label Text="{Binding Name}"
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding Description}"
+                                       Style="{StaticResource Caption}"/>
+                            </VerticalStackLayout>
+                        </Border>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
