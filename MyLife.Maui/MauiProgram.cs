@@ -66,9 +66,11 @@ namespace MyLife.Maui
 
             // Register view models
             builder.Services.AddSingleton<WelcomeViewModel>();
+            builder.Services.AddSingleton<OpenSourceViewModel>();
 
             // Register pages
             builder.Services.AddSingleton<WelcomePage>();
+            builder.Services.AddSingleton<OpenSourcePage>();
 
             // Add debug only functionality
 #if DEBUG

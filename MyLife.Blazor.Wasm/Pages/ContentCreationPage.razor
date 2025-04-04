@@ -47,15 +47,34 @@
 @code {
     #region Private member
 
+    /// <summary>
+    /// Stores the content creator's motivation text.
+    /// </summary>
     private string motivation = string.Empty;
+
+    /// <summary>
+    /// Collection of Medium platform publications.
+    /// </summary>
     private List<AccountPublications> mediumFeeds = new();
+
+    /// <summary>
+    /// Collection of YouTube videos publications.
+    /// </summary>
     private List<AccountPublications> youtubeFeeds = new();
+
+    /// <summary>
+    /// Collection of publications from platforms other than Medium and YouTube.
+    /// </summary>
     private List<AccountPublications> otherFeeds = new();
 
     #endregion
 
     #region Init
 
+    /// <summary>
+    /// Initializes the component by fetching life data and content publications.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
     {
         var life = await lifeService.GetLife();
@@ -68,6 +87,11 @@
         otherFeeds = accountPublications?.Except(youtubeFeeds).Except(mediumFeeds).ToList() ?? [];
     }
 
+    /// <summary>
+    /// Extracts the username from a Medium profile URL.
+    /// </summary>
+    /// <param name="url">The Medium profile URL.</param>
+    /// <returns>The extracted username from the URL's host.</returns>
     private string GetUsernameFromMediumUrl(Uri url)
     {
         return url.Host.ToString().Split('.').First();
@@ -75,10 +99,24 @@
 
     #endregion
 
+    /// <summary>
+    /// Represents a Medium account with its basic information and associated content.
+    /// </summary>
     public class MediumAccount
     {
+        /// <summary>
+        /// Gets or sets the display name of the Medium account.
+        /// </summary>
         public required string Name { get; set; }
+
+        /// <summary>
+        /// Gets or sets the profile URL of the Medium account.
+        /// </summary>
         public required string Url { get; set; }
+
+        /// <summary>
+        /// Gets or sets the collection of thumbnail items associated with the account.
+        /// </summary>
         public required GridItem[] Thumbnails { get; set; }
     }
 }

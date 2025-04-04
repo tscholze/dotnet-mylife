@@ -17,7 +17,7 @@ namespace MyLife.Core.Models.OpenSource
         /// Description of the project.
         /// </summary>
         [JsonProperty("description")]
-        public required string Descripton { get; set; }
+        public required string Description { get; set; }
 
         /// <summary>
         /// The cover image URL of the project.

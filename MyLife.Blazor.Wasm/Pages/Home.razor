@@ -14,8 +14,14 @@
 }
 
 @code {
+    /// <summary>
+    /// Represents the home page component displaying personal information.
+    /// </summary>
     #region Private member
 
+    /// <summary>
+    /// Gets or sets the life data containing all personal information.
+    /// </summary>
     private Life? life = null;
 
     #endregion
@@ -31,6 +37,11 @@
 
     #region UI builder
 
+    /// <summary>
+    /// Creates the header text from the given life data.
+    /// </summary>
+    /// <param name="life">Life data containing persona information.</param>
+    /// <returns>Formatted header text string.</returns>
     private string MakeHeaderText(Life life)
     {
         var headerText = life.Persona.GetFullname();
@@ -44,6 +55,11 @@
         return headerText;
     }
 
+    /// <summary>
+    /// Creates the footer text from the given life data.
+    /// </summary>
+    /// <param name="life">Life data containing persona and social media information.</param>
+    /// <returns>Formatted footer text string with social media icons.</returns>
     private string MakeFooterText(Life life)
     {
         var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";

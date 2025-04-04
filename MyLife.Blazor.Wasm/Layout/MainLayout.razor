@@ -3,70 +3,93 @@
 @using MyLife.Blazor.Wasm.Components.Navigation
 @using MyLife.Blazor.Wasm.Extensions
 @using MyLife.Core.Extensions
-@using MyLife.Core.Generator
 @using MyLife.Core.Models
 @using MyLife.Core.Services
+
 @inject LifeService lifeService
+
+<PageTitle>@pageTitle</PageTitle>
 
 @if (life != null)
 {
     <header style="margin-bottom: 12px;">
-        @((MarkupString)MakeHeaderText(life))
+        @((MarkupString)MakeHeaderText())
         <hr />
     </header>
 
-    <content>
+    <main role="main">
         <Avatar Persona="@life.Persona" />
         <TopNavigationBar />
         @Body
-    </content>
+    </main>
 
-    <footer>
+    <footer role="contentinfo">
         <hr />
-        @((MarkupString)MakeFooterText(life))
+        @((MarkupString)MakeFooterText())
     </footer>
+}
+else
+{
+    <div role="alert">Loading...</div>
 }
 
 @code {
-    #region Private member
+    /// <summary>
+    /// Gets or sets the life data containing all personal information.
+    /// </summary>
+    private Life? life;
 
-    private Life? life = null;
+    /// <summary>
+    /// Gets or sets the page title displayed in the browser tab.
+    /// </summary>
+    private string pageTitle = "Loading...";
 
-    #endregion
-
-    #region Init
-
+    /// <summary>
+    /// Initializes the component by loading life data.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation.</returns>
     protected override async Task OnInitializedAsync()
     {
-        life = await lifeService.GetLife();
-    }
-
-    #endregion
-
-    #region UI builder
-
-    private string MakeHeaderText(Life life)
-    {
-        var headerText = life.Persona.GetFullname();
-
-        var nickname = life.Persona.Nicknames.First();
-        if (nickname != null)
+        try
         {
-            headerText += " | " + nickname;
+            life = await lifeService.GetLife();
+            if (life != null)
+            {
+                pageTitle = $"{life.Persona.GetFullname()} | Personal Site";
+            }
         }
-
-        return headerText;
+        catch (Exception ex)
+        {
+            // Log error in real application
+            Console.WriteLine($"Error loading life data: {ex.Message}");
+        }
     }
 
-    private string MakeFooterText(Life life)
+    /// <summary>
+    /// Creates the header text from the life data.
+    /// </summary>
+    /// <returns>Formatted header text string containing fullname and nickname.</returns>
+    private string MakeHeaderText()
     {
-        var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
-
-        var icons = life.SocialMedia.Accounts.Select(p => p.GetIconLinkElement());
-        footerText += " | " + string.Join("  ", icons);
-
-        return footerText;
+        if (life == null) return string.Empty;
+        
+        var headerText = life.Persona.GetFullname();
+        var nickname = life.Persona.Nicknames.FirstOrDefault();
+        
+        return nickname != null ? $"{headerText} | {nickname}" : headerText;
     }
 
-    #endregion
+    /// <summary>
+    /// Creates the footer text with social media icons.
+    /// </summary>
+    /// <returns>Formatted footer text string with social media links.</returns>
+    private string MakeFooterText()
+    {
+        if (life == null) return string.Empty;
+
+        var footerText = $"Made with ❤️ | .NET | Blazor | {life.Persona.GetFullname()}";
+        var icons = life.SocialMedia.Accounts.Select(p => p.GetIconLinkElement());
+        
+        return footerText + " | " + String.Join("  ", icons); // Fix casing of String.Join
+    }
 }

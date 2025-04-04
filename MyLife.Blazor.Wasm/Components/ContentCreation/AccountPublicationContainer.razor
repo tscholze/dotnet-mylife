@@ -6,7 +6,9 @@
     <h3>@Item.Account.Name <small>on @Item.Account.Platform</small></h3>
     <p>@Item.Account.Description</p>
     <ThumbnailGrid Items="@Item.Publications.ToThumbnails()" />
-    <p>Visit <a target="_blank" href="@Item.Account.Url" title="@Item.Account.Handle" alt="@Item.Account.Handle">@Item.Account.Name on @Item.Account.Platform</a> for more content.</p>
+    <p>Visit <a target="_blank" href="@Item.Account.Url" title="@Item.Account.Handle"
+            alt="@Item.Account.Handle">@Item.Account.Name on @Item.Account.Platform</a> for more content.
+            </p>
 </div>
 
 @code {

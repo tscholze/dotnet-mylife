@@ -17,35 +17,48 @@ namespace MyLife.Core.Services
         /// <returns>List of found videos. Returns empty list if operation fails.</returns>
         public static async Task<List<Publication>> LoadPublicationsAsync(string channelId)
         {
-            // Create a new HttpClient
-            var client = new HttpClient();
+            try
+            {
+                var feedXml = await FetchFeedXmlAsync(channelId);
+                var feed = DeserializeFeed(feedXml, channelId);
+                return feed?.Entries.Select(MapEntryToPublication).ToList() ?? new List<Publication>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading publications for channel '{channelId}': {ex.Message}");
+                return new List<Publication>();
+            }
+        }
 
-            // Load the rss feed of the channel
+        private static async Task<string> FetchFeedXmlAsync(string channelId)
+        {
+            using var client = new HttpClient();
             var response = await client.GetAsync($"https://www.youtube.com/feeds/videos.xml?channel_id={channelId}");
-            var feedXml = await response.Content.ReadAsStringAsync();
+            response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsStringAsync();
+        }
 
-            // Serialize the feed
+        private static Feed? DeserializeFeed(string feedXml, string channelId)
+        {
             var serializer = new XmlSerializer(typeof(Feed));
-            if (serializer == null)
+            using var reader = new StringReader(feedXml);
+            if (serializer.Deserialize(reader) is not Feed feed)
             {
-                Console.WriteLine($"Failed to create serializer for feed of channel '{channelId}'");
-                return [];
+                Console.WriteLine($"Failed to deserialize feed for channel '{channelId}'");
+                return null;
             }
+            return feed;
+        }
 
-            if (serializer.Deserialize(new StringReader(feedXml)) is not Feed feed)
-            {
-                Console.WriteLine($"Failed to create serializer for feed of channel '{channelId}'");
-                return [];
-            }
-
-            // Convert the feed to a list of publications
-            return feed.Entries.Select(entry => new Publication
+        private static Publication MapEntryToPublication(Entry entry)
+        {
+            return new Publication
             {
                 Title = entry.MediaGroup.Title,
                 Description = entry.MediaGroup.Description,
                 Url = entry.Link.Href,
                 ImageUrl = entry.MediaGroup.Thumbnail.Url
-            }).ToList();
+            };
         }
 
         #region Translation classes

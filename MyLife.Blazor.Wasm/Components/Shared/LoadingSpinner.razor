@@ -1,0 +1,18 @@
+@if (IsVisible)
+{
+    <div class="loading-spinner" role="status">
+        <div class="spinner"></div>
+        @if (!string.IsNullOrEmpty(Message))
+        {
+            <p>@Message</p>
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool IsVisible { get; set; }
+
+    [Parameter]
+    public string? Message { get; set; }
+}

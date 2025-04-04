@@ -15,7 +15,10 @@ namespace MyLife.Core.Services
     {
         #region Private members 
 
-        private Dictionary<string, MediumFeedModel> cachedFeeds = [];
+        /// <summary>
+        /// In-memory cache of Medium feeds keyed by username.
+        /// </summary>
+        private Dictionary<string, MediumFeedModel> cachedFeeds = new Dictionary<string, MediumFeedModel>();
 
         #endregion
 
@@ -28,13 +31,11 @@ namespace MyLife.Core.Services
         /// <returns>Dictionary if handle to feed.</returns>
         public async Task<Dictionary<string, MediumFeedModel>> GetFeedsByUsernames(IEnumerable<string> usernames)
         {
-            // If feeds are already cached, return them.
-            if (cachedFeeds.Count != 0)
+            if (cachedFeeds.Any())
             {
                 return cachedFeeds;
             }
 
-            // Else read, cache and return feeds.
             cachedFeeds = await ReadFeedsAsync(usernames);
             return cachedFeeds;
         }
@@ -53,64 +54,86 @@ namespace MyLife.Core.Services
                 Description = article.Abstract,
                 Url = article.ArticleUri.ToString(),
                 ImageUrl = article.CoverImageUri.ToString()
-            }).ToList() ?? [];
+            }).ToList() ?? new();
         }
 
         #endregion
 
         #region Private methods
         
+        /// <summary>
+        /// Reads a Medium feed for a specific handle.
+        /// </summary>
+        /// <param name="handle">The Medium account handle</param>
+        /// <returns>A Medium feed model or null if the feed cannot be read</returns>
         private async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
         {
-            var feedUrl = $"https://{handle}.medium.com/feed";
-            using var response = await httpClient.GetAsync(feedUrl);
-
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                var feedUrl = $"https://{handle}.medium.com/feed";
+                using var response = await httpClient.GetAsync(feedUrl);
+                response.EnsureSuccessStatusCode();
+
+                var content = (await response.Content.ReadAsStringAsync()).Trim();
+                var feed = FeedReader.ReadFromString(content);
+                return Convert(feed);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading feed from handle '{handle}': {ex.Message}");
                 return null;
             }
-
-            var content = (await response.Content.ReadAsStringAsync()).Trim();
-            var feed = FeedReader.ReadFromString(content);
-            return Convert(feed);
         }
 
+        /// <summary>
+        /// Reads Medium feeds for multiple usernames.
+        /// </summary>
+        /// <param name="usernames">Collection of Medium usernames</param>
+        /// <returns>Dictionary mapping usernames to their feeds</returns>
         private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
         {
-            // Helper property for fetched feeds
-            Dictionary<string, MediumFeedModel> fetchedFeeds = [];
+            var fetchedFeeds = new Dictionary<string, MediumFeedModel>();
 
-            // Iterate over all sources and fetch them
             foreach (var username in usernames)
             {
-                var feed = await ReadFeedFromUsernameAsync(username);
-                if (feed != null)
+                if (await ReadFeedFromUsernameAsync(username) is { } feed)
                 {
                     fetchedFeeds[username] = feed;
                 }
             }
 
-            // Return all successfully fetched feeds.
             return fetchedFeeds;
         }
 
+        /// <summary>
+        /// Reads a Medium feed for a specific username.
+        /// </summary>
+        /// <param name="username">The Medium username</param>
+        /// <returns>A Medium feed model or null if the feed cannot be read</returns>
         private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
         {
-            var feedUrl = $"https://{username}.medium.com/feed";
-            using var response = await httpClient.GetAsync(feedUrl);
-
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+                var feedUrl = $"https://{username}.medium.com/feed";
+                using var response = await httpClient.GetAsync(feedUrl);
+                response.EnsureSuccessStatusCode();
+
+                var content = (await response.Content.ReadAsStringAsync()).Trim();
+                var feed = FeedReader.ReadFromString(content);
+                return Convert(feed);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading feed from username '{username}': {ex.Message}");
                 return null;
             }
-
-            var content = (await response.Content.ReadAsStringAsync()).Trim();
-            var feed = FeedReader.ReadFromString(content);
-            return Convert(feed);
         }
 
+        /// <summary>
+        /// Converts a CodeHollow Feed to a MediumFeedModel.
+        /// </summary>
+        /// <param name="feed">The feed to convert</param>
+        /// <returns>A MediumFeedModel</returns>
         private static MediumFeedModel Convert(Feed feed)
         {
             return new MediumFeedModel(
@@ -120,6 +143,11 @@ namespace MyLife.Core.Services
             );
         }
 
+        /// <summary>
+        /// Converts a FeedItem to a MediumArticleModel.
+        /// </summary>
+        /// <param name="item">The feed item to convert</param>
+        /// <returns>A MediumArticleModel</returns>
         private static MediumArticleModel Convert(FeedItem item)
         {
             return new MediumArticleModel(
@@ -131,15 +159,23 @@ namespace MyLife.Core.Services
             );
         }
 
+        /// <summary>
+        /// Extracts and formats an abstract from HTML content.
+        /// </summary>
+        /// <param name="content">The HTML content</param>
+        /// <param name="maxLength">Maximum length of the abstract</param>
+        /// <returns>The formatted abstract</returns>
         private static string ExtractAbstractFromContent(string content, int maxLength = 225)
         {
-            return content
-                .Split("<h3>", 1)
-                .First()
-                .RemoveHtmlTags()
-                .Truncate(maxLength);
+            var abstractContent = content.RemoveHtmlTags();
+            return abstractContent.Length <= maxLength ? abstractContent : $"{abstractContent[..maxLength]}...";
         }
 
+        /// <summary>
+        /// Extracts the cover image URL from HTML content.
+        /// </summary>
+        /// <param name="content">The HTML content</param>
+        /// <returns>URI of the first image found in the content</returns>
         private static Uri ExtractCoverImageUriFromContent(string content)
         {
             var url = content.ExtractFirstImageUrlFromHtml() ?? "";

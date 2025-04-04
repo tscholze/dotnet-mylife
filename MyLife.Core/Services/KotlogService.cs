@@ -2,6 +2,7 @@ using CodeHollow.FeedReader;
 using MyLife.Core.Models.ContentCreation;
 using MyLife.Core.Models.External;
 using Newtonsoft.Json;
+using System.Text;
 
 namespace MyLife.Core.Services;
 
@@ -9,6 +10,9 @@ public class KotlogService(HttpClient httpClient)
 {
     #region Private members 
 
+    /// <summary>
+    /// In-memory cache of Kotlog feeds keyed by blog URL
+    /// </summary>
     private Dictionary<string, KotlogFeedModel> cachedFeeds = [];
 
     #endregion
@@ -47,19 +51,22 @@ public class KotlogService(HttpClient httpClient)
             Description = "",
             Url = item.Url.ToString(),
             ImageUrl = item.CoverImageUrl.ToString()
-        }).ToList() ?? [];
+        }).ToList() ?? new List<Publication>();
     }
     
     #endregion
     
     #region Private methods
 
+    /// <summary>
+    /// Reads feeds from the given blog URLs.
+    /// </summary>
+    /// <param name="blogUrls">The blog URLs to read feeds from.</param>
+    /// <returns>A dictionary of blog URLs and their corresponding feeds.</returns>
     private async Task<Dictionary<string, KotlogFeedModel>> ReadFeedsAsync(IEnumerable<string> blogUrls)
     {
-        // Helper property for fetched feeds
-        Dictionary<string, KotlogFeedModel> fetchedFeeds = [];
+        var fetchedFeeds = new Dictionary<string, KotlogFeedModel>();
 
-        // Iterate over all sources and fetch them
         foreach (var blogUrl in blogUrls)
         {
             var feed = await ReadFeedFromFeedUrlAsync(blogUrl);
@@ -69,31 +76,48 @@ public class KotlogService(HttpClient httpClient)
             }
         }
 
-        // Return all successfully fetched feeds.
         return fetchedFeeds;
     }
     
+    /// <summary>
+    /// Reads a feed from the given blog URL.
+    /// </summary>
+    /// <param name="blogUrl">The blog URL to read the feed from.</param>
+    /// <returns>The feed model or null if an error occurs.</returns>
     private async Task<KotlogFeedModel?> ReadFeedFromFeedUrlAsync(string blogUrl)
     {
-        var feedUrl = blogUrl + "posts.json";
-        using var response = await httpClient.GetAsync(feedUrl);
-
-        if (!response.IsSuccessStatusCode)
+        try
         {
-            Console.WriteLine($"Failed with error code: ${response.StatusCode}");
+            var feedUrl = BuildFeedUrl(blogUrl);
+            using var response = await httpClient.GetAsync(feedUrl);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var items = JsonConvert.DeserializeObject<List<KotlogItemModel>>(json);
+
+            if (items == null || items.Count == 0)
+            {
+                Console.WriteLine($"Skipping feed '{feedUrl}' as it has no items.");
+                return null;
+            }
+
+            return new KotlogFeedModel(DateTimeOffset.Now, feedUrl, items.ToArray());
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading feed from URL '{blogUrl}': {ex.Message}");
             return null;
         }
+    }
 
-        var json = await httpClient.GetStringAsync(feedUrl);
-        var items = JsonConvert.DeserializeObject<List<KotlogItemModel>>(json);
-
-        if (items == null || items.Count == 0)
-        {
-            Console.WriteLine($"Skipping feed '{feedUrl}' as it has no items.");
-            return null;
-        }
-        
-        return new KotlogFeedModel(DateTimeOffset.Now, feedUrl, items.ToArray());
+    /// <summary>
+    /// Builds the feed URL from the given blog URL.
+    /// </summary>
+    /// <param name="blogUrl">The blog URL to build the feed URL from.</param>
+    /// <returns>The constructed feed URL.</returns>
+    private string BuildFeedUrl(string blogUrl)
+    {
+        return new StringBuilder(blogUrl).Append("posts.json").ToString();
     }
     
     #endregion

@@ -1,5 +1,4 @@
-﻿
-namespace MyLife.Core.Extensions
+﻿namespace MyLife.Core.Extensions
 {
     /// <summary>
     /// Summary of model extension.
@@ -68,6 +67,19 @@ namespace MyLife.Core.Extensions
         public static IEnumerable<Models.ContentCreation.Account> GetInstagramAccounts(this IEnumerable<Models.ContentCreation.Account> accounts)
         {
             return accounts.Where(a => a.Platform == Models.Shared.Platform.Instagram);
+        }
+
+        /// <summary>
+        /// Gets accounts by platform from list.
+        /// </summary>
+        /// <param name="accounts">List of all accounts</param>
+        /// <param name="platform">Platform to filter by</param>
+        /// <returns>Accounts by platform</returns>
+        public static IEnumerable<Models.ContentCreation.Account> GetAccountsByPlatform(
+            this IEnumerable<Models.ContentCreation.Account> accounts, Models.Shared.Platform platform
+            )
+        {
+            return accounts.Where(a => a.Platform == platform);
         }
 
         #endregion

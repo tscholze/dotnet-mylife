@@ -29,6 +29,13 @@
         <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
     </Style>
 
+    <Style TargetType="Border" x:Key="RoundedImageBorder">
+        <Setter Property="StrokeShape" Value="RoundRectangle 50,50,50,50" />
+        <Setter Property="Stroke" Value="Transparent" />
+        <Setter Property="StrokeThickness" Value="5" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+    </Style>
+
     <Style TargetType="ActivityIndicator">
         <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
     </Style>
@@ -73,8 +80,9 @@
     <Style TargetType="Label">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
-        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="FontFamily" Value="NotoSerifRegular" />
         <Setter Property="FontSize" Value="14" />
+        <Setter Property="LineHeight" Value="1.5" />
         <Setter Property="VisualStateManager.VisualStateGroups">
             <VisualStateGroupList>
                 <VisualStateGroup x:Name="CommonStates">
