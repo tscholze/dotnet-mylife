@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was ist euer Wochenende 3D Druck? Viel Spaß dabei! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=7Ho1mzg5-Vk",
+        "image_url": "https://i4.ytimg.com/vi/7Ho1mzg5-Vk/hqdefault.jpg"
+      },
+      {
         "title": "Die #printedamsterdam wird sicherlich episch! @janoskehl 3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "@JanosKehl macht schon tolle Dinge!",
         "url": "https://www.youtube.com/watch?v=z-0-Ow9U260",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=RrMCAVtk_CU",
         "image_url": "https://i3.ytimg.com/vi/RrMCAVtk_CU/hqdefault.jpg"
-      },
-      {
-        "title": "Welche Farbe ist gerade euer Liebling?#3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Welche Farbe ist gerade euer Liebling? Ich #filament mittlerweile nahezu nur noch von #bambulab weil schöne Farben und funtzt super! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=5LXcI1dnT6s",
-        "image_url": "https://i2.ytimg.com/vi/5LXcI1dnT6s/hqdefault.jpg"
       }
     ]
   },
