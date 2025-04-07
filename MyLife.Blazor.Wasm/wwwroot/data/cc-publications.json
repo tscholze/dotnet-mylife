@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Wie gut könnt ihr Filament Mengen abschätzen? #3ddrucker #3dprinting #3ddruck",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=WBucHgd0lRo",
+        "image_url": "https://i4.ytimg.com/vi/WBucHgd0lRo/hqdefault.jpg"
+      },
+      {
         "title": "Was ist euer Wochenende 3D Druck? Viel Spaß dabei! #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "",
         "url": "https://www.youtube.com/watch?v=7Ho1mzg5-Vk",
@@ -92,12 +98,6 @@
         "description": "Schusslige Menschen lieben 3D-Drucker! Man kann Ding einfach neu ausdrucken! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=ARZIx19AF7g",
         "image_url": "https://i2.ytimg.com/vi/ARZIx19AF7g/hqdefault.jpg"
-      },
-      {
-        "title": "Was ist euer Print vom Wochenende?#3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=RrMCAVtk_CU",
-        "image_url": "https://i3.ytimg.com/vi/RrMCAVtk_CU/hqdefault.jpg"
       }
     ]
   },
