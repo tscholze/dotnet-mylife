@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Du hast sowas von Recht! #3ddruck #hobby #3ddrucker #3dprinting #3dprint",
+        "description": "Du hast sowas von Recht! BambuLab ist für mich der Start in mein #3ddruck #hobby #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/watch?v=xtZO_NVhQZs",
+        "image_url": "https://i1.ytimg.com/vi/xtZO_NVhQZs/hqdefault.jpg"
+      },
+      {
         "title": "Brauch ich eine bessere Lagerung? #3ddrucker #3dprinting #3ddruck #hobby",
         "description": "",
         "url": "https://www.youtube.com/watch?v=MX2Cu1tOWgI",
@@ -92,12 +98,6 @@
         "description": "Ich habe nur wenig Filament auf Lager. Wie schaut es bei euch aus? #filament #3ddrucker #3ddruck #3dprinting #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=C1nvTf8XbY0",
         "image_url": "https://i4.ytimg.com/vi/C1nvTf8XbY0/hqdefault.jpg"
-      },
-      {
-        "title": "Ich kaufe nur noch BambuLab Filament. #3ddrucker #3ddruck #3dprinting #3dprint",
-        "description": "Ich kaufe nur noch BambuLab Filament. Wo kauft ihr euer #filament ? #3ddrucker #3ddruck #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=fuH4o4ueAPo",
-        "image_url": "https://i3.ytimg.com/vi/fuH4o4ueAPo/hqdefault.jpg"
       }
     ]
   },
