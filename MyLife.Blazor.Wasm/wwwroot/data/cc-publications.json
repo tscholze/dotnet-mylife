@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Schleift hier etwas an meinem #3ddrucker? #3ddruck #3dprinting #3dprint",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=gLPVw_nYXjU",
+        "image_url": "https://i4.ytimg.com/vi/gLPVw_nYXjU/hqdefault.jpg"
+      },
+      {
         "title": "Wäre ein größerer/ kleinerer 3D-Drucker für euch besser? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "",
         "url": "https://www.youtube.com/watch?v=Htd42xEYee8",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=ZJNXDyapSUI",
         "image_url": "https://i3.ytimg.com/vi/ZJNXDyapSUI/hqdefault.jpg"
-      },
-      {
-        "title": "Farbverlauf-Filament - Ja oder nein? #filament #3ddrucker #3ddruck #3dprinting #3dprint",
-        "description": "Farbverlauf-Filament - Ja oder nein? Was ist eure Meinung? #filament #3ddrucker #3ddruck #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=NYNPQ389fUw",
-        "image_url": "https://i3.ytimg.com/vi/NYNPQ389fUw/hqdefault.jpg"
       }
     ]
   },
