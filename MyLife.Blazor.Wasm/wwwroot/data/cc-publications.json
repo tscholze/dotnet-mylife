@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Amazon Oster Angebot für #filament. #3ddrucker #3ddruck #3dprinting #3dprint #3dprint",
+        "description": "Was haltet ihr von diesem Schnäppchen Deal?",
+        "url": "https://www.youtube.com/watch?v=fViubdFqwyA",
+        "image_url": "https://i3.ytimg.com/vi/fViubdFqwyA/hqdefault.jpg"
+      },
+      {
         "title": "Happy Schweinchen Sonnen-Pink statt „Haut“? #3ddrucker #3ddruck #3dprinting #3dprinter #3dprint",
         "description": "Oder wie findet ihr die Farbbeschreibungen?",
         "url": "https://www.youtube.com/watch?v=eVjpWFaJWQc",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=3bFcLFG66lY",
         "image_url": "https://i4.ytimg.com/vi/3bFcLFG66lY/hqdefault.jpg"
-      },
-      {
-        "title": "Wie gut könnt ihr Filament Mengen abschätzen? #3ddrucker #3dprinting #3ddruck",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=WBucHgd0lRo",
-        "image_url": "https://i4.ytimg.com/vi/WBucHgd0lRo/hqdefault.jpg"
       }
     ]
   },
