@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Anfängerfrage: Wieso sind da Kringel?  #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
+        "description": "BambuStudio ist schon komisch",
+        "url": "https://www.youtube.com/watch?v=UJCcSVsAcaQ",
+        "image_url": "https://i2.ytimg.com/vi/UJCcSVsAcaQ/hqdefault.jpg"
+      },
+      {
         "title": "Amazon Oster Angebot für #filament. #3ddrucker #3ddruck #3dprinting #3dprint #3dprint",
         "description": "Was haltet ihr von diesem Schnäppchen Deal?",
         "url": "https://www.youtube.com/watch?v=fViubdFqwyA",
@@ -92,12 +98,6 @@
         "description": "Ich liebe unsere 3D-Druck Anfänger Community! Danke an alle die Helfen! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=eELReNhf47k",
         "image_url": "https://i2.ytimg.com/vi/eELReNhf47k/hqdefault.jpg"
-      },
-      {
-        "title": "Immer was Neues lernen Dank euch! Kennt ihr das Filament? #3ddrucker #3dprinting #3ddruck",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=3bFcLFG66lY",
-        "image_url": "https://i4.ytimg.com/vi/3bFcLFG66lY/hqdefault.jpg"
       }
     ]
   },
