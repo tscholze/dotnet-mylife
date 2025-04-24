@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ender nicht nur Bastler?! #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
+        "description": "Oder was meint ihr? Dachte Ender wären was für Handwerker und Bastler. Hm..",
+        "url": "https://www.youtube.com/watch?v=1wOjYyC-zj0",
+        "image_url": "https://i2.ytimg.com/vi/1wOjYyC-zj0/hqdefault.jpg"
+      },
+      {
         "title": "Anfängerfrage: Wieso sind da Kringel?  #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
         "description": "BambuStudio ist schon komisch",
         "url": "https://www.youtube.com/watch?v=UJCcSVsAcaQ",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=MX2Cu1tOWgI",
         "image_url": "https://i2.ytimg.com/vi/MX2Cu1tOWgI/hqdefault.jpg"
-      },
-      {
-        "title": "Ich liebe unsere 3D-Druck Anfänger Community! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Ich liebe unsere 3D-Druck Anfänger Community! Danke an alle die Helfen! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=eELReNhf47k",
-        "image_url": "https://i2.ytimg.com/vi/eELReNhf47k/hqdefault.jpg"
       }
     ]
   },
