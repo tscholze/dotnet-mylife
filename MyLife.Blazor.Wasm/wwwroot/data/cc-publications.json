@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "SuperTac ist super für Anfänger #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
+        "description": "SuperTac ist super für Anfänger und sie spart Energie. #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
+        "url": "https://www.youtube.com/watch?v=SD9lRBKhZP8",
+        "image_url": "https://i4.ytimg.com/vi/SD9lRBKhZP8/hqdefault.jpg"
+      },
+      {
         "title": "Ender nicht nur Bastler?! #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
         "description": "Oder was meint ihr? Dachte Ender wären was für Handwerker und Bastler. Hm..",
         "url": "https://www.youtube.com/watch?v=1wOjYyC-zj0",
@@ -92,12 +98,6 @@
         "description": "Du hast sowas von Recht! BambuLab ist für mich der Start in mein #3ddruck #hobby #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=xtZO_NVhQZs",
         "image_url": "https://i1.ytimg.com/vi/xtZO_NVhQZs/hqdefault.jpg"
-      },
-      {
-        "title": "Brauch ich eine bessere Lagerung? #3ddrucker #3dprinting #3ddruck #hobby",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=MX2Cu1tOWgI",
-        "image_url": "https://i2.ytimg.com/vi/MX2Cu1tOWgI/hqdefault.jpg"
       }
     ]
   },
