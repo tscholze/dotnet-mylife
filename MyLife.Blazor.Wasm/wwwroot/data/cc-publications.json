@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Nicht alles kann #3ddruck sein. MRT für #multiplesklerose #3ddrucker #3dprinting",
+        "description": "Zum Glück wurden keine neuen Herde gefunden!",
+        "url": "https://www.youtube.com/watch?v=EIA_CuMshvs",
+        "image_url": "https://i2.ytimg.com/vi/EIA_CuMshvs/hqdefault.jpg"
+      },
+      {
         "title": "SuperTac ist super für Anfänger #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
         "description": "SuperTac ist super für Anfänger und sie spart Energie. #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
         "url": "https://www.youtube.com/watch?v=SD9lRBKhZP8",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=qdPmzFiyhQU",
         "image_url": "https://i2.ytimg.com/vi/qdPmzFiyhQU/hqdefault.jpg"
-      },
-      {
-        "title": "Du hast sowas von Recht! #3ddruck #hobby #3ddrucker #3dprinting #3dprint",
-        "description": "Du hast sowas von Recht! BambuLab ist für mich der Start in mein #3ddruck #hobby #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=xtZO_NVhQZs",
-        "image_url": "https://i1.ytimg.com/vi/xtZO_NVhQZs/hqdefault.jpg"
       }
     ]
   },
