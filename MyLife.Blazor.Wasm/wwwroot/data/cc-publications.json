@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was ist euer 3D-Druck zum Wochenende? #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
+        "description": "Was ist euer 3D-Druck zum Wochenende? Bei mir was für mein Kallax. #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
+        "url": "https://www.youtube.com/watch?v=q-9s5HsuSQk",
+        "image_url": "https://i2.ytimg.com/vi/q-9s5HsuSQk/hqdefault.jpg"
+      },
+      {
         "title": "Nicht alles kann #3ddruck sein. MRT für #multiplesklerose #3ddrucker #3dprinting",
         "description": "Zum Glück wurden keine neuen Herde gefunden!",
         "url": "https://www.youtube.com/watch?v=EIA_CuMshvs",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=NqEtCCBl2CI",
         "image_url": "https://i3.ytimg.com/vi/NqEtCCBl2CI/hqdefault.jpg"
-      },
-      {
-        "title": "Ich habe keinen Bock auf #3ddrucker #3druck #3dprinting",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=qdPmzFiyhQU",
-        "image_url": "https://i2.ytimg.com/vi/qdPmzFiyhQU/hqdefault.jpg"
       }
     ]
   },
