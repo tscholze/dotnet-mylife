@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Hilfreiche 3D-Modelle müssen nicht komplex sein! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Es kann auch eine simple Box sein. Wenn sie genau den Bedarfsfall abdeckt.",
+        "url": "https://www.youtube.com/watch?v=CKUHtBSi8sQ",
+        "image_url": "https://i4.ytimg.com/vi/CKUHtBSi8sQ/hqdefault.jpg"
+      },
+      {
         "title": "Was ist euer 3D-Druck zum Wochenende? #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
         "description": "Was ist euer 3D-Druck zum Wochenende? Bei mir was für mein Kallax. #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
         "url": "https://www.youtube.com/watch?v=q-9s5HsuSQk",
@@ -92,12 +98,6 @@
         "description": "Spannend wie ihr euren 3D-Drucker seht! Ich bin noch Deko Drucker :) #3ddruck #3ddrucker #3dprinting #hobby #3dprint",
         "url": "https://www.youtube.com/watch?v=w7krM9Tmahc",
         "image_url": "https://i4.ytimg.com/vi/w7krM9Tmahc/hqdefault.jpg"
-      },
-      {
-        "title": "Wie oft wolltet ihr schon aufgeben? #3ddruck #3ddrucker #hobby #3dprinting #3dprint",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=NqEtCCBl2CI",
-        "image_url": "https://i3.ytimg.com/vi/NqEtCCBl2CI/hqdefault.jpg"
       }
     ]
   },
