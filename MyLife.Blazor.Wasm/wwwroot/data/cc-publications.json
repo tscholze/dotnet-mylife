@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Spachtel ist nicht gleich Spachtel #3ddrucker #3ddruck #3dprinting #3dprint #3dprint #fail",
+        "description": "Achtung an alle Anfänger: Spachtel ist nicht gleich Spachtelim 3D-Druck #3ddrucker #3ddruck #3dprinting #3dprint #3dprint #fail",
+        "url": "https://www.youtube.com/watch?v=2djkf9a-4qw",
+        "image_url": "https://i3.ytimg.com/vi/2djkf9a-4qw/hqdefault.jpg"
+      },
+      {
         "title": "Es gibt so viel #filament für den #3ddrucker ! #3ddruck #3dprinting #3dprint",
         "description": "Es gibt so viel #filament für #3ddrucker wo man sich toll durchprobieren kann! #3ddruck #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=rqTDjQ9Aazs",
@@ -92,12 +98,6 @@
         "description": "Drucken damit unflauschiges Filament entsorgt wird? Besser als wegwerfen, oder? #3ddrucker #3ddruck #3dprinting #3dprinter #3dprint",
         "url": "https://www.youtube.com/watch?v=P0yadwb2AFQ",
         "image_url": "https://i1.ytimg.com/vi/P0yadwb2AFQ/hqdefault.jpg"
-      },
-      {
-        "title": "Args! Das geht einfach nicht ab! #3ddrucker #3ddruck #3dprinting #3dprinter",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=CAmQDukkw9s",
-        "image_url": "https://i4.ytimg.com/vi/CAmQDukkw9s/hqdefault.jpg"
       }
     ]
   },
