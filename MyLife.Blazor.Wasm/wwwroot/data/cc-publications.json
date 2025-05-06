@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Welche Schere zum 3D-Druck? #3ddrucker #3ddruck #3dprinting #3dprint",
+        "description": "Welche Schere zum 3D-Druck? Gut geschnittenes Filament ist elementar #3ddrucker #3ddruck #3dprinting #3dprint",
+        "url": "https://www.youtube.com/watch?v=O7ikONIGZfQ",
+        "image_url": "https://i4.ytimg.com/vi/O7ikONIGZfQ/hqdefault.jpg"
+      },
+      {
         "title": "Wer bemalt die Modelle alles? Respekt! #3ddrucker #3ddruck #3dprinting #3dprint",
         "description": "Wer bemalt die Modelle alles? Respekt! #3ddrucker #3ddruck #3dprinting #3dprint \n\nIch strebe es im Moment nicht an.",
         "url": "https://www.youtube.com/watch?v=7s-NRjIqI6o",
@@ -92,12 +98,6 @@
         "description": "BambuStudio ist schon komisch",
         "url": "https://www.youtube.com/watch?v=UJCcSVsAcaQ",
         "image_url": "https://i2.ytimg.com/vi/UJCcSVsAcaQ/hqdefault.jpg"
-      },
-      {
-        "title": "Amazon Oster Angebot für #filament. #3ddrucker #3ddruck #3dprinting #3dprint #3dprint",
-        "description": "Was haltet ihr von diesem Schnäppchen Deal?",
-        "url": "https://www.youtube.com/watch?v=fViubdFqwyA",
-        "image_url": "https://i3.ytimg.com/vi/fViubdFqwyA/hqdefault.jpg"
       }
     ]
   },
