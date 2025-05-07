@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Das bin ich (leider) echt wenn ich hier was Frage. #3ddrucker #3ddruck #3dprinting #3dprint",
+        "description": "Auch wenn ihr eventuell anders denkt :)",
+        "url": "https://www.youtube.com/watch?v=PTARalr0R1s",
+        "image_url": "https://i1.ytimg.com/vi/PTARalr0R1s/hqdefault.jpg"
+      },
+      {
         "title": "Welche Schere zum 3D-Druck? #3ddrucker #3ddruck #3dprinting #3dprint",
         "description": "Welche Schere zum 3D-Druck? Gut geschnittenes Filament ist elementar #3ddrucker #3ddruck #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=O7ikONIGZfQ",
@@ -92,12 +98,6 @@
         "description": "Oder was meint ihr? Dachte Ender wären was für Handwerker und Bastler. Hm..",
         "url": "https://www.youtube.com/watch?v=1wOjYyC-zj0",
         "image_url": "https://i2.ytimg.com/vi/1wOjYyC-zj0/hqdefault.jpg"
-      },
-      {
-        "title": "Anfängerfrage: Wieso sind da Kringel?  #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
-        "description": "BambuStudio ist schon komisch",
-        "url": "https://www.youtube.com/watch?v=UJCcSVsAcaQ",
-        "image_url": "https://i2.ytimg.com/vi/UJCcSVsAcaQ/hqdefault.jpg"
       }
     ]
   },
