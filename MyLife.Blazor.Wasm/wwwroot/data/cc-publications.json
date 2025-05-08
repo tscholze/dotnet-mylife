@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mein erstes CAD-Modell ist online! #3ddrucker #3ddruck #3dprinting #3dprint",
+        "description": "Mein erstes CAD-Modell ist online! Ich bin schon bisschen stolz ohne Freunde hätte das aber nie geklappt! #3ddrucker #3ddruck #3dprinting #3dprint\n\nhttps://makerworld.com/de/models/1393907-screwless-raspberrypi-skadis-mount#profileId-1444629",
+        "url": "https://www.youtube.com/watch?v=oLZwTAx9W0E",
+        "image_url": "https://i4.ytimg.com/vi/oLZwTAx9W0E/hqdefault.jpg"
+      },
+      {
         "title": "Das bin ich (leider) echt wenn ich hier was Frage. #3ddrucker #3ddruck #3dprinting #3dprint",
         "description": "Auch wenn ihr eventuell anders denkt :)",
         "url": "https://www.youtube.com/watch?v=PTARalr0R1s",
@@ -92,12 +98,6 @@
         "description": "SuperTac ist super für Anfänger und sie spart Energie. #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
         "url": "https://www.youtube.com/watch?v=SD9lRBKhZP8",
         "image_url": "https://i4.ytimg.com/vi/SD9lRBKhZP8/hqdefault.jpg"
-      },
-      {
-        "title": "Ender nicht nur Bastler?! #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
-        "description": "Oder was meint ihr? Dachte Ender wären was für Handwerker und Bastler. Hm..",
-        "url": "https://www.youtube.com/watch?v=1wOjYyC-zj0",
-        "image_url": "https://i2.ytimg.com/vi/1wOjYyC-zj0/hqdefault.jpg"
       }
     ]
   },
