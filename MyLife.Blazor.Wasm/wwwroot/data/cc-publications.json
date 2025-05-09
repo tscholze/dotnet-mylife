@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Über 70 Euro für Standard Raspberry Pi?! Lohnt es sich noch? #geek #raspberrypi #pi #linux #computer",
+        "description": "Das ist nicht mehr der #computer für was es mal für mich war. Wie seht ihr das?",
+        "url": "https://www.youtube.com/watch?v=s5qoWfN8dHQ",
+        "image_url": "https://i4.ytimg.com/vi/s5qoWfN8dHQ/hqdefault.jpg"
+      },
+      {
         "title": "Mein erstes CAD-Modell ist online! #3ddrucker #3ddruck #3dprinting #3dprint",
         "description": "Mein erstes CAD-Modell ist online! Ich bin schon bisschen stolz ohne Freunde hätte das aber nie geklappt! #3ddrucker #3ddruck #3dprinting #3dprint\n\nhttps://makerworld.com/de/models/1393907-screwless-raspberrypi-skadis-mount#profileId-1444629",
         "url": "https://www.youtube.com/watch?v=oLZwTAx9W0E",
@@ -92,12 +98,6 @@
         "description": "Zum Glück wurden keine neuen Herde gefunden!",
         "url": "https://www.youtube.com/watch?v=EIA_CuMshvs",
         "image_url": "https://i2.ytimg.com/vi/EIA_CuMshvs/hqdefault.jpg"
-      },
-      {
-        "title": "SuperTac ist super für Anfänger #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
-        "description": "SuperTac ist super für Anfänger und sie spart Energie. #3ddrucker #3ddruck #3dprinting #3dprint #3dprinter",
-        "url": "https://www.youtube.com/watch?v=SD9lRBKhZP8",
-        "image_url": "https://i4.ytimg.com/vi/SD9lRBKhZP8/hqdefault.jpg"
       }
     ]
   },
