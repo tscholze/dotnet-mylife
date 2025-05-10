@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Der Poop erzählt Geschichten! Wie schaut es bei euch aus? #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Finde es echt spannend an was man dann so denkt und erinnert wird.",
+        "url": "https://www.youtube.com/watch?v=2c28oDV0LtY",
+        "image_url": "https://i3.ytimg.com/vi/2c28oDV0LtY/hqdefault.jpg"
+      },
+      {
         "title": "Über 70 Euro für Standard Raspberry Pi?! Lohnt es sich noch? #geek #raspberrypi #pi #linux #computer",
         "description": "Das ist nicht mehr der #computer für was es mal für mich war. Wie seht ihr das?",
         "url": "https://www.youtube.com/watch?v=s5qoWfN8dHQ",
@@ -92,12 +98,6 @@
         "description": "Was ist euer 3D-Druck zum Wochenende? Bei mir was für mein Kallax. #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
         "url": "https://www.youtube.com/watch?v=q-9s5HsuSQk",
         "image_url": "https://i2.ytimg.com/vi/q-9s5HsuSQk/hqdefault.jpg"
-      },
-      {
-        "title": "Nicht alles kann #3ddruck sein. MRT für #multiplesklerose #3ddrucker #3dprinting",
-        "description": "Zum Glück wurden keine neuen Herde gefunden!",
-        "url": "https://www.youtube.com/watch?v=EIA_CuMshvs",
-        "image_url": "https://i2.ytimg.com/vi/EIA_CuMshvs/hqdefault.jpg"
       }
     ]
   },
