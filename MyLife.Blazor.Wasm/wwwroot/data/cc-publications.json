@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ich hab es gut abgeschätzt 🤩! #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Ich hab es gut abgeschätzt 🤩! Diesmal war das Filament noch genau richtig vorhanden. Klappt das bei euch immer so gut? #3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/watch?v=vxb6mKNS4wQ",
+        "image_url": "https://i3.ytimg.com/vi/vxb6mKNS4wQ/hqdefault.jpg"
+      },
+      {
         "title": "Der Poop erzählt Geschichten! Wie schaut es bei euch aus? #3ddrucker #3ddruck #3dprint #3dprinting",
         "description": "Finde es echt spannend an was man dann so denkt und erinnert wird.",
         "url": "https://www.youtube.com/watch?v=2c28oDV0LtY",
@@ -92,12 +98,6 @@
         "description": "Es kann auch eine simple Box sein. Wenn sie genau den Bedarfsfall abdeckt.",
         "url": "https://www.youtube.com/watch?v=CKUHtBSi8sQ",
         "image_url": "https://i4.ytimg.com/vi/CKUHtBSi8sQ/hqdefault.jpg"
-      },
-      {
-        "title": "Was ist euer 3D-Druck zum Wochenende? #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
-        "description": "Was ist euer 3D-Druck zum Wochenende? Bei mir was für mein Kallax. #3ddruck #3ddrucker #3dprinting #3dprint #3dprint",
-        "url": "https://www.youtube.com/watch?v=q-9s5HsuSQk",
-        "image_url": "https://i2.ytimg.com/vi/q-9s5HsuSQk/hqdefault.jpg"
       }
     ]
   },
