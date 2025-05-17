@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ich mag Lesezeichen! Vor Allem mit Haptik und so. #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "",
+        "url": "https://www.youtube.com/watch?v=5As5cBKI9Ao",
+        "image_url": "https://i2.ytimg.com/vi/5As5cBKI9Ao/hqdefault.jpg"
+      },
+      {
         "title": "Habt ihr auch mal kein Bock auf 3D-Druck? #3ddrucker #3ddruck #3dprint #3dprinting #hobby",
         "description": "Habt ihr auch mal kein Bock auf 3D-Druck? #3ddrucker #3ddruck #3dprint #3dprinting #hobby",
         "url": "https://www.youtube.com/watch?v=JsLTFUpdUjU",
@@ -92,12 +98,6 @@
         "description": "Achtung an alle Anfänger: Spachtel ist nicht gleich Spachtelim 3D-Druck #3ddrucker #3ddruck #3dprinting #3dprint #3dprint #fail",
         "url": "https://www.youtube.com/watch?v=2djkf9a-4qw",
         "image_url": "https://i3.ytimg.com/vi/2djkf9a-4qw/hqdefault.jpg"
-      },
-      {
-        "title": "Es gibt so viel #filament für den #3ddrucker ! #3ddruck #3dprinting #3dprint",
-        "description": "Es gibt so viel #filament für #3ddrucker wo man sich toll durchprobieren kann! #3ddruck #3dprinting #3dprint",
-        "url": "https://www.youtube.com/watch?v=rqTDjQ9Aazs",
-        "image_url": "https://i3.ytimg.com/vi/rqTDjQ9Aazs/hqdefault.jpg"
       }
     ]
   },
