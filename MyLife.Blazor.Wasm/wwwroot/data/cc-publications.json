@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Anfänger-Tipp aus der Community. #filament am #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Anfänger-Tipp aus der Community. So behebt ihr verklemmtes #filament am #3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/watch?v=PTcW5NKE_-0",
+        "image_url": "https://i1.ytimg.com/vi/PTcW5NKE_-0/hqdefault.jpg"
+      },
+      {
         "title": "Was würdet ihr mit einem „übrigen“ 3D-Drucker machen? #3ddrucker #3ddruck #3dprint #3dprinting",
         "description": "",
         "url": "https://www.youtube.com/watch?v=_ah6nT4qtkM",
@@ -92,12 +98,6 @@
         "description": "Welche Schere zum 3D-Druck? Gut geschnittenes Filament ist elementar #3ddrucker #3ddruck #3dprinting #3dprint",
         "url": "https://www.youtube.com/watch?v=O7ikONIGZfQ",
         "image_url": "https://i4.ytimg.com/vi/O7ikONIGZfQ/hqdefault.jpg"
-      },
-      {
-        "title": "Wer bemalt die Modelle alles? Respekt! #3ddrucker #3ddruck #3dprinting #3dprint",
-        "description": "Wer bemalt die Modelle alles? Respekt! #3ddrucker #3ddruck #3dprinting #3dprint \n\nIch strebe es im Moment nicht an.",
-        "url": "https://www.youtube.com/watch?v=7s-NRjIqI6o",
-        "image_url": "https://i4.ytimg.com/vi/7s-NRjIqI6o/hqdefault.jpg"
       }
     ]
   },
