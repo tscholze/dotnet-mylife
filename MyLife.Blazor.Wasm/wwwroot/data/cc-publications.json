@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Habt ihr eine Lötkolben Empfehlung für 3D-Drucker? #3ddruck #3ddrucker #3dprinting #3dprinter",
+        "description": "Habt ihr eine Lötkolben Empfehlung für 3D-Drucker? Für Anfänger und Für Heat-Inserts. #3ddruck #3ddrucker #3dprinting #3dprinter",
+        "url": "https://www.youtube.com/watch?v=czEotntquUk",
+        "image_url": "https://i4.ytimg.com/vi/czEotntquUk/hqdefault.jpg"
+      },
+      {
         "title": "Gibt es sowas wirklich? 5€ pro Kilo Filament! #filament #3ddruck #3ddrucker #3dprinting #3dprinter",
         "description": "",
         "url": "https://www.youtube.com/watch?v=ibWuNFaMSVo",
@@ -92,12 +98,6 @@
         "description": "Finde es echt spannend an was man dann so denkt und erinnert wird.",
         "url": "https://www.youtube.com/watch?v=2c28oDV0LtY",
         "image_url": "https://i3.ytimg.com/vi/2c28oDV0LtY/hqdefault.jpg"
-      },
-      {
-        "title": "Über 70 Euro für Standard Raspberry Pi?! Lohnt es sich noch? #geek #raspberrypi #pi #linux #computer",
-        "description": "Das ist nicht mehr der #computer für was es mal für mich war. Wie seht ihr das?",
-        "url": "https://www.youtube.com/watch?v=s5qoWfN8dHQ",
-        "image_url": "https://i4.ytimg.com/vi/s5qoWfN8dHQ/hqdefault.jpg"
       }
     ]
   },
