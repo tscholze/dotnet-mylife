@@ -10,6 +10,24 @@
     },
     "publications": [
       {
+        "title": ".NET and Raspberry Pi are a dream team! | Pimoroni Blinkt and GitHub Copilot rocks!",
+        "description": "Letting some LEDs blink using a Raspberry Pi (@raspberrypi), .NET (@dotnet)   and @GitHub  Copilot in under 5 minutes? Is this even possible? Let's try it out!\n\nUsing .NET on a Raspberry Pi to let some LED blinks seems a little bit over the top but over the last couple of years the framework works perfectly on ARM64 and with some great embedded packages it is a joy to control the GPIO of the single board computer! \n\n# Links\n- https://github.com/tscholze/dotnet-iot-raspberrypi-blinkt\n- https://learn.microsoft.com/en-us/dotnet/iot/deployment\n- https://shop.pimoroni.com/products/blinkt\n\n# Chapters\n0:00 How to flash a Raspberry Pi \n1:33 How to install .NET on a Raspberry Pi \n2:15 How install VSC and all required extension on host machine and Raspberry Pi\n4:23 What is Pimoroni Blinkt?\n4:57 GitHub Copilot Magic\n6:57 Working result",
+        "url": "https://www.youtube.com/watch?v=btXxbK0Rkfk",
+        "image_url": "https://i3.ytimg.com/vi/btXxbK0Rkfk/hqdefault.jpg"
+      },
+      {
+        "title": "Was für ein Filament für ein Raspberry Pi Gehäuse? #3ddrucker #3ddruck #3dprinter #filament",
+        "description": "Was für ein Filament für ein Raspberry Pi Gehäuse? #3ddrucker #3ddruck #3dprinter #3dprinting #filament",
+        "url": "https://www.youtube.com/watch?v=3HMN6hI16ps",
+        "image_url": "https://i4.ytimg.com/vi/3HMN6hI16ps/hqdefault.jpg"
+      },
+      {
+        "title": "Stotter Realität Voice Over Aufnahme hart gefailed. #stottern #sprachfehler #inklusion #behinderung",
+        "description": "Wie geht ihr mit so etwas um?",
+        "url": "https://www.youtube.com/watch?v=HlWLlfziu5c",
+        "image_url": "https://i1.ytimg.com/vi/HlWLlfziu5c/hqdefault.jpg"
+      },
+      {
         "title": "Multiple Sklerose +Temperaturschwankung #multiplesklerose #ms #fatique #chronischkrank",
         "description": "Multiple Sklerose +Temperaturschwankung macht mir echt zu schaffen. Habt ihr Tipps? #multiplesklerose #multiplesclerosis #ms #fatique #sommer #chronischkrank",
         "url": "https://www.youtube.com/watch?v=JZ4mP9Y-xgs",
@@ -80,24 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=_ah6nT4qtkM",
         "image_url": "https://i4.ytimg.com/vi/_ah6nT4qtkM/hqdefault.jpg"
-      },
-      {
-        "title": "Habt ihr heute Lust etwas zu drucken?#3ddrucker #3ddruck #3dprint #3dprinting",
-        "description": "Habt ihr heute Lust etwas zu drucken? Bei mir bleibt er heute glaub kalt. #3ddrucker #3ddruck #3dprint #3dprinting",
-        "url": "https://www.youtube.com/watch?v=Fcy4vEQbndw",
-        "image_url": "https://i3.ytimg.com/vi/Fcy4vEQbndw/hqdefault.jpg"
-      },
-      {
-        "title": "Ich mag Lesezeichen! Vor Allem mit Haptik und so. #3ddrucker #3ddruck #3dprint #3dprinting",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=5As5cBKI9Ao",
-        "image_url": "https://i2.ytimg.com/vi/5As5cBKI9Ao/hqdefault.jpg"
-      },
-      {
-        "title": "Habt ihr auch mal kein Bock auf 3D-Druck? #3ddrucker #3ddruck #3dprint #3dprinting #hobby",
-        "description": "Habt ihr auch mal kein Bock auf 3D-Druck? #3ddrucker #3ddruck #3dprint #3dprinting #hobby",
-        "url": "https://www.youtube.com/watch?v=JsLTFUpdUjU",
-        "image_url": "https://i3.ytimg.com/vi/JsLTFUpdUjU/hqdefault.jpg"
       }
     ]
   },
