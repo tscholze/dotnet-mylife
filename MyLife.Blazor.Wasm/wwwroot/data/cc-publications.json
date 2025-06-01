@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Zu heiß zum Drucken! Macht ihr eine 3D-Druck Sommerpause? #3ddrucker #3ddruck #3dprinter #3dprinting",
+        "description": "Einfach so warm hier!",
+        "url": "https://www.youtube.com/watch?v=JNgBw3rDlK4",
+        "image_url": "https://i3.ytimg.com/vi/JNgBw3rDlK4/hqdefault.jpg"
+      },
+      {
         "title": ".NET and Raspberry Pi are a dream team! | Pimoroni Blinkt and GitHub Copilot rocks!",
         "description": "Letting some LEDs blink using a Raspberry Pi (@raspberrypi), .NET (@dotnet)   and @GitHub  Copilot in under 5 minutes? Is this even possible? Let's try it out!\n\nUsing .NET on a Raspberry Pi to let some LED blinks seems a little bit over the top but over the last couple of years the framework works perfectly on ARM64 and with some great embedded packages it is a joy to control the GPIO of the single board computer! \n\n# Links\n- https://github.com/tscholze/dotnet-iot-raspberrypi-blinkt\n- https://learn.microsoft.com/en-us/dotnet/iot/deployment\n- https://shop.pimoroni.com/products/blinkt\n\n# Chapters\n0:00 How to flash a Raspberry Pi \n1:33 How to install .NET on a Raspberry Pi \n2:15 How install VSC and all required extension on host machine and Raspberry Pi\n4:23 What is Pimoroni Blinkt?\n4:57 GitHub Copilot Magic\n6:57 Working result",
         "url": "https://www.youtube.com/watch?v=btXxbK0Rkfk",
@@ -92,12 +98,6 @@
         "description": "Anfänger-Tipp aus der Community. So behebt ihr verklemmtes #filament am #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/watch?v=PTcW5NKE_-0",
         "image_url": "https://i1.ytimg.com/vi/PTcW5NKE_-0/hqdefault.jpg"
-      },
-      {
-        "title": "Was würdet ihr mit einem „übrigen“ 3D-Drucker machen? #3ddrucker #3ddruck #3dprint #3dprinting",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=_ah6nT4qtkM",
-        "image_url": "https://i4.ytimg.com/vi/_ah6nT4qtkM/hqdefault.jpg"
       }
     ]
   },
