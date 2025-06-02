@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "PLA taugt auch als Tassenuntersetzer #3ddrucker #3ddruck ##3dprinting #3dprinter",
+        "description": "Also auch für Kaffee geeignet.",
+        "url": "https://www.youtube.com/watch?v=7vsAMPW0VGg",
+        "image_url": "https://i4.ytimg.com/vi/7vsAMPW0VGg/hqdefault.jpg"
+      },
+      {
         "title": "Zu heiß zum Drucken! Macht ihr eine 3D-Druck Sommerpause? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "description": "Einfach so warm hier!",
         "url": "https://www.youtube.com/watch?v=JNgBw3rDlK4",
@@ -92,12 +98,6 @@
         "description": "KI-Modell erzeugt, doch wie nun weiter? Zum Glätten Blender oder so nutzen? #3ddruck #3ddrucker #3dprinting #diy #ai #3dmodel",
         "url": "https://www.youtube.com/watch?v=M1LcQA9awKs",
         "image_url": "https://i2.ytimg.com/vi/M1LcQA9awKs/hqdefault.jpg"
-      },
-      {
-        "title": "Anfänger-Tipp aus der Community. #filament am #3ddrucker #3ddruck #3dprint #3dprinting",
-        "description": "Anfänger-Tipp aus der Community. So behebt ihr verklemmtes #filament am #3ddrucker #3ddruck #3dprint #3dprinting",
-        "url": "https://www.youtube.com/watch?v=PTcW5NKE_-0",
-        "image_url": "https://i1.ytimg.com/vi/PTcW5NKE_-0/hqdefault.jpg"
       }
     ]
   },
