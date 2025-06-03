@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Habt ihr neben 3D-Druck noch andere Hobbies? #3ddrucker #3ddruck #3dprinter #3dprinting #hobby",
+        "description": "Habt ihr neben 3D-Druck noch andere Hobbies? Ich hab wieder den Raspberry Pi für mich entdeckt. #3ddrucker #3ddruck #3dprinter #3dprinting #hobby",
+        "url": "https://www.youtube.com/watch?v=aLn2LQQ7smU",
+        "image_url": "https://i2.ytimg.com/vi/aLn2LQQ7smU/hqdefault.jpg"
+      },
+      {
         "title": "PLA taugt auch als Tassenuntersetzer #3ddrucker #3ddruck ##3dprinting #3dprinter",
         "description": "Also auch für Kaffee geeignet.",
         "url": "https://www.youtube.com/watch?v=7vsAMPW0VGg",
@@ -92,12 +98,6 @@
         "description": "Super Deal bei BambuLab! Was meint ihr zu dem #filament Angebot? #3ddruck #3ddrucker #3dprinting #3dprinter \n\nGutes Schnäppchen, oder?",
         "url": "https://www.youtube.com/watch?v=CsAFfClVfbw",
         "image_url": "https://i4.ytimg.com/vi/CsAFfClVfbw/hqdefault.jpg"
-      },
-      {
-        "title": "KI-Modell erzeugt, doch wie nun weiter? #3ddruck #3ddrucker #3dprinting #diy #ai #3dmodel",
-        "description": "KI-Modell erzeugt, doch wie nun weiter? Zum Glätten Blender oder so nutzen? #3ddruck #3ddrucker #3dprinting #diy #ai #3dmodel",
-        "url": "https://www.youtube.com/watch?v=M1LcQA9awKs",
-        "image_url": "https://i2.ytimg.com/vi/M1LcQA9awKs/hqdefault.jpg"
       }
     ]
   },
