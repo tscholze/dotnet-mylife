@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Wäre ESD #filament ideal für für RC-Modell Basteler? #3ddrucker #3ddruck #3dprinter #3dprinting",
+        "description": "Was meint ihr oder nutzt ihr es schon?",
+        "url": "https://www.youtube.com/watch?v=b53D4MBfhCg",
+        "image_url": "https://i3.ytimg.com/vi/b53D4MBfhCg/hqdefault.jpg"
+      },
+      {
         "title": "Habt ihr neben 3D-Druck noch andere Hobbies? #3ddrucker #3ddruck #3dprinter #3dprinting #hobby",
         "description": "Habt ihr neben 3D-Druck noch andere Hobbies? Ich hab wieder den Raspberry Pi für mich entdeckt. #3ddrucker #3ddruck #3dprinter #3dprinting #hobby",
         "url": "https://www.youtube.com/watch?v=aLn2LQQ7smU",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/watch?v=ibWuNFaMSVo",
         "image_url": "https://i2.ytimg.com/vi/ibWuNFaMSVo/hqdefault.jpg"
-      },
-      {
-        "title": "Super Deal bei BambuLab! Was meint ihr zu dem #filament Angebot? #3ddruck #3ddrucker #3dprinting",
-        "description": "Super Deal bei BambuLab! Was meint ihr zu dem #filament Angebot? #3ddruck #3ddrucker #3dprinting #3dprinter \n\nGutes Schnäppchen, oder?",
-        "url": "https://www.youtube.com/watch?v=CsAFfClVfbw",
-        "image_url": "https://i4.ytimg.com/vi/CsAFfClVfbw/hqdefault.jpg"
       }
     ]
   },
