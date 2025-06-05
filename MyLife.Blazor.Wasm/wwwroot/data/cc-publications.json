@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Sogar ganz leicht! Slicer + Rollen helfen sehr #3ddrucker #3ddruck #3dprinter #3dprinter #3dprinting",
+        "description": "Bei BambuLab leider bissl schwerer. Habt ihr Tipps?",
+        "url": "https://www.youtube.com/watch?v=rJ2vlWNitjw",
+        "image_url": "https://i3.ytimg.com/vi/rJ2vlWNitjw/hqdefault.jpg"
+      },
+      {
         "title": "Wäre ESD #filament ideal für für RC-Modell Basteler? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "description": "Was meint ihr oder nutzt ihr es schon?",
         "url": "https://www.youtube.com/watch?v=b53D4MBfhCg",
@@ -92,12 +98,6 @@
         "description": "Habt ihr eine Lötkolben Empfehlung für 3D-Drucker? Für Anfänger und Für Heat-Inserts. #3ddruck #3ddrucker #3dprinting #3dprinter",
         "url": "https://www.youtube.com/watch?v=czEotntquUk",
         "image_url": "https://i4.ytimg.com/vi/czEotntquUk/hqdefault.jpg"
-      },
-      {
-        "title": "Gibt es sowas wirklich? 5€ pro Kilo Filament! #filament #3ddruck #3ddrucker #3dprinting #3dprinter",
-        "description": "",
-        "url": "https://www.youtube.com/watch?v=ibWuNFaMSVo",
-        "image_url": "https://i2.ytimg.com/vi/ibWuNFaMSVo/hqdefault.jpg"
       }
     ]
   },
