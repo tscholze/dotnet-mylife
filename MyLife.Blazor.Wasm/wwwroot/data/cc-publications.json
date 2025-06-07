@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Drucker sind Retter wenn man schludrig ist! #3ddrucker #3ddruck #3dprinter #3dprinting",
+        "description": "Voll toll oder? :)",
+        "url": "https://www.youtube.com/watch?v=PIcoPmRXchc",
+        "image_url": "https://i1.ytimg.com/vi/PIcoPmRXchc/hqdefault.jpg"
+      },
+      {
         "title": "3D-Druck + Raspberry Pi = ❤️ #3ddrucker #3ddruck #3dprinter #3dprinting",
         "description": "3D-Druck + Raspberry Pi = ❤️. Der A1 mini ist da für manche Drucks doch zu klein, oder? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "url": "https://www.youtube.com/watch?v=NRQCwdvci0k",
@@ -92,12 +98,6 @@
         "description": "Enttäuscht vom Mediamarkt/ Saturn. Kauft ihr dort für eure Hobbies ein? Für 3D-Druck nichts gefunden. #3ddrucker #3ddruck #3dprinting #3dprinter",
         "url": "https://www.youtube.com/watch?v=Q_sqYOOuTx0",
         "image_url": "https://i2.ytimg.com/vi/Q_sqYOOuTx0/hqdefault.jpg"
-      },
-      {
-        "title": "Schnelle BambuLab Bestellung! #3ddrucker  #3ddruck #3dprinting #3dprinter",
-        "description": "Schnelle BambuLab Bestellung! Was war eure letzte Bestellung für euren #3ddrucker ? #3ddruck #3dprinting #3dprinter",
-        "url": "https://www.youtube.com/watch?v=GkHg-WXJn7g",
-        "image_url": "https://i4.ytimg.com/vi/GkHg-WXJn7g/hqdefault.jpg"
       }
     ]
   },
