@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Dieser Spalt ist mein Nemesis am 3D-Drucker #3ddrucker #3ddruck #3dprinter #3dprinting",
+        "description": "Habt ihr euch so eine Stelle an eurem 3D-Drucker vor dem ihr Angst habt?",
+        "url": "https://www.youtube.com/watch?v=4eKRGVkZa5s",
+        "image_url": "https://i1.ytimg.com/vi/4eKRGVkZa5s/hqdefault.jpg"
+      },
+      {
         "title": "Firmware Updates - gleich oder abwarten? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "description": "Firmware Updates - gleich oder abwarten? Nutzt ihr Betas oder kompiliert ihr selbst? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "url": "https://www.youtube.com/watch?v=tBobNlLz0Bs",
@@ -92,12 +98,6 @@
         "description": "Plant ihr mit Resin zu 3D-Drucken? Ich bleibe glaub bei Filament. #3ddrucker #3ddruck #3dprinting #3dprinter",
         "url": "https://www.youtube.com/watch?v=YHxl2F4Mxvc",
         "image_url": "https://i2.ytimg.com/vi/YHxl2F4Mxvc/hqdefault.jpg"
-      },
-      {
-        "title": "BambuLab Swatches veraltet?! #3ddrucker #3ddruck #3dprinting #3dprinter #filament #bambulab",
-        "description": "Anfänger Frage: BambuLab Swatches veraltet?! #3ddrucker #3ddruck #3dprinting #3dprinter #filament #bambulab",
-        "url": "https://www.youtube.com/watch?v=cwdnP90HIxo",
-        "image_url": "https://i4.ytimg.com/vi/cwdnP90HIxo/hqdefault.jpg"
       }
     ]
   },
