@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Raspberry Pi macht auf Bad Boys. #raspberrypi #linux #development #entwicklung #dotnet #geek #nerd",
+        "description": "Raspberry Pi macht auf Bad Boys. Bastelt ihr auch etwas? #raspberrypi #linux #development #entwicklung #dotnet #geek #nerd",
+        "url": "https://www.youtube.com/shorts/FPhM2g8vtMo",
+        "image_url": "https://i3.ytimg.com/vi/FPhM2g8vtMo/hqdefault.jpg"
+      },
+      {
         "title": "3D-Druck Ring-Schatule für Hochzeit? #3ddruck #3dprinter #3dprinting #3ddrucker #hochzeit",
         "description": "3D-Druck Ring-Schatule für Hochzeit? Zu kitschig? Was meint ihr? #3ddruck #3dprinter #3dprinting #3ddrucker",
         "url": "https://www.youtube.com/shorts/JzMzYrtb05g",
@@ -92,12 +98,6 @@
         "description": "Letting some LEDs blink using a Raspberry Pi (@raspberrypi), .NET (@dotnet)   and @GitHub  Copilot in under 5 minutes? Is this even possible? Let's try it out!\n\nUsing .NET on a Raspberry Pi to let some LED blinks seems a little bit over the top but over the last couple of years the framework works perfectly on ARM64 and with some great embedded packages it is a joy to control the GPIO of the single board computer! \n\n# Links\n- https://github.com/tscholze/dotnet-iot-raspberrypi-blinkt\n- https://learn.microsoft.com/en-us/dotnet/iot/deployment\n- https://shop.pimoroni.com/products/blinkt\n\n# Chapters\n0:00 How to flash a Raspberry Pi \n1:33 How to install .NET on a Raspberry Pi \n2:15 How install VSC and all required extension on host machine and Raspberry Pi\n4:23 What is Pimoroni Blinkt?\n4:57 GitHub Copilot Magic\n6:57 Working result",
         "url": "https://www.youtube.com/watch?v=btXxbK0Rkfk",
         "image_url": "https://i3.ytimg.com/vi/btXxbK0Rkfk/hqdefault.jpg"
-      },
-      {
-        "title": "Was für ein Filament für ein Raspberry Pi Gehäuse? #3ddrucker #3ddruck #3dprinter #filament",
-        "description": "Was für ein Filament für ein Raspberry Pi Gehäuse? #3ddrucker #3ddruck #3dprinter #3dprinting #filament",
-        "url": "https://www.youtube.com/shorts/3HMN6hI16ps",
-        "image_url": "https://i4.ytimg.com/vi/3HMN6hI16ps/hqdefault.jpg"
       }
     ]
   },
