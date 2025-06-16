@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "TK-Gemüse rettet die Raspberry Pi Bastelei #raspberrypi #developer #geek #nerd #entwicklung #pi",
+        "description": "TK-Gemüse rettet die Raspberry Pi Bastelei. Tobi hat Spaß mit dem Raspberry Pi! #raspberrypi #developer #csharp #geek #nerd #entwicklung #pi",
+        "url": "https://www.youtube.com/shorts/PXOxtwyHCjU",
+        "image_url": "https://i1.ytimg.com/vi/PXOxtwyHCjU/hqdefault.jpg"
+      },
+      {
         "title": "3D-Druck als Hochzeitstag Deko. #3ddruck #3dprinter #3ddrucker #3dprinting #3dprint",
         "description": "3D-Druck als Hochzeitstag Deko. Yay oder eher meh? Was meint ihr? #3ddruck #3dprinter #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/xND_8_XJgVg",
@@ -92,12 +98,6 @@
         "description": "Also auch für Kaffee geeignet.",
         "url": "https://www.youtube.com/shorts/7vsAMPW0VGg",
         "image_url": "https://i4.ytimg.com/vi/7vsAMPW0VGg/hqdefault.jpg"
-      },
-      {
-        "title": "Zu heiß zum Drucken! Macht ihr eine 3D-Druck Sommerpause? #3ddrucker #3ddruck #3dprinter #3dprinting",
-        "description": "Einfach so warm hier!",
-        "url": "https://www.youtube.com/shorts/JNgBw3rDlK4",
-        "image_url": "https://i3.ytimg.com/vi/JNgBw3rDlK4/hqdefault.jpg"
       }
     ]
   },
