@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Erster 3D-Druck im Auftrag meiner U70-jährigen Mutter. #3ddruck #3dprinter #3ddrucker #3dprint",
+        "description": "Erster 3D-Druck im Auftrag meiner U70-jährigen Mutter. Sie hat sich extra informiert was denn eigentlich ein 3D-Drucker ist. #3ddruck #3dprinter #3ddrucker #3dprint",
+        "url": "https://www.youtube.com/shorts/yv3MdFxoLHM",
+        "image_url": "https://i2.ytimg.com/vi/yv3MdFxoLHM/hqdefault.jpg"
+      },
+      {
         "title": "TK-Gemüse rettet die Raspberry Pi Bastelei #raspberrypi #developer #geek #nerd #entwicklung #pi",
         "description": "TK-Gemüse rettet die Raspberry Pi Bastelei. Tobi hat Spaß mit dem Raspberry Pi! #raspberrypi #developer #csharp #geek #nerd #entwicklung #pi",
         "url": "https://www.youtube.com/shorts/PXOxtwyHCjU",
@@ -92,12 +98,6 @@
         "description": "Habt ihr neben 3D-Druck noch andere Hobbies? Ich hab wieder den Raspberry Pi für mich entdeckt. #3ddrucker #3ddruck #3dprinter #3dprinting #hobby",
         "url": "https://www.youtube.com/shorts/aLn2LQQ7smU",
         "image_url": "https://i2.ytimg.com/vi/aLn2LQQ7smU/hqdefault.jpg"
-      },
-      {
-        "title": "PLA taugt auch als Tassenuntersetzer #3ddrucker #3ddruck ##3dprinting #3dprinter",
-        "description": "Also auch für Kaffee geeignet.",
-        "url": "https://www.youtube.com/shorts/7vsAMPW0VGg",
-        "image_url": "https://i4.ytimg.com/vi/7vsAMPW0VGg/hqdefault.jpg"
       }
     ]
   },
