@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Wie oft wechselt ihr die Nozzle? #3ddruck #3dprinter #3dprinting #3dprint #3ddrucker",
+        "description": "Wie oft wechselt ihr die Nozzle? Nicht als Wartung sondern zum Beispiel Durchmesser. #3ddruck #3dprinter #3dprinting #3dprint #3ddrucker",
+        "url": "https://www.youtube.com/shorts/t-YCGeLCxrs",
+        "image_url": "https://i1.ytimg.com/vi/t-YCGeLCxrs/hqdefault.jpg"
+      },
+      {
+        "title": "Reading Pimoroni Enviro BMP280 values with .NET on a Raspberry Pi with GitHub Copilot a/ frozen peas",
+        "description": "Reading values is one of the key use cases for IoT devices. Why not playing around with them in our spare time?  Using  a RaspberryPi ( @raspberrypi ), .NET ( @dotnet )   and  @GitHub  Copilot in under a minute with just one request o the AI? Let's try it out!\n\nAaaand yes, frozen veggies played a big part in this video.\n\n# Links\n- First part: https://youtu.be/btXxbK0Rkfk\n- First's code: https://github.com/tscholze/dotnet-iot-raspberrypi-blinkt\n- HAT: https://shop.pimoroni.com/products/enviro (successor)\n- https://learn.microsoft.com/en-us/dotnet/iot/deployment\n\n# Chapters\n0:00 Intro & Recap\n1:05 Prompting Copilot\n1:50 Explanation why the values are a bit off - peas to the rescue\n2:44 GitHub repository\n\n\nReading Pimoroni Enviro BMP280 values with .NET on a Raspberry Pi with GitHub Copilot",
+        "url": "https://www.youtube.com/watch?v=E259G7KAHGo",
+        "image_url": "https://i2.ytimg.com/vi/E259G7KAHGo/hqdefault.jpg"
+      },
+      {
         "title": "Werden im Alter alle Küchenmaschinen weiß?#küche #kochen #küchengeräte #cooking #wohnung",
         "description": "Werden im Alter alle Küchenmaschinen weiß? Wie schaut es bei euch aus? #küche #kochen #küchengeräte #cooking #wohnung #wohnungseinrichtung #einrichtung",
         "url": "https://www.youtube.com/shorts/qB8z4RMqfj4",
@@ -86,18 +98,6 @@
         "description": "Firmware Updates - gleich oder abwarten? Nutzt ihr Betas oder kompiliert ihr selbst? #3ddrucker #3ddruck #3dprinter #3dprinting",
         "url": "https://www.youtube.com/shorts/tBobNlLz0Bs",
         "image_url": "https://i1.ytimg.com/vi/tBobNlLz0Bs/hqdefault.jpg"
-      },
-      {
-        "title": "3D-Drucker sind Retter wenn man schludrig ist! #3ddrucker #3ddruck #3dprinter #3dprinting",
-        "description": "Voll toll oder? :)",
-        "url": "https://www.youtube.com/shorts/PIcoPmRXchc",
-        "image_url": "https://i1.ytimg.com/vi/PIcoPmRXchc/hqdefault.jpg"
-      },
-      {
-        "title": "3D-Druck + Raspberry Pi = ❤️ #3ddrucker #3ddruck #3dprinter #3dprinting",
-        "description": "3D-Druck + Raspberry Pi = ❤️. Der A1 mini ist da für manche Drucks doch zu klein, oder? #3ddrucker #3ddruck #3dprinter #3dprinting",
-        "url": "https://www.youtube.com/shorts/NRQCwdvci0k",
-        "image_url": "https://i3.ytimg.com/vi/NRQCwdvci0k/hqdefault.jpg"
       }
     ]
   },
