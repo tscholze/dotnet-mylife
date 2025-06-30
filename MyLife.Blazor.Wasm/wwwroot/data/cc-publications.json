@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ich habe geheiratet! | Aus dem Leben eines Stotterers mit Multipler Sklerose",
+        "description": "Servus und Habedieehre und schön, dass Du da bist! \n\nich glaube es hat das Größte Event meines Lebens stattgefunden. Nicht weil es lang oder märchenhaft war, sondern wegen der Bedeutung. Ich habe geheiratet!\n\nSo oder so, vielen Dank für euren großartigen Support! Es ist so awesome wie ihr mich motiviert.\nMerci! \n\nIhr seid großartig!\n\n# Kapitel\n\n0:00 Prolog\n0:12 Kapitel 1: Ich habe geheiratet\n4:25 Kapitel 2: Was sonst so passiert ist\n6:00 Kapitel 3: Raspberry Pi und .NET Bastelein\n8:09 Kapitel 4: Entspannendes Retro Game\n9:08 Kapitel 5: Gemeinsames Hobby mit meiner Frau\n10:27 Kapitel 6: Aufruf für Fragen\n\n# Beispiel für Pi & .NET\nhttps://github.com/tscholze/dotnet-iot-raspberrypi-rainbow\n\n# Instagram Projekt meiner Frau\nhttps://www.instagram.com/castle_fairytales\n\n# Alle Links und Portfolio Seite\nhttps://tscholze.github.io\n\n# Mein TikTok Account\nhttps://www.tiktok.com/@the_stuttering_nerd\n\n# Mein Instagram Account\nhttps://www.instagram.com/the_stuttering_nerd/\n\n# Twitter\nhttps://twitter.com/tobonaut",
+        "url": "https://www.youtube.com/watch?v=0QonTpe1V7U",
+        "image_url": "https://i1.ytimg.com/vi/0QonTpe1V7U/hqdefault.jpg"
+      },
+      {
         "title": "Ist Discounter Werkzeug gut genug für 3D-Druck? Was nutzt ihr für Marken? #3ddruck #3ddrucker",
         "description": "Wo kauft ihr ein und vor allem welche #werkzeug Marken nutzt ihr?",
         "url": "https://www.youtube.com/shorts/zQar4JfSHDI",
@@ -92,12 +98,6 @@
         "description": "3D-Druck Ring-Schatule für Hochzeit? Zu kitschig? Was meint ihr? #3ddruck #3dprinter #3dprinting #3ddrucker",
         "url": "https://www.youtube.com/shorts/JzMzYrtb05g",
         "image_url": "https://i3.ytimg.com/vi/JzMzYrtb05g/hqdefault.jpg"
-      },
-      {
-        "title": "Ich bin all-in BambuLab und ihr? #3ddruck #3dprinter #3dprinting #3ddrucker #filament",
-        "description": "Wenn ich wechseln würde dann wohl zu etwas Deutschen.",
-        "url": "https://www.youtube.com/shorts/H0wepGftZss",
-        "image_url": "https://i1.ytimg.com/vi/H0wepGftZss/hqdefault.jpg"
       }
     ]
   },
