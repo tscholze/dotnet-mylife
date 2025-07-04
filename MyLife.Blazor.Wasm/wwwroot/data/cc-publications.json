@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ist der BambuLab Sale mal echt gut? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Für mich klingt das schon recht gut, oder? Habt ihr was gefunden?",
+        "url": "https://www.youtube.com/shorts/GEckWnYkO4o",
+        "image_url": "https://i4.ytimg.com/vi/GEckWnYkO4o/hqdefault.jpg"
+      },
+      {
         "title": "Für wen druckt ihr am meisten? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Für wen druckt ihr am meisten? Euch selbst, Partnerin, Familie, Verein? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/J97y_Lq3REk",
@@ -92,12 +98,6 @@
         "description": "3D-Druck als Hochzeitstag Deko. Yay oder eher meh? Was meint ihr? #3ddruck #3dprinter #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/xND_8_XJgVg",
         "image_url": "https://i1.ytimg.com/vi/xND_8_XJgVg/hqdefault.jpg"
-      },
-      {
-        "title": "Raspberry Pi macht auf Bad Boys. #raspberrypi #linux #development #entwicklung #dotnet #geek #nerd",
-        "description": "Raspberry Pi macht auf Bad Boys. Bastelt ihr auch etwas? #raspberrypi #linux #development #entwicklung #dotnet #geek #nerd",
-        "url": "https://www.youtube.com/shorts/FPhM2g8vtMo",
-        "image_url": "https://i3.ytimg.com/vi/FPhM2g8vtMo/hqdefault.jpg"
       }
     ]
   },
