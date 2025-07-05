@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Tobi “konstruiert” mal wieder was. Muss wohl noch üben. #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Habt ihr daran auch Freude?",
+        "url": "https://www.youtube.com/shorts/id_L0-rIr8E",
+        "image_url": "https://i2.ytimg.com/vi/id_L0-rIr8E/hqdefault.jpg"
+      },
+      {
         "title": "Ist der BambuLab Sale mal echt gut? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Für mich klingt das schon recht gut, oder? Habt ihr was gefunden?",
         "url": "https://www.youtube.com/shorts/GEckWnYkO4o",
@@ -92,12 +98,6 @@
         "description": "TK-Gemüse rettet die Raspberry Pi Bastelei. Tobi hat Spaß mit dem Raspberry Pi! #raspberrypi #developer #csharp #geek #nerd #entwicklung #pi",
         "url": "https://www.youtube.com/shorts/PXOxtwyHCjU",
         "image_url": "https://i1.ytimg.com/vi/PXOxtwyHCjU/hqdefault.jpg"
-      },
-      {
-        "title": "3D-Druck als Hochzeitstag Deko. #3ddruck #3dprinter #3ddrucker #3dprinting #3dprint",
-        "description": "3D-Druck als Hochzeitstag Deko. Yay oder eher meh? Was meint ihr? #3ddruck #3dprinter #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/xND_8_XJgVg",
-        "image_url": "https://i1.ytimg.com/vi/xND_8_XJgVg/hqdefault.jpg"
       }
     ]
   },
