@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Nerd-Urlaubstag ausgenutzt! 3D-Druck, Dev und Raspberry Pi #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Nerd-Urlaubstag ausgenutzt! 3D-Druck, Entwicklung und Raspberry Pi #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/R1G7MSYwDnM",
+        "image_url": "https://i3.ytimg.com/vi/R1G7MSYwDnM/hqdefault.jpg"
+      },
+      {
         "title": "Tobi “konstruiert” mal wieder was. Muss wohl noch üben. #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Habt ihr daran auch Freude?",
         "url": "https://www.youtube.com/shorts/id_L0-rIr8E",
@@ -92,12 +98,6 @@
         "description": "Erster 3D-Druck im Auftrag meiner U70-jährigen Mutter. Sie hat sich extra informiert was denn eigentlich ein 3D-Drucker ist. #3ddruck #3dprinter #3ddrucker #3dprint",
         "url": "https://www.youtube.com/shorts/yv3MdFxoLHM",
         "image_url": "https://i2.ytimg.com/vi/yv3MdFxoLHM/hqdefault.jpg"
-      },
-      {
-        "title": "TK-Gemüse rettet die Raspberry Pi Bastelei #raspberrypi #developer #geek #nerd #entwicklung #pi",
-        "description": "TK-Gemüse rettet die Raspberry Pi Bastelei. Tobi hat Spaß mit dem Raspberry Pi! #raspberrypi #developer #csharp #geek #nerd #entwicklung #pi",
-        "url": "https://www.youtube.com/shorts/PXOxtwyHCjU",
-        "image_url": "https://i1.ytimg.com/vi/PXOxtwyHCjU/hqdefault.jpg"
       }
     ]
   },
