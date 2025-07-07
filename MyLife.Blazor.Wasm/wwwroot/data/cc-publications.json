@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mein neues 3D-Model ist fertig. #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Es ist für meine Sony Kamera",
+        "url": "https://www.youtube.com/shorts/XuD9ynOI0HM",
+        "image_url": "https://i1.ytimg.com/vi/XuD9ynOI0HM/hqdefault.jpg"
+      },
+      {
         "title": "Nerd-Urlaubstag ausgenutzt! 3D-Druck, Dev und Raspberry Pi #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Nerd-Urlaubstag ausgenutzt! 3D-Druck, Entwicklung und Raspberry Pi #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/R1G7MSYwDnM",
@@ -92,12 +98,6 @@
         "description": "Wie sehr vertraut ihr solchen Meldungen? Lieber öfter nach sehen oder übertrieben? #3ddruck #3dprinter #3ddrucker #3dprint",
         "url": "https://www.youtube.com/shorts/JPxHtO1r7RE",
         "image_url": "https://i3.ytimg.com/vi/JPxHtO1r7RE/hqdefault.jpg"
-      },
-      {
-        "title": "Erster 3D-Druck im Auftrag meiner U70-jährigen Mutter. #3ddruck #3dprinter #3ddrucker #3dprint",
-        "description": "Erster 3D-Druck im Auftrag meiner U70-jährigen Mutter. Sie hat sich extra informiert was denn eigentlich ein 3D-Drucker ist. #3ddruck #3dprinter #3ddrucker #3dprint",
-        "url": "https://www.youtube.com/shorts/yv3MdFxoLHM",
-        "image_url": "https://i2.ytimg.com/vi/yv3MdFxoLHM/hqdefault.jpg"
       }
     ]
   },
