@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ultraschall-Sensor für Annäherungserkennung #developer #maker #diy #raspberrypi #iot #dotnet #csharp",
+        "description": "Ultraschall-Sensor für Annäherungserkennung. Raspberry Pi + .NET = Spaß \n#developer #maker #diy #raspberrypi #iot #dotnet #softwaredeveloper",
+        "url": "https://www.youtube.com/shorts/hxO8Yb_BIS8",
+        "image_url": "https://i1.ytimg.com/vi/hxO8Yb_BIS8/hqdefault.jpg"
+      },
+      {
         "title": "Mein neues 3D-Model ist fertig. #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Es ist für meine Sony Kamera",
         "url": "https://www.youtube.com/shorts/XuD9ynOI0HM",
@@ -92,12 +98,6 @@
         "description": "Im Sommer 3D-Druck zu machen ist schon echt eine Nummer für sich. Wie ist es bei euch? #3ddruck #3dprinter #3ddrucker #3dprint",
         "url": "https://www.youtube.com/shorts/SgiygbG3k0o",
         "image_url": "https://i4.ytimg.com/vi/SgiygbG3k0o/hqdefault.jpg"
-      },
-      {
-        "title": "Wie sehr vertraut ihr solchen Meldungen? #3ddruck #3dprinter #3ddrucker #3dprint",
-        "description": "Wie sehr vertraut ihr solchen Meldungen? Lieber öfter nach sehen oder übertrieben? #3ddruck #3dprinter #3ddrucker #3dprint",
-        "url": "https://www.youtube.com/shorts/JPxHtO1r7RE",
-        "image_url": "https://i3.ytimg.com/vi/JPxHtO1r7RE/hqdefault.jpg"
       }
     ]
   },
