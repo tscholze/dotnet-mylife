@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Verkratzt euer Heizbett auch so?  #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Verkratzt euer Heizbett auch so? Vor allem bei der SuperTac merk ich das voll. #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/61L8l2eNjjY",
+        "image_url": "https://i3.ytimg.com/vi/61L8l2eNjjY/hqdefault.jpg"
+      },
+      {
         "title": "Ultraschall-Sensor für Annäherungserkennung #developer #maker #diy #raspberrypi #iot #dotnet #csharp",
         "description": "Ultraschall-Sensor für Annäherungserkennung. Raspberry Pi + .NET = Spaß \n#developer #maker #diy #raspberrypi #iot #dotnet #softwaredeveloper",
         "url": "https://www.youtube.com/shorts/hxO8Yb_BIS8",
@@ -92,12 +98,6 @@
         "description": "Werden im Alter alle Küchenmaschinen weiß? Wie schaut es bei euch aus? #küche #kochen #küchengeräte #cooking #wohnung #wohnungseinrichtung #einrichtung",
         "url": "https://www.youtube.com/shorts/qB8z4RMqfj4",
         "image_url": "https://i2.ytimg.com/vi/qB8z4RMqfj4/hqdefault.jpg"
-      },
-      {
-        "title": "Im Sommer 3D-Druck zu machen ist schon echt  hart. #3ddruck #3dprinter #3ddrucker #3dprint",
-        "description": "Im Sommer 3D-Druck zu machen ist schon echt eine Nummer für sich. Wie ist es bei euch? #3ddruck #3dprinter #3ddrucker #3dprint",
-        "url": "https://www.youtube.com/shorts/SgiygbG3k0o",
-        "image_url": "https://i4.ytimg.com/vi/SgiygbG3k0o/hqdefault.jpg"
       }
     ]
   },
