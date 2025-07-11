@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Raspberry Pi Robotor oder CyberBrick? #3ddruck #3ddrucker #3dprinting #3dprint #diy #maker",
+        "description": "Schon irgendwie spannend was #bambulab da so raus bringt",
+        "url": "https://www.youtube.com/shorts/eabfxG2wVY0",
+        "image_url": "https://i2.ytimg.com/vi/eabfxG2wVY0/hqdefault.jpg"
+      },
+      {
         "title": "Verkratzt euer Heizbett auch so?  #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Verkratzt euer Heizbett auch so? Vor allem bei der SuperTac merk ich das voll. #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/61L8l2eNjjY",
@@ -92,12 +98,6 @@
         "description": "Reading values is one of the key use cases for IoT devices. Why not playing around with them in our spare time?  Using  a RaspberryPi ( @raspberrypi ), .NET ( @dotnet )   and  @GitHub  Copilot in under a minute with just one request o the AI? Let's try it out!\n\nAaaand yes, frozen veggies played a big part in this video.\n\n# Links\n- First part: https://youtu.be/btXxbK0Rkfk\n- First's code: https://github.com/tscholze/dotnet-iot-raspberrypi-blinkt\n- HAT: https://shop.pimoroni.com/products/enviro (successor)\n- https://learn.microsoft.com/en-us/dotnet/iot/deployment\n\n# Chapters\n0:00 Intro & Recap\n1:05 Prompting Copilot\n1:50 Explanation why the values are a bit off - peas to the rescue\n2:44 GitHub repository\n\n\nReading Pimoroni Enviro BMP280 values with .NET on a Raspberry Pi with GitHub Copilot",
         "url": "https://www.youtube.com/watch?v=E259G7KAHGo",
         "image_url": "https://i2.ytimg.com/vi/E259G7KAHGo/hqdefault.jpg"
-      },
-      {
-        "title": "Werden im Alter alle Küchenmaschinen weiß?#küche #kochen #küchengeräte #cooking #wohnung",
-        "description": "Werden im Alter alle Küchenmaschinen weiß? Wie schaut es bei euch aus? #küche #kochen #küchengeräte #cooking #wohnung #wohnungseinrichtung #einrichtung",
-        "url": "https://www.youtube.com/shorts/qB8z4RMqfj4",
-        "image_url": "https://i2.ytimg.com/vi/qB8z4RMqfj4/hqdefault.jpg"
       }
     ]
   },
