@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ich liebe meinen A1 Mini! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Ich liebe meinen A1 Mini! Für mich ist es genau das, was ich brauch! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/mxpG8WeDIMk",
+        "image_url": "https://i2.ytimg.com/vi/mxpG8WeDIMk/hqdefault.jpg"
+      },
+      {
         "title": "Tobi (ver-) klebt ein 3D-Modell. #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Tobi (ver-) klebt ein 3D-Modell. Hatte schon lang kein Fail mehr. #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/Ki0EVJbahBY",
@@ -92,12 +98,6 @@
         "description": "Großer BambuLab Sale angekündigt - kommt was lohnendes? Was meint ihr? #3ddruck #3dprinter #3dprinting #3dprint #3ddrucker #bambulab",
         "url": "https://www.youtube.com/shorts/kMSagzZiyik",
         "image_url": "https://i4.ytimg.com/vi/kMSagzZiyik/hqdefault.jpg"
-      },
-      {
-        "title": "Wie oft wechselt ihr die Nozzle? #3ddruck #3dprinter #3dprinting #3dprint #3ddrucker",
-        "description": "Wie oft wechselt ihr die Nozzle? Nicht als Wartung sondern zum Beispiel Durchmesser. #3ddruck #3dprinter #3dprinting #3dprint #3ddrucker",
-        "url": "https://www.youtube.com/shorts/t-YCGeLCxrs",
-        "image_url": "https://i1.ytimg.com/vi/t-YCGeLCxrs/hqdefault.jpg"
       }
     ]
   },
