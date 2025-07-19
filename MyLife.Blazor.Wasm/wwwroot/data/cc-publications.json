@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Danke für eure (handwerklichen) Tipps! #3ddruck #3ddrucker #3dprinting #3dprint #diy",
+        "description": "Schon echt toll was man so machen kann, oder?",
+        "url": "https://www.youtube.com/shorts/3-h-vUz1S6E",
+        "image_url": "https://i4.ytimg.com/vi/3-h-vUz1S6E/hqdefault.jpg"
+      },
+      {
+        "title": "I failed in an English-speaking meeting | From the life of a stutterer with multiple sclerosis",
+        "description": "Hello and good luck and nice to have you here!\n\nWhy the meeps I'am talking in English? The reason may (not) shock you. But it is a try for my self to get better in non-scripted but spoken conversations\n\nEither way, thank you so much for your amazing support! It's so awesome how you keep me motivated.\nMerci!\n\nYou guys are great!\n\n# Chapters\n\n0:00 Prolog\n0:08 Chapter 1: Why I am speaking English?\n4:45 Chapter 2: Married for one month\n7:08 Chapter 3: .NET + Pi + RC vehicle = fun\n\n#  Pi & .NET\nhttps://github.com/tscholze/dotnet-iot-raspberrypi-trilobot\n\n# My TikTok Account\nhttps://www.tiktok.com/@the_stuttering_nerd\n\n# My Instagram Account\nhttps://www.instagram.com/the_stuttering_nerd/\n\n# My Twitter / X\nhttps://twitter.com/tobonaut\n\n# Portfolio\nhttps://tscholze.github.io",
+        "url": "https://www.youtube.com/watch?v=sCz78qe_W5w",
+        "image_url": "https://i4.ytimg.com/vi/sCz78qe_W5w/hqdefault.jpg"
+      },
+      {
         "title": "Wie vermesse ich dies für 3D-Konstruktion?#3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Wie vermesse ich dies für 3D-Konstruktion? Vor allem die Rundungen. Danke für eure Tipps! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/Ywt-jDY6h6Q",
@@ -86,18 +98,6 @@
         "description": "Für wen druckt ihr am meisten? Euch selbst, Partnerin, Familie, Verein? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/J97y_Lq3REk",
         "image_url": "https://i3.ytimg.com/vi/J97y_Lq3REk/hqdefault.jpg"
-      },
-      {
-        "title": "Ich habe geheiratet! | Aus dem Leben eines Stotterers mit Multipler Sklerose",
-        "description": "Servus und Habedieehre und schön, dass Du da bist! \n\nich glaube es hat das Größte Event meines Lebens stattgefunden. Nicht weil es lang oder märchenhaft war, sondern wegen der Bedeutung. Ich habe geheiratet!\n\nSo oder so, vielen Dank für euren großartigen Support! Es ist so awesome wie ihr mich motiviert.\nMerci! \n\nIhr seid großartig!\n\n# Kapitel\n\n0:00 Prolog\n0:12 Kapitel 1: Ich habe geheiratet\n4:25 Kapitel 2: Was sonst so passiert ist\n6:00 Kapitel 3: Raspberry Pi und .NET Bastelein\n8:09 Kapitel 4: Entspannendes Retro Game\n9:08 Kapitel 5: Gemeinsames Hobby mit meiner Frau\n10:27 Kapitel 6: Aufruf für Fragen\n\n# Beispiel für Pi & .NET\nhttps://github.com/tscholze/dotnet-iot-raspberrypi-rainbow\n\n# Instagram Projekt meiner Frau\nhttps://www.instagram.com/castle_fairytales\n\n# Alle Links und Portfolio Seite\nhttps://tscholze.github.io\n\n# Mein TikTok Account\nhttps://www.tiktok.com/@the_stuttering_nerd\n\n# Mein Instagram Account\nhttps://www.instagram.com/the_stuttering_nerd/\n\n# Twitter\nhttps://twitter.com/tobonaut",
-        "url": "https://www.youtube.com/watch?v=0QonTpe1V7U",
-        "image_url": "https://i1.ytimg.com/vi/0QonTpe1V7U/hqdefault.jpg"
-      },
-      {
-        "title": "Ist Discounter Werkzeug gut genug für 3D-Druck? Was nutzt ihr für Marken? #3ddruck #3ddrucker",
-        "description": "Wo kauft ihr ein und vor allem welche #werkzeug Marken nutzt ihr?",
-        "url": "https://www.youtube.com/shorts/zQar4JfSHDI",
-        "image_url": "https://i3.ytimg.com/vi/zQar4JfSHDI/hqdefault.jpg"
       }
     ]
   },
