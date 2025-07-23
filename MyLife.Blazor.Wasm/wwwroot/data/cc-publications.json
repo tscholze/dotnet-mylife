@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Welches Holz PLA Filament könnt ihr empfehlen? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Welches Holz PLA Filament könnt ihr empfehlen? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/5mcnq-edexw",
+        "image_url": "https://i2.ytimg.com/vi/5mcnq-edexw/hqdefault.jpg"
+      },
+      {
         "title": "Riechen verschiedene Filamente unterschiedlich? #3ddruck #3ddrucker #3dprinting #3dprint #filament",
         "description": "Riechen verschiedene Filamente unterschiedlich? Was meint ihr? #3ddruck #3ddrucker #3dprinting #3dprint #filament",
         "url": "https://www.youtube.com/shorts/mvHCSULKmjA",
@@ -92,12 +98,6 @@
         "description": "Ultraschall-Sensor für Annäherungserkennung. Raspberry Pi + .NET = Spaß \n#developer #maker #diy #raspberrypi #iot #dotnet #softwaredeveloper",
         "url": "https://www.youtube.com/shorts/hxO8Yb_BIS8",
         "image_url": "https://i1.ytimg.com/vi/hxO8Yb_BIS8/hqdefault.jpg"
-      },
-      {
-        "title": "Mein neues 3D-Model ist fertig. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Es ist für meine Sony Kamera",
-        "url": "https://www.youtube.com/shorts/XuD9ynOI0HM",
-        "image_url": "https://i1.ytimg.com/vi/XuD9ynOI0HM/hqdefault.jpg"
       }
     ]
   },
