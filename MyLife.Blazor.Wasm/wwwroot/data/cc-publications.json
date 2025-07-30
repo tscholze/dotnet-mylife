@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "BambuLabs neues Filament - yay oder nay? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "BambuLabs neues Filament - yay oder nay? Habt ihr es schon bestellt? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/aHYFZsPbzwA",
+        "image_url": "https://i2.ytimg.com/vi/aHYFZsPbzwA/hqdefault.jpg"
+      },
+      {
         "title": "Es ist fertig! Ein RC-Auto bauen mit .NET #developer #raspberrypi #dotnet #csharp #maker #dij #ai",
         "description": "Es ist fertig! Ein RC-Auto bauen mit .NET - tolles kleines Experiment #developer #raspberrypi #dotnet #csharp #maker\n\n@dotnet @GitHub @pimoroni",
         "url": "https://www.youtube.com/shorts/jAopcTagbVc",
@@ -92,12 +98,6 @@
         "description": "Tobi (ver-) klebt ein 3D-Modell. Hatte schon lang kein Fail mehr. #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/Ki0EVJbahBY",
         "image_url": "https://i4.ytimg.com/vi/Ki0EVJbahBY/hqdefault.jpg"
-      },
-      {
-        "title": "Raspberry Pi Robotor oder CyberBrick? #3ddruck #3ddrucker #3dprinting #3dprint #diy #maker",
-        "description": "Schon irgendwie spannend was #bambulab da so raus bringt",
-        "url": "https://www.youtube.com/shorts/eabfxG2wVY0",
-        "image_url": "https://i2.ytimg.com/vi/eabfxG2wVY0/hqdefault.jpg"
       }
     ]
   },
