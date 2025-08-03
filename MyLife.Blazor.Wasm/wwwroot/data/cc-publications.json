@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Geht ihr gern in Biomärkten einkaufen? #lebensmittel #einkaufen #bio #vegan",
+        "description": "Geht ihr gern in Biomärkten einkaufen? Ich liebe sie auch wenn halt keine Discount Preise. #lebensmittel #einkaufen #bio #vegan",
+        "url": "https://www.youtube.com/shorts/laZJabj2Y2s",
+        "image_url": "https://i1.ytimg.com/vi/laZJabj2Y2s/hqdefault.jpg"
+      },
+      {
         "title": "Der AMS Müllberg ist schon immer sehr schade #3ddruck #3dprinting #3ddrucker #3dprint",
         "description": "Ich weiß wieso er entsteht, dennoch iwie voll schade oder?",
         "url": "https://www.youtube.com/shorts/YfzlHVqql0s",
@@ -92,12 +98,6 @@
         "description": "Hello and good luck and nice to have you here!\n\nWhy the meeps I'am talking in English? The reason may (not) shock you. But it is a try for my self to get better in non-scripted but spoken conversations\n\nEither way, thank you so much for your amazing support! It's so awesome how you keep me motivated.\nMerci!\n\nYou guys are great!\n\n# Chapters\n\n0:00 Prolog\n0:08 Chapter 1: Why I am speaking English?\n4:45 Chapter 2: Married for one month\n7:08 Chapter 3: .NET + Pi + RC vehicle = fun\n\n#  Pi & .NET\nhttps://github.com/tscholze/dotnet-iot-raspberrypi-trilobot\n\n# My TikTok Account\nhttps://www.tiktok.com/@the_stuttering_nerd\n\n# My Instagram Account\nhttps://www.instagram.com/the_stuttering_nerd/\n\n# My Twitter / X\nhttps://twitter.com/tobonaut\n\n# Portfolio\nhttps://tscholze.github.io",
         "url": "https://www.youtube.com/watch?v=sCz78qe_W5w",
         "image_url": "https://i4.ytimg.com/vi/sCz78qe_W5w/hqdefault.jpg"
-      },
-      {
-        "title": "Wie vermesse ich dies für 3D-Konstruktion?#3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Wie vermesse ich dies für 3D-Konstruktion? Vor allem die Rundungen. Danke für eure Tipps! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/Ywt-jDY6h6Q",
-        "image_url": "https://i2.ytimg.com/vi/Ywt-jDY6h6Q/hqdefault.jpg"
       }
     ]
   },
