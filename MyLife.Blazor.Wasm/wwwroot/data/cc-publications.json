@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ein Problem ohne 3D-Druck gelöst - komisch, oder? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Wie geht es euch damit?",
+        "url": "https://www.youtube.com/shorts/CtRnTP0Y33A",
+        "image_url": "https://i4.ytimg.com/vi/CtRnTP0Y33A/hqdefault.jpg"
+      },
+      {
         "title": "Können wir das 3D-Druck Problem lösen? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Können wir das 3D-Druck Problem lösen? Gemeinsam schaffen für das! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/2FxlIwRVf2E",
@@ -92,12 +98,6 @@
         "description": "Er ist zurück! Er ist geheilt! Mein erster und etwas kaputt gegangener A1 Mini ist zurück. Ich freu mich so! Danke an alle Helfer ! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/cl-ehTy09Ds",
         "image_url": "https://i4.ytimg.com/vi/cl-ehTy09Ds/hqdefault.jpg"
-      },
-      {
-        "title": "Danke für eure (handwerklichen) Tipps! #3ddruck #3ddrucker #3dprinting #3dprint #diy",
-        "description": "Schon echt toll was man so machen kann, oder?",
-        "url": "https://www.youtube.com/shorts/3-h-vUz1S6E",
-        "image_url": "https://i4.ytimg.com/vi/3-h-vUz1S6E/hqdefault.jpg"
       }
     ]
   },
