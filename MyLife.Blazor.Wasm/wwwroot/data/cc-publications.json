@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Werden MakerWorld Models schlechter? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Werden MakerWorld Models schlechter? Was ist eure Quelle für fertige 3D-Models? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/8fmBIAWmmxo",
+        "image_url": "https://i1.ytimg.com/vi/8fmBIAWmmxo/hqdefault.jpg"
+      },
+      {
         "title": "Schon wieder ein neues MakerWorld Feature?#3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Schon wieder ein neues MakerWorld Feature? Was haltet ihr davon? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/iDLPK7kVWLw",
@@ -92,12 +98,6 @@
         "description": "Es ist fertig! Ein RC-Auto bauen mit .NET - tolles kleines Experiment #developer #raspberrypi #dotnet #csharp #maker\n\n@dotnet @GitHub @pimoroni",
         "url": "https://www.youtube.com/shorts/jAopcTagbVc",
         "image_url": "https://i3.ytimg.com/vi/jAopcTagbVc/hqdefault.jpg"
-      },
-      {
-        "title": "Unflauschig - Kein I2C mehr für mich. Habt ihr Ideen? #maker #diy #it #raspberrypi #nerd",
-        "description": "Soooo schade wenn es jetzt scheitert :(",
-        "url": "https://www.youtube.com/shorts/lilgb-M_P0U",
-        "image_url": "https://i1.ytimg.com/vi/lilgb-M_P0U/hqdefault.jpg"
       }
     ]
   },
