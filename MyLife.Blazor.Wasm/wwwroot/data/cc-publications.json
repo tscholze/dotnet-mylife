@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mögt ihr NORMA Läden? Ich bin da sehr unschlüssig!? #einkaufen #shopping #lebensmittel #laden",
+        "description": "Mögt ihr NORMA Läden? Ich bin da sehr unschlüssig - und ihr? #einkaufen #shopping #lebensmittel #laden",
+        "url": "https://www.youtube.com/shorts/IMsAG4sVeOE",
+        "image_url": "https://i2.ytimg.com/vi/IMsAG4sVeOE/hqdefault.jpg"
+      },
+      {
         "title": "Werden MakerWorld Models schlechter? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Werden MakerWorld Models schlechter? Was ist eure Quelle für fertige 3D-Models? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/8fmBIAWmmxo",
@@ -92,12 +98,6 @@
         "description": "BambuLabs neues Filament - yay oder nay? Habt ihr es schon bestellt? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/aHYFZsPbzwA",
         "image_url": "https://i2.ytimg.com/vi/aHYFZsPbzwA/hqdefault.jpg"
-      },
-      {
-        "title": "Es ist fertig! Ein RC-Auto bauen mit .NET #developer #raspberrypi #dotnet #csharp #maker #dij #ai",
-        "description": "Es ist fertig! Ein RC-Auto bauen mit .NET - tolles kleines Experiment #developer #raspberrypi #dotnet #csharp #maker\n\n@dotnet @GitHub @pimoroni",
-        "url": "https://www.youtube.com/shorts/jAopcTagbVc",
-        "image_url": "https://i3.ytimg.com/vi/jAopcTagbVc/hqdefault.jpg"
       }
     ]
   },
