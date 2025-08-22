@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar #maker #diy #developer #techtok #csharp",
+        "description": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar. Danke Copilot und .NET! #maker #diy #developer #techtok #csharp",
+        "url": "https://www.youtube.com/shorts/OdLMS88YVow",
+        "image_url": "https://i4.ytimg.com/vi/OdLMS88YVow/hqdefault.jpg"
+      },
+      {
         "title": "Ich lerne so viel von euch! #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Ich lerne so viel von euch! Wir sind echt eine super Community! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/LGZ-yz90miY",
@@ -92,12 +98,6 @@
         "description": "Ich hab aber noch viel zu lernen! Dennoch danke euch!",
         "url": "https://www.youtube.com/shorts/5axDvABoOIQ",
         "image_url": "https://i2.ytimg.com/vi/5axDvABoOIQ/hqdefault.jpg"
-      },
-      {
-        "title": "Tobi macht CAD Fortschritte 🤩. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Tobi macht CAD Fortschritte 🤩.  Vielen Dank für eure Hilfe und Motivation! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/ww6zDfjEdBg",
-        "image_url": "https://i4.ytimg.com/vi/ww6zDfjEdBg/hqdefault.jpg"
       }
     ]
   },
