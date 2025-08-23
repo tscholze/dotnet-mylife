@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was hat BambuLab vor?#3ddruck #3dprint #bambulab #h2s #3ddrucker",
+        "description": "Was hat BambuLab vor? Was denkt ihr über den H2S? Wird er teuer? #3ddruck #3dprint #bambulab #h2s #3ddrucker",
+        "url": "https://www.youtube.com/shorts/glqTKrbemKA",
+        "image_url": "https://i4.ytimg.com/vi/glqTKrbemKA/hqdefault.jpg"
+      },
+      {
         "title": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar #maker #diy #developer #techtok #csharp",
         "description": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar. Danke Copilot und .NET! #maker #diy #developer #techtok #csharp",
         "url": "https://www.youtube.com/shorts/OdLMS88YVow",
@@ -92,12 +98,6 @@
         "description": "Tobi geht für 3D-Druck \nmissionieren. Verteilt ihr auch das Wort des Schmelzens? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/T9OkcHWoZT8",
         "image_url": "https://i1.ytimg.com/vi/T9OkcHWoZT8/hqdefault.jpg"
-      },
-      {
-        "title": "Ihr hattet Recht! Eigenes CAD + 3DDruck = Liebe #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Ich hab aber noch viel zu lernen! Dennoch danke euch!",
-        "url": "https://www.youtube.com/shorts/5axDvABoOIQ",
-        "image_url": "https://i2.ytimg.com/vi/5axDvABoOIQ/hqdefault.jpg"
       }
     ]
   },
