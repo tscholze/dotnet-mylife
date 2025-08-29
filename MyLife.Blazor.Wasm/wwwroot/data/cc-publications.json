@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Druck-Vorgänge sind hypothetisch entspannend! #3ddruck #3dprint #3dprinter #3ddrucker",
+        "description": "Was druckt ihr gerade?",
+        "url": "https://www.youtube.com/shorts/A8a4XgwPG20",
+        "image_url": "https://i2.ytimg.com/vi/A8a4XgwPG20/hqdefault.jpg"
+      },
+      {
         "title": "Was sind Eure Lieblings-Supports beim 3D-Druck? #3ddruck #3dprint #3dprinter #3ddrucker",
         "description": "Was sind Eure Lieblings-Supports beim 3D-Druck? Bäumchen Wälle oder gar nichts? #3ddruck #3dprint #3dprinter #3ddrucker",
         "url": "https://www.youtube.com/shorts/GqfmCYmBHbM",
@@ -92,12 +98,6 @@
         "description": "Was sind Eure IKEA Must-Haves für den 3D-Druck? Bis auf SKADIS noch unbedarft - und ihr? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/S7f6X8IuqmU",
         "image_url": "https://i4.ytimg.com/vi/S7f6X8IuqmU/hqdefault.jpg"
-      },
-      {
-        "title": "Einfach mal den BambuLab A1 Mini voll machen. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Einfach mal den BambuLab A1 Mini voll machen. Man zahlt ja für das ganze Bett - wie oft passiert das bei euch? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/EsO765gZPFI",
-        "image_url": "https://i2.ytimg.com/vi/EsO765gZPFI/hqdefault.jpg"
       }
     ]
   },
