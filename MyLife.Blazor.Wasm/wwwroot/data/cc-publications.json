@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Nicht für jeden ist BambuLab geeignet! Das ist auch voll Ok #3ddruck #3dprint #3dprinter #3ddrucker",
+        "description": "Mit was druckt ihr?",
+        "url": "https://www.youtube.com/shorts/u96L00S_mCY",
+        "image_url": "https://i2.ytimg.com/vi/u96L00S_mCY/hqdefault.jpg"
+      },
+      {
         "title": "3D-Druck-Vorgänge sind hypothetisch entspannend! #3ddruck #3dprint #3dprinter #3ddrucker",
         "description": "Was druckt ihr gerade?",
         "url": "https://www.youtube.com/shorts/A8a4XgwPG20",
@@ -92,12 +98,6 @@
         "description": "Eure 3D-Druck IKEA Hacks sind der Wahnsinn! Tolle Bilder und Inspiration für uns alle!  #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/UGQTiUNpdUM",
         "image_url": "https://i2.ytimg.com/vi/UGQTiUNpdUM/hqdefault.jpg"
-      },
-      {
-        "title": "Was sind Eure IKEA Must-Haves für den 3D-Druck? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Was sind Eure IKEA Must-Haves für den 3D-Druck? Bis auf SKADIS noch unbedarft - und ihr? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/S7f6X8IuqmU",
-        "image_url": "https://i4.ytimg.com/vi/S7f6X8IuqmU/hqdefault.jpg"
       }
     ]
   },
