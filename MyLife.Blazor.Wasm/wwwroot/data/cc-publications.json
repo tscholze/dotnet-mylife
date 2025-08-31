@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Tobi braucht eure Maker-Experten-Hilfe!#3ddruck #3dprint #3dprinter #3ddrucker",
+        "description": "Tobi braucht eure Maker-Experten-Hilfe! Passen die Komponenten zu dem was ich erreichen will? #3ddruck #3dprint #3dprinter #3ddrucker",
+        "url": "https://www.youtube.com/shorts/WQh9EHjx6hk",
+        "image_url": "https://i4.ytimg.com/vi/WQh9EHjx6hk/hqdefault.jpg"
+      },
+      {
         "title": "Nicht für jeden ist BambuLab geeignet! Das ist auch voll Ok #3ddruck #3dprint #3dprinter #3ddrucker",
         "description": "Mit was druckt ihr?",
         "url": "https://www.youtube.com/shorts/u96L00S_mCY",
@@ -92,12 +98,6 @@
         "description": "Werbegeschenke können (leider) nützlich sein. Denn sie können an einem Sonntag echt den Bastelspaß retten! \n #diy #maker #developer #raspberrypi \n\nDanke @augsburgjournal9318 ! :)",
         "url": "https://www.youtube.com/shorts/_VibldokuPw",
         "image_url": "https://i4.ytimg.com/vi/_VibldokuPw/hqdefault.jpg"
-      },
-      {
-        "title": "Eure 3D-Druck IKEA Hacks sind der Wahnsinn! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Eure 3D-Druck IKEA Hacks sind der Wahnsinn! Tolle Bilder und Inspiration für uns alle!  #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/UGQTiUNpdUM",
-        "image_url": "https://i2.ytimg.com/vi/UGQTiUNpdUM/hqdefault.jpg"
       }
     ]
   },
