@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Weihnachten für Maker! Räder, LEDs, Lautsprecher Display  #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Weihnachten für Maker! Räder, LEDs, Lautsprecher Display und mehr #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/NTvQ150UYUw",
+        "image_url": "https://i3.ytimg.com/vi/NTvQ150UYUw/hqdefault.jpg"
+      },
+      {
         "title": "Gibt es bei euch Herbst-Deko aus dem 3D-Drucker? #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Gibt es bei euch Herbst-Deko aus dem 3D-Drucker? Oder seid ihr eher funktionale Drucker? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/bQlbnD3c-qM",
@@ -92,12 +98,6 @@
         "description": "Was hat BambuLab vor? Was denkt ihr über den H2S? Wird er teuer? #3ddruck #3dprint #bambulab #h2s #3ddrucker",
         "url": "https://www.youtube.com/shorts/glqTKrbemKA",
         "image_url": "https://i4.ytimg.com/vi/glqTKrbemKA/hqdefault.jpg"
-      },
-      {
-        "title": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar #maker #diy #developer #techtok #csharp",
-        "description": "Mein Raspi-Autochen nun auch über Game-Controller steuerbar. Danke Copilot und .NET! #maker #diy #developer #techtok #csharp",
-        "url": "https://www.youtube.com/shorts/OdLMS88YVow",
-        "image_url": "https://i4.ytimg.com/vi/OdLMS88YVow/hqdefault.jpg"
       }
     ]
   },
