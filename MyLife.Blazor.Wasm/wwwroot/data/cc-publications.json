@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was ist eure 3D-Druck Lieblingsnozzle?#3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Was ist eure 3D-Druck Lieblingsnozzle? Ich glaub ich bleib bei 0.4 - und ihr? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/CSApOD-6iHU",
+        "image_url": "https://i4.ytimg.com/vi/CSApOD-6iHU/hqdefault.jpg"
+      },
+      {
         "title": "Nur Probleme mit BambuLab 3D-Druckern?! #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Was nutzt ihr als Drucker?",
         "url": "https://www.youtube.com/shorts/3VkpOcCvvdk",
@@ -92,12 +98,6 @@
         "description": "Tobi braucht eure Maker-Experten-Hilfe! Passen die Komponenten zu dem was ich erreichen will? #3ddruck #3dprint #3dprinter #3ddrucker",
         "url": "https://www.youtube.com/shorts/WQh9EHjx6hk",
         "image_url": "https://i4.ytimg.com/vi/WQh9EHjx6hk/hqdefault.jpg"
-      },
-      {
-        "title": "Nicht für jeden ist BambuLab geeignet! Das ist auch voll Ok #3ddruck #3dprint #3dprinter #3ddrucker",
-        "description": "Mit was druckt ihr?",
-        "url": "https://www.youtube.com/shorts/u96L00S_mCY",
-        "image_url": "https://i2.ytimg.com/vi/u96L00S_mCY/hqdefault.jpg"
       }
     ]
   },
