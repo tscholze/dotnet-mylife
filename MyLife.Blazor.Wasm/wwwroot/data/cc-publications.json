@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mit 3D-Druck gegen langweilige Präsentationen! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Visualisierungen sind soooo wichtig!",
+        "url": "https://www.youtube.com/shorts/XpV7uSKbkQ8",
+        "image_url": "https://i1.ytimg.com/vi/XpV7uSKbkQ8/hqdefault.jpg"
+      },
+      {
         "title": "Geräusche die Angst machen #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Geräusche die Angst machen - mittlerweile weiß ich das es so okay ist. #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/3uAELNPx6Ik",
@@ -92,12 +98,6 @@
         "description": "Welche Erfahrungen habt ihr gemacht?",
         "url": "https://www.youtube.com/shorts/JBftAYOWExU",
         "image_url": "https://i3.ytimg.com/vi/JBftAYOWExU/hqdefault.jpg"
-      },
-      {
-        "title": "Wen es Android sein muss, dann von Microsoft! #android #microsoft #google",
-        "description": "Wen es Android sein muss, dann von Microsoft! Mein Surface Duo bleibt das beste Gerät wenn es Android sein muss. #android #microsoft #google",
-        "url": "https://www.youtube.com/shorts/s7S840EYWmA",
-        "image_url": "https://i4.ytimg.com/vi/s7S840EYWmA/hqdefault.jpg"
       }
     ]
   },
