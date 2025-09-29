@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was sind eure Werkzeug Must-have als 3D-Drucker? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Danke für eure Tipps! Und happy printing!",
+        "url": "https://www.youtube.com/shorts/X_qO0VkE_hk",
+        "image_url": "https://i1.ytimg.com/vi/X_qO0VkE_hk/hqdefault.jpg"
+      },
+      {
         "title": "Das sind 3D-Druck Freunde! Danke @3D_Onkel ! #3ddruck #3dprinting #3ddrucker #halloween",
         "description": "Es ist sooooo toll ein Teil dieser Community zu sein!",
         "url": "https://www.youtube.com/shorts/dPUbYHJQLx4",
@@ -92,12 +98,6 @@
         "description": "Das regt mich auf am A1 Mini! Was soll dieser Schlitz der Verdamnis! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/N5liJaCDW3Q",
         "image_url": "https://i3.ytimg.com/vi/N5liJaCDW3Q/hqdefault.jpg"
-      },
-      {
-        "title": "Wochenendarbeit für den 3D-Drucker. Und bei euch? #3ddruck #3dprinting #3ddrucker",
-        "description": "Oder hat eurer frei?",
-        "url": "https://www.youtube.com/shorts/VxQjiz4tq4M",
-        "image_url": "https://i3.ytimg.com/vi/VxQjiz4tq4M/hqdefault.jpg"
       }
     ]
   },
@@ -334,10 +334,10 @@
         "image_url": "https://tscholze.github.io/blog/2024-06-20-mylifenet-1.html.png"
       },
       {
-        "title": "Devlog #5 MyLife.NET - Even more function-al Azure",
+        "title": "Devlog #6 MyLife.NET - Let us go mobile with MAUI",
         "description": "",
-        "url": "https://tscholze.github.io/blog/2024-09-08-devlog-4-mylife-more-azure.html",
-        "image_url": "https://tscholze.github.io/blog/2024-09-08-devlog-4-mylife-more-azure.html.png"
+        "url": "https://tscholze.github.io/blog/2025-09-28-devlog-6-life-gets-mobile-with-maui.html",
+        "image_url": "https://tscholze.github.io/blog/2025-09-28-devlog-6-life-gets-mobile-with-maui.html.png"
       },
       {
         "title": "Mein YouTube Channel Experiment zum Thema Stottern ist gestartet",
@@ -448,6 +448,12 @@
         "image_url": "https://tscholze.github.io/blog/2019-07-20-community-mein-erster-gast-beitrag-bei-dr-windows.html.png"
       },
       {
+        "title": "Devlog #7 MyLife.NET - 2025 will Be the Year of MAUI",
+        "description": "",
+        "url": "https://tscholze.github.io/blog/2025-01-28-devlog-7-2025-will-be-the-year-of-maui.html",
+        "image_url": "https://tscholze.github.io/blog/2025-01-28-devlog-7-2025-will-be-the-year-of-maui.html.png"
+      },
+      {
         "title": "Using Kotlin Native to read BMP280 and TCS3472 sensor data",
         "description": "",
         "url": "https://tscholze.github.io/blog/2024-04-09-read-bmp280-and-tcs3472-sensor-data-using-kotlin-native-raspberry-pi.html",
@@ -496,6 +502,12 @@
         "image_url": "https://tscholze.github.io/blog/2020-11-21-oh-hai-apple-mac-mini-m1.html.png"
       },
       {
+        "title": ".NET on Pi: Let it Blinkt! with Copilot",
+        "description": "",
+        "url": "https://tscholze.github.io/blog/2025-09-28-rapinet-1-let-it-blinkt.html",
+        "image_url": "https://tscholze.github.io/blog/2025-09-28-rapinet-1-let-it-blinkt.html.png"
+      },
+      {
         "title": "Google Firebase Cloud Messaging Pager mit Android Things",
         "description": "",
         "url": "https://tscholze.github.io/blog/2018-01-02-android-google-firebase-cloud-messaging-pager-mit-android-things.html",
@@ -530,6 +542,12 @@
         "description": "",
         "url": "https://tscholze.github.io/blog/2024-06-20-mylifenet-2.html",
         "image_url": "https://tscholze.github.io/blog/2024-06-20-mylifenet-2.html.png"
+      },
+      {
+        "title": ".NET on Pi: Measure the environment with Enviro pHAT",
+        "description": "",
+        "url": "https://tscholze.github.io/blog/2025-09-28-rapinet-2-measure-the-enviro.html",
+        "image_url": "https://tscholze.github.io/blog/2025-09-28-rapinet-2-measure-the-enviro.html.png"
       },
       {
         "title": "Neues Projekt: #rTsd &#8211; Road to Surface Duo",
@@ -580,6 +598,12 @@
         "image_url": "https://tscholze.github.io/blog/2016-07-15-bash-alle-freien-microsoft-ebooks-auf-einmal-laden.html.png"
       },
       {
+        "title": "Devlog #5 MyLife.NET - Even more function-al Azure",
+        "description": "",
+        "url": "https://tscholze.github.io/blog/2024-10-08-devlog-4-mylife-more-azure.html",
+        "image_url": "https://tscholze.github.io/blog/2024-10-08-devlog-4-mylife-more-azure.html.png"
+      },
+      {
         "title": "Swift: Microsoft Cognitive Services Computed Vision ausprobiert",
         "description": "",
         "url": "https://tscholze.github.io/blog/2016-07-02-swift-microsoft-cognitive-services-computer-vision-ausprobiert.html",
@@ -596,6 +620,12 @@
         "description": "",
         "url": "https://tscholze.github.io/blog/2020-02-01-podcast-tobi-war-zu-gast-bei-devtalks.html",
         "image_url": "https://tscholze.github.io/blog/2020-02-01-podcast-tobi-war-zu-gast-bei-devtalks.html.png"
+      },
+      {
+        "title": "Devlog #8 MyLife.NET - How helpful is GitHub Copilot?",
+        "description": "",
+        "url": "https://tscholze.github.io/blog/2025-09-28-devlog-8-how-helpful-is-copilot.html",
+        "image_url": "https://tscholze.github.io/blog/2025-09-28-devlog-8-how-helpful-is-copilot.html.png"
       },
       {
         "title": "Windows 10 IoT Core ist offiziell fertig &#8211; hoffentlich nicht!",
