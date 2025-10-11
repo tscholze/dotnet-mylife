@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ein Fehldruck als „Print der Woche“? - sowas von! #3ddruck #3ddrucker #3dprinting",
+        "description": "Ein Fehldruck als „Print der Woche“? - sowas von! Was war eure erste Konstruktion? #3ddruck #3ddrucker #3dprinting",
+        "url": "https://www.youtube.com/shorts/ihY5ebknOyQ",
+        "image_url": "https://i2.ytimg.com/vi/ihY5ebknOyQ/hqdefault.jpg"
+      },
+      {
         "title": "Da wird der Elch verrückt! Diese Layerunterschiede! #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Da wird der Elch verrückt! Sind die Farbunterschiede ein Symptom für falsche Temperaturen oder einen anderen Fehler von mir? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/oeWjfu6vqY8",
@@ -92,12 +98,6 @@
         "description": "Was ist eure 3D-Druck Lieblingsnozzle? Ich glaub ich bleib bei 0.4 - und ihr? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/CSApOD-6iHU",
         "image_url": "https://i4.ytimg.com/vi/CSApOD-6iHU/hqdefault.jpg"
-      },
-      {
-        "title": "Nur Probleme mit BambuLab 3D-Druckern?! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Was nutzt ihr als Drucker?",
-        "url": "https://www.youtube.com/shorts/3VkpOcCvvdk",
-        "image_url": "https://i4.ytimg.com/vi/3VkpOcCvvdk/hqdefault.jpg"
       }
     ]
   },
