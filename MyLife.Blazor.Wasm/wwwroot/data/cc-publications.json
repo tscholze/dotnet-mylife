@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Welcher 3D-Drucker passt zu einem Architektur Studenten? #3ddrucker #3dprinting #3ddruck #3dprint",
+        "description": "So spannend für was ihr eure Drucker einsetzt!",
+        "url": "https://www.youtube.com/shorts/sx0o4UdyAio",
+        "image_url": "https://i4.ytimg.com/vi/sx0o4UdyAio/hqdefault.jpg"
+      },
+      {
         "title": "Für wen ist welcher Drucker besser geeignet? #3ddrucker #3dprinting #3ddruck #3dprint",
         "description": "Nicht jeder muss ja jedem gefallen",
         "url": "https://www.youtube.com/shorts/oDFttlZe6g8",
@@ -92,12 +98,6 @@
         "description": "Visualisierungen sind soooo wichtig!",
         "url": "https://www.youtube.com/shorts/XpV7uSKbkQ8",
         "image_url": "https://i1.ytimg.com/vi/XpV7uSKbkQ8/hqdefault.jpg"
-      },
-      {
-        "title": "Geräusche die Angst machen #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Geräusche die Angst machen - mittlerweile weiß ich das es so okay ist. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/3uAELNPx6Ik",
-        "image_url": "https://i4.ytimg.com/vi/3uAELNPx6Ik/hqdefault.jpg"
       }
     ]
   },
