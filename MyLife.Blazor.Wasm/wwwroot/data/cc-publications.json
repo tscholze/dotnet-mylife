@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Druck-Anfänger fragt gerne weiterhin! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Denn wer nicht fragt, der lernt auch nicht!",
+        "url": "https://www.youtube.com/shorts/5JZAX8B86dA",
+        "image_url": "https://i2.ytimg.com/vi/5JZAX8B86dA/hqdefault.jpg"
+      },
+      {
         "title": "Ich habe es gewagt! Mein erstes Mal mit TPU! Nutzt ihr es auch? #3ddruck #3ddrucker",
         "description": "Ich habe es gewagt!\nMein erstes Mal mit TPU! Nutzt ihr es auch? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/sDxHKGaubj0",
@@ -92,12 +98,6 @@
         "description": "Ein Fehldruck als „Print der Woche“? - sowas von! Was war eure erste Konstruktion? #3ddruck #3ddrucker #3dprinting",
         "url": "https://www.youtube.com/shorts/ihY5ebknOyQ",
         "image_url": "https://i2.ytimg.com/vi/ihY5ebknOyQ/hqdefault.jpg"
-      },
-      {
-        "title": "Da wird der Elch verrückt! Diese Layerunterschiede! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Da wird der Elch verrückt! Sind die Farbunterschiede ein Symptom für falsche Temperaturen oder einen anderen Fehler von mir? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/oeWjfu6vqY8",
-        "image_url": "https://i4.ytimg.com/vi/oeWjfu6vqY8/hqdefault.jpg"
       }
     ]
   },
