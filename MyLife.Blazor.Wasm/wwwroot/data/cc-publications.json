@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Wieviel bezahlt ihr für Euer Filament? #3ddruck #3ddrucker #3dprinting #3dprint  #erinnerung",
+        "description": "Die Spanne ist ja echt groß!",
+        "url": "https://www.youtube.com/shorts/kE6hH6s1xOY",
+        "image_url": "https://i4.ytimg.com/vi/kE6hH6s1xOY/hqdefault.jpg"
+      },
+      {
         "title": "Ihr hattet Recht! 3D-Drucker sind Rudeltiere. #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Ihr hattet Recht! 3D-Drucker sind Rudeltiere. Habt ihr euch mehr als einen Drucker aktiv im Dienst? #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/n84yRjAL1qo",
@@ -92,12 +98,6 @@
         "description": "Nicht jeder muss ja jedem gefallen",
         "url": "https://www.youtube.com/shorts/oDFttlZe6g8",
         "image_url": "https://i4.ytimg.com/vi/oDFttlZe6g8/hqdefault.jpg"
-      },
-      {
-        "title": "Was ist falsch an einem BambuLab A1 Mini? #3ddrucker #3dprinting #3ddruck #3dprint",
-        "description": "Was ist falsch an einem BambuLab A1 Mini? Wieso sollte man diesen nicht empfehlen? #3ddrucker #3dprinting #3ddruck #3dprint",
-        "url": "https://www.youtube.com/shorts/pk7GAP-dBrk",
-        "image_url": "https://i1.ytimg.com/vi/pk7GAP-dBrk/hqdefault.jpg"
       }
     ]
   },
