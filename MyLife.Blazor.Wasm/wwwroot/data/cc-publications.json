@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Tobi hat sein Robotor Projekt zerstört! #maker #diy #3ddruck #raspberrypi #fail",
+        "description": "Tobi hat sein Robotor Projekt zerstört! Ärgerlich oder Motivation das Raspberry Pi Projejt neu zu starten? #maker #diy #3ddruck",
+        "url": "https://www.youtube.com/shorts/yv7s_xFN9TY",
+        "image_url": "https://i2.ytimg.com/vi/yv7s_xFN9TY/hqdefault.jpg"
+      },
+      {
         "title": "Gesundheit beim 3D-Druck wird oft genug nicht so ernst genommen #3ddruck #3dprint #3ddrucker #hobby",
         "description": "Gesundheit beim 3D-Druck wird oft genug nicht so ernst genommen wie man es sollte. #3ddruck #3dprint #3ddrucker #hobby",
         "url": "https://www.youtube.com/shorts/hBorthPTHTo",
@@ -92,12 +98,6 @@
         "description": "Die Spanne ist ja echt groß!",
         "url": "https://www.youtube.com/shorts/kE6hH6s1xOY",
         "image_url": "https://i4.ytimg.com/vi/kE6hH6s1xOY/hqdefault.jpg"
-      },
-      {
-        "title": "Ihr hattet Recht! 3D-Drucker sind Rudeltiere. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Ihr hattet Recht! 3D-Drucker sind Rudeltiere. Habt ihr euch mehr als einen Drucker aktiv im Dienst? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/n84yRjAL1qo",
-        "image_url": "https://i3.ytimg.com/vi/n84yRjAL1qo/hqdefault.jpg"
       }
     ]
   },
