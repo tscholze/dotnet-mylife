@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Auch nicht-funktionale 3D-Druck Teile haben einen Grund! #3ddruck #3ddrucker #multiplesklerose",
+        "description": "Auch nicht-funktionale 3D-Druck Teile haben eine Daseinsberechtigung! #3ddruck #3ddrucker #3dprint #3dprinting \n\nEs bringt Menschen zusammen!",
+        "url": "https://www.youtube.com/shorts/nDDSO5ObA44",
+        "image_url": "https://i3.ytimg.com/vi/nDDSO5ObA44/hqdefault.jpg"
+      },
+      {
         "title": "Dieser Filament Nervenkitzel! Reicht das Filament noch? #3ddruck #3ddrucker #3dprint #3dprinting",
         "description": "Dieser Filament Nervenkitzel! Reicht das Filament noch? War man zu zuversichtlich beim 3D-Druck? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/jupRyqG5Gls",
@@ -92,12 +98,6 @@
         "description": "Meiner im Büro und bei euch? Wo 3d druckt ihr?",
         "url": "https://www.youtube.com/shorts/sU15seLzqq4",
         "image_url": "https://i4.ytimg.com/vi/sU15seLzqq4/hqdefault.jpg"
-      },
-      {
-        "title": "Weihnachten rückt jedes Jahr etwas früher an. #3ddruck #3ddrucker #3dprint",
-        "description": "Weihnachten rückt jedes Jahr etwas früher an. Ist euer 3D-Drucker damit auch schon beschäftigt? #3ddruck #3ddrucker #3dprint",
-        "url": "https://www.youtube.com/shorts/y0FjBpCytLk",
-        "image_url": "https://i2.ytimg.com/vi/y0FjBpCytLk/hqdefault.jpg"
       }
     ]
   },
