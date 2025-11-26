@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Passt bitte besser auf eure #3ddrucker auf als ich damals! #3ddruck #3dprinting",
+        "description": "Passt bitte besser auf eure #3ddrucker auf als ich damals. Seitdem hat sich so viel verändert euch in meiner Wahrnehmung und #3ddruck oft mittlerweile so viel mehr für mich geworden!\n#3dprinter #3ddrucker #3dprint",
+        "url": "https://www.youtube.com/shorts/awhkr3EMR9c",
+        "image_url": "https://i2.ytimg.com/vi/awhkr3EMR9c/hqdefault.jpg"
+      },
+      {
         "title": "3D-Druck Support ist schon was echt spannendes! #3ddruck #3dprinting #3ddrucker",
         "description": "Welchen nutzt ihr am liebsten?",
         "url": "https://www.youtube.com/shorts/OqCo-GfhA0I",
@@ -92,12 +98,6 @@
         "description": "Tobi hat sein Robotor Projekt zerstört! Ärgerlich oder Motivation das Raspberry Pi Projejt neu zu starten? #maker #diy #3ddruck",
         "url": "https://www.youtube.com/shorts/yv7s_xFN9TY",
         "image_url": "https://i2.ytimg.com/vi/yv7s_xFN9TY/hqdefault.jpg"
-      },
-      {
-        "title": "Gesundheit beim 3D-Druck wird oft genug nicht so ernst genommen #3ddruck #3dprint #3ddrucker #hobby",
-        "description": "Gesundheit beim 3D-Druck wird oft genug nicht so ernst genommen wie man es sollte. #3ddruck #3dprint #3ddrucker #hobby",
-        "url": "https://www.youtube.com/shorts/hBorthPTHTo",
-        "image_url": "https://i1.ytimg.com/vi/hBorthPTHTo/hqdefault.jpg"
       }
     ]
   },
@@ -110,7 +110,68 @@
       "language": "en",
       "profile_url": "https://dualscreentobbo.medium.com"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Since November 19, 2019 at 7 pm German local time I was busy with the development for the…",
+        "description": "My thoughts — Surface Duo developer for over 880 daysSince November 19, 2019 at 7 pm German local time I was busy with the development for the Microsoft Surface Duo and thus for smartphones which have more than just a screen....",
+        "url": "https://dualscreentobbo.medium.com/since-november-19-2019-at-7-pm-german-local-time-i-was-busy-with-the-development-for-the-365011c18c60?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/720/1*cwEDbL0F2Gl1H9J7diBouA.jpeg"
+      },
+      {
+        "title": "I asked the Surface Duo 2 SDK team if the spine feature is developer-accessible — These are my id",
+        "description": "I asked the Surface Duo 2 SDK team if the spine feature is developer-accessible — These are my ideas why it should beJust a few days ago, Microsoft presented their new iteration of the foldable Surface Duo device with amazing...",
+        "url": "https://dualscreentobbo.medium.com/i-asked-the-surface-duo-2-sdk-team-if-the-spine-feature-is-developer-accessible-these-are-my-id-3cfe8017c177?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*5jc7hp7A2zL7EgZmg_cvhw.png"
+      },
+      {
+        "title": "Just one more day until Microsoft’s Surface Event ‘21",
+        "description": "Microsoft Surface Event 2021 Logo (Source: microsoft.com)On Wednesday, September 22nd at 11am ET Microsoft’s anual hardware event takes place. To be honest, I’m neither interested in the “normal” Surface, the Surface Book nor...",
+        "url": "https://dualscreentobbo.medium.com/just-one-more-day-until-microsoft-surface-event-21-de6bc60ca755?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*i9irVv7JuQfgs-KQKbPb3A.png"
+      },
+      {
+        "title": "Starting my new Surface Duo app: “DuoBahn”",
+        "description": "Winter is coming! At least it seems that the temperatures drop. What a perfect timing to start into my summer holidays. Yay. Anyways the German gouvernment launched an open data intitiavte called bund.dev (‘bund’ means “feder...",
+        "url": "https://dualscreentobbo.medium.com/starting-my-new-surface-duo-app-duobahn-370d57d20933?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/800/1*_KdUMPjf0SW-OMfL7PQZcw.png"
+      },
+      {
+        "title": "Reddit is the place to go to connect with user Duo’eans",
+        "description": "Just a little update to one of my last posts that the Surface Duo community is not a ghost town.I recently asked on Twitter and on Reddit if there is any other fellow Surface Duo app developer around.The Twitter response was ...",
+        "url": "https://dualscreentobbo.medium.com/reddit-is-the-place-to-go-to-connect-with-user-duoeans-38db30146115?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*93f-bjIhayly_utAXMYhtw.png"
+      },
+      {
+        "title": "I published over a dozen articles covering the development for the Surface Duo — let’s write some…",
+        "description": "I published over a dozen articles covering the development for the Surface Duo — let’s write some more!It’s been a long time since I started writing about my adventures in developing for the Microsoft Surface Duo. Now, there ...",
+        "url": "https://dualscreentobbo.medium.com/i-published-over-a-dozen-articles-covering-the-development-for-the-surface-duo-lets-write-some-420372a09eb?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/800/1*9MJJYK4D_jRfxOQnyL3-Ag.png"
+      },
+      {
+        "title": "The Surface Duo Design Kit Version 1.0 has been published",
+        "description": "All apps require now a days a stunning but useful and productive design. For most of us it’s hard to design applications that passes all adjective from above.That’s why it is awesome to have a design kit by hand to get starte...",
+        "url": "https://dualscreentobbo.medium.com/the-surface-duo-design-kit-version-1-0-has-been-published-5ec47db184?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/0*Xdou5DUKTVFpoYaZ.png"
+      },
+      {
+        "title": "Nobody is interested in the Duo!",
+        "description": "Nobody is interested in the Duo! Wrong! My best performing content onYouTube, Reddit and in articles are Surface Duo related!I know, the Microsoft Surface Duo is a niche device. It’s a technology sample which will grow up aft...",
+        "url": "https://dualscreentobbo.medium.com/nobody-is-interested-in-the-duo-3b1cff7bb46c?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/660/1*w4tQN1ve81mJCVbzyN7BfA.png"
+      },
+      {
+        "title": "The Surface Duo DX team is fast and most commited team I can imagine",
+        "description": "In my last post, I had some open questions to the Microsoft Surface Duo Team.In less than a week, to me more exact in less den three days most of the questions got answered in a very detailed way. I want now to share all the ...",
+        "url": "https://dualscreentobbo.medium.com/the-surface-duo-dx-team-is-fast-and-most-commited-team-i-can-imagine-c78c179037dd?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1007/1*6GAcrAe1Otoav7kgGZrxVw.png"
+      },
+      {
+        "title": "Let me re-phrase my questions … from Surface Duo BUILD’s ATE session",
+        "description": "Let me re-phrase my questions … from Surface Duo BUILD’s ATE sessionIt’s been a while since Guy and his team had an “Ask the Experts” session during Microsoft BUILD conference and later on a Twitch live team with the whole sq...",
+        "url": "https://dualscreentobbo.medium.com/let-me-re-phrase-my-questions-from-surface-duo-builds-ate-session-d2f61dfd7fa7?source=rss-590a9171f4e------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*_SE7HTidKtqauMzyWr5GjA.jpeg"
+      }
+    ]
   },
   {
     "account": {
@@ -121,7 +182,68 @@
       "language": "de",
       "profile_url": "https://devreltobbo.medium.com"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "#15 | BindableLayout — so einfach, so hilfreich!",
+        "description": "#15 | BindableLayout — so einfach, so hilfreich!Manchmal benötigt man nur eine Oberflächenkomponente welche über eine Liste iteriert und jedes Element darstellt und zwar ganz ohne Scrolling, Lazy Loading und Co. was Views wie...",
+        "url": "https://devreltobbo.medium.com/15-bindablelayout-so-einfach-so-hilfreich-d3cb26ad7b8b?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*zy2Ni_rQEcgaOcR4a-qqwQ.png"
+      },
+      {
+        "title": "#14 | NavigationBar pro Page in .NET MAUI ein- und ausschalten",
+        "description": "#14 | NavigationBar pro Page in .NET MAUI ein- und ausschaltenManchmal müssen Standards weichen. Normal hat in den allermeisten Apps eine Page eine Top Navigation Bar mit einem Titel einen optionalen Zurück-Button oder gar et...",
+        "url": "https://devreltobbo.medium.com/14-navigationbar-pro-page-in-net-maui-ein-und-ausschalten-cbc391278ce6?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*VTbIcWFbIyVbTLRkkooDAQ.png"
+      },
+      {
+        "title": "#13 | Manchmal ist Englisch besser — Sprache ändern in VS und Microsoft Learn",
+        "description": "#13 | Manchmal ist Englisch besser — Sprache ändern in VS und Microsoft LearnJa ich weiß, dieser Blog existiert um eine lokalisierte Einstiegshilfe in die Welt von .NET MAUI und Co. zu bieten. Dennoch ist es durchaus manchmal...",
+        "url": "https://devreltobbo.medium.com/13-manchmal-ist-englisch-besser-sprache-ändern-in-vs-und-microsoft-learn-2c3808c83ed7?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*8hbQvGiyqozucHjc8NxuHw.png"
+      },
+      {
+        "title": "#12 | Meine TOP 5 Gründe wieso ihr .NET MAUI probieren solltet",
+        "description": "#12 | Meine TOP 5 Gründe wieso ihr .NET MAUI probieren solltetBildet euch eure eigene Meinung über das Framework von Microsoft1. Bewährte Technologien und Synergien nutzen.NET MAUI baut auf dem bewährten .NET Framework von Mi...",
+        "url": "https://devreltobbo.medium.com/12-meine-top-5-gründe-wieso-ihr-net-maui-probieren-solltet-b4808c662240?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*5GcnaWnFl1XwlHxiHJbAhA.png"
+      },
+      {
+        "title": "#11 | Splash Screen einer .NET MAUI App",
+        "description": "#11 | Splash Screen einer .NET MAUI AppEr hat viele Namen. Splash Screen, Launch Screen, Begrüßungsansicht und jeder Nutzer ist froh wenn man ihn eigentlich gar nicht sieht weil die App so schnell lädt. Dennoch ist diese View...",
+        "url": "https://devreltobbo.medium.com/11-splash-screen-einer-net-maui-app-58b758b07b79?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*sR_P8A6gaavtawpFA04uJQ.png"
+      },
+      {
+        "title": "#10 | MAUI App & Testgeräte — so einfach!",
+        "description": "#10 | .NET MAUI App & Testgeräte — so einfach!Nichts ist so schmerzhaft wie die Realität. Dies betrifft auch uns .NET MAUI App-Entwickler. So gut die Android-Emulatoren und die iOS-Simulatoren sein mögen, einen Test auf einem...",
+        "url": "https://devreltobbo.medium.com/10-maui-app-testgeräte-so-einfach-913ab3a2ce9d?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*FOk7kUQVlqsoZPNrGfgBbg.png"
+      },
+      {
+        "title": "#9 | Eigene Schriftarten in .NET MAUI verwenden",
+        "description": "#9 | Eigene Schriftarten in .NET MAUI verwendenIn meinen Augen werden moderne Apps wieder schlichter und minimaler was den Einsatz von großflächigen Bildern und “real”-wirkenden Strukturen anbelangt. Im Gegensatz hierzu stehe...",
+        "url": "https://devreltobbo.medium.com/9-eigene-schriftarten-in-net-maui-verwenden-00634d6179cb?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*yhGWiWTM9s-2uESKQfoL-g.png"
+      },
+      {
+        "title": "#8 — So einfach geht eine TabBar in MAUI",
+        "description": "#8 | So einfach geht eine TabBar in MAUIEine (Bottom-)TabBar beziehungsweise -View ist auf mobilen Geräten so allgegenwärtig wie Abstütze in Xcode. Durch unsere Vorarbeiten in älteren Beitragen ist es nun ein leichtes dies au...",
+        "url": "https://devreltobbo.medium.com/8-so-einfach-geht-eine-tabbar-in-maui-1c0e55319378?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*l54sxNxTsoL3GtHNY1wljg.png"
+      },
+      {
+        "title": "#7 | Icons und Symbole leicht gemacht",
+        "description": "Im letzten Artikel deutete ich an, dass es unter .NET MAUI noch weitere Möglichkeiten gibt Icons und Symbole in eine App einzubinden. In meinen Augen die beste Variante neben IconFonts und deren Glyphs ist das NuGet-Package M...",
+        "url": "https://devreltobbo.medium.com/7-icons-und-symbole-leicht-gemacht-35907cc6b48c?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*vYgU5-I6aaqi4XRoPZgJ3g.png"
+      },
+      {
+        "title": "#6 | Bilder in einer MAUI-App verwenden",
+        "description": "MAUI bedeutet kleinster gemeinsamer Nenner.NET MAUI ermöglicht es uns Entwicklern unsere Apps auf die allermeisten Plattformen zu bringen. Das bedeutet aber auch, unsere Assets — also Bilder, Schriften, etc. — müssen so gesta...",
+        "url": "https://devreltobbo.medium.com/6-bilder-in-einer-maui-app-verwenden-3f81eef80f2a?source=rss-e475db74ab50------2",
+        "image_url": "https://cdn-images-1.medium.com/max/1024/1*ynxi7pnjl_zEig6jB3FfGg.png"
+      }
+    ]
   },
   {
     "account": {
