@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mein Mini 3D-Drucker ist doch „zu kleine“ für meinen #3ddruck #3ddrucker #3dprinter #3dprint",
+        "description": "Mein Mini 3D-Drucker ist doch „zu kleine“ für meinen 3D-Druck! Mit Nichten, ich muss es einfach anders konstruieren! #3ddruck #3ddrucker #3dprinter #3dprint",
+        "url": "https://www.youtube.com/shorts/q69T5P-E6Wc",
+        "image_url": "https://i2.ytimg.com/vi/q69T5P-E6Wc/hqdefault.jpg"
+      },
+      {
         "title": "Die Nachteile von CAD im Browser #3ddruck #3ddrucker #3dprinter #3dprint",
         "description": "Die Nachteile von CAD im Browser vor allem wenn man gerade voll Spaß mit seinem 3D-Drucker hat. #3ddruck #3ddrucker #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/EaYlWa-9K9A",
@@ -92,12 +98,6 @@
         "description": "Dieser Filament Nervenkitzel! Reicht das Filament noch? War man zu zuversichtlich beim 3D-Druck? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/jupRyqG5Gls",
         "image_url": "https://i3.ytimg.com/vi/jupRyqG5Gls/hqdefault.jpg"
-      },
-      {
-        "title": "Löcher - das Paradoxon des 3D-Drucks . #3ddruck #3ddrucker  #3dprint #3dprinter",
-        "description": "Löcher - das Paradoxon des 3D-Drucks . Brauchen wenig Filament aber viel Zeit. #3ddruck #3ddrucker #3dprint #3dprinter",
-        "url": "https://www.youtube.com/shorts/G4xPQkjYIcQ",
-        "image_url": "https://i4.ytimg.com/vi/G4xPQkjYIcQ/hqdefault.jpg"
       }
     ]
   },
