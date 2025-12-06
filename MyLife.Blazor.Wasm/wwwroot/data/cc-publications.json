@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Multifarb-3D-Druck auch bei funktionalen Teilen nützlich! #3ddruck #3ddrucker #3dprinter #3dprint",
+        "description": "Multifarb-3D-Druck auch bei funktionalen Teilen nützlich! Oder ist es für euch reine Spielerei? #3ddruck #3ddrucker #3dprinter #3dprint",
+        "url": "https://www.youtube.com/shorts/Dvlu68ay0es",
+        "image_url": "https://i1.ytimg.com/vi/Dvlu68ay0es/hqdefault.jpg"
+      },
+      {
         "title": "Wie reinigt man am besten Effektplatten vom 3D-Drucker? #3ddruck #3ddrucker #3dprinter #3dprint",
         "description": "Habe ihr Tipps?",
         "url": "https://www.youtube.com/shorts/2Or0gQMJOg4",
@@ -92,12 +98,6 @@
         "description": "Tobi braucht eure 3D-Druck-Hilfe - woher kommt diese Dinge am 3D-Modell? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/2AcDGQX2hig",
         "image_url": "https://i3.ytimg.com/vi/2AcDGQX2hig/hqdefault.jpg"
-      },
-      {
-        "title": "Es muss leider auch druck- und aufbaubar sein #3ddruck #3ddrucker #3dprint #3dprinting",
-        "description": "Es muss leider auch druck- und aufbaubar sein aus dem 3D-Drucker. Mein nächstes CAD Lesson learned. #3ddruck #3ddrucker #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/QC-ZTyJBeBM",
-        "image_url": "https://i2.ytimg.com/vi/QC-ZTyJBeBM/hqdefault.jpg"
       }
     ]
   },
