@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Man könnte etwas anderes meinen! Eigentlich 3D-Drucke ich nur! #3ddrucker #3ddruck #maker #diy",
+        "description": "Man könnte etwas anderes meinen! Eigentlich 3D-Drucke und baue ich nur was für ein kleines neues Raspberry Pi Projekt! #3ddrucker #3ddruck #maker #diy",
+        "url": "https://www.youtube.com/shorts/rDL7KULdZ9g",
+        "image_url": "https://i3.ytimg.com/vi/rDL7KULdZ9g/hqdefault.jpg"
+      },
+      {
         "title": "Wie weit würdet ihr euere Wohnung umbauen für euer Hobby? #3ddrucker #3ddruck #3dprinter #3dprint",
         "description": "Wie weit würdet ihr euer Haus oder Wohnung umbauen um besser das Hobby ausleben zu können? #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/S5QiYVC1LaI",
@@ -92,12 +98,6 @@
         "description": "Mein Mini 3D-Drucker ist doch „zu kleine“ für meinen 3D-Druck! Mit Nichten, ich muss es einfach anders konstruieren! #3ddruck #3ddrucker #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/q69T5P-E6Wc",
         "image_url": "https://i2.ytimg.com/vi/q69T5P-E6Wc/hqdefault.jpg"
-      },
-      {
-        "title": "Die Nachteile von CAD im Browser #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Die Nachteile von CAD im Browser vor allem wenn man gerade voll Spaß mit seinem 3D-Drucker hat. #3ddruck #3ddrucker #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/EaYlWa-9K9A",
-        "image_url": "https://i2.ytimg.com/vi/EaYlWa-9K9A/hqdefault.jpg"
       }
     ]
   },
