@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Maker Spaß mit Mikrokontrollern, 3D-Druckern am Wochenende. #3ddrucker #maker #diy #raspberrypi",
+        "description": "Maker und Bastlerspass mit Mikrokontrollern, 3D-Druckern und und mehr am Wochenende. Was waren eure Hobby Projekte? #3ddrucker #maker #diy #raspberrypi",
+        "url": "https://www.youtube.com/shorts/p0zzj2jM5Rc",
+        "image_url": "https://i1.ytimg.com/vi/p0zzj2jM5Rc/hqdefault.jpg"
+      },
+      {
+        "title": "Habt ihr euren Standard #3ddrucker gemodded? #3ddruck #3dprinter  #erinnerung",
+        "description": "Habt ihr euren Standard #3ddrucker gemodded? Meiner ist immer noch hart Standard #3ddruck #3dprinter  #erinnerung",
+        "url": "https://www.youtube.com/shorts/uuuvbsCk4Kw",
+        "image_url": "https://i2.ytimg.com/vi/uuuvbsCk4Kw/hqdefault.jpg"
+      },
+      {
         "title": "Man könnte etwas anderes meinen! Eigentlich 3D-Drucke ich nur! #3ddrucker #3ddruck #maker #diy",
         "description": "Man könnte etwas anderes meinen! Eigentlich 3D-Drucke und baue ich nur was für ein kleines neues Raspberry Pi Projekt! #3ddrucker #3ddruck #maker #diy",
         "url": "https://www.youtube.com/shorts/rDL7KULdZ9g",
@@ -86,18 +98,6 @@
         "description": "Ein Gesicht was nur eine Mutter lieben kann- I like! Ich hab es geschafft ein 3D-Druck Gehäuse zu gestalten - wenn auch noch verbesserungsbedürftig #3ddruck #3ddrucker #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/fFtxFwdV3Oc",
         "image_url": "https://i3.ytimg.com/vi/fFtxFwdV3Oc/hqdefault.jpg"
-      },
-      {
-        "title": "Der Schreck wurde zur Stirnklatscher. #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Der Schreck wurde zur Stirnklatscher. Aus Warping beim 3D-Druck wurde ein „ach, gehört so“ #3ddruck #3ddrucker #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/zDjnmIb6BpI",
-        "image_url": "https://i3.ytimg.com/vi/zDjnmIb6BpI/hqdefault.jpg"
-      },
-      {
-        "title": "Mein Mini 3D-Drucker ist doch „zu kleine“ für meinen #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Mein Mini 3D-Drucker ist doch „zu kleine“ für meinen 3D-Druck! Mit Nichten, ich muss es einfach anders konstruieren! #3ddruck #3ddrucker #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/q69T5P-E6Wc",
-        "image_url": "https://i2.ytimg.com/vi/q69T5P-E6Wc/hqdefault.jpg"
       }
     ]
   },
