@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Eure 3D-Modelle sind so weihnachtlich! #3ddruck #3dprinting #3ddrucker",
+        "description": "3D-Modelle aus der Community, diesmal tolle weihnachtliche Untersätzer für eure Tassen!\n#3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/L6df25xZhLE",
+        "image_url": "https://i1.ytimg.com/vi/L6df25xZhLE/hqdefault.jpg"
+      },
+      {
         "title": "Maker Spaß mit Mikrokontrollern, 3D-Druckern am Wochenende. #3ddrucker #maker #diy #raspberrypi",
         "description": "Maker und Bastlerspass mit Mikrokontrollern, 3D-Druckern und und mehr am Wochenende. Was waren eure Hobby Projekte? #3ddrucker #maker #diy #raspberrypi",
         "url": "https://www.youtube.com/shorts/p0zzj2jM5Rc",
@@ -92,12 +98,6 @@
         "description": "Mit 3D-Druck-Filament Lichtleitungen bauen? Mein Robotor muss mehr blinken - aber wie? Würde das mit zum Beispiel dem transparenten PETG von @recyclingfabrik gehen? #3ddruck #3ddrucker #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/Z5P745RR0tE",
         "image_url": "https://i3.ytimg.com/vi/Z5P745RR0tE/hqdefault.jpg"
-      },
-      {
-        "title": "Ich hab es geschafft ein 3D-Druck Gehäuse zu konstruieren #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Ein Gesicht was nur eine Mutter lieben kann- I like! Ich hab es geschafft ein 3D-Druck Gehäuse zu gestalten - wenn auch noch verbesserungsbedürftig #3ddruck #3ddrucker #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/fFtxFwdV3Oc",
-        "image_url": "https://i3.ytimg.com/vi/fFtxFwdV3Oc/hqdefault.jpg"
       }
     ]
   },
