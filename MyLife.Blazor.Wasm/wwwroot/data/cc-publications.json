@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "BambuLab SuperTac - die beste 3D-Druck Platte? #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Was ist für euch die beste Platte für euren 3D-Drucker?",
+        "url": "https://www.youtube.com/shorts/lnvxag4bVJE",
+        "image_url": "https://i1.ytimg.com/vi/lnvxag4bVJE/hqdefault.jpg"
+      },
+      {
         "title": "Eure 3D-Modelle sind so weihnachtlich! #3ddruck #3dprinting #3ddrucker",
         "description": "3D-Modelle aus der Community, diesmal tolle weihnachtliche Untersätzer für eure Tassen!\n#3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/L6df25xZhLE",
@@ -92,12 +98,6 @@
         "description": "Habe ihr Tipps?",
         "url": "https://www.youtube.com/shorts/2Or0gQMJOg4",
         "image_url": "https://i3.ytimg.com/vi/2Or0gQMJOg4/hqdefault.jpg"
-      },
-      {
-        "title": "Mit 3D-Druck-Filament Lichtleitungen bauen? #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Mit 3D-Druck-Filament Lichtleitungen bauen? Mein Robotor muss mehr blinken - aber wie? Würde das mit zum Beispiel dem transparenten PETG von @recyclingfabrik gehen? #3ddruck #3ddrucker #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/Z5P745RR0tE",
-        "image_url": "https://i3.ytimg.com/vi/Z5P745RR0tE/hqdefault.jpg"
       }
     ]
   },
