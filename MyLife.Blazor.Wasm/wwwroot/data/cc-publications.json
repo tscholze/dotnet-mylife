@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mein neues 3D-Modell ist fertig! #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Mein neues 3D-Modell ist fertig! Ein Gehöuse für das Pimoroni Pico Keypad für den Raspberry Pi! #3ddrucker #3ddruck #3dprint #3dprinting\n\nhttps://makerworld.com/models/2127414?appSharePlatform=copy",
+        "url": "https://www.youtube.com/shorts/Z-S5Lw8u8c4",
+        "image_url": "https://i3.ytimg.com/vi/Z-S5Lw8u8c4/hqdefault.jpg"
+      },
+      {
         "title": "BambuLab SuperTac - die beste 3D-Druck Platte? #3ddruck #3dprinting #3ddrucker #diy",
         "description": "Was ist für euch die beste Platte für euren 3D-Drucker?",
         "url": "https://www.youtube.com/shorts/lnvxag4bVJE",
@@ -92,12 +98,6 @@
         "description": "Multifarb-3D-Druck auch bei funktionalen Teilen nützlich! Oder ist es für euch reine Spielerei? #3ddruck #3ddrucker #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/Dvlu68ay0es",
         "image_url": "https://i1.ytimg.com/vi/Dvlu68ay0es/hqdefault.jpg"
-      },
-      {
-        "title": "Wie reinigt man am besten Effektplatten vom 3D-Drucker? #3ddruck #3ddrucker #3dprinter #3dprint",
-        "description": "Habe ihr Tipps?",
-        "url": "https://www.youtube.com/shorts/2Or0gQMJOg4",
-        "image_url": "https://i3.ytimg.com/vi/2Or0gQMJOg4/hqdefault.jpg"
       }
     ]
   },
