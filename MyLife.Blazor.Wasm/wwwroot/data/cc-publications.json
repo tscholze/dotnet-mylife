@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Wie fotografiert ihr eure 3D-Drucke? Habt ihr da Tipps? #3ddrucker #3ddruck #3dprinter #3dprint",
+        "description": "Wie fotografiert ihr eure 3D-Drucke? Habt ihr da Haushaltsmittel die gut klappen? #3ddrucker #3ddruck #3dprinter #3dprint",
+        "url": "https://www.youtube.com/shorts/MttXe-JGQNI",
+        "image_url": "https://i2.ytimg.com/vi/MttXe-JGQNI/hqdefault.jpg"
+      },
+      {
+        "title": "Die 1. Erfahrungen aus meinem Fehlern mit dem 3D-Drucker. #3ddrucker #3ddruck #3dprinter #3dprint",
+        "description": "Die ersten Erfahrungen aus meinem Fehlern mit dem 3D-Drucker. Sehr spannend meine Reise zu sehen! #3ddrucker #3ddruck #3dprinter #3dprint  #erinnerung",
+        "url": "https://www.youtube.com/shorts/S_ir_M10VUU",
+        "image_url": "https://i4.ytimg.com/vi/S_ir_M10VUU/hqdefault.jpg"
+      },
+      {
         "title": "Was war euer 3D-Druck des Jahres 2025?  #3ddrucker #3ddruck #3dprint #3dprinter",
         "description": "Was war euer 3D-Druck des Jahres 2025? Meiner war das Gehäuse aus PLA Filament und das es von mir konstruiert und gebaut wurde! Ich bin echt stolz. #3ddrucker #3ddruck #3dprint #3dprinter",
         "url": "https://www.youtube.com/shorts/-kwzQ3KCjcA",
@@ -86,18 +98,6 @@
         "description": "BambuLab enttäuscht hart! Scheitert ein Projekt wegen Filamentknappheit? #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/OgitxRYnSso",
         "image_url": "https://i4.ytimg.com/vi/OgitxRYnSso/hqdefault.jpg"
-      },
-      {
-        "title": "Seid lieb zu euren 3D-Druckern und pflegt die gut! Macht nicht mein Fehler! #3ddruck #3dprinting",
-        "description": "Ich musste es hart lernen, passt bitte besser auf!",
-        "url": "https://www.youtube.com/shorts/qmBMp7WSrC0",
-        "image_url": "https://i2.ytimg.com/vi/qmBMp7WSrC0/hqdefault.jpg"
-      },
-      {
-        "title": "Tobi hat gelötet! Das war wohl ein Abenteuer! #3ddrucker #3ddruck #3dprinter #3dprint",
-        "description": "Tobi hat gelötet! Das war wohl ein Abenteuer - was lernt man nicht alles wenn man muss! #3ddrucker #3ddruck #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/AV83j6iuGf0",
-        "image_url": "https://i2.ytimg.com/vi/AV83j6iuGf0/hqdefault.jpg"
       }
     ]
   },
