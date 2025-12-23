@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "ESP32 und Breadboard sind keine Freunde - wieso? #3ddrucker #3ddruck #3dprinter #3dprint",
+        "description": "ESP32 und Breadboard sind keine Freunde - wieso? Ich dachte das wäre alles standardisiert? #3ddrucker #3ddruck #3dprinter #3dprint",
+        "url": "https://www.youtube.com/shorts/VCqXzBQ-9wY",
+        "image_url": "https://i3.ytimg.com/vi/VCqXzBQ-9wY/hqdefault.jpg"
+      },
+      {
         "title": "Ist mein Druckbett etwa verzogen? #3ddrucker #3ddruck #3dprinter #3dprint",
         "description": "Ist mein Druckbett etwa verzogen? Was kann diese unflauschige Obetfläche verursachen bei PLA Matte? #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/UbJkaSBLIv4",
@@ -92,12 +98,6 @@
         "description": "Ich erwische mich so als kleiner Sparfuchs. Der hat heute Filament nicht dafür verwenden will. Aber vielleicht sollte man es doch die lokale Wirtschaft unterstützen?",
         "url": "https://www.youtube.com/shorts/3dJtmvN_Kt4",
         "image_url": "https://i4.ytimg.com/vi/3dJtmvN_Kt4/hqdefault.jpg"
-      },
-      {
-        "title": "Die Einsicht kam einfach zu spät!  #erinnerung #3ddruck #3ddrucker #3dprinter",
-        "description": "Die Einsicht kam einfach zu spät! Zum Glück weiß ich es jetzt besser! Danke für euren Zuspruch! #erinnerung #3ddruck #3ddrucker #3dprinter",
-        "url": "https://www.youtube.com/shorts/F9gR2r-AGFw",
-        "image_url": "https://i3.ytimg.com/vi/F9gR2r-AGFw/hqdefault.jpg"
       }
     ]
   },
