@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Der perfekte erste 3D-Druck gelingt dir mit diesen Model #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Falls ihr es suchen wollt, hier die ID von MakerWorld: 2159672",
+        "url": "https://www.youtube.com/shorts/LlIwPegRNeQ",
+        "image_url": "https://i1.ytimg.com/vi/LlIwPegRNeQ/hqdefault.jpg"
+      },
+      {
         "title": "Glückwunsch zum A1 Mini 3D Drucker! Dieses Zubehör brauchst du nicht! #3ddruck #3ddrucker #3dprinter",
         "description": "Der BambuLab A1 Mini ist echt ein super 3D-Drucker! Du musst ihn auch am Anfang nicht gleich mit Zubehör überhäufen!",
         "url": "https://www.youtube.com/shorts/dDYjIFj8COQ",
@@ -92,12 +98,6 @@
         "description": "Maker und Bastlerspass mit Mikrokontrollern, 3D-Druckern und und mehr am Wochenende. Was waren eure Hobby Projekte? #3ddrucker #maker #diy #raspberrypi",
         "url": "https://www.youtube.com/shorts/p0zzj2jM5Rc",
         "image_url": "https://i1.ytimg.com/vi/p0zzj2jM5Rc/hqdefault.jpg"
-      },
-      {
-        "title": "Habt ihr euren Standard #3ddrucker gemodded? #3ddruck #3dprinter  #erinnerung",
-        "description": "Habt ihr euren Standard #3ddrucker gemodded? Meiner ist immer noch hart Standard #3ddruck #3dprinter  #erinnerung",
-        "url": "https://www.youtube.com/shorts/uuuvbsCk4Kw",
-        "image_url": "https://i2.ytimg.com/vi/uuuvbsCk4Kw/hqdefault.jpg"
       }
     ]
   },
