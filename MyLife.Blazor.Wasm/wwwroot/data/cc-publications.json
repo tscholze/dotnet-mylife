@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Hohe Drucke beim A1 Mini werden komisch. #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Oder liegt das einfach am Bett Slinger? Ich hoffe nicht!",
+        "url": "https://www.youtube.com/shorts/xfNRb7fZ8d8",
+        "image_url": "https://i1.ytimg.com/vi/xfNRb7fZ8d8/hqdefault.jpg"
+      },
+      {
         "title": "Tobi hat ein 3D-Druck Problem. Shelf nicht gut? #3ddruck #3ddrucker #3dprint #3dprinter",
         "description": "Tobi hat ein 3D-Druck Problem. Woran könnte die Naht bei einem Shelf liegen? #3ddruck #3ddrucker #3dprint #3dprinter",
         "url": "https://www.youtube.com/shorts/ohW1LHuZD24",
@@ -92,12 +98,6 @@
         "description": "Ist mein Druckbett etwa verzogen? Was kann diese unflauschige Obetfläche verursachen bei PLA Matte? #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/UbJkaSBLIv4",
         "image_url": "https://i2.ytimg.com/vi/UbJkaSBLIv4/hqdefault.jpg"
-      },
-      {
-        "title": "Wie fotografiert ihr eure 3D-Drucke? Habt ihr da Tipps? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "description": "Wie fotografiert ihr eure 3D-Drucke? Habt ihr da Haushaltsmittel die gut klappen? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/MttXe-JGQNI",
-        "image_url": "https://i2.ytimg.com/vi/MttXe-JGQNI/hqdefault.jpg"
       }
     ]
   },
