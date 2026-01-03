@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ist das der Grund für meine Fehler beim 3D-Druck?  #3ddruck #3ddrucker #3dprint #3dprinter",
+        "description": "Ist das der Grund für meine Fehler beim 3D-Druck? Schrauben nachziehen am 3D-Drucker vom BambuLab A1 Mini kann echt viel helfen. #3ddruck #3ddrucker #3dprint #3dprinter",
+        "url": "https://www.youtube.com/shorts/oV7Rt8_Xu6o",
+        "image_url": "https://i4.ytimg.com/vi/oV7Rt8_Xu6o/hqdefault.jpg"
+      },
+      {
         "title": "Hohe Drucke beim A1 Mini werden komisch. #3ddruck #3dprinting #3ddrucker #3dprint",
         "description": "Oder liegt das einfach am Bett Slinger? Ich hoffe nicht!",
         "url": "https://www.youtube.com/shorts/xfNRb7fZ8d8",
@@ -92,12 +98,6 @@
         "description": "ESP32 und Breadboard sind keine Freunde - wieso? Ich dachte das wäre alles standardisiert? #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/VCqXzBQ-9wY",
         "image_url": "https://i3.ytimg.com/vi/VCqXzBQ-9wY/hqdefault.jpg"
-      },
-      {
-        "title": "Ist mein Druckbett etwa verzogen? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "description": "Ist mein Druckbett etwa verzogen? Was kann diese unflauschige Obetfläche verursachen bei PLA Matte? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/UbJkaSBLIv4",
-        "image_url": "https://i2.ytimg.com/vi/UbJkaSBLIv4/hqdefault.jpg"
       }
     ]
   },
