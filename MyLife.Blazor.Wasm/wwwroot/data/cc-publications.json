@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Hilfe, mein 3D-Drucker wirft Öl an die Wand. #3ddruck #3ddrucker #3dprint #3dprinter",
+        "description": "Hilfe, mein 3D-Drucker wirft Öl an die Wand. Das schwarze Kabel hat einen Ölfiöm #3ddruck #3ddrucker #3dprint #3dprinter",
+        "url": "https://www.youtube.com/shorts/O5ftkiB0YTw",
+        "image_url": "https://i4.ytimg.com/vi/O5ftkiB0YTw/hqdefault.jpg"
+      },
+      {
         "title": "Ist das der Grund für meine Fehler beim 3D-Druck?  #3ddruck #3ddrucker #3dprint #3dprinter",
         "description": "Ist das der Grund für meine Fehler beim 3D-Druck? Schrauben nachziehen am 3D-Drucker vom BambuLab A1 Mini kann echt viel helfen. #3ddruck #3ddrucker #3dprint #3dprinter",
         "url": "https://www.youtube.com/shorts/oV7Rt8_Xu6o",
@@ -92,12 +98,6 @@
         "description": "Was ist euer Filament des Jahres? Ich bleibe bei PLA Matte Beige von BambuLab oder der Recycling Fabrik #3ddrucker #3ddruck #3dprinter #3dprint",
         "url": "https://www.youtube.com/shorts/zr_7IkNvCsc",
         "image_url": "https://i3.ytimg.com/vi/zr_7IkNvCsc/hqdefault.jpg"
-      },
-      {
-        "title": "ESP32 und Breadboard sind keine Freunde - wieso? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "description": "ESP32 und Breadboard sind keine Freunde - wieso? Ich dachte das wäre alles standardisiert? #3ddrucker #3ddruck #3dprinter #3dprint",
-        "url": "https://www.youtube.com/shorts/VCqXzBQ-9wY",
-        "image_url": "https://i3.ytimg.com/vi/VCqXzBQ-9wY/hqdefault.jpg"
       }
     ]
   },
