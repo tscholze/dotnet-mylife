@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Welchen Motor für 3D-Druck Robotor mit Raspberry Pi #3ddruck #3dprinting #3dprint #3ddrucker",
+        "description": "Welchen Motor für 3D-Druck Robotor? 3,3V wie bei ToBoT v1 oder lieber 5V am Raspberry Pi? #3ddruck #3dprinting #3dprint #3ddrucker",
+        "url": "https://www.youtube.com/shorts/QY7vYYAdgbU",
+        "image_url": "https://i2.ytimg.com/vi/QY7vYYAdgbU/hqdefault.jpg"
+      },
+      {
         "title": "Sind geschlossene 3D-Drucker leiser?#3ddruck #3dprinting #3dprint #3ddrucker",
         "description": "Sind geschlossene 3D-Drucker leiser? Lüftergeräusche eines BambuLab A1 Mini können hart stören #3ddruck #3dprinting #3dprint #3ddrucker",
         "url": "https://www.youtube.com/shorts/_NaujfsRg-w",
@@ -92,12 +98,6 @@
         "description": "Kleine 3D-Drucker werden oft unterschätzt! Welchen kleinen könnt ihr empfehlen? #3ddrucker #3ddruck #3dprint #3dprinter",
         "url": "https://www.youtube.com/shorts/jFJw1o3bgfM",
         "image_url": "https://i3.ytimg.com/vi/jFJw1o3bgfM/hqdefault.jpg"
-      },
-      {
-        "title": "Bei der Recycling Fabrik wird nicht nur Filament Recycled. #3ddrucker #3ddruck #filament #3dprint",
-        "description": "Bei der Recycling Fabrik wird nicht nur Filament Recycled - sondern auch alte Kartons werden zu Füllmaterial! #3ddrucker #3ddruck #filament #3dprint",
-        "url": "https://www.youtube.com/shorts/BoEIe8FGVfg",
-        "image_url": "https://i3.ytimg.com/vi/BoEIe8FGVfg/hqdefault.jpg"
       }
     ]
   },
