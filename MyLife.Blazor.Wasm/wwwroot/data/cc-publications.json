@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Welcher 3D-Drucker Typ seid ihr? Entspannt oder Action?#3ddruck #3dprinting #3dprint #3ddrucker",
+        "description": "Muss der 3-Drucker Party machen oder in Yoga gehen?",
+        "url": "https://www.youtube.com/shorts/un7bQbWZnUs",
+        "image_url": "https://i2.ytimg.com/vi/un7bQbWZnUs/hqdefault.jpg"
+      },
+      {
+        "title": "Das Chaos nach harten3D-Druck & Maker Nächte. #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Das Chaos nach harten\n3D-Druck & Maker Nächte. Wie schaut es bei euch aus? Seid ihr Typ Chaos oder Ordnung pur? #3ddruck #3dprinting #3dprint #3ddrucker",
+        "url": "https://www.youtube.com/shorts/loqYVmTFroA",
+        "image_url": "https://i1.ytimg.com/vi/loqYVmTFroA/hqdefault.jpg"
+      },
+      {
         "title": "Welchen Motor für 3D-Druck Robotor mit Raspberry Pi #3ddruck #3dprinting #3dprint #3ddrucker",
         "description": "Welchen Motor für 3D-Druck Robotor? 3,3V wie bei ToBoT v1 oder lieber 5V am Raspberry Pi? #3ddruck #3dprinting #3dprint #3ddrucker",
         "url": "https://www.youtube.com/shorts/QY7vYYAdgbU",
@@ -86,18 +98,6 @@
         "description": "Wo würdet ihr diese kaufen?",
         "url": "https://www.youtube.com/shorts/0mfuEmiZtf8",
         "image_url": "https://i1.ytimg.com/vi/0mfuEmiZtf8/hqdefault.jpg"
-      },
-      {
-        "title": "Meine erste große eigene  3D-Konstruktion muss weichen. #3ddrucker #3ddruck #3dprint #3dprinter",
-        "description": "Meine erste große eigene  3D-Konstruktion muss weichen. Ich habe so viel mit und am 3D-Drucker gelernt. Auch dank euch! Doch es ist kein Halt für immer, es geht bald weiter mit v2! #3ddrucker #3ddruck #3dprint #3dprinter",
-        "url": "https://www.youtube.com/shorts/iPL8w9-S2Ss",
-        "image_url": "https://i2.ytimg.com/vi/iPL8w9-S2Ss/hqdefault.jpg"
-      },
-      {
-        "title": "Kleine 3D-Drucker werden oft unterschätzt! Empfehlungen? #3ddrucker #3ddruck #3dprint #3dprinter",
-        "description": "Kleine 3D-Drucker werden oft unterschätzt! Welchen kleinen könnt ihr empfehlen? #3ddrucker #3ddruck #3dprint #3dprinter",
-        "url": "https://www.youtube.com/shorts/jFJw1o3bgfM",
-        "image_url": "https://i3.ytimg.com/vi/jFJw1o3bgfM/hqdefault.jpg"
       }
     ]
   },
