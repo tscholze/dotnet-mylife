@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Druck des ToBoT Version beginnt. #3ddruck #3ddrucker #3dprint #3dprinting",
+        "description": "3D-Druck des ToBoT Version beginnt. Ich höre auf Eure Ratschläge und es zahlt sich aus! #3ddruck #3ddrucker #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/kIoUirfO5kc",
+        "image_url": "https://i4.ytimg.com/vi/kIoUirfO5kc/hqdefault.jpg"
+      },
+      {
         "title": "Lila Filament aber dennoch weißes Stringing? #3ddruck #3ddrucker #3dprint #3dprinting",
         "description": "Lila Filament aber dennoch weißes Stringing? Bisher hatte es immer die Farbe des 3D-Drucks - ist das ok? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/xI4AAWcUXdg",
@@ -92,12 +98,6 @@
         "description": "Oder liegt das einfach am Bett Slinger? Ich hoffe nicht!",
         "url": "https://www.youtube.com/shorts/xfNRb7fZ8d8",
         "image_url": "https://i1.ytimg.com/vi/xfNRb7fZ8d8/hqdefault.jpg"
-      },
-      {
-        "title": "Tobi hat ein 3D-Druck Problem. Shelf nicht gut? #3ddruck #3ddrucker #3dprint #3dprinter",
-        "description": "Tobi hat ein 3D-Druck Problem. Woran könnte die Naht bei einem Shelf liegen? #3ddruck #3ddrucker #3dprint #3dprinter",
-        "url": "https://www.youtube.com/shorts/ohW1LHuZD24",
-        "image_url": "https://i4.ytimg.com/vi/ohW1LHuZD24/hqdefault.jpg"
       }
     ]
   },
