@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Magnete im 3D-Druck Model was haltet ihr davon?  #3ddruck #3ddrucker #3dprint #3dprinting",
+        "description": "Magnete im 3D-Druck Model was haltet ihr davon? Mein aktuelles Raspberry Pi Projekt auf dem 3D-Drucker nutzt es zum ersten Mal. #3ddruck #3ddrucker #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/GWoCGtj3LE8",
+        "image_url": "https://i4.ytimg.com/vi/GWoCGtj3LE8/hqdefault.jpg"
+      },
+      {
         "title": "Tobi „repariert“ (wieder) seinen 3D-Drucker #3ddruck #3ddrucker #3dprint #3dprinting",
         "description": "Tobi „repariert“ (wieder) seinen 3D-Drucker. Diesmal ganz vorsichtig! Danke @3D-Onkel ♻️ für die Motivtion dazu! #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/rWcQANLJFI4",
@@ -92,12 +98,6 @@
         "description": "Tobi lernt den 3D-Drucker zu putzen & ölen. Wie (oft) putzt und ölt ihr euren Drucker? #3ddruck #3ddrucker #3dprint #3dprinter",
         "url": "https://www.youtube.com/shorts/qUxYJ48is-4",
         "image_url": "https://i2.ytimg.com/vi/qUxYJ48is-4/hqdefault.jpg"
-      },
-      {
-        "title": "Hilfe, mein 3D-Drucker wirft Öl an die Wand. #3ddruck #3ddrucker #3dprint #3dprinter",
-        "description": "Hilfe, mein 3D-Drucker wirft Öl an die Wand. Das schwarze Kabel hat einen Ölfiöm #3ddruck #3ddrucker #3dprint #3dprinter",
-        "url": "https://www.youtube.com/shorts/O5ftkiB0YTw",
-        "image_url": "https://i4.ytimg.com/vi/O5ftkiB0YTw/hqdefault.jpg"
       }
     ]
   },
