@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Vermisst ihr manche Dinge aus eurem 3D-Drucker? #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Vermisst ihr manche Dinge aus eurem 3D-Drucker? Manch 3D-Druck war doch sentimental. #3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/067kaRBjjqs",
+        "image_url": "https://i1.ytimg.com/vi/067kaRBjjqs/hqdefault.jpg"
+      },
+      {
         "title": "Nutzt ihr mehrere 3D-Druck Filament Hersteller gleichzeitig? #3ddrucker #3ddruck #3dprinter",
         "description": "Nutzt ihr mehrere 3D-Druck Filament Hersteller gleichzeitig? Oder nutzt ihr nur eine Marke in eurem 3D-Drucker? #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/v0n58jVVRu4",
@@ -92,12 +98,6 @@
         "description": "Welchen Motor für 3D-Druck Robotor? 3,3V wie bei ToBoT v1 oder lieber 5V am Raspberry Pi? #3ddruck #3dprinting #3dprint #3ddrucker",
         "url": "https://www.youtube.com/shorts/QY7vYYAdgbU",
         "image_url": "https://i2.ytimg.com/vi/QY7vYYAdgbU/hqdefault.jpg"
-      },
-      {
-        "title": "Sind geschlossene 3D-Drucker leiser?#3ddruck #3dprinting #3dprint #3ddrucker",
-        "description": "Sind geschlossene 3D-Drucker leiser? Lüftergeräusche eines BambuLab A1 Mini können hart stören #3ddruck #3dprinting #3dprint #3ddrucker",
-        "url": "https://www.youtube.com/shorts/_NaujfsRg-w",
-        "image_url": "https://i4.ytimg.com/vi/_NaujfsRg-w/hqdefault.jpg"
       }
     ]
   },
