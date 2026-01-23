@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Manchmal tut es gut beim 3D-Druck aus Fehlern zu lernen! #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Seid dem ist mein 3D-Drucker stabil. Die Auswahl des richtigen  Filamentes ist echt wichtig.",
+        "url": "https://www.youtube.com/shorts/52mdZ8_8WnY",
+        "image_url": "https://i2.ytimg.com/vi/52mdZ8_8WnY/hqdefault.jpg"
+      },
+      {
         "title": "Vermisst ihr manche Dinge aus eurem 3D-Drucker? #3ddrucker #3ddruck #3dprint #3dprinting",
         "description": "Vermisst ihr manche Dinge aus eurem 3D-Drucker? Manch 3D-Druck war doch sentimental. #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/067kaRBjjqs",
@@ -92,12 +98,6 @@
         "description": "Das Chaos nach harten\n3D-Druck & Maker Nächte. Wie schaut es bei euch aus? Seid ihr Typ Chaos oder Ordnung pur? #3ddruck #3dprinting #3dprint #3ddrucker",
         "url": "https://www.youtube.com/shorts/loqYVmTFroA",
         "image_url": "https://i1.ytimg.com/vi/loqYVmTFroA/hqdefault.jpg"
-      },
-      {
-        "title": "Welchen Motor für 3D-Druck Robotor mit Raspberry Pi #3ddruck #3dprinting #3dprint #3ddrucker",
-        "description": "Welchen Motor für 3D-Druck Robotor? 3,3V wie bei ToBoT v1 oder lieber 5V am Raspberry Pi? #3ddruck #3dprinting #3dprint #3ddrucker",
-        "url": "https://www.youtube.com/shorts/QY7vYYAdgbU",
-        "image_url": "https://i2.ytimg.com/vi/QY7vYYAdgbU/hqdefault.jpg"
       }
     ]
   },
