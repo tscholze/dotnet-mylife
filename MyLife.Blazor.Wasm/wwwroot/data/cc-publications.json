@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Das 3D-Druck Support Spiel! #3ddrucker #3ddruck #3dprint #3dprinting",
+        "description": "Das 3D-Druck Support Spiel! Wo gehört er dazu? Es dürfte aus meinem 3D-Drucker Videos sehr bekannt sein. #3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/3QbFVJuYF4c",
+        "image_url": "https://i4.ytimg.com/vi/3QbFVJuYF4c/hqdefault.jpg"
+      },
+      {
         "title": "Manchmal tut es gut beim 3D-Druck aus Fehlern zu lernen! #3ddrucker #3ddruck #3dprint #3dprinting",
         "description": "Seid dem ist mein 3D-Drucker stabil. Die Auswahl des richtigen  Filamentes ist echt wichtig.",
         "url": "https://www.youtube.com/shorts/52mdZ8_8WnY",
@@ -92,12 +98,6 @@
         "description": "Muss der 3-Drucker Party machen oder in Yoga gehen?",
         "url": "https://www.youtube.com/shorts/un7bQbWZnUs",
         "image_url": "https://i2.ytimg.com/vi/un7bQbWZnUs/hqdefault.jpg"
-      },
-      {
-        "title": "Das Chaos nach harten3D-Druck & Maker Nächte. #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Das Chaos nach harten\n3D-Druck & Maker Nächte. Wie schaut es bei euch aus? Seid ihr Typ Chaos oder Ordnung pur? #3ddruck #3dprinting #3dprint #3ddrucker",
-        "url": "https://www.youtube.com/shorts/loqYVmTFroA",
-        "image_url": "https://i1.ytimg.com/vi/loqYVmTFroA/hqdefault.jpg"
       }
     ]
   },
