@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Um 3D-Drucke zu verbinden kann man diese mit löchern #3ddruck #3dprinting #3dprinterupgrade",
+        "description": "Um 3D-Drucke zu verbinden kann man diese mit Löchern und Schrauben verbinden. Ich was sind gute Löcher? Wie macht ihr das bei euren Konstruktionen? #3ddrucker #3ddruck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/jNDByJr5_HE",
+        "image_url": "https://i3.ytimg.com/vi/jNDByJr5_HE/hqdefault.jpg"
+      },
+      {
         "title": "Tobi macht alles kaputt. Diesmal den Motor zum 3D-Druck. #3ddrucker #3ddruck #3dprint #3dprinting",
         "description": "Tobi macht alles kaputt. Diesmal keinen 3D-Drucker sondern den Motor zum 3D-Druck Roboter. Kann man das reparieren? #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/95PR9132tng",
@@ -92,12 +98,6 @@
         "description": "3D-Druck des ToBoT Version beginnt. Ich höre auf Eure Ratschläge und es zahlt sich aus! #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/kIoUirfO5kc",
         "image_url": "https://i4.ytimg.com/vi/kIoUirfO5kc/hqdefault.jpg"
-      },
-      {
-        "title": "Lila Filament aber dennoch weißes Stringing? #3ddruck #3ddrucker #3dprint #3dprinting",
-        "description": "Lila Filament aber dennoch weißes Stringing? Bisher hatte es immer die Farbe des 3D-Drucks - ist das ok? #3ddruck #3ddrucker #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/xI4AAWcUXdg",
-        "image_url": "https://i1.ytimg.com/vi/xI4AAWcUXdg/hqdefault.jpg"
       }
     ]
   },
