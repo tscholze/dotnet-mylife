@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Trocknet ihr 3D-Druck PLA Filament? Ich dachte ja, dass dies nicht nötig sei! #3ddrucker #3ddruck",
+        "description": "Was ist eure Meinung dazu? Was landet bei euch im Trockener und was nicht?",
+        "url": "https://www.youtube.com/shorts/E6M-AkbYCkE",
+        "image_url": "https://i2.ytimg.com/vi/E6M-AkbYCkE/hqdefault.jpg"
+      },
+      {
         "title": "Warum soll ich mich auf eine Größe beschränken beim 3D-Druck? #3ddruck #3dprinting",
         "description": "Warum soll ich mich auf eine Größe beschränken, wenn ich einfach mehr 3d-drucken kann? #3ddrucker #3ddruck",
         "url": "https://www.youtube.com/shorts/XLDqp_KTvx4",
@@ -92,12 +98,6 @@
         "description": "Was stellt ihr sofort an eurem #3ddrucker um? Bei mir auf jedenfall am #bambulab die Töne! #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/G1NbL3y6Kns",
         "image_url": "https://i4.ytimg.com/vi/G1NbL3y6Kns/hqdefault.jpg"
-      },
-      {
-        "title": "Zwei A1 Mini 3D-Drucker nebeneinander- eine gute Idee? #3ddruck #3ddrucker #3dprint #3dprinting",
-        "description": "Zwei A1 Mini 3D-Drucker nebeneinander- eine gute Idee? Habe Sorge vor der Übertragung von Vibrationen. #3ddruck #3ddrucker #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/BH2BUOhvfyo",
-        "image_url": "https://i3.ytimg.com/vi/BH2BUOhvfyo/hqdefault.jpg"
       }
     ]
   },
