@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "YOLO 3D-Drucker oder lieber eine Kopie mehr? #3ddrucker #3druck #3dprint #3dprinting",
+        "description": "YOLO 3D-Drucker oder lieber eine Kopie mehr? Druckt ihr auch lieber eine Kopie mehr aus,  bevor ihr einen ganzen Print neu starten müsst? #3ddrucker #3druck #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/LeFv8vgilig",
+        "image_url": "https://i1.ytimg.com/vi/LeFv8vgilig/hqdefault.jpg"
+      },
+      {
         "title": "Hat sich euer Liebling was #3ddrucker #3druck Filament und Co angeht geändert? #3dprint #3dprinting",
         "description": "Ich bleibe bei BambuLab aber man sollte seine Augen vor Prusa und Co nicht vergessen!",
         "url": "https://www.youtube.com/shorts/Yx39sy7OR9Y",
@@ -92,12 +98,6 @@
         "description": "Vermisst ihr manche Dinge aus eurem 3D-Drucker? Manch 3D-Druck war doch sentimental. #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/067kaRBjjqs",
         "image_url": "https://i1.ytimg.com/vi/067kaRBjjqs/hqdefault.jpg"
-      },
-      {
-        "title": "Nutzt ihr mehrere 3D-Druck Filament Hersteller gleichzeitig? #3ddrucker #3ddruck #3dprinter",
-        "description": "Nutzt ihr mehrere 3D-Druck Filament Hersteller gleichzeitig? Oder nutzt ihr nur eine Marke in eurem 3D-Drucker? #3ddrucker #3ddruck #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/v0n58jVVRu4",
-        "image_url": "https://i3.ytimg.com/vi/v0n58jVVRu4/hqdefault.jpg"
       }
     ]
   },
