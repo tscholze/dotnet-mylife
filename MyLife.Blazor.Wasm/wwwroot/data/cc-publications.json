@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Auf ein BambuLab AMS passen fast alle Spulen. #3ddruck #3ddrucker",
+        "description": "Auf ein BambuLab AMS passen fast alle Spulen. Für den Rest gibt es meistens Adapter. #3ddruck #3ddrucker",
+        "url": "https://www.youtube.com/shorts/SAS_QvslNKY",
+        "image_url": "https://i4.ytimg.com/vi/SAS_QvslNKY/hqdefault.jpg"
+      },
+      {
         "title": "Was ist Eure Meinung zu BambuLab CyberBricks? #3ddruck #3ddrucker #bambulab",
         "description": "Was ist Eure Meinung zu BambuLab CyberBricks? Besitzt ihr es? Wollt ihr es? Ist es für euch unflauschig? #3ddruck #3ddrucker #bambulab",
         "url": "https://www.youtube.com/shorts/-bCppG3VSMs",
@@ -92,12 +98,6 @@
         "description": "Tobi macht alles kaputt. Diesmal keinen 3D-Drucker sondern den Motor zum 3D-Druck Roboter. Kann man das reparieren? #3ddrucker #3ddruck #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/95PR9132tng",
         "image_url": "https://i2.ytimg.com/vi/95PR9132tng/hqdefault.jpg"
-      },
-      {
-        "title": "Jedes 3D-Druck Filament riecht anders! #3ddrucker #3ddruck #3dprint #3dprinting",
-        "description": "Jedes 3D-Druck Filament riecht anders! Manchmal kaum wahrnehmbar manchmal penetrant. Wie ist es bei euch? #3ddrucker #3ddruck #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/hhXDToNAYLY",
-        "image_url": "https://i1.ytimg.com/vi/hhXDToNAYLY/hqdefault.jpg"
       }
     ]
   },
