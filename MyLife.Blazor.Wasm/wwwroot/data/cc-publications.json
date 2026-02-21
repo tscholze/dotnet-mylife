@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Hat sich die Anzahl eurer 3D-Drucker verändert meine letzten Zeit? #3ddruck #3dprinting #3ddrucker",
+        "description": "",
+        "url": "https://www.youtube.com/shorts/0M9w1PcSW6c",
+        "image_url": "https://i1.ytimg.com/vi/0M9w1PcSW6c/hqdefault.jpg"
+      },
+      {
         "title": "Hab ich wieder meinen 3D Drucker kaputt gemacht? #3ddruck #3ddrucker #3dprint #3dprinting",
         "description": "Hab ich wieder meinen 3D Drucker kaputt gemacht? Oder ist es nur ein Software Glitch? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/QI4IGogm6pQ",
@@ -92,12 +98,6 @@
         "description": "Ich bleibe bei BambuLab aber man sollte seine Augen vor Prusa und Co nicht vergessen!",
         "url": "https://www.youtube.com/shorts/Yx39sy7OR9Y",
         "image_url": "https://i2.ytimg.com/vi/Yx39sy7OR9Y/hqdefault.jpg"
-      },
-      {
-        "title": "Der unnötige Hype um Multi-Farb-Glossy  Filamente  ist zum Glück vorbei! #3ddrucker #3ddruck",
-        "description": "Meine steile 3D-Druck These für 2016: Der unnötige Hype um Multi-Farb-Glossy  Filamente  ist zum Glück vorbei! #3ddrucker #3ddruck",
-        "url": "https://www.youtube.com/shorts/STH3phDL4FQ",
-        "image_url": "https://i4.ytimg.com/vi/STH3phDL4FQ/hqdefault.jpg"
       }
     ]
   },
