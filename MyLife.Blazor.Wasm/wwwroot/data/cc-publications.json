@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was ist ein guter Anfänger 3D-Drucker für größere Drucke? #3ddruck #3dprinting #3ddrucker",
+        "description": "",
+        "url": "https://www.youtube.com/shorts/nSl2chHwRD4",
+        "image_url": "https://i3.ytimg.com/vi/nSl2chHwRD4/hqdefault.jpg"
+      },
+      {
         "title": "Was ist eure Meinung zu ￼KI-Werkzeuge im 3D-Druck. Ja oder nein? ￼#3ddruck #3ddrucker #3dprinting",
         "description": "Was ist eure Meinung zu ￼KI-Werkzeuge im 3D-Druck. Nutzt ihr künstliche Intelligenz oder ist das, was eigentlich alles nur noch schlechter macht? ￼#3ddruck #3ddrucker #3dprinting",
         "url": "https://www.youtube.com/shorts/zeyn5ZDgIM0",
@@ -92,12 +98,6 @@
         "description": "Auf ein BambuLab AMS passen fast alle Spulen. Für den Rest gibt es meistens Adapter. #3ddruck #3ddrucker",
         "url": "https://www.youtube.com/shorts/SAS_QvslNKY",
         "image_url": "https://i4.ytimg.com/vi/SAS_QvslNKY/hqdefault.jpg"
-      },
-      {
-        "title": "Was ist Eure Meinung zu BambuLab CyberBricks? #3ddruck #3ddrucker #bambulab",
-        "description": "Was ist Eure Meinung zu BambuLab CyberBricks? Besitzt ihr es? Wollt ihr es? Ist es für euch unflauschig? #3ddruck #3ddrucker #bambulab",
-        "url": "https://www.youtube.com/shorts/-bCppG3VSMs",
-        "image_url": "https://i2.ytimg.com/vi/-bCppG3VSMs/hqdefault.jpg"
       }
     ]
   },
