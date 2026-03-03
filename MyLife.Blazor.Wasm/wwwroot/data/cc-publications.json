@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Eine Frage an die 3D-Konstrukteure. Wie am Biebungen abmessen #3ddruck #3ddrucker #3dprinting",
+        "description": "Eine Frage an die 3D-Konstrukteure. Wie am besten Biebungen abmessen und wie viel Toleranz? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/3OuhO0-uCbI",
+        "image_url": "https://i4.ytimg.com/vi/3OuhO0-uCbI/hqdefault.jpg"
+      },
+      {
         "title": "Einfache Tipps zum Everloop Filament und AMS lite. #3ddruck #3ddrucker #3dprinting #3dprint",
         "description": "Einfache Tipps zum Everloop Filament und AMS lite. So gelingt es sogar mir ohne Probleme damit zu 3D-Drucken. #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/Lv8lQgKyirk",
@@ -92,12 +98,6 @@
         "description": "",
         "url": "https://www.youtube.com/shorts/EGOJf_3Cqt0",
         "image_url": "https://i2.ytimg.com/vi/EGOJf_3Cqt0/hqdefault.jpg"
-      },
-      {
-        "title": "Ist die Standard 3D-Druck Düse noch immer die mit 0.4mm? #3ddruck #3ddrucker #3dprinting #3dprinter",
-        "description": "Ist die Stabdard 3D-Druck Düse noch immer die mit 0.4 Millimeter oder kann man heutzutage auch eine 0.6er in den 3D-Drucker als Standard stecken? #3ddruck #3ddrucker #3dprinting #3dprinter",
-        "url": "https://www.youtube.com/shorts/v3_sZsWRY4A",
-        "image_url": "https://i3.ytimg.com/vi/v3_sZsWRY4A/hqdefault.jpg"
       }
     ]
   },
