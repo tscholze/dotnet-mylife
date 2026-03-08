@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Das Schöne am 3D-Druck Hobby sind Farben! #3ddruck #3ddrucker #3dprint #3dprinting",
+        "description": "Das Schöne am 3D-Druck Hobby ist doch einfach, dass jeder Mensch die Farben die Modelle drucken kann, die er will! #3ddruck #3ddrucker #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/buqvyBGPNHE",
+        "image_url": "https://i3.ytimg.com/vi/buqvyBGPNHE/hqdefault.jpg"
+      },
+      {
         "title": "Warum haben 3D-Druck Filament Farben oft so komischen Namen? #3ddruck #3ddrucker #3dprinting",
         "description": "Warum haben 3D-Druck Filament Farben oft so komischen Namen? Was ist euer Highlight? #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/DtGWcGt3Db0",
@@ -92,12 +98,6 @@
         "description": "Kleine Muttern und Multiple Sklerose sind nicht die besten Freunde. Dennoch hab ich es geschafft und bin darauf echt stolz!",
         "url": "https://www.youtube.com/shorts/5qRWtwixdBU",
         "image_url": "https://i2.ytimg.com/vi/5qRWtwixdBU/hqdefault.jpg"
-      },
-      {
-        "title": "Schafft Tobi eine Tigerente im 3D Druck zu erstellen? #3ddruck #3dprinting #3ddrucker #3dprint",
-        "description": "Manche Dinge erschaffen, ersten Blickbox simpel entwickeln sich dann aber doch zu komplexen Sachen fallen, wenn man von der Materie noch nicht viel Ahnung hat",
-        "url": "https://www.youtube.com/shorts/TMpx3xnKLO4",
-        "image_url": "https://i1.ytimg.com/vi/TMpx3xnKLO4/hqdefault.jpg"
       }
     ]
   },
