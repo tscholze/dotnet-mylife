@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was löst dieses 3D Druckerproblem aus? #3ddruck #3ddrucker #3dprinting",
+        "description": "Hattet ihr diesen Fehler schon mal?",
+        "url": "https://www.youtube.com/shorts/AK0JHMhQctM",
+        "image_url": "https://i2.ytimg.com/vi/AK0JHMhQctM/hqdefault.jpg"
+      },
+      {
         "title": "Wir sollten uns alle nicht so anstellen um unsere 3D-Druck Filamente zu lagern? #3ddruck #3ddrucker",
         "description": "",
         "url": "https://www.youtube.com/shorts/FogfN5FsdTk",
@@ -92,12 +98,6 @@
         "description": "Wie lange hält diese bei eurem 3D Drucker?",
         "url": "https://www.youtube.com/shorts/HzhO1quPZW8",
         "image_url": "https://i1.ytimg.com/vi/HzhO1quPZW8/hqdefault.jpg"
-      },
-      {
-        "title": "Habt ihr 3D-Druckaufgaben, die ihr euch an spezielle Tagen gelegt? #3ddruck #3dprint #3ddrucker",
-        "description": "Oder seid ihr da schmerzfrei und druckt wenn ihr wollt?",
-        "url": "https://www.youtube.com/shorts/Ng6kaZgHWzk",
-        "image_url": "https://i3.ytimg.com/vi/Ng6kaZgHWzk/hqdefault.jpg"
       }
     ]
   },
