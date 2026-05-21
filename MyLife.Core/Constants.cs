@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents a summary of app-wide used constants.
     /// </summary>
-    public class Constants
+    public static class Constants
     {
         /// <summary>
         /// Filename of the life information JSON file.

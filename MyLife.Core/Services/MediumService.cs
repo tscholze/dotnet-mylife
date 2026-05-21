@@ -62,9 +62,29 @@ namespace MyLife.Core.Services
         #region Private methods
         
         /// <summary>
-        /// Reads a Medium feed for a specific handle.
+        /// Reads Medium feeds for multiple usernames.
         /// </summary>
-        /// <param name="handle">The Medium account handle</param>
+        /// <param name="usernames">Collection of Medium usernames</param>
+        /// <returns>Dictionary mapping usernames to their feeds</returns>
+        private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
+        {
+            var fetchedFeeds = new Dictionary<string, MediumFeedModel>();
+
+            foreach (var username in usernames)
+            {
+                if (await ReadFeedFromHandleAsync(username) is { } feed)
+                {
+                    fetchedFeeds[username] = feed;
+                }
+            }
+
+            return fetchedFeeds;
+        }
+
+        /// <summary>
+        /// Reads a Medium feed for a specific handle or username.
+        /// </summary>
+        /// <param name="handle">The Medium account handle or username</param>
         /// <returns>A Medium feed model or null if the feed cannot be read</returns>
         private async Task<MediumFeedModel?> ReadFeedFromHandleAsync(string handle)
         {
@@ -81,50 +101,6 @@ namespace MyLife.Core.Services
             catch (Exception ex)
             {
                 Console.WriteLine($"Error reading feed from handle '{handle}': {ex.Message}");
-                return null;
-            }
-        }
-
-        /// <summary>
-        /// Reads Medium feeds for multiple usernames.
-        /// </summary>
-        /// <param name="usernames">Collection of Medium usernames</param>
-        /// <returns>Dictionary mapping usernames to their feeds</returns>
-        private async Task<Dictionary<string, MediumFeedModel>> ReadFeedsAsync(IEnumerable<string> usernames)
-        {
-            var fetchedFeeds = new Dictionary<string, MediumFeedModel>();
-
-            foreach (var username in usernames)
-            {
-                if (await ReadFeedFromUsernameAsync(username) is { } feed)
-                {
-                    fetchedFeeds[username] = feed;
-                }
-            }
-
-            return fetchedFeeds;
-        }
-
-        /// <summary>
-        /// Reads a Medium feed for a specific username.
-        /// </summary>
-        /// <param name="username">The Medium username</param>
-        /// <returns>A Medium feed model or null if the feed cannot be read</returns>
-        private async Task<MediumFeedModel?> ReadFeedFromUsernameAsync(string username)
-        {
-            try
-            {
-                var feedUrl = $"https://{username}.medium.com/feed";
-                using var response = await httpClient.GetAsync(feedUrl);
-                response.EnsureSuccessStatusCode();
-
-                var content = (await response.Content.ReadAsStringAsync()).Trim();
-                var feed = FeedReader.ReadFromString(content);
-                return Convert(feed);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error reading feed from username '{username}': {ex.Message}");
                 return null;
             }
         }

@@ -67,7 +67,7 @@ async Task PerformInteractive()
         Console.Write("> ");
         if (Console.ReadLine() == "y")
         {
-            File.WriteAllText(GetReleativeWwwDataPath(Constants.LifeJsonFilename), json);
+        File.WriteAllText(GetRelativeWwwDataPath(Constants.LifeJsonFilename), json);
         }
     }
 
@@ -86,7 +86,7 @@ async Task PerformInteractive()
         Console.Write("> ");
         if (Console.ReadLine() == "y")
         {
-            File.WriteAllText(GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename), json);
+            File.WriteAllText(GetRelativeWwwDataPath(Constants.ContentCreationPublicationsFilename), json);
         }
     }
 
@@ -102,13 +102,13 @@ async Task PerformSilentAsync()
 {
     // 1. Export life to json
     File.WriteAllText(
-        GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename),
+        GetRelativeWwwDataPath(Constants.LifeJsonFilename),
         Exporter.ExportLife(life)
     );
 
     // 2. Export content creation publications to json
     File.WriteAllText(
-        GetReleativeWwwDataPath(Constants.ContentCreationPublicationsFilename),
+        GetRelativeWwwDataPath(Constants.ContentCreationPublicationsFilename),
         await Exporter.ExportPublicationsAsync(life.ContentCreation)
    );
 }
@@ -116,7 +116,7 @@ async Task PerformSilentAsync()
 #endregion
 
 #region Helpers
-string GetReleativeWwwDataPath(string filename)
+string GetRelativeWwwDataPath(string filename)
 {
     if (Directory.GetCurrentDirectory().Contains("Debug"))
     {
