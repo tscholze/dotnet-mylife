@@ -29,7 +29,7 @@ public partial class OpenSourceViewModel(LifeService lifeService) : ObservableOb
         }
         catch (Exception ex)
         {
-            await Shell.Current.DisplayAlert("Error", $"Could not open URL. {ex.Message}", "OK");
+            await Shell.Current.DisplayAlertAsync("Error", $"Could not open URL. {ex.Message}", "OK");
         }
     }
 

@@ -2,7 +2,6 @@ using CodeHollow.FeedReader;
 using MyLife.Core.Models.ContentCreation;
 using MyLife.Core.Models.External;
 using Newtonsoft.Json;
-using System.Text;
 
 namespace MyLife.Core.Services;
 
@@ -115,9 +114,9 @@ public class KotlogService(HttpClient httpClient)
     /// </summary>
     /// <param name="blogUrl">The blog URL to build the feed URL from.</param>
     /// <returns>The constructed feed URL.</returns>
-    private string BuildFeedUrl(string blogUrl)
+    private static string BuildFeedUrl(string blogUrl)
     {
-        return new StringBuilder(blogUrl).Append("posts.json").ToString();
+        return $"{blogUrl}posts.json";
     }
     
     #endregion
