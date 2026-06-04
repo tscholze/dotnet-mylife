@@ -2,7 +2,7 @@
 
 # MyLife.NET
 >
-> Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provi´de an overview of your digital life. The deployed `Blazor.Wasm` can be found that the [related GitHub Page of this repository](https://tscholze.github.io/dotnet-mylife/).
+> Your life is now a parsable JSON and object structure that can be used in a variaty of use cases. MyLife.NET is an experiment to use as many of .NETs ecosystem features to provide an overview of your digital life. Built on **.NET 10**. The deployed `Blazor.Wasm` can be found at the [related GitHub Page of this repository](https://tscholze.github.io/dotnet-mylife/).
 
 ## Build status
 
@@ -14,7 +14,7 @@
 
 ## Solution Structure
 
-The solution contains a variaty of projects that are all based on the core context of the app. Creating, exporting and using your life to a vast amount of output possibilities.
+The solution targets **.NET 10** and contains a variety of projects that are all based on the core context of the app. Creating, exporting and using your life to a vast amount of output possibilities.
 
 | Project                  | Description                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------ |
