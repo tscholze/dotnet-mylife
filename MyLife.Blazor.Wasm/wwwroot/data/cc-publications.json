@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Kennt ihr noch Google Android Things? #raspberrypi #google #android #developer",
+        "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
+        "url": "https://www.youtube.com/shorts/UYra_wOF71k",
+        "image_url": "https://i2.ytimg.com/vi/UYra_wOF71k/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso mag niemand den Raspberry Pi 5? Nicht mal im HomeLab? #raspberrypi #linux #tech  #3ddruck",
+        "description": "Es scheint als ob der Pi5 weder bei den Herstellern noch bei den Nutzern wirklich gut ankommt.\n\nWas meint ihr? Wie findet ihr diesen kleinen Computer?",
+        "url": "https://www.youtube.com/shorts/6CO96zTYVVU",
+        "image_url": "https://i3.ytimg.com/vi/6CO96zTYVVU/hqdefault.jpg"
+      },
+      {
+        "title": "Es gibt kein Nerd der kein Raspberry Pi besitzt - was ist der Älteste? #raspberrypi #nerd  #geek",
+        "description": "Es muss ja nicht immer der Neuste sein - was ihr euer ältester Raspberry Pi Computer den ihr noch halbswegsregemäßig in Verwendung habt?",
+        "url": "https://www.youtube.com/shorts/SfVwSC_USg8",
+        "image_url": "https://i4.ytimg.com/vi/SfVwSC_USg8/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck Content Creator Vorstellung: Claras Little Artwork  #3ddruck #3dprinting #3ddrucker",
+        "description": "Wir sind eine große Gemeinschaft, also wieso nicht einmal andere in das Rampenlicht stellen als uns selbst?\n\nIhr Linktree:\nhttps://linktr.ee/claraslittleartworks",
+        "url": "https://www.youtube.com/shorts/aDUlRGTwacQ",
+        "image_url": "https://i2.ytimg.com/vi/aDUlRGTwacQ/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck und AI oder auch wie schnell der Spaß vorbei ist  #3ddruck #3dprinting #ai  #3ddrucker #diy",
+        "description": "Wie steht ihr zu AI und KI beim 3D-Druck? Jetzt egal ob Hobby oder nicht? Ich musste lernen, dass nach den letzten Preisanpassungen der Spaß schneller vorbei ist mit Copilot als es mir lieb und bekannt war.",
+        "url": "https://www.youtube.com/shorts/BwHpQ5x13rw",
+        "image_url": "https://i3.ytimg.com/vi/BwHpQ5x13rw/hqdefault.jpg"
+      },
+      {
+        "title": "Was ist Eure 3D-Druck Farbe was ihr für euch gefunden habt?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Viele 3D-Drucker haben eine eigene Akzentfarbe. Hier mein ich nicht nur das Orange von Prusa sondern auch beispielsweise das Grün vom @3D_Onkel .\n\nDoch habt Ihr auch eine? Ich bin weiterhin auf der Suche - habt ihr Ideen?",
+        "url": "https://www.youtube.com/shorts/LQPPRU0ya1c",
+        "image_url": "https://i1.ytimg.com/vi/LQPPRU0ya1c/hqdefault.jpg"
+      },
+      {
+        "title": "Raspberry Pi Robo ToBot v3 ist fertig! |  3D-Druck ist ein Enabler!   #3ddruck  #3dprinting #3druck",
+        "description": "3D-Druck ist echt ein Enabler für so viele Dinge! Mein Raspberry Pi Robtor aus dem 3D-Drucker ist in Version 3.4 fertig! ToBoT v3 ist für mich echt eine weitere Evolution in dem was ich mit CAD als auch Hardware kann beziehungsweise mir zutraue!",
+        "url": "https://www.youtube.com/shorts/kw-hxYGqj3w",
+        "image_url": "https://i4.ytimg.com/vi/kw-hxYGqj3w/hqdefault.jpg"
+      },
+      {
+        "title": "Lesezeichen und Pseudo-Hue-Forge schlagen oft hohe Wellen, was meint ihr?  #3ddruck #3ddrucker",
+        "description": "Kontroverse, dennoch mag ich es. Lesezeichen zu erstellen und über den 3D-Drucker zu schicken hat für mich etwas, das sehr viele meiner Interessen abdeckt und dabei sogar fast noch praktisch ist! Wie ist es für euch, druckt ihr auch manchmal Deko?",
+        "url": "https://www.youtube.com/shorts/EbdHSxrC9Hc",
+        "image_url": "https://i2.ytimg.com/vi/EbdHSxrC9Hc/hqdefault.jpg"
+      },
+      {
+        "title": "Kleine 3D-Drucke können großes bewirken!  #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Manchmal können die kleinen 3D-Drucke mehr bewegen als manch großes Modell. So wie hier. Dieser Simple Stopfen für eine Schuhsohle rettete einer im Rollstuhl sitzende Freundin ihre Lieblingsschuhe.\n\nSomit, sagt nicht immer nein zu \"einfachen\" Dingen, denn auch diese können Großes bewirken!",
+        "url": "https://www.youtube.com/shorts/iT-9qVboNlQ",
+        "image_url": "https://i2.ytimg.com/vi/iT-9qVboNlQ/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druckt ihr im Sommer weniger weil 3D-Drucker es noch wärmer macht?  #3ddruck #3ddrucker",
+        "description": "Es ist Sommer! Es ist warm und 3D-Drucker machen es ja eigentlich noch wärmer. Habt ihr dafür besondere Vorkehrungen getroffen oder druckt ihr im Sommer einfach weniger?",
+        "url": "https://www.youtube.com/shorts/9gwS8SQ9f88",
+        "image_url": "https://i2.ytimg.com/vi/9gwS8SQ9f88/hqdefault.jpg"
+      },
+      {
+        "title": "BambuLab A2L 3D-Drucker - warum alles so groß? Muss das?  #3ddruck #3ddrucker #3dprinting #bambulab",
+        "description": "BambuLab hat heute ihren neuen A2L 3D-Drucker für Einsteiger vorgestellt. Dieser hat wirklich tolle Funktionen wie um Sticker auschneiden zu können. Dennoch ist er wieder in der Größe gewachsen. Ich versteh langsam nicht wieso alles immer größer werden muss? Mit dem A1 mini hat man für 3D-Druck Anfänger was tolles geschaffen was auch zeigt das man doch nicht so groß gehen muss.",
+        "url": "https://www.youtube.com/shorts/5ZlT1inaEu8",
+        "image_url": "https://i2.ytimg.com/vi/5ZlT1inaEu8/hqdefault.jpg"
+      },
+      {
+        "title": "Der Hype darum BambuLab nicht mehr mögen nervt! #3ddruck #bambulab  #3dprinting #3dprinter",
+        "description": "Ist es gerade wieder modern einfach weil es alle machen auf 3D-Druck Herstellern ungut einzugehen? Ich weiß nicht was Menschen von wirtschaftlichen Unternehmen erwarten. Keine, aber auf absolut keine Firma ist nett. Egal ob 3D-Drucker, Autos, Kleidung selbst bei Milch wird es schwer irgendwen symaptisch zu finden!",
+        "url": "https://www.youtube.com/shorts/unnKjyzAElA",
+        "image_url": "https://i2.ytimg.com/vi/unnKjyzAElA/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck Stützstrukturen haben schon etwas magisches, oder?  #3ddruck #3ddrucker #3dprinting",
+        "description": "Findet ihr auch, dass die Stützstrukturen von 3D-Druck Modellen oft sehr magische und nicht von dieser Welt wirken? Welche Tipps habt ihr für Strukturen und was sind Eure Lieblinge?",
+        "url": "https://www.youtube.com/shorts/K9YsVXdTYSY",
+        "image_url": "https://i4.ytimg.com/vi/K9YsVXdTYSY/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck Prototyp meines Roboters aus Prototyp Filament der @recyclingfabrik  #3ddruck #3dprinting",
+        "description": "Mein erster 3D-Druck als Unibody hat echt Überwindung gekostet! Das amüsante daran ist, dass dieser Prototyp meines kleinen Raspberry Pi Robotors auch mit Prototypen Filament von der @recyclingfabrik   wurde! \n\nDas klappte echt gut und so vom Prototyp zu Prototyp ist ja auch eventuell etwas Karma dabei #3ddruck #3ddrucker #3dprint #3dprinting",
+        "url": "https://www.youtube.com/shorts/3V1YyXkaafk",
+        "image_url": "https://i4.ytimg.com/vi/3V1YyXkaafk/hqdefault.jpg"
+      },
+      {
+        "title": "Eine Sache habe ich übersehen! Meine 3D-Konstruktion ist fehlgeschlagen  #3ddruck #3ddrucker",
+        "description": "Eine Sache habe ich übersehen! Meine 3D-Konstruktion ist fehlgeschlagen, denn das wichtigste an meinem DIY Selbstgebauten Roboter fehlt - Strom. So ein Mist aber Fehler passieren - leider oft.",
+        "url": "https://www.youtube.com/shorts/e3WswHYokOo",
+        "image_url": "https://i2.ytimg.com/vi/e3WswHYokOo/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
