@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Neues 3D-Druck Filament von Bambulab - PLA Pure - kauft ihr es?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
+        "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
+        "image_url": "https://i3.ytimg.com/vi/JK8gJ2o8dmU/hqdefault.jpg"
+      },
+      {
         "title": "Kennt ihr noch Google Android Things? #raspberrypi #google #android #developer",
         "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
         "url": "https://www.youtube.com/shorts/UYra_wOF71k",
@@ -92,12 +98,6 @@
         "description": "Mein erster 3D-Druck als Unibody hat echt Überwindung gekostet! Das amüsante daran ist, dass dieser Prototyp meines kleinen Raspberry Pi Robotors auch mit Prototypen Filament von der @recyclingfabrik   wurde! \n\nDas klappte echt gut und so vom Prototyp zu Prototyp ist ja auch eventuell etwas Karma dabei #3ddruck #3ddrucker #3dprint #3dprinting",
         "url": "https://www.youtube.com/shorts/3V1YyXkaafk",
         "image_url": "https://i4.ytimg.com/vi/3V1YyXkaafk/hqdefault.jpg"
-      },
-      {
-        "title": "Eine Sache habe ich übersehen! Meine 3D-Konstruktion ist fehlgeschlagen  #3ddruck #3ddrucker",
-        "description": "Eine Sache habe ich übersehen! Meine 3D-Konstruktion ist fehlgeschlagen, denn das wichtigste an meinem DIY Selbstgebauten Roboter fehlt - Strom. So ein Mist aber Fehler passieren - leider oft.",
-        "url": "https://www.youtube.com/shorts/e3WswHYokOo",
-        "image_url": "https://i2.ytimg.com/vi/e3WswHYokOo/hqdefault.jpg"
       }
     ]
   },
