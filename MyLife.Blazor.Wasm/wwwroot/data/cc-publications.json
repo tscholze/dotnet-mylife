@@ -10,6 +10,18 @@
     },
     "publications": [
       {
+        "title": "Gold - keine leichte Farbe für Filamente? Was ist euere Empfehlung?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Gold - ist diese die schwerste Herzustellende Farbe für 3D-Druck Filamente? Was ist euere Empfehlung?",
+        "url": "https://www.youtube.com/shorts/3b0bj8C9IGs",
+        "image_url": "https://i4.ytimg.com/vi/3b0bj8C9IGs/hqdefault.jpg"
+      },
+      {
+        "title": "Klarstellung \"Prototype Filament der @recyclingfabrik\" Aussage   #3ddruck #3dprinting #3ddrucker",
+        "description": "Klarstellung zu meiner Aussage \"Ich 3D-Druck meinen Raspberry Pi Roboter mit @recyclingfabrik  Prototypen Filament\". Es wurde mir leider manchmal ausgelegt als ich es meinte. Dafür bin ich auf eine flauschige und passende Aktion vom  Rudi :).",
+        "url": "https://www.youtube.com/shorts/5jX458_skmc",
+        "image_url": "https://i2.ytimg.com/vi/5jX458_skmc/hqdefault.jpg"
+      },
+      {
         "title": "Neues 3D-Druck Filament von Bambulab - PLA Pure - kauft ihr es?  #3ddruck #3dprinting #3ddrucker",
         "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
         "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
@@ -86,18 +98,6 @@
         "description": "Ist es gerade wieder modern einfach weil es alle machen auf 3D-Druck Herstellern ungut einzugehen? Ich weiß nicht was Menschen von wirtschaftlichen Unternehmen erwarten. Keine, aber auf absolut keine Firma ist nett. Egal ob 3D-Drucker, Autos, Kleidung selbst bei Milch wird es schwer irgendwen symaptisch zu finden!",
         "url": "https://www.youtube.com/shorts/unnKjyzAElA",
         "image_url": "https://i2.ytimg.com/vi/unnKjyzAElA/hqdefault.jpg"
-      },
-      {
-        "title": "3D-Druck Stützstrukturen haben schon etwas magisches, oder?  #3ddruck #3ddrucker #3dprinting",
-        "description": "Findet ihr auch, dass die Stützstrukturen von 3D-Druck Modellen oft sehr magische und nicht von dieser Welt wirken? Welche Tipps habt ihr für Strukturen und was sind Eure Lieblinge?",
-        "url": "https://www.youtube.com/shorts/K9YsVXdTYSY",
-        "image_url": "https://i4.ytimg.com/vi/K9YsVXdTYSY/hqdefault.jpg"
-      },
-      {
-        "title": "3D-Druck Prototyp meines Roboters aus Prototyp Filament der @recyclingfabrik  #3ddruck #3dprinting",
-        "description": "Mein erster 3D-Druck als Unibody hat echt Überwindung gekostet! Das amüsante daran ist, dass dieser Prototyp meines kleinen Raspberry Pi Robotors auch mit Prototypen Filament von der @recyclingfabrik   wurde! \n\nDas klappte echt gut und so vom Prototyp zu Prototyp ist ja auch eventuell etwas Karma dabei #3ddruck #3ddrucker #3dprint #3dprinting",
-        "url": "https://www.youtube.com/shorts/3V1YyXkaafk",
-        "image_url": "https://i4.ytimg.com/vi/3V1YyXkaafk/hqdefault.jpg"
       }
     ]
   },
