@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Traut euch etwas an eurem 3D-Drucker zu reparieren!  #3ddruck #3dprinting #3ddrucker #diy  #tech",
+        "description": "Seid stolz und traut euch etwas! Ich habe zum ersten mal ein Teil meines 3D-Druckers auseinander gebaut, etwas repariert und am Ende geht er sogar wieder! Deswegen: Auch wenn viele sagen, man kann das nicht, probiert es!",
+        "url": "https://www.youtube.com/shorts/DHVx67SPsCk",
+        "image_url": "https://i1.ytimg.com/vi/DHVx67SPsCk/hqdefault.jpg"
+      },
+      {
+        "title": "Tipps zur Nutzung der @recyclingfabrik B-Ware   #3ddruck #3dprinting  #3ddrucker",
+        "description": "Hier sind zwei Tipps welche ich bei der Benutzung der für mich guten Idee der B-Ware der Recycling Fabrik gelernt habe.",
+        "url": "https://www.youtube.com/shorts/ZPozH18k34Y",
+        "image_url": "https://i3.ytimg.com/vi/ZPozH18k34Y/hqdefault.jpg"
+      },
+      {
+        "title": "Mein 3D-gedruckter Roboter nutzt .NET Software!  #3ddruck #3dprinting #3ddrucker #dotnet #developer",
+        "description": "Mein 3D-gedruckter RaspberryPi Roboter basiert auf einer .NET Lösung. Das sorgte bei einigen von euch für Unverständnis und gelächter. Ich stehe dazu diesen so programmiert zu haben!",
+        "url": "https://www.youtube.com/shorts/0dlmm7-Xtvg",
+        "image_url": "https://i1.ytimg.com/vi/0dlmm7-Xtvg/hqdefault.jpg"
+      },
+      {
+        "title": "An alle BambuLab A1mini Nutzer - habt immer eine SD-Karte!  #3ddruck #3ddrucker #3dprinting",
+        "description": "Ich weiß nicht wieso, aber mein BambuLab A1mini isst SD-Karten zu,m Frühstück.\nDeswegen, so bald ihr merkt, dass zum Beispiel das Booten länger dauert, plant eine Erneuerung!",
+        "url": "https://www.youtube.com/shorts/D2z-BA_6ypw",
+        "image_url": "https://i1.ytimg.com/vi/D2z-BA_6ypw/hqdefault.jpg"
+      },
+      {
+        "title": "Gold - keine leichte Farbe für Filamente? Was ist euere Empfehlung?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Gold - ist diese die schwerste Herzustellende Farbe für 3D-Druck Filamente? Was ist euere Empfehlung?",
+        "url": "https://www.youtube.com/shorts/3b0bj8C9IGs",
+        "image_url": "https://i4.ytimg.com/vi/3b0bj8C9IGs/hqdefault.jpg"
+      },
+      {
+        "title": "Klarstellung \"Prototype Filament der @recyclingfabrik\" Aussage   #3ddruck #3dprinting #3ddrucker",
+        "description": "Klarstellung zu meiner Aussage \"Ich 3D-Druck meinen Raspberry Pi Roboter mit @recyclingfabrik  Prototypen Filament\". Es wurde mir leider manchmal ausgelegt als ich es meinte. Dafür bin ich auf eine flauschige und passende Aktion vom  Rudi :).",
+        "url": "https://www.youtube.com/shorts/5jX458_skmc",
+        "image_url": "https://i2.ytimg.com/vi/5jX458_skmc/hqdefault.jpg"
+      },
+      {
+        "title": "Neues 3D-Druck Filament von Bambulab - PLA Pure - kauft ihr es?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
+        "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
+        "image_url": "https://i3.ytimg.com/vi/JK8gJ2o8dmU/hqdefault.jpg"
+      },
+      {
+        "title": "Kennt ihr noch Google Android Things? #raspberrypi #google #android #developer",
+        "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
+        "url": "https://www.youtube.com/shorts/UYra_wOF71k",
+        "image_url": "https://i2.ytimg.com/vi/UYra_wOF71k/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso mag niemand den Raspberry Pi 5? Nicht mal im HomeLab? #raspberrypi #linux #tech  #3ddruck",
+        "description": "Es scheint als ob der Pi5 weder bei den Herstellern noch bei den Nutzern wirklich gut ankommt.\n\nWas meint ihr? Wie findet ihr diesen kleinen Computer?",
+        "url": "https://www.youtube.com/shorts/6CO96zTYVVU",
+        "image_url": "https://i3.ytimg.com/vi/6CO96zTYVVU/hqdefault.jpg"
+      },
+      {
+        "title": "Es gibt kein Nerd der kein Raspberry Pi besitzt - was ist der Älteste? #raspberrypi #nerd  #geek",
+        "description": "Es muss ja nicht immer der Neuste sein - was ihr euer ältester Raspberry Pi Computer den ihr noch halbswegsregemäßig in Verwendung habt?",
+        "url": "https://www.youtube.com/shorts/SfVwSC_USg8",
+        "image_url": "https://i4.ytimg.com/vi/SfVwSC_USg8/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck Content Creator Vorstellung: Claras Little Artwork  #3ddruck #3dprinting #3ddrucker",
+        "description": "Wir sind eine große Gemeinschaft, also wieso nicht einmal andere in das Rampenlicht stellen als uns selbst?\n\nIhr Linktree:\nhttps://linktr.ee/claraslittleartworks",
+        "url": "https://www.youtube.com/shorts/aDUlRGTwacQ",
+        "image_url": "https://i2.ytimg.com/vi/aDUlRGTwacQ/hqdefault.jpg"
+      },
+      {
+        "title": "3D-Druck und AI oder auch wie schnell der Spaß vorbei ist  #3ddruck #3dprinting #ai  #3ddrucker #diy",
+        "description": "Wie steht ihr zu AI und KI beim 3D-Druck? Jetzt egal ob Hobby oder nicht? Ich musste lernen, dass nach den letzten Preisanpassungen der Spaß schneller vorbei ist mit Copilot als es mir lieb und bekannt war.",
+        "url": "https://www.youtube.com/shorts/BwHpQ5x13rw",
+        "image_url": "https://i3.ytimg.com/vi/BwHpQ5x13rw/hqdefault.jpg"
+      },
+      {
+        "title": "Was ist Eure 3D-Druck Farbe was ihr für euch gefunden habt?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Viele 3D-Drucker haben eine eigene Akzentfarbe. Hier mein ich nicht nur das Orange von Prusa sondern auch beispielsweise das Grün vom @3D_Onkel .\n\nDoch habt Ihr auch eine? Ich bin weiterhin auf der Suche - habt ihr Ideen?",
+        "url": "https://www.youtube.com/shorts/LQPPRU0ya1c",
+        "image_url": "https://i1.ytimg.com/vi/LQPPRU0ya1c/hqdefault.jpg"
+      },
+      {
+        "title": "Raspberry Pi Robo ToBot v3 ist fertig! |  3D-Druck ist ein Enabler!   #3ddruck  #3dprinting #3druck",
+        "description": "3D-Druck ist echt ein Enabler für so viele Dinge! Mein Raspberry Pi Robtor aus dem 3D-Drucker ist in Version 3.4 fertig! ToBoT v3 ist für mich echt eine weitere Evolution in dem was ich mit CAD als auch Hardware kann beziehungsweise mir zutraue!",
+        "url": "https://www.youtube.com/shorts/kw-hxYGqj3w",
+        "image_url": "https://i4.ytimg.com/vi/kw-hxYGqj3w/hqdefault.jpg"
+      },
+      {
+        "title": "Lesezeichen und Pseudo-Hue-Forge schlagen oft hohe Wellen, was meint ihr?  #3ddruck #3ddrucker",
+        "description": "Kontroverse, dennoch mag ich es. Lesezeichen zu erstellen und über den 3D-Drucker zu schicken hat für mich etwas, das sehr viele meiner Interessen abdeckt und dabei sogar fast noch praktisch ist! Wie ist es für euch, druckt ihr auch manchmal Deko?",
+        "url": "https://www.youtube.com/shorts/EbdHSxrC9Hc",
+        "image_url": "https://i2.ytimg.com/vi/EbdHSxrC9Hc/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
