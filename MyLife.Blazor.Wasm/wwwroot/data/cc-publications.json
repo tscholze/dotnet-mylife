@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "BambuLab Studio ist nicht für Hochkant gemacht - Alternative?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Das BambuLab Studio ist leider nicht für Windows 11 Tablets im Hochkantmodus gemacht. Kennt ihr eine Alternative wie ich aus einem alten Microsoft Surface Tablet so eine kleine Art von Druck-Operation-Station machen könnte?",
+        "url": "https://www.youtube.com/shorts/zDG8bs0TDpM",
+        "image_url": "https://i3.ytimg.com/vi/zDG8bs0TDpM/hqdefault.jpg"
+      },
+      {
         "title": "Traut euch etwas an eurem 3D-Drucker zu reparieren!  #3ddruck #3dprinting #3ddrucker #diy  #tech",
         "description": "Seid stolz und traut euch etwas! Ich habe zum ersten mal ein Teil meines 3D-Druckers auseinander gebaut, etwas repariert und am Ende geht er sogar wieder! Deswegen: Auch wenn viele sagen, man kann das nicht, probiert es!",
         "url": "https://www.youtube.com/shorts/DHVx67SPsCk",
@@ -92,12 +98,6 @@
         "description": "3D-Druck ist echt ein Enabler für so viele Dinge! Mein Raspberry Pi Robtor aus dem 3D-Drucker ist in Version 3.4 fertig! ToBoT v3 ist für mich echt eine weitere Evolution in dem was ich mit CAD als auch Hardware kann beziehungsweise mir zutraue!",
         "url": "https://www.youtube.com/shorts/kw-hxYGqj3w",
         "image_url": "https://i4.ytimg.com/vi/kw-hxYGqj3w/hqdefault.jpg"
-      },
-      {
-        "title": "Lesezeichen und Pseudo-Hue-Forge schlagen oft hohe Wellen, was meint ihr?  #3ddruck #3ddrucker",
-        "description": "Kontroverse, dennoch mag ich es. Lesezeichen zu erstellen und über den 3D-Drucker zu schicken hat für mich etwas, das sehr viele meiner Interessen abdeckt und dabei sogar fast noch praktisch ist! Wie ist es für euch, druckt ihr auch manchmal Deko?",
-        "url": "https://www.youtube.com/shorts/EbdHSxrC9Hc",
-        "image_url": "https://i2.ytimg.com/vi/EbdHSxrC9Hc/hqdefault.jpg"
       }
     ]
   },
