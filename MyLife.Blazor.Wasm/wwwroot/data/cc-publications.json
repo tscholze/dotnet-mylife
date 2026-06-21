@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was ist eine Alternative zum BambuLab A1 mini 3D-Drucker?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Viele sind mit BambuLab A1 mini 3D-Drucker nicht mehr zufrieden, doch gibt es für Neulinge wirkliche eine Alternative? Zu dem Preispunkt, Qualität und Einfachheit? Was wäre sonst ein guter Einstieg in unser tolles Hobby?",
+        "url": "https://www.youtube.com/shorts/bZgtGDOAqVk",
+        "image_url": "https://i3.ytimg.com/vi/bZgtGDOAqVk/hqdefault.jpg"
+      },
+      {
         "title": "BambuLab Studio ist nicht für Hochkant gemacht - Alternative?  #3ddruck #3dprinting #3ddrucker #diy",
         "description": "Das BambuLab Studio ist leider nicht für Windows 11 Tablets im Hochkantmodus gemacht. Kennt ihr eine Alternative wie ich aus einem alten Microsoft Surface Tablet so eine kleine Art von Druck-Operation-Station machen könnte?",
         "url": "https://www.youtube.com/shorts/zDG8bs0TDpM",
@@ -92,12 +98,6 @@
         "description": "Viele 3D-Drucker haben eine eigene Akzentfarbe. Hier mein ich nicht nur das Orange von Prusa sondern auch beispielsweise das Grün vom @3D_Onkel .\n\nDoch habt Ihr auch eine? Ich bin weiterhin auf der Suche - habt ihr Ideen?",
         "url": "https://www.youtube.com/shorts/LQPPRU0ya1c",
         "image_url": "https://i1.ytimg.com/vi/LQPPRU0ya1c/hqdefault.jpg"
-      },
-      {
-        "title": "Raspberry Pi Robo ToBot v3 ist fertig! |  3D-Druck ist ein Enabler!   #3ddruck  #3dprinting #3druck",
-        "description": "3D-Druck ist echt ein Enabler für so viele Dinge! Mein Raspberry Pi Robtor aus dem 3D-Drucker ist in Version 3.4 fertig! ToBoT v3 ist für mich echt eine weitere Evolution in dem was ich mit CAD als auch Hardware kann beziehungsweise mir zutraue!",
-        "url": "https://www.youtube.com/shorts/kw-hxYGqj3w",
-        "image_url": "https://i4.ytimg.com/vi/kw-hxYGqj3w/hqdefault.jpg"
       }
     ]
   },
