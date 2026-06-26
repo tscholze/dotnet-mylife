@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Kann ein Arduino genau soviel Spaß machen wie ein Raspberry Pi?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Können @Arduino Devices und ESP32 genau so viel Spaß machen wie Raspberry Pis? Das werde ich für euch einmal ausprobieren. Habt ihr schon Projekte mit den MCs umgesetzt? Was sind eure Erfahrungen und wollt ihr mehr darüber Wissen?",
+        "url": "https://www.youtube.com/shorts/H9RJ2H-KdCY",
+        "image_url": "https://i1.ytimg.com/vi/H9RJ2H-KdCY/hqdefault.jpg"
+      },
+      {
+        "title": "Der 3D-Druck scheint nun wirklich Mainstream zu sein!  #3ddruck #3dprinting #3ddrucker #3dprinter",
+        "description": "Oder wie könnt ihr euch erklären, dass es nun unter \"Alltagsgegenstände\" Filament gibt?",
+        "url": "https://www.youtube.com/shorts/7CAxlQ_ax14",
+        "image_url": "https://i4.ytimg.com/vi/7CAxlQ_ax14/hqdefault.jpg"
+      },
+      {
+        "title": "Radien bestimmen leicht gemacht!  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Es sind einfache 3D-Druck Dinge die einem echt helfen. Dabei kann man sich auch noch was lernen was 3D-Konstruktion betrifft. Man lernt nie aus! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/qTcuGoEGzVM",
+        "image_url": "https://i2.ytimg.com/vi/qTcuGoEGzVM/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso steigen die Preise für 3D-Drucker Filament nicht?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Alles wird teuerer - bis auf die Preise von Filament für unser 3D-Druck Hobby. Habt ihr eine Ahnung wieso?",
+        "url": "https://www.youtube.com/shorts/4zSWwlwCnS8",
+        "image_url": "https://i1.ytimg.com/vi/4zSWwlwCnS8/hqdefault.jpg"
+      },
+      {
+        "title": "Was ist eine Alternative zum BambuLab A1 mini 3D-Drucker?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Viele sind mit BambuLab A1 mini 3D-Drucker nicht mehr zufrieden, doch gibt es für Neulinge wirkliche eine Alternative? Zu dem Preispunkt, Qualität und Einfachheit? Was wäre sonst ein guter Einstieg in unser tolles Hobby?",
+        "url": "https://www.youtube.com/shorts/bZgtGDOAqVk",
+        "image_url": "https://i3.ytimg.com/vi/bZgtGDOAqVk/hqdefault.jpg"
+      },
+      {
+        "title": "BambuLab Studio ist nicht für Hochkant gemacht - Alternative?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Das BambuLab Studio ist leider nicht für Windows 11 Tablets im Hochkantmodus gemacht. Kennt ihr eine Alternative wie ich aus einem alten Microsoft Surface Tablet so eine kleine Art von Druck-Operation-Station machen könnte?",
+        "url": "https://www.youtube.com/shorts/zDG8bs0TDpM",
+        "image_url": "https://i3.ytimg.com/vi/zDG8bs0TDpM/hqdefault.jpg"
+      },
+      {
+        "title": "Traut euch etwas an eurem 3D-Drucker zu reparieren!  #3ddruck #3dprinting #3ddrucker #diy  #tech",
+        "description": "Seid stolz und traut euch etwas! Ich habe zum ersten mal ein Teil meines 3D-Druckers auseinander gebaut, etwas repariert und am Ende geht er sogar wieder! Deswegen: Auch wenn viele sagen, man kann das nicht, probiert es!",
+        "url": "https://www.youtube.com/shorts/DHVx67SPsCk",
+        "image_url": "https://i1.ytimg.com/vi/DHVx67SPsCk/hqdefault.jpg"
+      },
+      {
+        "title": "Tipps zur Nutzung der @recyclingfabrik B-Ware   #3ddruck #3dprinting  #3ddrucker",
+        "description": "Hier sind zwei Tipps welche ich bei der Benutzung der für mich guten Idee der B-Ware der Recycling Fabrik gelernt habe.",
+        "url": "https://www.youtube.com/shorts/ZPozH18k34Y",
+        "image_url": "https://i3.ytimg.com/vi/ZPozH18k34Y/hqdefault.jpg"
+      },
+      {
+        "title": "Mein 3D-gedruckter Roboter nutzt .NET Software!  #3ddruck #3dprinting #3ddrucker #dotnet #developer",
+        "description": "Mein 3D-gedruckter RaspberryPi Roboter basiert auf einer .NET Lösung. Das sorgte bei einigen von euch für Unverständnis und gelächter. Ich stehe dazu diesen so programmiert zu haben!",
+        "url": "https://www.youtube.com/shorts/0dlmm7-Xtvg",
+        "image_url": "https://i1.ytimg.com/vi/0dlmm7-Xtvg/hqdefault.jpg"
+      },
+      {
+        "title": "An alle BambuLab A1mini Nutzer - habt immer eine SD-Karte!  #3ddruck #3ddrucker #3dprinting",
+        "description": "Ich weiß nicht wieso, aber mein BambuLab A1mini isst SD-Karten zu,m Frühstück.\nDeswegen, so bald ihr merkt, dass zum Beispiel das Booten länger dauert, plant eine Erneuerung!",
+        "url": "https://www.youtube.com/shorts/D2z-BA_6ypw",
+        "image_url": "https://i1.ytimg.com/vi/D2z-BA_6ypw/hqdefault.jpg"
+      },
+      {
+        "title": "Gold - keine leichte Farbe für Filamente? Was ist euere Empfehlung?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Gold - ist diese die schwerste Herzustellende Farbe für 3D-Druck Filamente? Was ist euere Empfehlung?",
+        "url": "https://www.youtube.com/shorts/3b0bj8C9IGs",
+        "image_url": "https://i4.ytimg.com/vi/3b0bj8C9IGs/hqdefault.jpg"
+      },
+      {
+        "title": "Klarstellung \"Prototype Filament der @recyclingfabrik\" Aussage   #3ddruck #3dprinting #3ddrucker",
+        "description": "Klarstellung zu meiner Aussage \"Ich 3D-Druck meinen Raspberry Pi Roboter mit @recyclingfabrik  Prototypen Filament\". Es wurde mir leider manchmal ausgelegt als ich es meinte. Dafür bin ich auf eine flauschige und passende Aktion vom  Rudi :).",
+        "url": "https://www.youtube.com/shorts/5jX458_skmc",
+        "image_url": "https://i2.ytimg.com/vi/5jX458_skmc/hqdefault.jpg"
+      },
+      {
+        "title": "Neues 3D-Druck Filament von Bambulab - PLA Pure - kauft ihr es?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
+        "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
+        "image_url": "https://i3.ytimg.com/vi/JK8gJ2o8dmU/hqdefault.jpg"
+      },
+      {
+        "title": "Kennt ihr noch Google Android Things? #raspberrypi #google #android #developer",
+        "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
+        "url": "https://www.youtube.com/shorts/UYra_wOF71k",
+        "image_url": "https://i2.ytimg.com/vi/UYra_wOF71k/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso mag niemand den Raspberry Pi 5? Nicht mal im HomeLab? #raspberrypi #linux #tech  #3ddruck",
+        "description": "Es scheint als ob der Pi5 weder bei den Herstellern noch bei den Nutzern wirklich gut ankommt.\n\nWas meint ihr? Wie findet ihr diesen kleinen Computer?",
+        "url": "https://www.youtube.com/shorts/6CO96zTYVVU",
+        "image_url": "https://i3.ytimg.com/vi/6CO96zTYVVU/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
