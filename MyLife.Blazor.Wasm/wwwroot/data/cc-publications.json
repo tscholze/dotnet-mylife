@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Kann PLA alt werden oder liegt der Fehler beim Nutzer?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Kann PLA alt werden oder liegt der Fehler wie so oft beim Nutzer aka mir selbst?",
+        "url": "https://www.youtube.com/shorts/Gc2XShR45ak",
+        "image_url": "https://i4.ytimg.com/vi/Gc2XShR45ak/hqdefault.jpg"
+      },
+      {
         "title": "Kann ein Arduino genau soviel Spaß machen wie ein Raspberry Pi?  #3ddruck #3dprinting #3ddrucker",
         "description": "Können @Arduino Devices und ESP32 genau so viel Spaß machen wie Raspberry Pis? Das werde ich für euch einmal ausprobieren. Habt ihr schon Projekte mit den MCs umgesetzt? Was sind eure Erfahrungen und wollt ihr mehr darüber Wissen?",
         "url": "https://www.youtube.com/shorts/H9RJ2H-KdCY",
@@ -92,12 +98,6 @@
         "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
         "url": "https://www.youtube.com/shorts/UYra_wOF71k",
         "image_url": "https://i2.ytimg.com/vi/UYra_wOF71k/hqdefault.jpg"
-      },
-      {
-        "title": "Wieso mag niemand den Raspberry Pi 5? Nicht mal im HomeLab? #raspberrypi #linux #tech  #3ddruck",
-        "description": "Es scheint als ob der Pi5 weder bei den Herstellern noch bei den Nutzern wirklich gut ankommt.\n\nWas meint ihr? Wie findet ihr diesen kleinen Computer?",
-        "url": "https://www.youtube.com/shorts/6CO96zTYVVU",
-        "image_url": "https://i3.ytimg.com/vi/6CO96zTYVVU/hqdefault.jpg"
       }
     ]
   },
