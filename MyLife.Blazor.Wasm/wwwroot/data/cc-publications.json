@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Wenn Hobbies schneller eskalieren als man denkt #hobby #3ddruck #arduino #tech",
+        "description": "Kennt ihr das auch? Hobbies fangen klein an, doch werden ganz schnell, ganz groß? Was ist euer Pile of \"Hab ich mal gekauft, brauch ich dann sicherlich dafür?",
+        "url": "https://www.youtube.com/shorts/zODn-3x8EAE",
+        "image_url": "https://i3.ytimg.com/vi/zODn-3x8EAE/hqdefault.jpg"
+      },
+      {
         "title": "Kann PLA alt werden oder liegt der Fehler beim Nutzer?  #3ddruck #3dprinting #3ddrucker #3dprint",
         "description": "Kann PLA alt werden oder liegt der Fehler wie so oft beim Nutzer aka mir selbst?",
         "url": "https://www.youtube.com/shorts/Gc2XShR45ak",
@@ -92,12 +98,6 @@
         "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
         "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
         "image_url": "https://i3.ytimg.com/vi/JK8gJ2o8dmU/hqdefault.jpg"
-      },
-      {
-        "title": "Kennt ihr noch Google Android Things? #raspberrypi #google #android #developer",
-        "description": "Kennt ihr noch das Android für den Raspberry Pi und Co mit dem Namen Google Android Things? Leider wie so vieles andere wurde es kurz nachdem man es stark beworben hat eingestellt.",
-        "url": "https://www.youtube.com/shorts/UYra_wOF71k",
-        "image_url": "https://i2.ytimg.com/vi/UYra_wOF71k/hqdefault.jpg"
       }
     ]
   },
