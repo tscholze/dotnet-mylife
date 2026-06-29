@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Oppsie - passt bei selbstgedruckten Spulen auf das Filament auf!  #3ddruck #3dprinting #3ddrucker",
+        "description": "Es war ja nur ein kleiner Fail - achtet darauf, wenn ihr selbstgedruckte Spulen verwendet, dass das Filament was ihr dafür verwendet auch so warm werden kann wie das Filament was ihr auf die Spule macht! Ich wollte eine schöne Spule transluzentes @recyclingfabrik Filament einem Verwandten schenken, jedoch war die Spule aus PLA und das Filament aus PETG. Passiert nicht noch einmal!",
+        "url": "https://www.youtube.com/shorts/Ha6oSpLIrEk",
+        "image_url": "https://i1.ytimg.com/vi/Ha6oSpLIrEk/hqdefault.jpg"
+      },
+      {
         "title": "Wenn Hobbies schneller eskalieren als man denkt #hobby #3ddruck #arduino #tech",
         "description": "Kennt ihr das auch? Hobbies fangen klein an, doch werden ganz schnell, ganz groß? Was ist euer Pile of \"Hab ich mal gekauft, brauch ich dann sicherlich dafür?",
         "url": "https://www.youtube.com/shorts/zODn-3x8EAE",
@@ -92,12 +98,6 @@
         "description": "Klarstellung zu meiner Aussage \"Ich 3D-Druck meinen Raspberry Pi Roboter mit @recyclingfabrik  Prototypen Filament\". Es wurde mir leider manchmal ausgelegt als ich es meinte. Dafür bin ich auf eine flauschige und passende Aktion vom  Rudi :).",
         "url": "https://www.youtube.com/shorts/5jX458_skmc",
         "image_url": "https://i2.ytimg.com/vi/5jX458_skmc/hqdefault.jpg"
-      },
-      {
-        "title": "Neues 3D-Druck Filament von Bambulab - PLA Pure - kauft ihr es?  #3ddruck #3dprinting #3ddrucker",
-        "description": "Neues 3D-Druck Filament von BambuLab! Mit PLA Pure soll es nun möglichsein Spielsachen für Tiere und eventuell auch Kinder zu drucken. Was haltet ihr davon?",
-        "url": "https://www.youtube.com/shorts/JK8gJ2o8dmU",
-        "image_url": "https://i3.ytimg.com/vi/JK8gJ2o8dmU/hqdefault.jpg"
       }
     ]
   },
