@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "MS und unpopuläre Meinungen: Wo bleibt der Winter?! #multiplesklerose #ms #chronischkrank",
+        "description": "Ja ich mag den Sommer auch! Meine Multiple Sklerose und Fatique jedoch scheinbar nicht so",
+        "url": "https://www.youtube.com/shorts/3Du6fDlmqoU",
+        "image_url": "https://i4.ytimg.com/vi/3Du6fDlmqoU/hqdefault.jpg"
+      },
+      {
+        "title": "Neues Hobby: Erstmal was dafür 3D-drucken!  #3ddruck #3dprinting #3ddrucker #arduino",
+        "description": "Kennt ihr das? Ihr fangt ein neues Hobby an aber druckt dafür erstmal was mit euren 3D-Drucker? Ist ja auch praktisch!",
+        "url": "https://www.youtube.com/shorts/lhd9m7nXFxc",
+        "image_url": "https://i1.ytimg.com/vi/lhd9m7nXFxc/hqdefault.jpg"
+      },
+      {
+        "title": "Oppsie - passt bei selbstgedruckten Spulen auf das Filament auf!  #3ddruck #3dprinting #3ddrucker",
+        "description": "Es war ja nur ein kleiner Fail - achtet darauf, wenn ihr selbstgedruckte Spulen verwendet, dass das Filament was ihr dafür verwendet auch so warm werden kann wie das Filament was ihr auf die Spule macht! Ich wollte eine schöne Spule transluzentes @recyclingfabrik Filament einem Verwandten schenken, jedoch war die Spule aus PLA und das Filament aus PETG. Passiert nicht noch einmal!",
+        "url": "https://www.youtube.com/shorts/Ha6oSpLIrEk",
+        "image_url": "https://i1.ytimg.com/vi/Ha6oSpLIrEk/hqdefault.jpg"
+      },
+      {
+        "title": "Wenn Hobbies schneller eskalieren als man denkt #hobby #3ddruck #arduino #tech",
+        "description": "Kennt ihr das auch? Hobbies fangen klein an, doch werden ganz schnell, ganz groß? Was ist euer Pile of \"Hab ich mal gekauft, brauch ich dann sicherlich dafür?",
+        "url": "https://www.youtube.com/shorts/zODn-3x8EAE",
+        "image_url": "https://i3.ytimg.com/vi/zODn-3x8EAE/hqdefault.jpg"
+      },
+      {
+        "title": "Kann PLA alt werden oder liegt der Fehler beim Nutzer?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Kann PLA alt werden oder liegt der Fehler wie so oft beim Nutzer aka mir selbst?",
+        "url": "https://www.youtube.com/shorts/Gc2XShR45ak",
+        "image_url": "https://i4.ytimg.com/vi/Gc2XShR45ak/hqdefault.jpg"
+      },
+      {
+        "title": "Kann ein Arduino genau soviel Spaß machen wie ein Raspberry Pi?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Können @Arduino Devices und ESP32 genau so viel Spaß machen wie Raspberry Pis? Das werde ich für euch einmal ausprobieren. Habt ihr schon Projekte mit den MCs umgesetzt? Was sind eure Erfahrungen und wollt ihr mehr darüber Wissen?",
+        "url": "https://www.youtube.com/shorts/H9RJ2H-KdCY",
+        "image_url": "https://i1.ytimg.com/vi/H9RJ2H-KdCY/hqdefault.jpg"
+      },
+      {
+        "title": "Der 3D-Druck scheint nun wirklich Mainstream zu sein!  #3ddruck #3dprinting #3ddrucker #3dprinter",
+        "description": "Oder wie könnt ihr euch erklären, dass es nun unter \"Alltagsgegenstände\" Filament gibt?",
+        "url": "https://www.youtube.com/shorts/7CAxlQ_ax14",
+        "image_url": "https://i4.ytimg.com/vi/7CAxlQ_ax14/hqdefault.jpg"
+      },
+      {
+        "title": "Radien bestimmen leicht gemacht!  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Es sind einfache 3D-Druck Dinge die einem echt helfen. Dabei kann man sich auch noch was lernen was 3D-Konstruktion betrifft. Man lernt nie aus! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/qTcuGoEGzVM",
+        "image_url": "https://i2.ytimg.com/vi/qTcuGoEGzVM/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso steigen die Preise für 3D-Drucker Filament nicht?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Alles wird teuerer - bis auf die Preise von Filament für unser 3D-Druck Hobby. Habt ihr eine Ahnung wieso?",
+        "url": "https://www.youtube.com/shorts/4zSWwlwCnS8",
+        "image_url": "https://i1.ytimg.com/vi/4zSWwlwCnS8/hqdefault.jpg"
+      },
+      {
+        "title": "Was ist eine Alternative zum BambuLab A1 mini 3D-Drucker?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Viele sind mit BambuLab A1 mini 3D-Drucker nicht mehr zufrieden, doch gibt es für Neulinge wirkliche eine Alternative? Zu dem Preispunkt, Qualität und Einfachheit? Was wäre sonst ein guter Einstieg in unser tolles Hobby?",
+        "url": "https://www.youtube.com/shorts/bZgtGDOAqVk",
+        "image_url": "https://i3.ytimg.com/vi/bZgtGDOAqVk/hqdefault.jpg"
+      },
+      {
+        "title": "BambuLab Studio ist nicht für Hochkant gemacht - Alternative?  #3ddruck #3dprinting #3ddrucker #diy",
+        "description": "Das BambuLab Studio ist leider nicht für Windows 11 Tablets im Hochkantmodus gemacht. Kennt ihr eine Alternative wie ich aus einem alten Microsoft Surface Tablet so eine kleine Art von Druck-Operation-Station machen könnte?",
+        "url": "https://www.youtube.com/shorts/zDG8bs0TDpM",
+        "image_url": "https://i3.ytimg.com/vi/zDG8bs0TDpM/hqdefault.jpg"
+      },
+      {
+        "title": "Traut euch etwas an eurem 3D-Drucker zu reparieren!  #3ddruck #3dprinting #3ddrucker #diy  #tech",
+        "description": "Seid stolz und traut euch etwas! Ich habe zum ersten mal ein Teil meines 3D-Druckers auseinander gebaut, etwas repariert und am Ende geht er sogar wieder! Deswegen: Auch wenn viele sagen, man kann das nicht, probiert es!",
+        "url": "https://www.youtube.com/shorts/DHVx67SPsCk",
+        "image_url": "https://i1.ytimg.com/vi/DHVx67SPsCk/hqdefault.jpg"
+      },
+      {
+        "title": "Tipps zur Nutzung der @recyclingfabrik B-Ware   #3ddruck #3dprinting  #3ddrucker",
+        "description": "Hier sind zwei Tipps welche ich bei der Benutzung der für mich guten Idee der B-Ware der Recycling Fabrik gelernt habe.",
+        "url": "https://www.youtube.com/shorts/ZPozH18k34Y",
+        "image_url": "https://i3.ytimg.com/vi/ZPozH18k34Y/hqdefault.jpg"
+      },
+      {
+        "title": "Mein 3D-gedruckter Roboter nutzt .NET Software!  #3ddruck #3dprinting #3ddrucker #dotnet #developer",
+        "description": "Mein 3D-gedruckter RaspberryPi Roboter basiert auf einer .NET Lösung. Das sorgte bei einigen von euch für Unverständnis und gelächter. Ich stehe dazu diesen so programmiert zu haben!",
+        "url": "https://www.youtube.com/shorts/0dlmm7-Xtvg",
+        "image_url": "https://i1.ytimg.com/vi/0dlmm7-Xtvg/hqdefault.jpg"
+      },
+      {
+        "title": "An alle BambuLab A1mini Nutzer - habt immer eine SD-Karte!  #3ddruck #3ddrucker #3dprinting",
+        "description": "Ich weiß nicht wieso, aber mein BambuLab A1mini isst SD-Karten zu,m Frühstück.\nDeswegen, so bald ihr merkt, dass zum Beispiel das Booten länger dauert, plant eine Erneuerung!",
+        "url": "https://www.youtube.com/shorts/D2z-BA_6ypw",
+        "image_url": "https://i1.ytimg.com/vi/D2z-BA_6ypw/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
