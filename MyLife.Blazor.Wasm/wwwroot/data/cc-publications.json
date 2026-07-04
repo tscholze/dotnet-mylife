@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Multiple Sklerose und Eis essen - ein Abenteuer #multiplesklerose #sommer #chronischkrank",
+        "description": "Sommer heiß Eis essen, doch wenn man chronisch krank ist kann es schnell unangenehm werden.",
+        "url": "https://www.youtube.com/shorts/hMTqIz2XG5w",
+        "image_url": "https://i1.ytimg.com/vi/hMTqIz2XG5w/hqdefault.jpg"
+      },
+      {
         "title": "MS und unpopuläre Meinungen: Wo bleibt der Winter?! #multiplesklerose #ms #chronischkrank",
         "description": "Ja ich mag den Sommer auch! Meine Multiple Sklerose und Fatique jedoch scheinbar nicht so",
         "url": "https://www.youtube.com/shorts/3Du6fDlmqoU",
@@ -92,12 +98,6 @@
         "description": "Mein 3D-gedruckter RaspberryPi Roboter basiert auf einer .NET Lösung. Das sorgte bei einigen von euch für Unverständnis und gelächter. Ich stehe dazu diesen so programmiert zu haben!",
         "url": "https://www.youtube.com/shorts/0dlmm7-Xtvg",
         "image_url": "https://i1.ytimg.com/vi/0dlmm7-Xtvg/hqdefault.jpg"
-      },
-      {
-        "title": "An alle BambuLab A1mini Nutzer - habt immer eine SD-Karte!  #3ddruck #3ddrucker #3dprinting",
-        "description": "Ich weiß nicht wieso, aber mein BambuLab A1mini isst SD-Karten zu,m Frühstück.\nDeswegen, so bald ihr merkt, dass zum Beispiel das Booten länger dauert, plant eine Erneuerung!",
-        "url": "https://www.youtube.com/shorts/D2z-BA_6ypw",
-        "image_url": "https://i1.ytimg.com/vi/D2z-BA_6ypw/hqdefault.jpg"
       }
     ]
   },
