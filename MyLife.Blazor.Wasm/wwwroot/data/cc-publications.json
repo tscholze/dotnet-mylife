@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Wo kauft ihr Bauteile für eure Hobby Projekte?#arduino #hobby #maker #esp32",
+        "description": "Wo kann man noch preiswert einfache Bauteile für seine Hobby Projekte kaufen? Irgendwie hat sich vieles verändert, oder was meint ihr?",
+        "url": "https://www.youtube.com/shorts/y11l8uci158",
+        "image_url": "https://i2.ytimg.com/vi/y11l8uci158/hqdefault.jpg"
+      },
+      {
+        "title": "Dort ist das Potentiometer auf eurem Arduino Shield! #arduino #tech #anfänger #esp32",
+        "description": "Dort findet ihr das Potentiometer auf eurem Arduino Multifunktions Shield! War mir nicht klar, jetzt ist alles bekannt. Was nutzt ihr für eure Arduino Projekte",
+        "url": "https://www.youtube.com/shorts/VaMB7eSzrrM",
+        "image_url": "https://i3.ytimg.com/vi/VaMB7eSzrrM/hqdefault.jpg"
+      },
+      {
+        "title": "Die #ai kann viel - scheinbar jedoch nicht so gut Widerstände berechnen #arduino #tech #hobby",
+        "description": "Auf die #Ai zu vertrauen kann beim Hobby mit #arduino und anderen elektrischen Baukreisen super gut sein - bei meiner Widerstandsberechnung allerdings hätten sie meine Schalten gut schmoren lassen.",
+        "url": "https://www.youtube.com/shorts/UoHGo_zzW6o",
+        "image_url": "https://i2.ytimg.com/vi/UoHGo_zzW6o/hqdefault.jpg"
+      },
+      {
+        "title": "Mein erstes Arduino Shield zum herumspielen - was meint ihr? #arduino #esp32 #anfänger #tech",
+        "description": "Meinst ihr sowas ist ein guter Einstieg in die Welt von Arduino und Co?",
+        "url": "https://www.youtube.com/shorts/XM8e_0nSy44",
+        "image_url": "https://i1.ytimg.com/vi/XM8e_0nSy44/hqdefault.jpg"
+      },
+      {
+        "title": "Freunde und Multiple Sklerose - nicht immer leicht! #multiplesklerose #fatique #chronischkrank",
+        "description": "Was für viele Menschen einfach ist, kann für chronisch kranke Leute echt schwer sein. So auch Freundschaften pflegen.",
+        "url": "https://www.youtube.com/shorts/MkJCn-Hw6do",
+        "image_url": "https://i2.ytimg.com/vi/MkJCn-Hw6do/hqdefault.jpg"
+      },
+      {
+        "title": "Multiple Sklerose und Eis essen - ein Abenteuer #multiplesklerose #sommer #chronischkrank",
+        "description": "Sommer heiß Eis essen, doch wenn man chronisch krank ist kann es schnell unangenehm werden.",
+        "url": "https://www.youtube.com/shorts/hMTqIz2XG5w",
+        "image_url": "https://i1.ytimg.com/vi/hMTqIz2XG5w/hqdefault.jpg"
+      },
+      {
+        "title": "MS und unpopuläre Meinungen: Wo bleibt der Winter?! #multiplesklerose #ms #chronischkrank",
+        "description": "Ja ich mag den Sommer auch! Meine Multiple Sklerose und Fatique jedoch scheinbar nicht so",
+        "url": "https://www.youtube.com/shorts/3Du6fDlmqoU",
+        "image_url": "https://i4.ytimg.com/vi/3Du6fDlmqoU/hqdefault.jpg"
+      },
+      {
+        "title": "Neues Hobby: Erstmal was dafür 3D-drucken!  #3ddruck #3dprinting #3ddrucker #arduino",
+        "description": "Kennt ihr das? Ihr fangt ein neues Hobby an aber druckt dafür erstmal was mit euren 3D-Drucker? Ist ja auch praktisch!",
+        "url": "https://www.youtube.com/shorts/lhd9m7nXFxc",
+        "image_url": "https://i1.ytimg.com/vi/lhd9m7nXFxc/hqdefault.jpg"
+      },
+      {
+        "title": "Oppsie - passt bei selbstgedruckten Spulen auf das Filament auf!  #3ddruck #3dprinting #3ddrucker",
+        "description": "Es war ja nur ein kleiner Fail - achtet darauf, wenn ihr selbstgedruckte Spulen verwendet, dass das Filament was ihr dafür verwendet auch so warm werden kann wie das Filament was ihr auf die Spule macht! Ich wollte eine schöne Spule transluzentes @recyclingfabrik Filament einem Verwandten schenken, jedoch war die Spule aus PLA und das Filament aus PETG. Passiert nicht noch einmal!",
+        "url": "https://www.youtube.com/shorts/Ha6oSpLIrEk",
+        "image_url": "https://i1.ytimg.com/vi/Ha6oSpLIrEk/hqdefault.jpg"
+      },
+      {
+        "title": "Wenn Hobbies schneller eskalieren als man denkt #hobby #3ddruck #arduino #tech",
+        "description": "Kennt ihr das auch? Hobbies fangen klein an, doch werden ganz schnell, ganz groß? Was ist euer Pile of \"Hab ich mal gekauft, brauch ich dann sicherlich dafür?",
+        "url": "https://www.youtube.com/shorts/zODn-3x8EAE",
+        "image_url": "https://i3.ytimg.com/vi/zODn-3x8EAE/hqdefault.jpg"
+      },
+      {
+        "title": "Kann PLA alt werden oder liegt der Fehler beim Nutzer?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Kann PLA alt werden oder liegt der Fehler wie so oft beim Nutzer aka mir selbst?",
+        "url": "https://www.youtube.com/shorts/Gc2XShR45ak",
+        "image_url": "https://i4.ytimg.com/vi/Gc2XShR45ak/hqdefault.jpg"
+      },
+      {
+        "title": "Kann ein Arduino genau soviel Spaß machen wie ein Raspberry Pi?  #3ddruck #3dprinting #3ddrucker",
+        "description": "Können @Arduino Devices und ESP32 genau so viel Spaß machen wie Raspberry Pis? Das werde ich für euch einmal ausprobieren. Habt ihr schon Projekte mit den MCs umgesetzt? Was sind eure Erfahrungen und wollt ihr mehr darüber Wissen?",
+        "url": "https://www.youtube.com/shorts/H9RJ2H-KdCY",
+        "image_url": "https://i1.ytimg.com/vi/H9RJ2H-KdCY/hqdefault.jpg"
+      },
+      {
+        "title": "Der 3D-Druck scheint nun wirklich Mainstream zu sein!  #3ddruck #3dprinting #3ddrucker #3dprinter",
+        "description": "Oder wie könnt ihr euch erklären, dass es nun unter \"Alltagsgegenstände\" Filament gibt?",
+        "url": "https://www.youtube.com/shorts/7CAxlQ_ax14",
+        "image_url": "https://i4.ytimg.com/vi/7CAxlQ_ax14/hqdefault.jpg"
+      },
+      {
+        "title": "Radien bestimmen leicht gemacht!  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Es sind einfache 3D-Druck Dinge die einem echt helfen. Dabei kann man sich auch noch was lernen was 3D-Konstruktion betrifft. Man lernt nie aus! #3ddruck #3ddrucker #3dprinting #3dprint",
+        "url": "https://www.youtube.com/shorts/qTcuGoEGzVM",
+        "image_url": "https://i2.ytimg.com/vi/qTcuGoEGzVM/hqdefault.jpg"
+      },
+      {
+        "title": "Wieso steigen die Preise für 3D-Drucker Filament nicht?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Alles wird teuerer - bis auf die Preise von Filament für unser 3D-Druck Hobby. Habt ihr eine Ahnung wieso?",
+        "url": "https://www.youtube.com/shorts/4zSWwlwCnS8",
+        "image_url": "https://i1.ytimg.com/vi/4zSWwlwCnS8/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
