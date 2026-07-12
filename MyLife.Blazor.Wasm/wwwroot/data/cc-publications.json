@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Arduino Projekte und Strom - zu viele Möglichkeiten! #arduino #esp32 #maker #diy",
+        "description": "Wie versorgt ihr euer Arduino Projekt mit Strom wenn es fertig ist? Es gibt so viele verschiedene Varianten und alle haben Vor- und Nachteile.",
+        "url": "https://www.youtube.com/shorts/2RRN__qYvNo",
+        "image_url": "https://i3.ytimg.com/vi/2RRN__qYvNo/hqdefault.jpg"
+      },
+      {
         "title": "Wo kauft ihr Bauteile für eure Hobby Projekte?#arduino #hobby #maker #esp32",
         "description": "Wo kann man noch preiswert einfache Bauteile für seine Hobby Projekte kaufen? Irgendwie hat sich vieles verändert, oder was meint ihr?",
         "url": "https://www.youtube.com/shorts/y11l8uci158",
@@ -92,12 +98,6 @@
         "description": "Es sind einfache 3D-Druck Dinge die einem echt helfen. Dabei kann man sich auch noch was lernen was 3D-Konstruktion betrifft. Man lernt nie aus! #3ddruck #3ddrucker #3dprinting #3dprint",
         "url": "https://www.youtube.com/shorts/qTcuGoEGzVM",
         "image_url": "https://i2.ytimg.com/vi/qTcuGoEGzVM/hqdefault.jpg"
-      },
-      {
-        "title": "Wieso steigen die Preise für 3D-Drucker Filament nicht?  #3ddruck #3dprinting #3ddrucker #3dprint",
-        "description": "Alles wird teuerer - bis auf die Preise von Filament für unser 3D-Druck Hobby. Habt ihr eine Ahnung wieso?",
-        "url": "https://www.youtube.com/shorts/4zSWwlwCnS8",
-        "image_url": "https://i1.ytimg.com/vi/4zSWwlwCnS8/hqdefault.jpg"
       }
     ]
   },
