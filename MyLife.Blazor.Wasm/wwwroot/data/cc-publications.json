@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Mit dem Multi Func #arduino Shield hat man den perfekten Start in das #maker #hobby",
+        "description": "Hier hat man alles einfach vorbereitet, so dass man gleich mal prüfen kann, wie man beispielsweise mit Button agieren kann ohne sorry zu haben, dass man selbst beim löten was vermasselt hat.",
+        "url": "https://www.youtube.com/shorts/uYjPUYiurJY",
+        "image_url": "https://i2.ytimg.com/vi/uYjPUYiurJY/hqdefault.jpg"
+      },
+      {
         "title": "Arduino Projekte und Strom - zu viele Möglichkeiten! #arduino #esp32 #maker #diy",
         "description": "Wie versorgt ihr euer Arduino Projekt mit Strom wenn es fertig ist? Es gibt so viele verschiedene Varianten und alle haben Vor- und Nachteile.",
         "url": "https://www.youtube.com/shorts/2RRN__qYvNo",
@@ -92,12 +98,6 @@
         "description": "Oder wie könnt ihr euch erklären, dass es nun unter \"Alltagsgegenstände\" Filament gibt?",
         "url": "https://www.youtube.com/shorts/7CAxlQ_ax14",
         "image_url": "https://i4.ytimg.com/vi/7CAxlQ_ax14/hqdefault.jpg"
-      },
-      {
-        "title": "Radien bestimmen leicht gemacht!  #3ddruck #3dprinting #3ddrucker #3dprint",
-        "description": "Es sind einfache 3D-Druck Dinge die einem echt helfen. Dabei kann man sich auch noch was lernen was 3D-Konstruktion betrifft. Man lernt nie aus! #3ddruck #3ddrucker #3dprinting #3dprint",
-        "url": "https://www.youtube.com/shorts/qTcuGoEGzVM",
-        "image_url": "https://i2.ytimg.com/vi/qTcuGoEGzVM/hqdefault.jpg"
       }
     ]
   },
