@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Für 199 bekommst du den 3D-Drucker alleine, für 349 mit der AMS-Kombo #3ddruck #3ddrucker #3dprint",
+        "description": "Ob du die Combo brauchst das musst du selbst entscheiden. Zwingend nötig ist sie nicht.",
+        "url": "https://www.youtube.com/shorts/xEuJXC1QHZE",
+        "image_url": "https://i1.ytimg.com/vi/xEuJXC1QHZE/hqdefault.jpg"
+      },
+      {
         "title": "Mit dem Multi Func #arduino Shield hat man den perfekten Start in das #maker #hobby",
         "description": "Hier hat man alles einfach vorbereitet, so dass man gleich mal prüfen kann, wie man beispielsweise mit Button agieren kann ohne sorry zu haben, dass man selbst beim löten was vermasselt hat.",
         "url": "https://www.youtube.com/shorts/uYjPUYiurJY",
@@ -92,12 +98,6 @@
         "description": "Können @Arduino Devices und ESP32 genau so viel Spaß machen wie Raspberry Pis? Das werde ich für euch einmal ausprobieren. Habt ihr schon Projekte mit den MCs umgesetzt? Was sind eure Erfahrungen und wollt ihr mehr darüber Wissen?",
         "url": "https://www.youtube.com/shorts/H9RJ2H-KdCY",
         "image_url": "https://i1.ytimg.com/vi/H9RJ2H-KdCY/hqdefault.jpg"
-      },
-      {
-        "title": "Der 3D-Druck scheint nun wirklich Mainstream zu sein!  #3ddruck #3dprinting #3ddrucker #3dprinter",
-        "description": "Oder wie könnt ihr euch erklären, dass es nun unter \"Alltagsgegenstände\" Filament gibt?",
-        "url": "https://www.youtube.com/shorts/7CAxlQ_ax14",
-        "image_url": "https://i4.ytimg.com/vi/7CAxlQ_ax14/hqdefault.jpg"
       }
     ]
   },
