@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Ihr hattet so recht mit CAD und 3D-Druck! #3ddruck #3ddrucker #3dprinting",
+        "description": "Dank euch war das wirklich die beste Entscheidung. Eigene Modelle zu erstellen und ist dann in den Händen zu halten für dich so gut an!",
+        "url": "https://www.youtube.com/shorts/4hV1fscMNvo",
+        "image_url": "https://i1.ytimg.com/vi/4hV1fscMNvo/hqdefault.jpg"
+      },
+      {
         "title": "Welche Sensoren wünscht ihr euch für Apple Swift Embedded Projekt? #microcontroller #esp32 #arduino",
         "description": "Mit was für eine Art von Sensor könnte man euch begeistern auch Swift Embedded zu starten?",
         "url": "https://www.youtube.com/shorts/9AvEU-Cll3s",
@@ -92,12 +98,6 @@
         "description": "Wo kann man noch preiswert einfache Bauteile für seine Hobby Projekte kaufen? Irgendwie hat sich vieles verändert, oder was meint ihr?",
         "url": "https://www.youtube.com/shorts/y11l8uci158",
         "image_url": "https://i2.ytimg.com/vi/y11l8uci158/hqdefault.jpg"
-      },
-      {
-        "title": "Dort ist das Potentiometer auf eurem Arduino Shield! #arduino #tech #anfänger #esp32",
-        "description": "Dort findet ihr das Potentiometer auf eurem Arduino Multifunktions Shield! War mir nicht klar, jetzt ist alles bekannt. Was nutzt ihr für eure Arduino Projekte",
-        "url": "https://www.youtube.com/shorts/VaMB7eSzrrM",
-        "image_url": "https://i3.ytimg.com/vi/VaMB7eSzrrM/hqdefault.jpg"
       }
     ]
   },
