@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Was wird hier BambuLab wohl vorstellen? #3ddruck #3dprinting #3ddrucker",
+        "description": "Was wird hier BambuLab wohl vorstellen? Es schaut nämlich nach einem 3D Drucker aus, oder?",
+        "url": "https://www.youtube.com/shorts/0-8wrHFRcF4",
+        "image_url": "https://i1.ytimg.com/vi/0-8wrHFRcF4/hqdefault.jpg"
+      },
+      {
+        "title": "Wie oft bestellt ihr Filament? #3ddruck #3dprinting #3ddrucker #filament",
+        "description": "Wenn ich so nachdenke, eigentlich sehr selten.",
+        "url": "https://www.youtube.com/shorts/Amv6Y50i28M",
+        "image_url": "https://i2.ytimg.com/vi/Amv6Y50i28M/hqdefault.jpg"
+      },
+      {
+        "title": "Welche CAD Software empfiehlt ihr? #3ddruck #3dprinting #3ddrucker #3dprinting",
+        "description": "Es gibt eine so große Auswahl an CAD Software. Welche findet ihr  für Einsteiger geeignet und welche nutzt ihr am liebsten?",
+        "url": "https://www.youtube.com/shorts/aBQ6IVKZpds",
+        "image_url": "https://i2.ytimg.com/vi/aBQ6IVKZpds/hqdefault.jpg"
+      },
+      {
+        "title": "Ihr hattet so recht mit CAD und 3D-Druck! #3ddruck #3ddrucker #3dprinting",
+        "description": "Dank euch war das wirklich die beste Entscheidung. Eigene Modelle zu erstellen und ist dann in den Händen zu halten für dich so gut an!",
+        "url": "https://www.youtube.com/shorts/4hV1fscMNvo",
+        "image_url": "https://i1.ytimg.com/vi/4hV1fscMNvo/hqdefault.jpg"
+      },
+      {
+        "title": "Welche Sensoren wünscht ihr euch für Apple Swift Embedded Projekt? #microcontroller #esp32 #arduino",
+        "description": "Mit was für eine Art von Sensor könnte man euch begeistern auch Swift Embedded zu starten?",
+        "url": "https://www.youtube.com/shorts/9AvEU-Cll3s",
+        "image_url": "https://i2.ytimg.com/vi/9AvEU-Cll3s/hqdefault.jpg"
+      },
+      {
+        "title": "Hat es einen Grund das elektronischen Steckbrettern nur eine Breite gibt? #esp32 #arduino",
+        "description": "Ich bräuchte schon einfach mehr Platz",
+        "url": "https://www.youtube.com/shorts/erj63glRPkA",
+        "image_url": "https://i2.ytimg.com/vi/erj63glRPkA/hqdefault.jpg"
+      },
+      {
+        "title": "Welche Kabel nutzen für Breadboard mit Mikrocontroller? #raspberrypipico #electronicsengineering",
+        "description": "Was würdet ihr eher verwenden? Ich find die harten schauen super aus, aber auch iwie schwer zu verlegen, oder?",
+        "url": "https://www.youtube.com/shorts/mdaSA8avJHA",
+        "image_url": "https://i2.ytimg.com/vi/mdaSA8avJHA/hqdefault.jpg"
+      },
+      {
+        "title": "Raspberry Pi Programmierung mit Swift Embedded #raspberrypi #microcontroller #swift #maker",
+        "description": "Wer sagte das man Mikrocontroller nur mit C und Python programmieren kann? Swift geht auch!",
+        "url": "https://www.youtube.com/shorts/tSqxbY-ZhGI",
+        "image_url": "https://i1.ytimg.com/vi/tSqxbY-ZhGI/hqdefault.jpg"
+      },
+      {
+        "title": "Ich warte doch nur, dass BambuLab￼ einen Drucker herausbringt #3ddruck #3ddrucker #3dprinting",
+        "description": "ich warte doch nur, bis der 3D-Drucker veröffentlicht wird, den ich gerne hätte und ich hoffe, das ist bald!",
+        "url": "https://www.youtube.com/shorts/TQsJhibibXI",
+        "image_url": "https://i1.ytimg.com/vi/TQsJhibibXI/hqdefault.jpg"
+      },
+      {
+        "title": "Haben sich eure Druckvorlieben geändert? #3ddruck #3ddrucker #3dprinting",
+        "description": "Ich finde es jetzt nicht hässlich, aber es ist schon lange her, dass es so ein Lesezeichen mal von meinem Drucker lief.",
+        "url": "https://www.youtube.com/shorts/AFdrIBZos2I",
+        "image_url": "https://i2.ytimg.com/vi/AFdrIBZos2I/hqdefault.jpg"
+      },
+      {
+        "title": "Ein Hobby sollte man mit allen Sinnen genießen! #3ddruck #3ddrucker #3dprinting",
+        "description": "Oder an was riecht ihr? #3dprinterupgrade",
+        "url": "https://www.youtube.com/shorts/AU1F4rXKdMY",
+        "image_url": "https://i2.ytimg.com/vi/AU1F4rXKdMY/hqdefault.jpg"
+      },
+      {
+        "title": "Ja, das AMS ist nützlich - Pflicht ist es jedoch auf keinen Fall! #3ddruck #3ddrucker #bambulab",
+        "description": "Was meint ihr dazu?",
+        "url": "https://www.youtube.com/shorts/Hk-TFZoKUsg",
+        "image_url": "https://i1.ytimg.com/vi/Hk-TFZoKUsg/hqdefault.jpg"
+      },
+      {
+        "title": "Was ist euer Filament Kombination? #3ddruck #3ddrucker #3dprinting #3dprint",
+        "description": "Man kann sich die verschiedenen Eigenschaften von Materialien echt zu machen. Was ist eure Lieblingskombination?",
+        "url": "https://www.youtube.com/shorts/RaEwIQl7W8k",
+        "image_url": "https://i3.ytimg.com/vi/RaEwIQl7W8k/hqdefault.jpg"
+      },
+      {
+        "title": "Du brauchst kein Computer, um dein BambuLab Drucker zu steuern #3ddruck #3ddrucker #3dprinting",
+        "description": "Es geht doch alles mit deinem Smartphone und der App",
+        "url": "https://www.youtube.com/shorts/MFpvkAni83M",
+        "image_url": "https://i2.ytimg.com/vi/MFpvkAni83M/hqdefault.jpg"
+      },
+      {
+        "title": "Für 199 bekommst du den 3D-Drucker alleine, für 349 mit der AMS-Kombo #3ddruck #3ddrucker #3dprint",
+        "description": "Ob du die Combo brauchst das musst du selbst entscheiden. Zwingend nötig ist sie nicht.",
+        "url": "https://www.youtube.com/shorts/xEuJXC1QHZE",
+        "image_url": "https://i1.ytimg.com/vi/xEuJXC1QHZE/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
