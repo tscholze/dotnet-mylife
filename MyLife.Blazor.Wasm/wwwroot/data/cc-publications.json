@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Druck und Ikea sind beste Freunde. Was ist euer Tipp? #3ddruck #3dprinting #3ddrucker #ikea",
+        "description": "Seien es Kallax, Pax oder sonstiges. Ikea ist echt hilfreich - oder etwa nicht?",
+        "url": "https://www.youtube.com/shorts/LbpRt3o5JDw",
+        "image_url": "https://i1.ytimg.com/vi/LbpRt3o5JDw/hqdefault.jpg"
+      },
+      {
         "title": "Swift Embedded is great for the Raspberry Pi Pico! #microcontroller  #swift  #programming  #embedded",
         "description": "With Swift Embedded, we have a great new programming language for micro controllers like the raspberry pi pico. It is not as polished in its use but it has a huge potential to be one day a well-known player in the embedded industry.\n\nI created a simple \"blink\" tutorial where I also introduce my little open source project called \"Swift Embedded Garden\" which has some helpful and copyable code snippets in it.",
         "url": "https://www.youtube.com/shorts/49GhdttwwRc",
@@ -92,12 +98,6 @@
         "description": "Was meint ihr dazu?",
         "url": "https://www.youtube.com/shorts/Hk-TFZoKUsg",
         "image_url": "https://i1.ytimg.com/vi/Hk-TFZoKUsg/hqdefault.jpg"
-      },
-      {
-        "title": "Was ist euer Filament Kombination? #3ddruck #3ddrucker #3dprinting #3dprint",
-        "description": "Man kann sich die verschiedenen Eigenschaften von Materialien echt zu machen. Was ist eure Lieblingskombination?",
-        "url": "https://www.youtube.com/shorts/RaEwIQl7W8k",
-        "image_url": "https://i3.ytimg.com/vi/RaEwIQl7W8k/hqdefault.jpg"
       }
     ]
   },
