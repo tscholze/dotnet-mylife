@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Was haltet ihr von #cricut und dem Angebot generell? #3ddruck #3ddrucker",
+        "description": "Wie gefällt euch dieses Cricut Angebot? Kennt ihr das Produkt und wie sehr eingeschränkt ist man wenn man nicht das Abo bezahlen möchte?",
+        "url": "https://www.youtube.com/shorts/yME-RMedleY",
+        "image_url": "https://i2.ytimg.com/vi/yME-RMedleY/hqdefault.jpg"
+      },
+      {
         "title": "Neues 3D-Modell: Ikea Skadis Lamy Füller Halter #3ddruck #3ddrucker #ikea #journaling",
         "description": "Ich habe ein neues 3D-Druck Model auf MakerWorld online! Ein einfach und schnell zu druckender Ikea Skadis Halter für einen Lamy Füller.",
         "url": "https://www.youtube.com/shorts/9JuXhuGxI8I",
@@ -92,12 +98,6 @@
         "description": "Mit was für eine Art von Sensor könnte man euch begeistern auch Swift Embedded zu starten?",
         "url": "https://www.youtube.com/shorts/9AvEU-Cll3s",
         "image_url": "https://i2.ytimg.com/vi/9AvEU-Cll3s/hqdefault.jpg"
-      },
-      {
-        "title": "Hat es einen Grund das elektronischen Steckbrettern nur eine Breite gibt? #esp32 #arduino",
-        "description": "Ich bräuchte schon einfach mehr Platz",
-        "url": "https://www.youtube.com/shorts/erj63glRPkA",
-        "image_url": "https://i2.ytimg.com/vi/erj63glRPkA/hqdefault.jpg"
       }
     ]
   },
