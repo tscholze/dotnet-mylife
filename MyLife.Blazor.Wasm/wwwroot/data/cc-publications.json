@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Woran merkt ihr, dass ihr euren Hobby besser geworden seid? #3ddruck #hobby #3ddrucker #cricut",
+        "description": "Woran habt ihr gemerkt, dass ihr in eurem Hobby Fortschritte gemacht habt? Bei mir auf jeden Fall das Zusammenspiel zwischen 3D Druck und Konstruktion.",
+        "url": "https://www.youtube.com/shorts/Ul3V20oqtAo",
+        "image_url": "https://i2.ytimg.com/vi/Ul3V20oqtAo/hqdefault.jpg"
+      },
+      {
         "title": "Meine ersten Tage mit dem Cricut Joy 2 #3ddruck #cricut #cricutmade #3dprinting",
         "description": "Meine ersten Dinge mit dem Cricut Plotter: Sticker für die Apple AirPods. Klappt sogar!",
         "url": "https://www.youtube.com/shorts/OLXZz9JsGHA",
@@ -92,12 +98,6 @@
         "description": "With Swift Embedded, we have a great new programming language for micro controllers like the raspberry pi pico. It is not as polished in its use but it has a huge potential to be one day a well-known player in the embedded industry.\n\nI created a simple \"blink\" tutorial where I also introduce my little open source project called \"Swift Embedded Garden\" which has some helpful and copyable code snippets in it.",
         "url": "https://www.youtube.com/shorts/49GhdttwwRc",
         "image_url": "https://i1.ytimg.com/vi/49GhdttwwRc/hqdefault.jpg"
-      },
-      {
-        "title": "Let it blink! | Swift Embedded on a Raspberry Pi Pico | Ep. 1",
-        "description": "Swift Embedded works great on a Raspberry Pi Pico 2040, this is a summary of scripts and drivers to proof it.\n\nWith Swift Embedded, you can program embedded devices and microcontrollers in a modern fashion.\n\nWith some little help of my Garden project, it has an even lower entry curve to get started.\n\nGitHub:\nhttps://github.com/tscholze/swift-embedded-garden\n\nOther links:\nhttps://forums.swift.org\nhttps://discord.gg/3v9kNvSBd\n\n#raspberrypi #swift #programming  #embedded #microcontrollerprogramming #microcontrollers #opensource #swiftembedded",
-        "url": "https://www.youtube.com/watch?v=p2e_RPgMo5g",
-        "image_url": "https://i1.ytimg.com/vi/p2e_RPgMo5g/hqdefault.jpg"
       }
     ]
   },
