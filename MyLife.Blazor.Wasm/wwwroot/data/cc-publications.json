@@ -8,7 +8,98 @@
       "language": "de",
       "profile_url": "https://www.youtube.com/user/TobiasScholze"
     },
-    "publications": []
+    "publications": [
+      {
+        "title": "Was installiert ihr auf neuen Computer als erstes? #computer #appke #windows",
+        "description": "Installiert ihr eher erstens Messenger oder was zum Spielen oder einfach was zum entwickeln? Es ist echt nicht immer leicht, die richtige Reihenfolge zu finden.\n\nJetzt egal, ob Apple macOS oder Microsoft Windows :)",
+        "url": "https://www.youtube.com/shorts/UMkjt4_qeIU",
+        "image_url": "https://i2.ytimg.com/vi/UMkjt4_qeIU/hqdefault.jpg"
+      },
+      {
+        "title": "Irgendwann braucht man alles fürs Hobby! #3ddruck #arduino #esp32 #3ddrucker",
+        "description": "Kennt ihr es auch? Man denkt man braucht viele Maker Dinge für den 3D-Drucker und Raspberry Pi, dann irgendwie doch nicht? Das schöne ist, ich hab mittlerweile gelernt, dass wenn es auch Jahre später ist, irgendwann braucht man all das für Hobby Projekte!",
+        "url": "https://www.youtube.com/shorts/BjjZI7eDs2Q",
+        "image_url": "https://i3.ytimg.com/vi/BjjZI7eDs2Q/hqdefault.jpg"
+      },
+      {
+        "title": "Wie verbindet ihr Module beim Mikrocontroller? #3ddruck #arduino #esp32 #3ddrucker",
+        "description": "Wie würdet ihr auf Mikrocontroller Basis die verschiedenen Bestandteile in einem echten Projekt verbinden?",
+        "url": "https://www.youtube.com/shorts/Zq4XWzjTe18",
+        "image_url": "https://i3.ytimg.com/vi/Zq4XWzjTe18/hqdefault.jpg"
+      },
+      {
+        "title": "Wie schön, dass wir nicht alle einer Meinung sein müssen auch nicht bei #3ddrucker #3ddruck #3dprint",
+        "description": "Ich finde es immer schade, wenn es Grabenkämpfe gibt. Was meint ihr?",
+        "url": "https://www.youtube.com/shorts/H1CvjrlNCaE",
+        "image_url": "https://i1.ytimg.com/vi/H1CvjrlNCaE/hqdefault.jpg"
+      },
+      {
+        "title": "Woran merkt ihr, dass ihr euren Hobby besser geworden seid? #3ddruck #hobby #3ddrucker #cricut",
+        "description": "Woran habt ihr gemerkt, dass ihr in eurem Hobby Fortschritte gemacht habt? Bei mir auf jeden Fall das Zusammenspiel zwischen 3D Druck und Konstruktion.",
+        "url": "https://www.youtube.com/shorts/Ul3V20oqtAo",
+        "image_url": "https://i2.ytimg.com/vi/Ul3V20oqtAo/hqdefault.jpg"
+      },
+      {
+        "title": "Meine ersten Tage mit dem Cricut Joy 2 #3ddruck #cricut #cricutmade #3dprinting",
+        "description": "Meine ersten Dinge mit dem Cricut Plotter: Sticker für die Apple AirPods. Klappt sogar!",
+        "url": "https://www.youtube.com/shorts/OLXZz9JsGHA",
+        "image_url": "https://i4.ytimg.com/vi/OLXZz9JsGHA/hqdefault.jpg"
+      },
+      {
+        "title": "Ist ein Cricut Plotter zu unmännlich? #3ddruck #cricut #hobby",
+        "description": "So oder so, man sollte in seiner freien Zeit und im Hobby einfach das machen auf was man Lust hat - egal was andere sagen.",
+        "url": "https://www.youtube.com/shorts/H0Z2hgguWGw",
+        "image_url": "https://i1.ytimg.com/vi/H0Z2hgguWGw/hqdefault.jpg"
+      },
+      {
+        "title": "Reale 3D-Drucker Menschen sind besser! #3ddruck #3ddrucker #3dprinting",
+        "description": "Natürlich haben wir Google. Authentische Meinungen und Erfahrungen sind dennoch du viel mehr wert!",
+        "url": "https://www.youtube.com/shorts/hOjYElg2wfc",
+        "image_url": "https://i1.ytimg.com/vi/hOjYElg2wfc/hqdefault.jpg"
+      },
+      {
+        "title": "So begann der ToBot aus dem 3D-Drucket #3ddruck #raspberrypi",
+        "description": "Damals hat also meine Reise 3D Drucker in Kombination mit CAD Konstruktion begonnen. Schon spannend. Vor allem, wenn man jetzt aussieht, wo der Roboter rausgekommen ist. Lern dir auch gerade zu konstruieren?",
+        "url": "https://www.youtube.com/shorts/jLo8i7xynRk",
+        "image_url": "https://i3.ytimg.com/vi/jLo8i7xynRk/hqdefault.jpg"
+      },
+      {
+        "title": "Habt ihr schon mal ein Teil eures 3D Drucker verbraucht? #3ddruck #3ddrucker #3dprinting",
+        "description": "Ich hab noch nie eine Düse oder Platte verbraucht. Wie schaut es bei euch aus?",
+        "url": "https://www.youtube.com/shorts/6tpy-W3XiyI",
+        "image_url": "https://i3.ytimg.com/vi/6tpy-W3XiyI/hqdefault.jpg"
+      },
+      {
+        "title": "Was haltet ihr von #cricut und dem Angebot generell? #3ddruck #3ddrucker",
+        "description": "Wie gefällt euch dieses Cricut Angebot? Kennt ihr das Produkt und wie sehr eingeschränkt ist man wenn man nicht das Abo bezahlen möchte?",
+        "url": "https://www.youtube.com/shorts/yME-RMedleY",
+        "image_url": "https://i2.ytimg.com/vi/yME-RMedleY/hqdefault.jpg"
+      },
+      {
+        "title": "Neues 3D-Modell: Ikea Skadis Lamy Füller Halter #3ddruck #3ddrucker #ikea #journaling",
+        "description": "Ich habe ein neues 3D-Druck Model auf MakerWorld online! Ein einfach und schnell zu druckender Ikea Skadis Halter für einen Lamy Füller.",
+        "url": "https://www.youtube.com/shorts/9JuXhuGxI8I",
+        "image_url": "https://i2.ytimg.com/vi/9JuXhuGxI8I/hqdefault.jpg"
+      },
+      {
+        "title": "Ist der 3D-Drucker für euch Mittel zum Zweck für andere Hobbies? #3ddruck #3ddrucker #hobby #maker",
+        "description": "Ist der 3D-Drucker für euch Mittel zum Zweck für andere Hobbies oder ist er das Hobby?",
+        "url": "https://www.youtube.com/shorts/2wiLYzeOM1w",
+        "image_url": "https://i3.ytimg.com/vi/2wiLYzeOM1w/hqdefault.jpg"
+      },
+      {
+        "title": "Für #prusa fühl ich mich zu arm und zu inkompetent #3ddruck #3ddrucker #bambulab",
+        "description": "Wie steht Uhrzeit Prusa? Moralisch sicherlich für bessere Wahl ….",
+        "url": "https://www.youtube.com/shorts/F1bQthGUuu4",
+        "image_url": "https://i3.ytimg.com/vi/F1bQthGUuu4/hqdefault.jpg"
+      },
+      {
+        "title": "Fun with traffic lights in 60 seconds | Swift Embedded on Raspberry Pi Pico",
+        "description": "Let's have some fun with traffic lights using Swift Embedded!\n\n# GitHub repository\nhttps://github.com/tscholze/swift-embedded-garden",
+        "url": "https://www.youtube.com/watch?v=Ht_gejbvAHA",
+        "image_url": "https://i1.ytimg.com/vi/Ht_gejbvAHA/hqdefault.jpg"
+      }
+    ]
   },
   {
     "account": {
