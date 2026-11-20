@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Du musst nicht das Filament von deinem 3D Druckerhersteller nehmen! #3ddruck #3dprinting #3ddrucker",
+        "description": "Nur weil dein 3D Drucker von einem Hersteller ist, heißt das ja nicht, dass du alles von diesem Hersteller kaufen musst wie viele Ament oder die Druckplatten. \n\n#bambulab",
+        "url": "https://www.youtube.com/shorts/f1V2__T0kqY",
+        "image_url": "https://i3.ytimg.com/vi/f1V2__T0kqY/hqdefault.jpg"
+      },
+      {
         "title": "Alles was man drückt, ist schön. #3ddruck #3dprinterupgrade #3ddrucker #3dprinting",
         "description": "Egal was man druckt Hauptsache man hat Spaß dabei. Es muss nicht immer funktional sein!",
         "url": "https://www.youtube.com/shorts/nPYs_ln1lRQ",
@@ -92,12 +98,6 @@
         "description": "Wenn ich in einem große Fortschritte gemacht hat, dann vielleicht wirklich in der Konstruktion von 3-D Modeln für den 3-D Drucker",
         "url": "https://www.youtube.com/shorts/VhZrlfm76u0",
         "image_url": "https://i3.ytimg.com/vi/VhZrlfm76u0/hqdefault.jpg"
-      },
-      {
-        "title": "Ab wann ist die Filament Spule leer? #3ddruck #3ddrucker #3dprinting",
-        "description": "Würdet ihr den Bestand von PLA Filament auf diese Rolle noch behalten oder eher entsorgen?",
-        "url": "https://www.youtube.com/shorts/6ivDEHXxy_Y",
-        "image_url": "https://i3.ytimg.com/vi/6ivDEHXxy_Y/hqdefault.jpg"
       }
     ]
   },
