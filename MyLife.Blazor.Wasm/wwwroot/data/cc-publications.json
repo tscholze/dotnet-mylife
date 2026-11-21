@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "KI im 3D-Druck: Hilfe oder Humbug?  #3ddruck #3dprinting #3ddrucker #3dprint",
+        "description": "Ich bin noch Anfänger auf meiner 3D-Druck-Konstruktionsreise. Und gerade ist überall KI: AI-CAD, MCP, „bau mir ein Teil\" per Prompt. Sogar die Drucker sollen mehr AI bekommen.\n\nMein erster Versuch: Etwa 80 % passen auf Anhieb. Die restlichen 20 % (Maße, Steckverbindungen) haken. Die händisch nachzubessern ist echt ein Pain in die Mipsi. 😅\n\nEhrlich gesagt hab ich noch keine Meinung dazu. Ich will es aber vor allem selbst lernen.\n\nUnd du? Pro oder Anti KI beim Konstruieren? Schreib's mir in die Kommentare 👇\n\n#3ddruck #3dprinting #ki #künstlicheintelligenz #aicad #cad #3dkonstruktion #maker #makercommunity #anfänger #thestutteringnerd",
+        "url": "https://www.youtube.com/shorts/2kTsHD29yX0",
+        "image_url": "https://i3.ytimg.com/vi/2kTsHD29yX0/hqdefault.jpg"
+      },
+      {
         "title": "Du musst nicht das Filament von deinem 3D Druckerhersteller nehmen! #3ddruck #3dprinting #3ddrucker",
         "description": "Nur weil dein 3D Drucker von einem Hersteller ist, heißt das ja nicht, dass du alles von diesem Hersteller kaufen musst wie viele Ament oder die Druckplatten. \n\n#bambulab",
         "url": "https://www.youtube.com/shorts/f1V2__T0kqY",
@@ -92,12 +98,6 @@
         "description": "Wann war euer Druckbett das letzte Mal wirklich voll auf eurem 3D Drucker. Und findet ihr es auch irgendwie entspannend, dem zuzuschauen, wie jede Schicht entsteht?",
         "url": "https://www.youtube.com/shorts/eIvc9KHHumU",
         "image_url": "https://i2.ytimg.com/vi/eIvc9KHHumU/hqdefault.jpg"
-      },
-      {
-        "title": "Toll, wenn man Fortschritte sieht! #3ddruck #3ddrucker #3dprinting",
-        "description": "Wenn ich in einem große Fortschritte gemacht hat, dann vielleicht wirklich in der Konstruktion von 3-D Modeln für den 3-D Drucker",
-        "url": "https://www.youtube.com/shorts/VhZrlfm76u0",
-        "image_url": "https://i3.ytimg.com/vi/VhZrlfm76u0/hqdefault.jpg"
       }
     ]
   },
