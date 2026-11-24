@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "3D-Drucker Filament lagern #3ddruck #3dprinting #3ddrucker",
+        "description": "3D-Drucker Filament lagern, ist entweder ganz leicht oder doch komplex. Was sind eure Tipps für Anfänger?",
+        "url": "https://www.youtube.com/shorts/UVLAClWscC8",
+        "image_url": "https://i2.ytimg.com/vi/UVLAClWscC8/hqdefault.jpg"
+      },
+      {
         "title": "Ist der AnyCubic 3D Drucker, gut für Anfänger? #3ddruck #3dprinting #3ddrucker",
         "description": "Ist der Anycubic Kobra X ein guter 3D-Drucker für Anfänger?\n\nKurz: ja. Für rund 270 € druckst du vier Farben ab Werk, auf 26 × 26 cm – und das Bett nivelliert sich selbst.\n\nDer Haken: Spulen einlegen ist fummelig, und die App wirkt noch unfertig.\n\nDie Alternative: Bambu Lab A1 mini. Rund 200 €, kleinerer Bauraum, eine Farbe (ohne AMS lite) – aber er kalibriert sich komplett selbst.\n\nWas würdest du nehmen: Kobra X oder A1 mini?\n(Preise: Stand November 2026)\n\n#3ddruck #3ddrucker #anycubic #kobrax #bambulab #a1mini #3dprinting #mehrfarbdruck #maker #thestutteringnerd",
         "url": "https://www.youtube.com/shorts/JEUUIM7_EcM",
@@ -92,12 +98,6 @@
         "description": "Mittlerweile hat man ja so viel Auswahl bei Farben, seid ihr da eher Team Neo oder eher Team matt?",
         "url": "https://www.youtube.com/shorts/dvpc5MiTG24",
         "image_url": "https://i1.ytimg.com/vi/dvpc5MiTG24/hqdefault.jpg"
-      },
-      {
-        "title": "Was sind Alternativen zum neuen BambuLab H3C 3D Drucker? #3ddruck #3dprinterupgrade #3ddrucker",
-        "description": "wenn man die Funktionalität von einem BambuLab H3C haben will, aber keinen Bambu kaufen will. Was sind dann die Alternativen heutzutage? Selbst bauen? Do it yourself DIY?",
-        "url": "https://www.youtube.com/shorts/RUIym0CGlCc",
-        "image_url": "https://i3.ytimg.com/vi/RUIym0CGlCc/hqdefault.jpg"
       }
     ]
   },
