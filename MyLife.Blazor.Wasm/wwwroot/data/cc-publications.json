@@ -10,6 +10,12 @@
     },
     "publications": [
       {
+        "title": "Endlich ist der #bambulab P3C da!  #3ddruck #3dprinting #3ddrucker #3dprinterupgrade",
+        "description": "Da ist nun endlich der BambuLab P3C - von vielen 3D-Drucker erwartet. Ich muss sagen, dieser ist preiswerter als gedacht. Was meint ihr? Vor allem im Vergleich zum nbeuen H3C. Eine Konkurenz zum SnapMaker U1",
+        "url": "https://www.youtube.com/shorts/5KtmnlI0OPo",
+        "image_url": "https://i2.ytimg.com/vi/5KtmnlI0OPo/hqdefault.jpg"
+      },
+      {
         "title": "3D-Drucker Filament lagern #3ddruck #3dprinting #3ddrucker",
         "description": "3D-Drucker Filament lagern, ist entweder ganz leicht oder doch komplex. Was sind eure Tipps für Anfänger?",
         "url": "https://www.youtube.com/shorts/UVLAClWscC8",
@@ -92,12 +98,6 @@
         "description": "Manche Ideen vom 3D Drucker klingen gut funktionieren auch. Aber am Ende ist doch alles ein großer Fehler.",
         "url": "https://www.youtube.com/shorts/iuudYKs3PII",
         "image_url": "https://i2.ytimg.com/vi/iuudYKs3PII/hqdefault.jpg"
-      },
-      {
-        "title": "Seid ihr, wenn es um 3D Druck Filament Farben geht eher matt oder eher Neon? #3ddruck #3dprinting",
-        "description": "Mittlerweile hat man ja so viel Auswahl bei Farben, seid ihr da eher Team Neo oder eher Team matt?",
-        "url": "https://www.youtube.com/shorts/dvpc5MiTG24",
-        "image_url": "https://i1.ytimg.com/vi/dvpc5MiTG24/hqdefault.jpg"
       }
     ]
   },
